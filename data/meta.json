@@ -1,6 +1,6 @@
 {
-  "updated": "September 30, 2026",
-  "updated_iso": "2026-09-30T14:23:28+00:00",
+  "updated": "October 1, 2026",
+  "updated_iso": "2026-10-01T13:01:07+00:00",
   "previous_rows": {
     "border": 20095,
     "legal": 39840
@@ -1364,18 +1364,6 @@
     "yearbook_enforcement": {
       "url": "https://ohss.dhs.gov/system/files/2026-08/2026_0806_ohss_yearbook_enforcement_fy2023.xlsx",
       "edition": 2023
-    },
-    "acs": {
-      "vintage": 2024,
-      "files": {
-        "B05002": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05002.dat",
-        "B05005": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05005.dat",
-        "B16005": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b16005.dat",
-        "B06009": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b06009.dat",
-        "B06012": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b06012.dat",
-        "B06011": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b06011.dat",
-        "shells": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/ACS20245YR_Table_Shells.txt"
-      }
     }
   }
 }
