@@ -1,0 +1,234 @@
+{% extends "base.html" %}
+{% block title %}{{ cfg.title }} — Immigrant groups{% endblock %}
+{% block path %}groups.html{% endblock %}
+{% block kicker %}U.S. immigrants by country of birth{% endblock %}
+
+{% block head %}
+<style>
+  .profile{width:100%; border-collapse:collapse}
+  .profile th, .profile td{vertical-align:middle}
+  .profile td.bar{width:38%; min-width:12rem; text-align:left}
+  .bars{display:grid; gap:3px}
+  .bars span{display:block; height:.7rem; border-radius:0 2px 2px 0; position:relative}
+  .bars .a{background:var(--s1)} .bars .b{background:var(--s2)}
+  .diff{font-variant-numeric:tabular-nums}
+  .diff.up{color:var(--ink)} .diff.down{color:var(--ink)}
+  .who{font-size:.72rem; color:var(--ink-2)}
+  .key{display:inline-flex; align-items:center; gap:.35rem; margin-right:1rem; font-size:.85rem; color:var(--ink-2)}
+  .key i{width:.75rem; height:.75rem; border-radius:2px; display:inline-block}
+</style>
+{% endblock %}
+
+{% block content %}
+  <div class="tiles" id="tiles" aria-live="polite">
+    <div class="tile"><div class="k" id="t1k">Immigrants profiled</div><div class="v" id="t1v">{{ '{:,}'.format(stats.immigrants) }}</div><div class="d" id="t1d">from {{ stats.groups }} countries of birth</div></div>
+    <div class="tile"><div class="k" id="t2k">Largest group</div><div class="v" id="t2v">{{ stats.top }}</div><div class="d" id="t2d">{{ stats.top_pct }}% of all immigrants</div></div>
+    <div class="tile"><div class="k" id="t3k">Naturalized citizens</div><div class="v" id="t3v">{{ stats.naturalized }}%</div><div class="d" id="t3d">of all immigrants</div></div>
+    <div class="tile"><div class="k" id="t4k">Most college-educated large group</div><div class="v" id="t4v">{{ stats.most_educated }}</div><div class="d" id="t4d">{{ stats.most_educated_pct }}% hold a bachelor's degree or higher</div></div>
+  </div>
+
+  <h2>Choose a group</h2>
+  <p class="sub">Pick a country of birth, what to compare it with, and a state or the whole country. Groups appear only where the
+    sample is large enough; a state profile needs 5,000 residents from that country and 100 survey records.</p>
+  <div class="filters" role="group" aria-label="Choose a group">
+    <label>Country of birth<select id="group"></select></label>
+    <label>Compare with<select id="compare"></select></label>
+    <label>In<select id="geo"></select></label>
+    <button type="button" class="reset" id="reset">Reset</button>
+  </div>
+
+  <section class="card" aria-labelledby="prof-title">
+    <div class="chart-head">
+      <p class="chart-title" id="prof-title">Profile</p>
+      <div><span class="key"><i style="background:var(--s1)"></i><span id="key-a"></span></span>
+           <span class="key"><i style="background:var(--s2)"></i><span id="key-b"></span></span></div>
+    </div>
+    <div class="scroll"><table class="profile" id="profile"></table></div>
+    <p class="note" id="prof-note"></p>
+  </section>
+
+  <h2 id="where-h">Where they live</h2>
+  <p class="sub" id="where-sub">States ranked by this group's population, with the group's share of each state's immigrants. Click a column to sort.</p>
+  <div class="scroll"><table id="where-table"></table></div>
+  <button type="button" class="more" id="where-more">Show all</button>
+  <p class="note" id="where-note"></p>
+
+  <h2 id="rank-h">All groups compared</h2>
+  <p class="sub">Every profiled group on one measure, for the chosen state or the whole country. Click a column to sort.</p>
+  <div class="controls"><label>Measure<select id="rank-measure"></select></label></div>
+  <div class="scroll"><table id="rank-table"></table></div>
+  <button type="button" class="more" id="rank-more">Show all</button>
+{% endblock %}
+
+{% block coverage %}ACS 2020–2024 five-year microdata; {{ stats.groups }} countries of birth profiled nationally,
+  fewer in each state.{% endblock %}
+{% block sources %}
+  <p>Aggregated from IPUMS USA microdata by <code>tools/extract_microdata.py</code>; the microdata itself is not published.
+    Citation: Steven Ruggles, Sarah Flood, Matthew Sobek, et al., IPUMS USA: Version 15.0 [dataset], Minneapolis, MN: IPUMS, 2024,
+    <a href="https://doi.org/10.18128/D010.V15.0">doi:10.18128/D010.V15.0</a>.</p>
+{% endblock %}
+{% block downloads %}
+  <a class="dl" href="data/acs_groups.csv" download>Group profiles, national and by state (CSV)</a>
+  <a class="dl" href="data/acs_group_areas.csv" download>Group populations by state, metro and PUMA (CSV)</a>
+{% endblock %}
+
+{% block script %}
+{% raw %}
+(() => {
+const D = JSON.parse(document.getElementById("data").textContent);
+const IDX = Object.fromEntries(D.columns.map((c, i) => [c, i]));
+const MEASURES = D.measures, BY_KEY = Object.fromEntries(MEASURES.map(m => [m.key, m]));
+const ALL = "All immigrants", NATIVE = "U.S.-born";
+const get = (r, k) => r ? r[IDX[k]] : null;
+
+// rows by (geo, group); geo "" is the nation.
+const table = new Map();
+const groupsByGeo = new Map();
+for (const r of D.rows) {
+  const geo = r[IDX.level] === "us" ? "" : r[IDX.code], name = r[IDX.group];
+  table.set(geo + "|" + name, r);
+  if (!groupsByGeo.has(geo)) groupsByGeo.set(geo, []);
+  groupsByGeo.get(geo).push(name);
+}
+const row = (geo, name) => table.get(geo + "|" + name) || null;
+const countries = D.rows.filter(r => r[IDX.level] === "us" && r[IDX.group] !== ALL && r[IDX.group] !== NATIVE)
+  .sort((a, b) => b[IDX.population] - a[IDX.population]);
+const regionOf = Object.fromEntries(countries.map(r => [r[IDX.group], r[IDX.region]]));
+const fmtVal = (v, m) => v == null ? "—" : m.unit === "%" ? v.toFixed(1) + "%" : m.unit === "$" ? "$" + fmt(v) : m.unit === "yrs" ? v.toFixed(m.key === "median_age" ? 1 : 0) : fmt(v);
+
+const DEFAULT = { group: countries[0][IDX.group], compare: ALL, geo: "", rank: "pct_bachelors" };
+let S = { ...DEFAULT };
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1)), s = { ...DEFAULT };
+  for (const k of Object.keys(DEFAULT)) if (p.has(k)) s[k] = p.get(k);
+  if (!row("", s.group)) s.group = DEFAULT.group;
+  if (!row("", s.compare)) s.compare = ALL;
+  if (s.geo && !D.stateNames[s.geo]) s.geo = "";
+  if (!BY_KEY[s.rank]) s.rank = DEFAULT.rank;
+  return s;
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  for (const [k, v] of Object.entries(S)) if (v !== DEFAULT[k]) p.set(k, v);
+  const h = p.toString();
+  history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
+}
+
+// ---- controls -------------------------------------------------------------------
+const groupSel = document.getElementById("group"), cmpSel = document.getElementById("compare"), geoSel = document.getElementById("geo");
+function fillGroups(sel, extra) {
+  sel.replaceChildren();
+  for (const [v, t] of extra) sel.append(el("option", { value: v }, t));
+  const byRegion = new Map();
+  for (const r of countries) { const reg = r[IDX.region]; if (!byRegion.has(reg)) byRegion.set(reg, []); byRegion.get(reg).push(r[IDX.group]); }
+  for (const [reg, names] of [...byRegion].sort((a, b) => a[0].localeCompare(b[0]))) {
+    const og = el("optgroup", { label: reg });
+    for (const n of names.sort()) og.append(el("option", { value: n }, n));
+    sel.append(og);
+  }
+}
+fillGroups(groupSel, []);
+fillGroups(cmpSel, [[ALL, "All immigrants"], [NATIVE, "U.S.-born residents"]]);
+fillSelect(geoSel, Object.entries(D.stateNames).sort((a, b) => a[1].localeCompare(b[1])), "United States");
+groupSel.addEventListener("change", () => { S.group = groupSel.value; render(); });
+cmpSel.addEventListener("change", () => { S.compare = cmpSel.value; render(); });
+geoSel.addEventListener("change", () => { S.geo = geoSel.value; render(); });
+document.getElementById("reset").addEventListener("click", () => { S = { ...DEFAULT }; render(); });
+fillSelect(document.getElementById("rank-measure"), MEASURES.map(m => [m.key, m.label]));
+document.getElementById("rank-measure").addEventListener("change", e => { S.rank = e.target.value; renderRank(); writeHash(); });
+window.addEventListener("hashchange", () => { S = readHash(); render(); });
+
+// ---- profile table --------------------------------------------------------------------
+function renderProfile() {
+  const geoName = S.geo ? D.stateNames[S.geo] : "the United States";
+  const a = row(S.geo, S.group), b = row(S.geo, S.compare);
+  const note = document.getElementById("prof-note");
+  document.getElementById("key-a").textContent = S.group; document.getElementById("key-b").textContent = S.compare;
+  document.getElementById("prof-title").textContent = `Immigrants born in ${S.group}, in ${geoName}`;
+  const t = document.getElementById("profile"); t.replaceChildren();
+  if (!a) {
+    note.textContent = `Not enough survey records for immigrants from ${S.group} in ${geoName}. Choose another state or the whole country.`;
+    setTiles(null, geoName); return;
+  }
+  setTiles(a, geoName);
+  const hr = el("tr"); ["Measure", S.group, S.compare, "", "Difference"].forEach((h, i) => hr.append(el("th", { scope: "col", class: i === 3 ? "bar" : "" }, h)));
+  const th = el("thead"); th.append(hr); const tb = el("tbody");
+  for (const m of MEASURES) {
+    const va = get(a, m.key), vb = get(b, m.key);
+    const tr = el("tr");
+    const td0 = el("td", {}, m.label); if (m.who) td0.append(el("div", { class: "who" }, m.who)); tr.append(td0);
+    tr.append(el("td", {}, fmtVal(va, m)), el("td", {}, fmtVal(vb, m)));
+    const bars = el("div", { class: "bars" });
+    const max = m.unit === "%" ? 100 : Math.max(va || 0, vb || 0, 1);
+    for (const [cls, v] of [["a", va], ["b", vb]]) { const sp = el("span", { class: cls }); sp.style.width = (v == null ? 0 : v / max * 100) + "%"; bars.append(sp); }
+    const tdb = el("td", { class: "bar" }); tdb.append(bars); tr.append(tdb);
+    let diff = "—";
+    if (va != null && vb != null) diff = m.unit === "%" || m.unit === "yrs" ? (va - vb > 0 ? "+" : va - vb < 0 ? "−" : "") + Math.abs(va - vb).toFixed(1) + (m.unit === "%" ? " pts" : " yrs") : pctText(pct(va, vb));
+    tr.append(el("td", { class: "diff" }, diff));
+    tb.append(tr);
+  }
+  t.append(th, tb);
+  note.textContent = `${fmt(get(a, "population"))} immigrants from ${S.group} in ${geoName} (${fmt(get(a, "n"))} survey records)` +
+    (b ? `, compared with ${fmt(get(b, "population"))} ${S.compare === NATIVE ? "U.S.-born residents" : S.compare === ALL ? "immigrants of all origins" : "immigrants from " + S.compare} (${fmt(get(b, "n"))} records).` : ".") +
+    " Differences of a point or two can be sampling error.";
+}
+function setTiles(a, geoName) {
+  const set = (n, k, v, d) => { document.getElementById(`t${n}k`).textContent = k; document.getElementById(`t${n}v`).textContent = v; document.getElementById(`t${n}d`).textContent = d; };
+  if (!a) { set(1, `Immigrants from ${S.group}`, "—", `no profile for ${geoName}`); return; }
+  set(1, `Immigrants from ${S.group}`, fmt(get(a, "population")), `in ${geoName}: ${get(a, "pct_of_immigrants") == null ? "" : get(a, "pct_of_immigrants").toFixed(1) + "% of its immigrants"}`);
+  set(2, "Naturalized citizens", get(a, "pct_naturalized").toFixed(1) + "%", `median ${get(a, "median_years_in_us")} years in the U.S.`);
+  set(3, "Bachelor's degree or higher", get(a, "pct_bachelors") == null ? "—" : get(a, "pct_bachelors").toFixed(1) + "%", "age 25 and over");
+  set(4, "Median personal income", get(a, "median_income") == null ? "—" : "$" + fmt(get(a, "median_income")), `median age ${get(a, "median_age")}`);
+}
+
+// ---- where they live -----------------------------------------------------------------------
+const whereSort = { col: 1, asc: false }; let showAllWhere = false;
+function renderWhere() {
+  const rows = [];
+  for (const [code, name] of Object.entries(D.stateNames)) { const r = row(code, S.group); if (r) rows.push({ name, code, pop: get(r, "population"), share: get(r, "pct_of_immigrants"), nat: get(r, "pct_naturalized"), inc: get(r, "median_income") }); }
+  const columns = [
+    { label: "State", sort: r => r.name, cell: (r, td) => { const a = el("a", { href: `#group=${encodeURIComponent(S.group)}&geo=${r.code}` }, r.name); a.addEventListener("click", e => { e.preventDefault(); S.geo = r.code; render(); window.scrollTo({ top: 0, behavior: "smooth" }); }); td.append(a); } },
+    { label: `From ${S.group}`, sort: r => r.pop, cell: (r, td) => td.textContent = fmt(r.pop) },
+    { label: "Share of state's immigrants", sort: r => r.share, cell: (r, td) => td.textContent = r.share == null ? "—" : r.share.toFixed(1) + "%" },
+    { label: "Naturalized", cls: "hide-sm", sort: r => r.nat, cell: (r, td) => td.textContent = r.nat == null ? "—" : r.nat.toFixed(1) + "%" },
+    { label: "Median income", cls: "hide-sm", sort: r => r.inc, cell: (r, td) => td.textContent = r.inc == null ? "—" : "$" + fmt(r.inc) },
+  ];
+  const table = document.getElementById("where-table"), more = document.getElementById("where-more");
+  sortableTable(table, columns, rows, whereSort, i => { whereSort.asc = whereSort.col === i ? !whereSort.asc : false; whereSort.col = i; renderWhere(); });
+  if (!showAllWhere) [...table.tBodies[0].rows].slice(10).forEach(r => r.remove());
+  more.hidden = rows.length <= 10; more.textContent = showAllWhere ? "Show fewer" : `Show all ${rows.length} states`;
+  document.getElementById("where-h").textContent = `Where immigrants from ${S.group} live`;
+  const link = el("a", { href: `map.html#g=${encodeURIComponent(S.group)}&l=state` }, "See this group on the map");
+  const note = document.getElementById("where-note"); note.replaceChildren(`Only states with at least 5,000 residents from ${S.group} are listed. `, link, ".");
+}
+document.getElementById("where-more").addEventListener("click", () => { showAllWhere = !showAllWhere; renderWhere(); });
+
+// ---- all groups on one measure ---------------------------------------------------------------
+const rankSort = { col: 1, asc: false }; let showAllRank = false;
+function renderRank() {
+  const m = BY_KEY[S.rank], geoName = S.geo ? D.stateNames[S.geo] : "the United States";
+  const rows = (groupsByGeo.get(S.geo) || []).filter(n => n !== ALL && n !== NATIVE).map(n => { const r = row(S.geo, n); return { name: n, v: get(r, m.key), pop: get(r, "population"), region: regionOf[n] }; });
+  const ref = row(S.geo, ALL), nat = row(S.geo, NATIVE);
+  const columns = [
+    { label: "Country of birth", sort: r => r.name, cell: (r, td) => { const a = el("a", { href: "#" }, r.name); a.addEventListener("click", e => { e.preventDefault(); S.group = r.name; render(); window.scrollTo({ top: 0, behavior: "smooth" }); }); td.append(a); td.append(el("div", { class: "small" }, r.region)); } },
+    { label: m.label, sort: r => r.v, cell: (r, td) => td.textContent = fmtVal(r.v, m) },
+    { label: "Population", sort: r => r.pop, cell: (r, td) => td.textContent = fmt(r.pop) },
+  ];
+  const table = document.getElementById("rank-table"), more = document.getElementById("rank-more");
+  sortableTable(table, columns, rows, rankSort, i => { rankSort.asc = rankSort.col === i ? !rankSort.asc : false; rankSort.col = i; renderRank(); });
+  if (!showAllRank) [...table.tBodies[0].rows].slice(15).forEach(r => r.remove());
+  more.hidden = rows.length <= 15; more.textContent = showAllRank ? "Show fewer" : `Show all ${rows.length} groups`;
+  document.getElementById("rank-h").textContent = `${m.label}, by country of birth, in ${geoName}` +
+    (ref ? ` (all immigrants: ${fmtVal(get(ref, m.key), m)}${nat ? `, U.S.-born: ${fmtVal(get(nat, m.key), m)}` : ""})` : "");
+}
+document.getElementById("rank-more").addEventListener("click", () => { showAllRank = !showAllRank; renderRank(); });
+
+function render() {
+  groupSel.value = S.group; cmpSel.value = S.compare; geoSel.value = S.geo; document.getElementById("rank-measure").value = S.rank;
+  writeHash(); renderProfile(); renderWhere(); renderRank();
+}
+S = readHash();
+render();
+})();
+{% endraw %}
+{% endblock %}

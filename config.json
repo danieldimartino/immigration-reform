@@ -1,14 +1,153 @@
 {
-  "title": "Project title goes here",
-  "headline": "The one sentence someone should remember",
-  "description": "One sentence, under 160 characters, for search results and link previews.",
-  "site_url": "https://example.manhattan.institute",
-  "source_name": "Name of the dataset",
-  "source_url": "https://example.org/the-dataset",
-  "method_note": "What was counted, what was excluded, and what these numbers cannot show.",
-  "author": "Your name",
+  "title": "U.S. Immigration Data Explorer",
+  "headline": "Two centuries of legal immigration to the United States, and who gets a green card today",
+  "description": "Explore U.S. legal immigration from official DHS data: green cards by country and category since 2005, naturalizations, refugees, and border encounters back to 1925.",
+  "site_url": "https://danieldimartino.github.io/immigration-reform",
+  "author": "Daniel Di Martino",
   "accent": "#14366b",
-  "source_data_url": null,
-  "value_column": "value",
-  "label_column": "label"
+  "legal": {
+    "headline": "Two centuries of legal immigration, and who gets a green card today",
+    "description": "Green cards by country of birth and category since 2005, and lawful permanent residents, naturalizations and refugee arrivals back to the first records.",
+    "source_name": "DHS Office of Homeland Security Statistics, Yearbook of Immigration Statistics",
+    "source_url": "https://ohss.dhs.gov/topics/immigration/yearbook",
+    "method_note": "Counts persons granted lawful permanent resident status (a green card) in each fiscal year, whether they arrived on an immigrant visa or adjusted status from inside the country. By-country figures cover family, employment and diversity classes; refugees, asylees and smaller classes are shown only in totals. DHS rounds every cell to the nearest 10, so totals may not add exactly. Fiscal years run October to September.",
+    "events": [
+      {
+        "year": 1924,
+        "label": "National-origin quotas"
+      },
+      {
+        "year": 1965,
+        "label": "Hart-Celler Act"
+      },
+      {
+        "year": 1986,
+        "label": "IRCA amnesty"
+      },
+      {
+        "year": 1990,
+        "label": "Immigration Act of 1990"
+      },
+      {
+        "year": 2020,
+        "label": "Pandemic"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Yearbook Table 1 (green cards since 1820), Table 6 (class of admission)",
+        "key": "yearbook_lawful_permanent_residents"
+      },
+      {
+        "name": "Yearbook Table 21 (naturalizations since 1907)",
+        "key": "yearbook_naturalizations"
+      },
+      {
+        "name": "Yearbook Table 13 (refugee arrivals since 1980)",
+        "key": "yearbook_refugees"
+      },
+      {
+        "name": "Yearbook Table 26 (nonimmigrant admissions)",
+        "key": "yearbook_nonimmigrants"
+      },
+      {
+        "name": "Green cards by country of birth and major class, FY2005–2024",
+        "key": "ohss_lpr_by_country"
+      }
+    ]
+  },
+  "border": {
+    "headline": "Who is arriving at America's borders, and where, month by month",
+    "description": "Every CBP border and port-of-entry encounter since October 2019 by month, nationality, family status, border and sector, with annual apprehensions back to 1925.",
+    "source_name": "U.S. Customs and Border Protection, Nationwide Encounters",
+    "source_url": "https://www.cbp.gov/document/stats/nationwide-encounters",
+    "method_note": "Encounters are events, not people: one person caught crossing twice counts twice. They combine Border Patrol apprehensions between ports of entry with Office of Field Operations inadmissibles at ports; \"Air, sea and other\" covers airports, seaports and coastal Border Patrol sectors. Title 42 public-health expulsions (March 2020 to May 2023) are excluded throughout. CBP names only its most common nationalities; the rest are grouped as \"All other countries\". The latest months are preliminary and CBP may revise them. Figures before fiscal 2020 are Border Patrol apprehensions from CBP's historical tables, with port-of-entry inadmissibles from the DHS Yearbook.",
+    "cbp_page_url": "https://www.cbp.gov/document/stats/nationwide-encounters",
+    "cbp_archive_csv_url": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Nov/nationwide-encounters-fy20-fy23-aor.csv",
+    "first_fiscal_year": 2020,
+    "exclude_encounter_types": [
+      "Expulsions"
+    ],
+    "max_months_stale": 4,
+    "events": [
+      {
+        "month": "2020-03",
+        "label": "Title 42 expulsions begin"
+      },
+      {
+        "month": "2021-01",
+        "label": "Biden administration"
+      },
+      {
+        "month": "2023-05",
+        "label": "Title 42 ends"
+      },
+      {
+        "month": "2024-06",
+        "label": "Asylum restrictions"
+      },
+      {
+        "month": "2025-01",
+        "label": "Trump administration"
+      }
+    ],
+    "annual_events": [
+      {
+        "year": 1954,
+        "label": "Operation Wetback"
+      },
+      {
+        "year": 1986,
+        "label": "IRCA"
+      },
+      {
+        "year": 2000,
+        "label": "Peak apprehensions"
+      },
+      {
+        "year": 2008,
+        "label": "Recession"
+      },
+      {
+        "year": 2020,
+        "label": "Pandemic"
+      }
+    ],
+    "history_sources": [
+      {
+        "name": "U.S. Border Patrol Total Apprehensions (FY 1925 – FY 2020)",
+        "url": "https://www.cbp.gov/document/stats/us-border-patrol-total-apprehensions-fy-1925-fy-2020"
+      },
+      {
+        "name": "U.S. Border Patrol Monthly Encounters (FY 2000 – FY 2020)",
+        "url": "https://www.cbp.gov/document/stats/us-border-patrol-monthly-encounters-fy-2000-fy-2020"
+      }
+    ]
+  },
+  "map": {
+    "headline": "Where America's immigrants live, and who they are",
+    "description": "The foreign-born population of every state, metro area and neighborhood-scale PUMA: share of residents, citizenship, region of birth, English, education, poverty and income, from the Census Bureau's American Community Survey.",
+    "source_name": "U.S. Census Bureau, American Community Survey 5-year estimates",
+    "source_url": "https://www.census.gov/programs-surveys/acs/data/summary-file.html",
+    "method_note": "\"Immigrants\" are the foreign-born: everyone who was not a U.S. citizen at birth, whether now naturalized or not, and regardless of legal status. Figures are survey estimates averaged over five years; small areas carry sampling error, so treat differences of a few points with care. Public Use Microdata Areas (PUMAs) are Census-drawn areas of about 100,000 residents on 2020 boundaries. Boundaries are drawn live from the Census Bureau's TIGERweb service."
+  },
+
+  "groups": {
+    "headline": "Who America's immigrants are, country by country",
+    "description": "Profiles of immigrants from more than 130 countries of birth: citizenship, arrival, age, education, English, work, income, housing and health coverage, nationally and by state, from Census microdata.",
+    "source_name": "IPUMS USA, American Community Survey 2020–2024 five-year sample",
+    "source_url": "https://usa.ipums.org/",
+    "method_note": "Immigrants are the foreign-born, excluding people born abroad to U.S.-citizen parents, regardless of current legal status. Figures are weighted estimates from Census Bureau survey microdata averaged over 2020–2024; groups are shown only where the sample is large enough, and small differences between groups may be within sampling error. Medians are weighted. \"Full-time wage\" covers wage earners working 50 or more weeks and 35 or more hours."
+  },
+
+  "acs": {
+    "vintage": 2024,
+    "base_url": "https://www2.census.gov/programs-surveys/acs/summary_file/{vintage}/table-based-SF"
+  },
+
+  "ohss": {
+    "lpr_page_url": "https://ohss.dhs.gov/topics/immigration/lawful-permanent-residents/lprs-country-birth-and-major-classes-admission",
+    "yearbook_url": "https://ohss.dhs.gov/topics/immigration/yearbook",
+    "max_years_stale": 3
+  }
 }

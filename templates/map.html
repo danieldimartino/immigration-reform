@@ -1,0 +1,496 @@
+{% extends "base.html" %}
+{% block title %}{{ cfg.title }} — Immigrant map{% endblock %}
+{% block path %}map.html{% endblock %}
+{% block kicker %}U.S. immigrant population{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+  .mapwrap{position:relative; height:min(78vh, 720px); min-height:420px; border:1px solid var(--ring); border-radius:10px; overflow:hidden; background:#e9ecea}
+  #map{position:absolute; inset:0}
+  .leaflet-container{font:inherit; background:#eef0ee}
+  .leaflet-control-attribution{background:rgba(255,255,255,.7); color:#52514e}
+  #rail{position:absolute; z-index:1000; top:12px; left:12px; width:19rem; max-height:calc(100% - 24px); overflow:auto;
+    background:var(--paper); border:1px solid var(--ring); border-radius:10px; box-shadow:0 10px 30px rgba(0,0,0,.18); padding:.9rem 1rem .8rem}
+  #rail label{display:flex; flex-direction:column; font-size:.72rem; color:var(--ink-2); gap:.2rem; text-transform:uppercase; letter-spacing:.05em; margin-top:.6rem}
+  #rail select{width:100%; max-width:none}
+  #readout{border:1px solid var(--ring); border-radius:8px; padding:.6rem .7rem; background:var(--plane); margin-top:.7rem; min-height:6.5rem}
+  #ro-val{font-size:1.9rem; font-weight:650; line-height:1.1}
+  #ro-val .unit{font-size:1.1rem; color:var(--ink-2)}
+  #ro-name{font-size:.85rem; margin-top:.25rem; line-height:1.35}
+  #ro-meta{font-size:.76rem; color:var(--ink-2); margin-top:.3rem}
+  #ro-hint{font-size:.74rem; color:var(--ink-2); margin-top:.4rem}
+  #readout.pinned{border-color:var(--accent)}
+  .eyebrow{font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2); margin:.8rem 0 .25rem}
+  #hist{display:block; width:100%; height:56px}
+  #hist rect{fill:var(--s1)}
+  #hist .mark{fill:var(--ink)}
+  #legend-bar{height:10px; border-radius:3px}
+  #legend-ticks{position:relative; height:1rem; font-size:.68rem; color:var(--ink-2); font-variant-numeric:tabular-nums}
+  #legend-ticks span{position:absolute; transform:translateX(-50%)}
+  .nodata{display:inline-block; width:.6rem; height:.6rem; background:var(--na); border-radius:2px; vertical-align:-1px; margin-right:.3rem}
+  #status{margin-top:.7rem; padding-top:.5rem; border-top:1px solid var(--rule)}
+  #bar{height:3px; background:var(--plane); border-radius:2px; overflow:hidden}
+  #bar i{display:block; height:100%; width:0; background:var(--accent); transition:width .25s}
+  #status-text{font-size:.72rem; color:var(--ink-2); margin-top:.35rem}
+  #retry{display:none; margin-top:.4rem; width:100%}
+  .area-tip{background:var(--paper); color:var(--ink); border:1px solid var(--ring); border-radius:7px; box-shadow:0 6px 18px rgba(0,0,0,.2); padding:.45rem .6rem; font-family:inherit}
+  .area-tip::before{display:none}
+  .tip-val{font-weight:650; font-size:1rem}
+  .tip-name{font-size:.8rem; color:var(--ink-2); max-width:16rem; white-space:normal}
+  .leaflet-control-attribution{font-size:9px}
+  @media (max-width:640px){
+    #rail{left:8px; right:8px; top:auto; bottom:8px; width:auto; max-height:52%; padding:.7rem .8rem}
+    #ro-val{font-size:1.4rem}
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+  <div class="tiles">
+    <div class="tile"><div class="k">Immigrant share of U.S. residents</div><div class="v">{{ stats.us_pct }}%</div>
+      <div class="d">{{ '{:,}'.format(stats.us_foreign_born) }} foreign-born residents, {{ stats.vintage - 4 }}–{{ stats.vintage }} average</div></div>
+    <div class="tile"><div class="k">Naturalized citizens</div><div class="v">{{ stats.us_naturalized }}%</div><div class="d">of immigrants nationally</div></div>
+    <div class="tile"><div class="k">Arrived 2010 or later</div><div class="v">{{ stats.us_recent }}%</div><div class="d">of immigrants nationally</div></div>
+    <div class="tile"><div class="k">Highest immigrant share</div><div class="v">{{ stats.top_state_pct }}%</div><div class="d">{{ stats.top_state }}, {{ '{:,}'.format(stats.top_state_n) }} foreign-born</div></div>
+  </div>
+
+  <h2>Map</h2>
+  <p class="sub">Choose a measure and a level of detail. Hover an area for its figure; click to pin it. Boundaries load from the
+    Census Bureau as you go, so the first view of the PUMA level takes a moment.</p>
+
+  <div class="mapwrap">
+    <div id="map" aria-label="Choropleth map of the United States"></div>
+    <aside id="rail" aria-label="Map controls">
+      <label>Birthplace<select id="group"></select></label>
+      <label>Measure<select id="measure"></select></label>
+      <label>Level<select id="level">
+        <option value="state">States</option>
+        <option value="metro">Metro and micro areas</option>
+        <option value="puma">PUMAs (about 100,000 people each)</option>
+      </select></label>
+      <label>Jump to a state<select id="state-sel"></select></label>
+      <div id="readout">
+        <div id="ro-val">–</div>
+        <div id="ro-name">Hover an area on the map</div>
+        <div id="ro-meta"></div>
+        <div id="ro-hint">Click an area to keep it pinned</div>
+      </div>
+      <div class="eyebrow" id="hist-title">Where it sits among areas</div>
+      <svg id="hist" role="img" aria-label="Distribution of the selected measure across areas"></svg>
+      <div class="eyebrow" id="legend-title">Scale</div>
+      <div id="legend-bar"></div>
+      <div id="legend-ticks"></div>
+      <div id="status-text" style="margin-top:.4rem"><span class="nodata"></span>No estimate</div>
+      <div id="status">
+        <div id="bar"><i></i></div>
+        <div id="status-line" class="small">Preparing…</div>
+        <button type="button" id="retry">Retry failed downloads</button>
+      </div>
+    </aside>
+  </div>
+  <p class="note" id="map-desc"></p>
+
+  <h2 id="rank-h">Ranked areas</h2>
+  <p class="sub" id="rank-sub">Every area at the chosen level, by the chosen measure. Click a column to sort.</p>
+  <div class="scroll"><table id="rank-table"></table></div>
+  <button type="button" class="more" id="rank-more">Show all</button>
+
+  <h2>The immigrant population since 1994</h2>
+  <p class="sub">Foreign-born residents each March from the Current Population Survey, the most recent official count.
+    Click a legend entry to show or hide a series.</p>
+  <section class="card" aria-labelledby="cps-title">
+    <div class="chart-head"><p class="chart-title" id="cps-title">Immigrants living in the United States, 1994–{{ data.cps.years[-1] }}</p>
+      <div class="seg" role="group" aria-label="Series" id="cps-mode">
+        <button type="button" data-mode="count" aria-pressed="true">People</button>
+        <button type="button" data-mode="region" aria-pressed="false">By region of birth</button>
+      </div></div>
+    <ul class="legend" id="cps-legend"></ul>
+    <div class="plot">
+      <svg id="cps-chart" role="img" tabindex="0" aria-labelledby="cps-title cps-desc"></svg>
+      <div class="tip" id="cps-tip" role="status"></div>
+    </div>
+    <p class="note" id="cps-desc"></p>
+    <details><summary>Show these numbers as a table</summary><div class="scroll"><table id="cps-table"></table></div></details>
+  </section>
+{% endblock %}
+
+{% block coverage %}American Community Survey {{ stats.vintage - 4 }}–{{ stats.vintage }} five-year estimates:
+  {{ info.counts.state if info.counts is defined else '' }} states, {{ info.counts.metro if info.counts is defined else '' }} metro and micro areas and
+  {{ info.counts.puma if info.counts is defined else '' }} PUMAs.{% endblock %}
+{% block sources %}
+  <p>Birthplace layers and the 1994–{{ data.cps.years[-1] }} trend are aggregated from IPUMS USA (ACS 2020–2024 five-year) and IPUMS CPS
+    (March supplement) microdata by <code>tools/extract_microdata.py</code>; see the <a href="groups.html">groups page</a> for citations.</p>
+  <p>Tables used (ACS summary file, {{ stats.vintage }} 5-year): B05002 nativity, citizenship and region of birth; B05005 period of entry;
+    B16005 English ability; B06009 educational attainment; B06012 poverty; B06011 median income. Boundaries: Census Bureau
+    <a href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html">TIGERweb</a>.</p>
+{% endblock %}
+{% block downloads %}
+  <a class="dl" href="data/acs_areas.csv" download>All measures by state, metro area and PUMA (CSV)</a>
+  <a class="dl" href="data/acs_group_areas.csv" download>Birthplace groups by area (CSV)</a>
+  <a class="dl" href="data/cps_annual.csv" download>Immigrant population 1994 on (CSV)</a>
+{% endblock %}
+
+{% block script %}
+{% raw %}
+(() => {
+const D = JSON.parse(document.getElementById("data").textContent);
+const GROUP_KEYS = ["group_population", "group_pct_residents", "group_pct_immigrants"];
+const COLS = D.columns.concat(GROUP_KEYS), IDX = Object.fromEntries(COLS.map((c, i) => [c, i]));
+const GROUP_MEASURES = [
+  { key: "group_population", label: "People born there", unit: "", desc: "Residents born in the chosen country" },
+  { key: "group_pct_residents", label: "Share of all residents", unit: "%", desc: "Residents born in the chosen country as a percent of the area's population" },
+  { key: "group_pct_immigrants", label: "Share of the area's immigrants", unit: "%", desc: "Residents born in the chosen country as a percent of the area's immigrants" },
+];
+const MEASURES = D.measures.concat(GROUP_MEASURES), BY_KEY = Object.fromEntries(MEASURES.map(m => [m.key, m]));
+const GROUP_AREAS = D.groupAreas || {};
+const GROUP_NAMES = Object.keys(GROUP_AREAS).sort();
+const LEVELS = {
+  state: { label: "state", svcs: ["https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/0/query"],
+           fields: "GEOID,NAME", code: p => p.GEOID, name: p => p.NAME, offset: 0.02 },
+  // Metropolitan (layer 3) and micropolitan (layer 4) areas are separate layers.
+  metro: { label: "metro or micro area", svcs: ["https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/CBSA/MapServer/3/query",
+                                                "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/CBSA/MapServer/4/query"],
+           fields: "GEOID,NAME", code: p => p.GEOID, name: p => p.NAME, offset: 0.01 },
+  puma:  { label: "PUMA", svcs: ["https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer/0/query"],
+           fields: "GEOID,STATE,PUMA,NAME", code: p => p.STATE + p.PUMA, name: p => p.NAME, perState: true, offset: 0.004 },
+};
+const RAMP = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"];
+const NODATA = getComputedStyle(document.documentElement).getPropertyValue("--na").trim() || "#dedcd4";
+
+// ---- data ---------------------------------------------------------------------
+const baseRows = {};                   // level -> Map(code -> row)
+for (const [lvl, list] of Object.entries(D.levels)) baseRows[lvl] = new Map(list.map(r => [r[0], r.concat([null, null, null])]));
+const US = baseRows.us.values().next().value;
+let rows = baseRows;                   // swapped for group rows in birthplace mode
+function groupRows(group) {
+  const out = {};
+  for (const [lvl, m] of Object.entries(baseRows)) {
+    const areas = new Map(((GROUP_AREAS[group] || {})[lvl] || []).map(a => [a[0], a]));
+    out[lvl] = new Map([...m].map(([code, r]) => {
+      const a = areas.get(code), copy = r.slice();
+      copy[IDX.group_population] = a ? a[1] : null; copy[IDX.group_pct_residents] = a ? a[2] : null; copy[IDX.group_pct_immigrants] = a ? a[3] : null;
+      return [code, copy];
+    }));
+  }
+  return out;
+}
+// Ratios "of immigrants" are noise where there are few immigrants to survey.
+const MIN_FB = 1000;
+const ofImmigrants = key => key !== "pct_foreign_born" && key !== "foreign_born";
+const val = (r, key) => !r ? null : (ofImmigrants(key) && !key.startsWith("group_") && r[IDX.foreign_born] < MIN_FB) ? null : r[IDX[key]];
+const fmtVal = (v, m) => v == null ? "n/a" : m.unit === "%" ? v.toFixed(1) + "%" : m.unit === "$" ? "$" + fmt(v) : fmt(v);
+
+let S = { measure: "pct_foreign_born", level: "state", group: "" };
+const hash = new URLSearchParams(location.hash.slice(1));
+if (BY_KEY[hash.get("m")]) S.measure = hash.get("m");
+if (LEVELS[hash.get("l")]) S.level = hash.get("l");
+if (GROUP_AREAS[hash.get("g")]) { S.group = hash.get("g"); if (!S.measure.startsWith("group_")) S.measure = "group_pct_residents"; }
+const writeHash = () => history.replaceState(null, "", `#m=${S.measure}&l=${S.level}` + (S.group ? `&g=${encodeURIComponent(S.group)}` : ""));
+const groupHasLevel = (g, lvl) => !!((GROUP_AREAS[g] || {})[lvl] || []).length;
+
+// ---- color scale: one hue, light to dark, with a power transform so a few
+// very high areas do not wash out the rest --------------------------------------
+let scale = { max: 1, gamma: 1 };
+function fitScale() {
+  const m = BY_KEY[S.measure];
+  const vals = [...rows[S.level].values()].map(r => val(r, S.measure)).filter(v => v != null).sort((a, b) => a - b);
+  const q = p => vals[Math.min(vals.length - 1, Math.floor(p * vals.length))] || 0;
+  const max = m.unit === "%" && S.measure !== "pct_foreign_born" && !S.measure.startsWith("group_") ? Math.min(100, q(0.98) || 100) : q(0.98) || 1;
+  const median = q(0.5);
+  // pick gamma so the median lands near the middle of the ramp
+  const gamma = max > 0 && median > 0 ? Math.min(1, Math.max(0.3, Math.log(0.5) / Math.log(median / max))) : 1;
+  scale = { max: Math.max(max, 1e-9), gamma };
+}
+const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+function rampColor(t) {
+  const n = RAMP.length - 1, x = Math.min(Math.max(t, 0), 1) * n, i = Math.min(Math.floor(x), n - 1), f = x - i;
+  const a = hex(RAMP[i]), b = hex(RAMP[i + 1]);
+  return `rgb(${a.map((c, k) => Math.round(c + (b[k] - c) * f)).join(",")})`;
+}
+const colorFor = v => v == null ? NODATA : rampColor(Math.pow(v / scale.max, scale.gamma));
+
+// ---- map ------------------------------------------------------------------------
+// No basemap: a choropleth of the country reads better on a plain ground,
+// with state outlines for orientation under the metro and PUMA layers.
+const map = L.map("map", { preferCanvas: true, zoomSnap: 0.5, worldCopyJump: false, attributionControl: true }).setView([38.6, -96.4], 4);
+map.fitBounds([[24.3, -125.2], [49.6, -66.6]]);
+map.attributionControl.setPrefix("").addAttribution("Boundaries: U.S. Census Bureau TIGERweb");
+const canvas = L.canvas({ padding: 0.3 });
+let outlines = null;                                   // state borders under other levels
+
+const layers = { state: {}, metro: {}, puma: {} };   // level -> {key: L.geoJSON}
+const loaded = { state: false, metro: false, puma: new Set() };
+let pinned = null, hovered = null;
+
+const style = f => ({ renderer: canvas, weight: S.level === "puma" ? 0.5 : 0.8, color: "#4b5563", opacity: 0.6,
+                      fillOpacity: 0.8, fillColor: colorFor(val(f.properties._row, S.measure)) });
+const hoverStyle = { weight: 2.2, color: "#111827", opacity: 1, fillOpacity: 0.95 };
+
+function restyle() {
+  for (const lyr of Object.values(layers[S.level])) lyr.setStyle(style);
+}
+function showLevel() {
+  for (const [lvl, set] of Object.entries(layers))
+    for (const lyr of Object.values(set)) { if (lvl === S.level) lyr.addTo(map); else map.removeLayer(lyr); }
+  if (outlines) { if (S.level === "state") map.removeLayer(outlines); else { outlines.addTo(map); outlines.bringToBack(); } }
+}
+async function ensureOutlines() {
+  if (outlines) return;
+  try {
+    const features = await fetchAll("state", "1=1");
+    outlines = L.geoJSON({ type: "FeatureCollection", features },
+      { renderer: canvas, interactive: false, style: { weight: 1.2, color: "#6b7280", opacity: 0.9, fill: false } });
+    showLevel();
+  } catch (e) { /* outlines are decoration; the level's own load reports errors */ }
+}
+
+function onEach(feature, layer) {
+  const p = feature.properties;
+  layer.bindTooltip(() => {
+    const m = BY_KEY[S.measure];
+    return `<div class="tip-val">${fmtVal(val(p._row, S.measure), m)}</div><div class="tip-name">${escapeHtml(p._name)}</div>`;
+  }, { sticky: true, className: "area-tip", direction: "top", offset: [0, -6] });
+  layer.on({
+    mouseover: e => { hovered = layer; e.target.setStyle(hoverStyle); e.target.bringToFront(); if (!pinned) readout(p, false); },
+    mouseout: e => { hovered = null; if (pinned !== layer) e.target.setStyle(style(feature)); if (!pinned) resetReadout(); },
+    click: e => {
+      if (pinned && pinned !== layer) pinned.setStyle(style(pinned.feature));
+      pinned = pinned === layer ? null : layer;
+      if (pinned) { readout(p, true); layer.setStyle(hoverStyle); } else resetReadout();
+      L.DomEvent.stopPropagation(e);
+    },
+  });
+}
+map.on("click", () => { if (pinned) { pinned.setStyle(style(pinned.feature)); pinned = null; resetReadout(); } });
+const escapeHtml = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+// ---- TIGERweb loading, paged, per state for PUMAs -----------------------------------
+const barEl = document.querySelector("#bar i"), statusEl = document.getElementById("status-line"), retryBtn = document.getElementById("retry");
+let failed = [];
+function urlFor(lvl, svc, where, offset) {
+  const L_ = LEVELS[lvl];
+  return svc + "?" + new URLSearchParams({ where, outFields: L_.fields, returnGeometry: "true", outSR: "4326",
+    geometryPrecision: "4", maxAllowableOffset: String(L_.offset), resultOffset: String(offset), resultRecordCount: "1000", f: "geojson" });
+}
+async function fetchAll(lvl, where) {
+  const features = [];
+  for (const svc of LEVELS[lvl].svcs) {
+    for (let offset = 0; ; offset += 1000) {
+      const r = await fetch(urlFor(lvl, svc, where, offset));
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const gj = await r.json();
+      if (gj.error) throw new Error(gj.error.message || "query error");
+      features.push(...gj.features);
+      if (!gj.exceededTransferLimit && !(gj.properties && gj.properties.exceededTransferLimit)) break;
+    }
+  }
+  return features;
+}
+function addLayer(lvl, key, features) {
+  const L_ = LEVELS[lvl];
+  for (const f of features) {
+    const code = L_.code(f.properties);
+    f.properties._row = rows[lvl].get(code) || null;
+    f.properties._name = L_.name(f.properties) + (lvl === "puma" ? `, ${D.stateNames[f.properties.STATE] || ""}` : "");
+  }
+  const lyr = L.geoJSON({ type: "FeatureCollection", features }, { style, onEachFeature: onEach });
+  layers[lvl][key] = lyr;
+  if (lvl === S.level) lyr.addTo(map);
+}
+async function ensureLevel(lvl) {
+  const L_ = LEVELS[lvl];
+  if (!L_.perState) {
+    if (loaded[lvl]) return;
+    statusEl.textContent = `Loading ${L_.label} boundaries from the Census Bureau…`; barEl.style.width = "30%";
+    try { addLayer(lvl, "all", await fetchAll(lvl, "1=1")); loaded[lvl] = true; failed = []; }
+    catch (e) { failed = [lvl]; statusEl.textContent = "Could not reach TIGERweb: " + e.message; retryBtn.style.display = "block"; return; }
+    finishStatus(); return;
+  }
+  const fips = Object.keys(D.stateNames).filter(f => !loaded.puma.has(f));
+  if (!fips.length) return;
+  retryBtn.style.display = "none"; failed = [];
+  let done = 0; const queue = [...fips];
+  const worker = async () => {
+    while (queue.length) {
+      const f = queue.shift();
+      try { addLayer("puma", f, await fetchAll("puma", `STATE='${f}'`)); loaded.puma.add(f); }
+      catch (e) { failed.push(f); }
+      done++; barEl.style.width = (done / fips.length * 100) + "%";
+      statusEl.textContent = `Loading PUMA boundaries… ${done} of ${fips.length} states`;
+    }
+  };
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  finishStatus(); renderRank();
+}
+function finishStatus() {
+  barEl.style.width = "100%";
+  const n = Object.values(layers[S.level]).reduce((a, l) => a + l.getLayers().length, 0);
+  const matched = Object.values(layers[S.level]).reduce((a, l) => a + l.getLayers().filter(x => x.feature.properties._row).length, 0);
+  statusEl.textContent = failed.length ? `${failed.length} download(s) failed.` : `${n} areas drawn, ${matched} with estimates.`;
+  retryBtn.style.display = failed.length ? "block" : "none";
+}
+retryBtn.addEventListener("click", () => { failed = []; ensureLevel(S.level); });
+
+// ---- readout, histogram, legend -------------------------------------------------------
+const roVal = document.getElementById("ro-val"), roName = document.getElementById("ro-name"), roMeta = document.getElementById("ro-meta"),
+      roHint = document.getElementById("ro-hint"), readoutEl = document.getElementById("readout");
+function readout(p, pin) {
+  const m = BY_KEY[S.measure], r = p._row, v = val(r, S.measure);
+  roVal.textContent = fmtVal(v, m);
+  roName.textContent = p._name;
+  roMeta.textContent = !r ? "No estimate for this area"
+    : S.group ? (v == null ? `Fewer than 200 residents born in ${S.group}, or none counted` : `${fmt(val(r, "group_population"))} born in ${S.group} · ${fmt(val(r, "foreign_born"))} immigrants of ${fmt(val(r, "population"))} residents`)
+    : `${fmt(val(r, "foreign_born"))} foreign-born of ${fmt(val(r, "population"))} residents · U.S.: ${fmtVal(val(US, S.measure), m)}` +
+      (v == null && ofImmigrants(S.measure) ? ` · fewer than ${fmt(MIN_FB)} immigrants, so no reliable ${m.label.toLowerCase()} figure` : "");
+  roHint.textContent = pin ? "Pinned — click again or elsewhere to release" : "Click an area to keep it pinned";
+  readoutEl.classList.toggle("pinned", pin);
+  drawHist(v);
+}
+function resetReadout() {
+  roVal.textContent = "–"; roName.textContent = "Hover an area on the map"; roMeta.textContent = "";
+  roHint.textContent = "Click an area to keep it pinned"; readoutEl.classList.remove("pinned"); drawHist(null);
+}
+const NBINS = 24;
+let bins = [], binMax = 1;
+function buildHist() {
+  const vals = [...rows[S.level].values()].map(r => val(r, S.measure)).filter(v => v != null);
+  binMax = scale.max; bins = new Array(NBINS).fill(0);
+  for (const v of vals) bins[Math.min(NBINS - 1, Math.floor(v / binMax * NBINS))]++;
+}
+function drawHist(marker) {
+  const svg = document.getElementById("hist"), W = 272, H = 56, bw = W / NBINS, peak = Math.max(...bins, 1);
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  let s = "";
+  bins.forEach((b, i) => { const h = Math.max(1, b / peak * (H - 10)); s += `<rect x="${(i * bw).toFixed(1)}" y="${(H - h).toFixed(1)}" width="${(bw - 1).toFixed(1)}" height="${h.toFixed(1)}" opacity=".85"/>`; });
+  if (marker != null) { const x = Math.min(W - 1, marker / binMax * W); s += `<rect class="mark" x="${(x - 1).toFixed(1)}" y="0" width="2" height="${H}"/>`; }
+  svg.innerHTML = s;
+  document.getElementById("hist-title").textContent = `Where it sits among ${LEVELS[S.level].label}s`;
+}
+function drawLegend() {
+  const m = BY_KEY[S.measure], stops = [];
+  for (let i = 0; i <= 10; i++) stops.push(`${rampColor(i / 10)} ${i * 10}%`);
+  document.getElementById("legend-bar").style.background = `linear-gradient(90deg, ${stops.join(",")})`;
+  const ticks = document.getElementById("legend-ticks"); ticks.replaceChildren();
+  [0, 0.25, 0.5, 0.75, 1].forEach(t => {
+    const v = scale.max * Math.pow(t, 1 / scale.gamma);
+    const sp = el("span", {}, m.unit === "%" ? v.toFixed(scale.max < 2 ? 2 : v < 10 ? 1 : 0) + "%" : (m.unit === "$" ? "$" : "") + compact(v));
+    sp.style.left = (t * 100) + "%"; ticks.append(sp);
+  });
+  document.getElementById("legend-title").textContent = (S.group ? S.group + ": " : "") + m.label + (m.unit === "%" && S.measure !== "pct_foreign_born" && !S.measure.startsWith("group_") ? " (of immigrants)" : "");
+}
+
+// ---- ranked table ----------------------------------------------------------------------
+const rankSort = { col: 1, asc: false };
+let showAllRank = false;
+function areaName(lvl, code) {
+  for (const lyr of Object.values(layers[lvl]))
+    for (const x of lyr.getLayers()) if (LEVELS[lvl].code(x.feature.properties) === code) return x.feature.properties._name;
+  return lvl === "state" ? (D.stateNames[code] || code) : code;
+}
+function renderRank() {
+  const m = BY_KEY[S.measure];
+  const list = [...rows[S.level].values()].map(r => ({ code: r[0], name: areaName(S.level, r[0]), v: val(r, S.measure),
+    fb: val(r, "foreign_born"), pop: val(r, "population") }));
+  const columns = [
+    { label: LEVELS[S.level].label[0].toUpperCase() + LEVELS[S.level].label.slice(1), sort: r => r.name, cell: (r, td) => td.textContent = r.name },
+    { label: m.label, sort: r => r.v, cell: (r, td) => td.textContent = fmtVal(r.v, m) },
+    { label: "Foreign-born", sort: r => r.fb, cell: (r, td) => td.textContent = r.fb == null ? "—" : fmt(r.fb) },
+    { label: "Population", cls: "hide-sm", sort: r => r.pop, cell: (r, td) => td.textContent = r.pop == null ? "—" : fmt(r.pop) },
+  ];
+  const table = document.getElementById("rank-table"), more = document.getElementById("rank-more");
+  sortableTable(table, columns, list, rankSort, i => { rankSort.asc = rankSort.col === i ? !rankSort.asc : false; rankSort.col = i; renderRank(); });
+  if (!showAllRank) [...table.tBodies[0].rows].slice(15).forEach(r => r.remove());
+  more.hidden = list.length <= 15;
+  more.textContent = showAllRank ? "Show fewer" : `Show all ${list.length}`;
+  document.getElementById("rank-h").textContent = `${LEVELS[S.level].label[0].toUpperCase() + LEVELS[S.level].label.slice(1)}s ranked by ${m.label.toLowerCase()}`;
+}
+document.getElementById("rank-more").addEventListener("click", () => { showAllRank = !showAllRank; renderRank(); });
+
+// ---- controls -----------------------------------------------------------------------------
+const measureSel = document.getElementById("measure"), levelSel = document.getElementById("level"), stateSel = document.getElementById("state-sel"), groupSel = document.getElementById("group");
+fillSelect(groupSel, GROUP_NAMES.map(g => [g, g]), "All immigrants");
+function syncMeasures() {
+  const list = S.group ? GROUP_MEASURES : D.measures;
+  fillSelect(measureSel, list.map(m => [m.key, m.label]));
+  if (!list.some(m => m.key === S.measure)) S.measure = list[0].key;
+  measureSel.value = S.measure;
+  for (const o of levelSel.options) o.disabled = !!S.group && !groupHasLevel(S.group, o.value);
+}
+syncMeasures();
+fillSelect(stateSel, Object.entries(D.stateNames).sort((a, b) => a[1].localeCompare(b[1])), "Whole country");
+measureSel.value = S.measure; levelSel.value = S.level;
+function update() {
+  rows = S.group ? groupRows(S.group) : baseRows;
+  syncMeasures();
+  writeHash(); fitScale(); buildHist(); restyle(); drawLegend(); drawHist(null); showLevel();
+  if (pinned) readout(pinned.feature.properties, true); else resetReadout();
+  document.getElementById("map-desc").textContent = BY_KEY[S.measure].desc + ". Colors run from light to dark on a single scale; the darkest step is set at the 98th percentile so a handful of extreme areas do not flatten the rest." +
+    (S.group ? " Areas with fewer than 200 residents from this country are left gray." + (!groupHasLevel(S.group, "puma") ? " Metro and PUMA detail is available only for the 25 largest groups." : "")
+             : ofImmigrants(S.measure) ? ` Areas with fewer than ${fmt(MIN_FB)} immigrants are left gray because their survey samples are too small.` : "");
+  renderRank();
+  ensureLevel(S.level).then(() => { restyle(); renderRank(); });
+  if (S.level !== "state") ensureOutlines();
+}
+measureSel.addEventListener("change", () => { S.measure = measureSel.value; update(); });
+groupSel.addEventListener("change", () => {
+  S.group = groupSel.value;
+  if (S.group && !groupHasLevel(S.group, S.level)) { S.level = "state"; levelSel.value = "state"; }
+  S.measure = S.group ? "group_pct_residents" : "pct_foreign_born"; pinned = null; update();
+});
+groupSel.value = S.group;
+levelSel.addEventListener("change", () => { S.level = levelSel.value; pinned = null; update(); });
+stateSel.addEventListener("change", async () => {
+  const f = stateSel.value;
+  if (!f) { map.fitBounds([[24.3, -125.2], [49.6, -66.6]]); return; }
+  const r = await fetch(LEVELS.state.svcs[0] + "?" + new URLSearchParams({ where: `GEOID='${f}'`, returnExtentOnly: "true", outSR: "4326", f: "json" }));
+  const ext = (await r.json()).extent;
+  if (ext) map.fitBounds([[ext.ymin, ext.xmin], [ext.ymax, ext.xmax]], { padding: [10, 10] });
+});
+// ---- CPS trend ---------------------------------------------------------------------------
+const CPS = D.cps, CPS_REGIONS = [["born_mexico", "Mexico"], ["born_central_america", "Central America"], ["born_caribbean", "Caribbean"],
+  ["born_south_america", "South America"], ["born_asia", "Asia"], ["born_europe", "Europe"], ["born_africa", "Africa"],
+  ["born_canada_and_other_northern_america", "Canada and other"], ["born_oceania", "Oceania"], ["born_other_or_not_specified", "Not specified"]];
+const cpsState = { mode: "count", off: new Set() };
+function renderCps() {
+  const years = CPS.years, P = years.map(y => ({ key: y, label: String(y), long: "March " + y }));
+  let series;
+  if (cpsState.mode === "count") {
+    series = [{ name: "All immigrants", color: SLOT(0), key: "foreign_born" }, { name: "Naturalized citizens", color: SLOT(1), key: "naturalized" },
+              { name: "Arrived in the past 5 years", color: SLOT(2), key: "recent_arrivals" }];
+  } else {
+    const avail = CPS_REGIONS.filter(([k]) => CPS.series[k]);
+    const named = avail.slice(0, 7).map(([k, n], i) => ({ name: n, color: SLOT(i), keys: [k] }));
+    if (avail.length > 7) named.push({ name: "Other regions", color: "var(--other)", keys: avail.slice(7).map(([k]) => k), other: true });
+    series = named;
+  }
+  const on = series.filter(s => !cpsState.off.has(s.name));
+  const V = years.map((y, i) => on.map(s => (s.keys || [s.key]).reduce((a, k) => a + (CPS.series[k][i] || 0), 0)));
+  const svg = document.getElementById("cps-chart"), tip = document.getElementById("cps-tip");
+  const xLabel = (i, p, W) => p.key % yearStep(years.length, W) === 0 ? p.label : null;
+  if (cpsState.mode === "count") lineChart({ svg, tip, periods: P, series: on, values: V, xLabel, height: 300 });
+  else stackedBars({ svg, tip, periods: P, series: on, values: V, xLabel, height: 300, maxBar: 30, totalName: "immigrants" });
+  renderLegend(document.getElementById("cps-legend"), series, null, { line: cpsState.mode === "count", toggled: s => !cpsState.off.has(s.name),
+    onPick: s => { if (cpsState.off.has(s.name)) cpsState.off.delete(s.name); else if (cpsState.off.size < series.length - 1) cpsState.off.add(s.name); renderCps(); } });
+  const last = years.length - 1, fb = CPS.series.foreign_born;
+  document.getElementById("cps-desc").textContent = `March ${years[last]}: ${fmt(fb[last])} immigrants, ${CPS.series.pct_foreign_born[last].toFixed(1)}% of the population` +
+    (fb[last - 1] ? ` (${pctText(pct(fb[last], fb[last - 1]))} from a year earlier)` : "") + ". Survey estimates; the Census Bureau's population controls change over time.";
+  const t = document.getElementById("cps-table"); t.replaceChildren();
+  const hr = el("tr"); ["Year", ...on.map(s => s.name), "Share of population"].forEach(h => hr.append(el("th", { scope: "col" }, h)));
+  const th = el("thead"); th.append(hr); const tb = el("tbody");
+  years.forEach((y, i) => { const tr = el("tr"); tr.append(el("td", {}, String(y))); V[i].forEach(v => tr.append(el("td", {}, fmt(v)))); tr.append(el("td", {}, CPS.series.pct_foreign_born[i].toFixed(1) + "%")); tb.append(tr); });
+  t.append(th, tb);
+}
+for (const b of document.querySelectorAll("#cps-mode button")) b.addEventListener("click", () => {
+  cpsState.mode = b.dataset.mode; cpsState.off.clear();
+  for (const x of document.querySelectorAll("#cps-mode button")) x.setAttribute("aria-pressed", String(x === b));
+  renderCps();
+});
+onResize(document.getElementById("cps-chart").parentElement, renderCps);
+renderCps();
+
+update();
+})();
+{% endraw %}
+{% endblock %}

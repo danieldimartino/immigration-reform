@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{% block title %}{{ cfg.title }}{% endblock %}</title>
+<meta name="description" content="{{ page.description }}">
+<link rel="canonical" href="{{ cfg.site_url }}/{% block path %}{% endblock %}">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ cfg.site_url }}/{{ self.path() }}">
+<meta property="og:title" content="{{ page.headline }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:image" content="{{ cfg.site_url }}/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+{% block head %}{% endblock %}
+
+<style>
+  :root{
+    --accent: {{ cfg.accent }};
+    --link: {{ cfg.accent }};
+    --paper:#fcfcfb; --plane:#f5f4f0; --ink:#0b0b0b; --ink-2:#52514e; --muted:#6f6d67;
+    --rule:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,.12);
+    /* Categorical slots, fixed order (validated reference palette). */
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100;
+    --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --other:#b5b3ab; --na:#dedcd4;
+    --event:#8a887f;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --link:#9fc0f2;
+      --paper:#1a1a19; --plane:#121211; --ink:#fff; --ink-2:#c3c2b7; --muted:#9a988f;
+      --rule:#2c2c2a; --axis:#44443f; --ring:rgba(255,255,255,.12);
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+      --s5:#d55181; --s6:#008300; --s7:#9085e9; --other:#5f5e59; --na:#3a3a36;
+      --event:#77756d;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --link:#9fc0f2;
+    --paper:#1a1a19; --plane:#121211; --ink:#fff; --ink-2:#c3c2b7; --muted:#9a988f;
+    --rule:#2c2c2a; --axis:#44443f; --ring:rgba(255,255,255,.12);
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --s5:#d55181; --s6:#008300; --s7:#9085e9; --other:#5f5e59; --na:#3a3a36;
+    --event:#77756d;
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif}
+  .wrap{max-width:72rem; margin:0 auto; padding:1.5rem 1rem 5rem}
+  nav.site{display:flex; flex-wrap:wrap; gap:.25rem 1.25rem; align-items:baseline; font-size:.88rem;
+    margin-bottom:1.75rem; padding-bottom:.5rem; border-bottom:1px solid var(--rule)}
+  nav.site .brand{font-weight:650; color:var(--ink); text-decoration:none; margin-right:auto}
+  nav.site a{color:var(--ink-2); text-decoration:none; padding:.15rem 0}
+  nav.site a[aria-current]{color:var(--ink); font-weight:600; border-bottom:2px solid var(--accent)}
+  nav.site a:hover{color:var(--ink)}
+  header.page{border-bottom:2px solid var(--ink); padding-bottom:1rem; margin-bottom:1.75rem}
+  .kicker{font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2); margin:0 0 .5rem}
+  h1{font: 700 clamp(1.7rem,4.6vw,2.5rem)/1.12 ui-serif, Georgia, "Times New Roman", serif; margin:0 0 .6rem}
+  .standfirst{margin:0; color:var(--ink-2); max-width:44rem}
+  h2{font: 700 1.3rem/1.25 ui-serif, Georgia, serif; margin:3rem 0 .35rem}
+  .sub{margin:0 0 1rem; color:var(--ink-2); font-size:.93rem; max-width:48rem}
+  a{color:var(--link)}
+
+  .tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(13rem,1fr)); gap:.75rem; margin:0 0 1.5rem}
+  .tile{background:var(--plane); border:1px solid var(--ring); border-radius:8px; padding:.8rem 1rem}
+  .tile .k{font-size:.8rem; color:var(--ink-2)}
+  .tile .v{font-size:1.75rem; font-weight:650; line-height:1.2; margin:.15rem 0}
+  .tile .d{font-size:.82rem; color:var(--ink-2)}
+
+  .filters{position:sticky; top:0; z-index:5; background:var(--paper); border-bottom:1px solid var(--rule);
+    display:flex; flex-wrap:wrap; gap:.5rem .6rem; align-items:flex-end; padding:.6rem 0 .75rem; margin-bottom:1.25rem}
+  .controls{display:flex; flex-wrap:wrap; gap:.5rem .75rem; align-items:flex-end; margin:0 0 .75rem}
+  .filters label, .controls label, .chart-head label{display:flex; flex-direction:column; font-size:.72rem;
+    color:var(--ink-2); gap:.2rem; text-transform:uppercase; letter-spacing:.05em}
+  label.check{flex-direction:row; align-items:center; gap:.4rem; text-transform:none; letter-spacing:0;
+    font-size:.85rem; color:var(--ink); min-height:2.1rem}
+  select, button{font:inherit; font-size:.9rem; color:var(--ink); background:var(--paper);
+    border:1px solid var(--axis); border-radius:6px; padding:.3rem .5rem; min-height:2.1rem}
+  select{max-width:11rem}
+  select.yr{max-width:7.5rem}
+  button{cursor:pointer}
+  button:hover, select:hover{border-color:var(--ink-2)}
+  :focus-visible{outline:2px solid var(--link); outline-offset:2px}
+  .reset{border-color:transparent; color:var(--link); text-decoration:underline; padding-inline:.25rem}
+  .seg{display:inline-flex; border:1px solid var(--axis); border-radius:6px; overflow:hidden}
+  .seg button{border:0; border-radius:0; min-height:calc(2.1rem - 2px)}
+  .seg button[aria-pressed="true"]{background:var(--ink); color:var(--paper)}
+
+  .card{background:var(--paper); border:1px solid var(--ring); border-radius:10px; padding:1rem 1rem .75rem}
+  .chart-head{display:flex; flex-wrap:wrap; gap:.5rem 1rem; justify-content:space-between; align-items:flex-end; margin-bottom:.5rem}
+  .chart-head .opts{display:flex; gap:.6rem; flex-wrap:wrap; align-items:flex-end}
+  .chart-title{font-weight:650; font-size:1rem; margin:0}
+  .legend{display:flex; flex-wrap:wrap; gap:.25rem .5rem; margin:.25rem 0 .5rem; padding:0; list-style:none}
+  .legend button{display:inline-flex; align-items:center; gap:.4rem; border:0; background:none; padding:.15rem .3rem;
+    min-height:0; font-size:.85rem; color:var(--ink-2); border-radius:4px}
+  .legend button:hover{background:var(--plane); color:var(--ink)}
+  .legend button:disabled{cursor:default; background:none}
+  .legend button[aria-pressed="false"]{opacity:.45; text-decoration:line-through}
+  .sw{width:.75rem; height:.75rem; border-radius:2px; flex:none}
+  .sw.line{height:3px; width:1rem; border-radius:2px}
+  .plot{position:relative}
+  .plot svg{display:block; width:100%; overflow:visible; touch-action:pan-y}
+  .plot svg:focus{outline:none}
+  .plot svg:focus-visible{outline:2px solid var(--link); outline-offset:4px; border-radius:4px}
+  .axis text{fill:var(--muted); font-size:11px; font-variant-numeric:tabular-nums}
+  .grid line{stroke:var(--rule); stroke-width:1}
+  .baseline{stroke:var(--axis); stroke-width:1}
+  .event line{stroke:var(--event); stroke-width:1}
+  .event text{fill:var(--ink-2); font-size:11px}
+  .hover-col{fill:var(--ink); opacity:.06}
+  .crosshair{stroke:var(--ink-2); stroke-width:1}
+  .series-line{fill:none; stroke-width:2; stroke-linejoin:round; stroke-linecap:round}
+  .marker{stroke:var(--paper); stroke-width:2}
+  .tip{position:absolute; pointer-events:none; background:var(--paper); color:var(--ink);
+    border:1px solid var(--ring); border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,.16);
+    padding:.55rem .7rem; font-size:.82rem; min-width:12rem; max-width:18rem; opacity:0; transition:opacity .1s; z-index:3}
+  .tip.on{opacity:1}
+  .tip .t{font-weight:650; margin-bottom:.1rem}
+  .tip .ev{color:var(--ink-2); font-size:.78rem; margin-bottom:.3rem}
+  .tip .r{display:flex; align-items:center; gap:.45rem; line-height:1.5}
+  .tip .r b{font-variant-numeric:tabular-nums; min-width:4.6rem; text-align:right}
+  .tip .r span{color:var(--ink-2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .tip .key{width:.8rem; height:2px; flex:none; border-radius:1px}
+  .tip .tot{border-top:1px solid var(--rule); margin-top:.3rem; padding-top:.3rem}
+  .note{font-size:.8rem; color:var(--ink-2); margin:.5rem 0 0}
+
+  .scroll{overflow-x:auto; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{text-align:right; padding:.45rem .6rem; border-bottom:1px solid var(--rule); white-space:nowrap}
+  th:first-child, td:first-child{text-align:left; white-space:normal}
+  th{font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); font-weight:600}
+  td{font-variant-numeric:tabular-nums}
+  tfoot td{font-weight:650}
+  th button{border:0; background:none; padding:0; min-height:0; font:inherit; color:inherit; text-transform:inherit; letter-spacing:inherit}
+  th[aria-sort] button::after{content:" ↓"}
+  th[aria-sort="ascending"] button::after{content:" ↑"}
+  .sharebar{display:inline-block; vertical-align:middle; height:.55rem; border-radius:0 2px 2px 0; background:var(--s1); margin-right:.4rem}
+  td.share, th.share{text-align:left; min-width:9rem}
+  .spark{display:block}
+  .spark path{fill:none; stroke:var(--s1); stroke-width:1.5}
+  .more{margin-top:.6rem}
+  details{margin-top:.75rem}
+  summary{cursor:pointer; color:var(--link); font-size:.9rem}
+  details .scroll{max-height:24rem; overflow:auto; margin-top:.5rem}
+  details table{font-size:.82rem}
+  details thead th{position:sticky; top:0; background:var(--paper)}
+  .small{font-size:.75rem; color:var(--ink-2)}
+
+  footer{margin-top:3.5rem; border-top:1px solid var(--rule); padding-top:1rem; font-size:.88rem; color:var(--ink-2)}
+  footer p{margin:.45rem 0; max-width:48rem}
+  footer ul{margin:.3rem 0; padding-left:1.2rem}
+  .dl{display:inline-block; margin:.5rem 1.25rem 0 0; font-size:.9rem}
+
+  @media (max-width:560px){
+    .wrap{padding-top:1rem}
+    select, select.yr{max-width:none; width:100%}
+    .filters{position:static; display:grid; grid-template-columns:1fr 1fr}
+    .filters .reset{justify-self:start}
+    .tiles{grid-template-columns:1fr 1fr; gap:.5rem}
+    .tile{padding:.6rem .7rem}
+    .tile .v{font-size:1.3rem}
+    .tile .k, .tile .d{font-size:.75rem}
+    .card{padding:.75rem .6rem .6rem}
+    .hide-sm{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="site" aria-label="Site">
+    <a class="brand" href="./">{{ cfg.title }}</a>
+    <a href="./" {% if self.path() == '' %}aria-current="page"{% endif %}>Legal immigration</a>
+    <a href="border.html" {% if self.path() == 'border.html' %}aria-current="page"{% endif %}>Border encounters</a>
+    <a href="map.html" {% if self.path() == 'map.html' %}aria-current="page"{% endif %}>Immigrant map</a>
+    <a href="groups.html" {% if self.path() == 'groups.html' %}aria-current="page"{% endif %}>Immigrant groups</a>
+  </nav>
+
+  <header class="page">
+    <p class="kicker">{% block kicker %}{% endblock %} · updated {{ meta.updated }}</p>
+    <h1>{{ page.headline }}</h1>
+    <p class="standfirst">{{ page.description }}</p>
+  </header>
+
+  {% block content %}{% endblock %}
+
+  <footer>
+    <p><strong>Last updated {{ meta.updated }}.</strong> {% block coverage %}{% endblock %}</p>
+    <p>Source: <a href="{{ page.source_url }}">{{ page.source_name }}</a>. {{ page.method_note }}</p>
+    {% block sources %}{% endblock %}
+    <p>Compiled by {{ cfg.author }}. Fiscal years run October to September.</p>
+    {% block downloads %}{% endblock %}
+  </footer>
+
+</div>
+
+<script id="data" type="application/json">{{ data|scriptjson|safe }}</script>
+<script>
+{% include "_lib.js" %}
+{% block script %}{% endblock %}
+</script>
+</body>
+</html>

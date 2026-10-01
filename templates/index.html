@@ -1,105 +1,485 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+{% extends "base.html" %}
+{% block title %}{{ cfg.title }} — Legal immigration{% endblock %}
+{% block path %}{% endblock %}
+{% block kicker %}U.S. legal immigration{% endblock %}
 
-<title>{{ cfg.title }}</title>
-<meta name="description" content="{{ cfg.description }}">
-<link rel="canonical" href="{{ cfg.site_url }}/">
-
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ cfg.site_url }}/">
-<meta property="og:title" content="{{ cfg.headline }}">
-<meta property="og:description" content="{{ cfg.description }}">
-<meta property="og:image" content="{{ cfg.site_url }}/preview.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-<style>
-  :root{
-    --accent: {{ cfg.accent }};
-    --paper:#fff; --ink:#111; --ink-2:#56544e; --rule:#e2e0d9; --bar:#e8e6df;
-    color-scheme: light dark;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{ --paper:#12121a; --ink:#f0eee8; --ink-2:#a8a49a; --rule:#2e2d35; --bar:#24242e; }
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0; background:var(--paper); color:var(--ink);
-    font: 17px/1.55 ui-serif, Georgia, "Times New Roman", serif;
-  }
-  .wrap{max-width:52rem; margin:0 auto; padding:3rem 1.25rem 5rem}
-  header{border-bottom:2px solid var(--ink); padding-bottom:1rem; margin-bottom:2rem}
-  h1{font-size:clamp(1.8rem,5vw,2.6rem); line-height:1.1; margin:0 0 .5rem}
-  .standfirst{margin:0; color:var(--ink-2); max-width:34rem}
-  h2{font-size:1.2rem; margin:2.5rem 0 .75rem}
-  a{color:var(--accent)}
-  @media (prefers-color-scheme: dark){ a{color:#9fc0f2} }
-
-  .chart{margin:1.5rem 0; display:grid; gap:.4rem}
-  .row{display:grid; grid-template-columns:minmax(6rem,10rem) 1fr auto; gap:.6rem; align-items:center}
-  .row .name{font-size:.9rem; color:var(--ink-2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
-  .track{background:var(--bar); height:1.4rem; position:relative}
-  .fill{background:var(--accent); height:100%}
-  .num{font-variant-numeric:tabular-nums; font-size:.9rem}
-
-  .scroll{overflow-x:auto; -webkit-overflow-scrolling:touch}
-  table{border-collapse:collapse; width:100%; font-size:.92rem; min-width:30rem}
-  th,td{text-align:left; padding:.5rem .7rem; border-bottom:1px solid var(--rule)}
-  th{font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-2)}
-  td:not(:first-child){font-variant-numeric:tabular-nums}
-
-  footer{margin-top:3.5rem; border-top:1px solid var(--rule); padding-top:1rem; font-size:.88rem; color:var(--ink-2)}
-  footer p{margin:.4rem 0; max-width:34rem}
-  .dl{display:inline-block; margin-top:.5rem; font-size:.9rem}
-</style>
-</head>
-<body>
-<div class="wrap">
-
-  <header>
-    <h1>{{ cfg.headline }}</h1>
-    <p class="standfirst">{{ cfg.description }}</p>
-  </header>
-
-  <h2>{{ value_col|title }} by {{ label_col }}</h2>
-  <div class="chart">
-    {% for r in rows[:25] %}
-    <div class="row">
-      <span class="name">{{ r[label_col] }}</span>
-      <span class="track"><span class="fill" style="width: {{ (r[value_col] / max_value * 100)|round(1) }}%"></span></span>
-      <span class="num">{{ '{:,}'.format(r[value_col]) }}</span>
+{% block content %}
+  <div class="tiles">
+    <div class="tile">
+      <div class="k">Green cards, fiscal {{ stats.fy }}</div>
+      <div class="v">{{ '{:,}'.format(stats.green) }}</div>
+      <div class="d">{% if stats.green_change is not none %}{{ '{:+.1f}'.format(stats.green_change) }}% vs. FY{{ stats.fy - 1 }}{% endif %}</div>
     </div>
+    <div class="tile">
+      <div class="k">Naturalizations, fiscal {{ stats.fy }}</div>
+      <div class="v">{{ '{:,}'.format(stats.natz) }}</div>
+      <div class="d">{% if stats.natz_change is not none %}{{ '{:+.1f}'.format(stats.natz_change) }}% vs. FY{{ stats.fy - 1 }}{% endif %}</div>
+    </div>
+    <div class="tile">
+      <div class="k">Refugee arrivals, fiscal {{ stats.fy }}</div>
+      <div class="v">{{ '{:,}'.format(stats.refugees) }}</div>
+      <div class="d">{% if stats.refugees_change is not none %}{{ '{:+.1f}'.format(stats.refugees_change) }}% vs. FY{{ stats.fy - 1 }}{% endif %}</div>
+    </div>
+    <div class="tile">
+      <div class="k">Family-based share of green cards</div>
+      <div class="v">{{ stats.family_share }}%</div>
+      <div class="d">employment-based: {{ stats.employment_share }}% · top country: {{ stats.top_country }} ({{ stats.top_country_share }}%)</div>
+    </div>
+  </div>
+
+  <h2>Two centuries of legal immigration</h2>
+  <p class="sub">People granted lawful permanent residence each fiscal year since 1820, alongside naturalizations
+    since 1907 and refugee arrivals since 1980. Click a legend entry to show or hide a series.</p>
+  <section class="card" aria-labelledby="hist-title">
+    <div class="chart-head">
+      <p class="chart-title" id="hist-title">Green cards, naturalizations and refugees per year</p>
+      <div class="seg" role="group" aria-label="Start year" id="hist-range"></div>
+    </div>
+    <ul class="legend" id="hist-legend"></ul>
+    <div class="plot">
+      <svg id="hist-chart" role="img" tabindex="0" aria-labelledby="hist-title hist-desc"></svg>
+      <div class="tip" id="hist-tip" role="status"></div>
+    </div>
+    <p class="note" id="hist-desc"></p>
+    <details><summary>Show these numbers as a table</summary>
+      <div class="scroll"><table id="hist-table"></table></div></details>
+  </section>
+
+  <h2>Who gets a green card, and from where</h2>
+  <p class="sub">Every green card from fiscal {{ info.countries_from }} to {{ info.latest_fiscal_year }} by category of admission,
+    class and country of birth. Refugees, asylees and the smaller classes are published only as totals, so they appear as one line.</p>
+
+  <div class="filters" id="filters" role="group" aria-label="Filter the green-card data">
+    <label>Category<select data-f="group"></select></label>
+    <label>Class<select data-f="class"></select></label>
+    <label>Country of birth<select data-f="country"></select></label>
+    <label>From<select id="from" class="yr"></select></label>
+    <label>To<select id="to" class="yr"></select></label>
+    <button type="button" class="reset" id="reset">Reset</button>
+  </div>
+
+  <section class="card" aria-labelledby="gc-title">
+    <div class="chart-head">
+      <p class="chart-title" id="gc-title">Green cards per fiscal year</p>
+      <div class="opts">
+        <label>Break down by
+          <select id="breakdown">
+            <option value="group">Category</option>
+            <option value="class">Class</option>
+            <option value="region">Region of birth</option>
+            <option value="country">Country of birth</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <ul class="legend" id="gc-legend"></ul>
+    <div class="plot">
+      <svg id="gc-chart" role="img" tabindex="0" aria-labelledby="gc-title gc-desc"></svg>
+      <div class="tip" id="gc-tip" role="status"></div>
+    </div>
+    <p class="note" id="gc-desc"></p>
+    <details><summary>Show these numbers as a table</summary>
+      <div class="scroll"><table id="gc-table"></table></div></details>
+  </section>
+
+  <h2 id="cmp-h">Compare two fiscal years</h2>
+  <p class="sub" id="cmp-sub">Which countries or categories drove the change? Uses the filters above; click a column to sort.</p>
+  <div class="controls">
+    <label>Group by
+      <select id="cmp-dim">
+        <option value="country">Country of birth</option>
+        <option value="region">Region of birth</option>
+        <option value="class">Class</option>
+        <option value="group">Category</option>
+      </select>
+    </label>
+    <label>Earlier year<select id="cmp-a" class="yr"></select></label>
+    <label>Later year<select id="cmp-b" class="yr"></select></label>
+  </div>
+  <div class="scroll"><table id="cmp-table"></table></div>
+  <button type="button" class="more" id="cmp-more">Show all</button>
+
+  <h2>Arriving from abroad, or already here</h2>
+  <p class="sub" id="adj-sub">A green card goes either to someone arriving on an immigrant visa or to someone already in the
+    country who adjusts status. Fiscal {{ info.classes_from }} to {{ info.latest_fiscal_year }}; uses the category and class filters above.</p>
+  <section class="card" aria-labelledby="adj-title">
+    <div class="chart-head"><p class="chart-title" id="adj-title">New arrivals and adjustments of status</p></div>
+    <ul class="legend" id="adj-legend"></ul>
+    <div class="plot">
+      <svg id="adj-chart" role="img" tabindex="0" aria-labelledby="adj-title adj-desc"></svg>
+      <div class="tip" id="adj-tip" role="status"></div>
+    </div>
+    <p class="note" id="adj-desc"></p>
+    <details><summary>Show these numbers as a table</summary>
+      <div class="scroll"><table id="adj-table"></table></div></details>
+  </section>
+
+  <h2>Temporary visas</h2>
+  <p class="sub">Nonimmigrant admissions recorded on Form I-94: workers, students, exchange visitors and others admitted for a
+    limited stay. These count entries, not people, so frequent travelers appear many times. Not affected by the filters above.</p>
+  <section class="card" aria-labelledby="ni-title">
+    <div class="chart-head">
+      <p class="chart-title" id="ni-title">Nonimmigrant admissions per fiscal year, by category</p>
+      <label class="check"><input type="checkbox" id="ni-visitors"> Include tourists and business visitors</label>
+    </div>
+    <ul class="legend" id="ni-legend"></ul>
+    <div class="plot">
+      <svg id="ni-chart" role="img" tabindex="0" aria-labelledby="ni-title ni-desc"></svg>
+      <div class="tip" id="ni-tip" role="status"></div>
+    </div>
+    <p class="note" id="ni-desc"></p>
+  </section>
+  <h3 class="chart-title" style="margin:1.5rem 0 .5rem" id="visa-h">Visa classes</h3>
+  <p class="sub" id="visa-sub"></p>
+  <div class="scroll"><table id="visa-table"></table></div>
+  <button type="button" class="more" id="visa-more">Show all</button>
+{% endblock %}
+
+{% block coverage %}Green cards {{ info.first_year }}–FY{{ info.latest_fiscal_year }}; by country and class from FY{{ info.countries_from }}.
+  In fiscal {{ stats.fy }}, {{ '{:,}'.format(stats.green) }} people became lawful permanent residents.{% endblock %}
+{% block sources %}
+  <p>Files used:</p>
+  <ul>
+    {% for s in page.sources %}{% set src = sources[s.key] %}
+    <li><a href="{{ src.url if src.url is defined else src }}">{{ s.name }}</a>{% if src.edition is defined %} (FY{{ src.edition }} edition){% endif %}</li>
     {% endfor %}
-  </div>
+  </ul>
+  <p>1976 covers 15 months (July 1975 to September 1976) because the federal fiscal year changed. Classes marked (F1)–(F4) and (EB-1)–(EB-5)
+    are the family and employment preference categories, which have annual caps; immediate relatives of citizens have none.</p>
+{% endblock %}
+{% block downloads %}
+  <a class="dl" href="data/legal_countries.csv" download>Green cards by country and class (CSV)</a>
+  <a class="dl" href="data/legal_classes.csv" download>By class, new arrivals vs. adjustments (CSV)</a>
+  <a class="dl" href="data/legal_annual.csv" download>Annual series since 1820 (CSV)</a>
+  <a class="dl" href="data/legal_nonimmigrants.csv" download>Nonimmigrant admissions (CSV)</a>
+{% endblock %}
 
-  <h2>The data</h2>
-  <div class="scroll">
-    <table>
-      <thead>
-        <tr>{% for c in columns %}<th>{{ c }}</th>{% endfor %}</tr>
-      </thead>
-      <tbody>
-        {% for r in rows %}
-        <tr>{% for c in columns %}<td>{{ r[c] }}</td>{% endfor %}</tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+{% block script %}
+{% raw %}
+(() => {
+const D = JSON.parse(document.getElementById("data").textContent);
+const EVENTS = D.events;
+const YEARS = D.years, FIRST = YEARS[0], LATEST = YEARS[YEARS.length - 1];
+const CDIMS = ["country", "group", "class"], RDIMS = ["region", "group", "class"];
+const GROUPS = ["Immediate relatives of citizens", "Family-sponsored preferences",
+                "Employment-based preferences", "Diversity lottery", "Refugees, asylees and other"];
+const RESIDUAL = "Refugees, asylees and other", NOT_BY_COUNTRY = "Not broken out by country";
+const FOLD_COUNTRY = new Set(["All other countries", "Unknown"]);
+const LABEL = { group: "Category", class: "Class", country: "Country of birth", region: "Region of birth" };
+const MAX_NAMED = 7;
+const fyLong = y => "Fiscal " + y;
 
-  <footer>
-    <p><strong>Last updated {{ meta.updated }}.</strong> {{ meta.rows }} records.</p>
-    <p>Source: <a href="{{ meta.source_url }}">{{ meta.source_name }}</a>. {{ cfg.method_note }}</p>
-    <p>Compiled by {{ cfg.author }}.</p>
-    <a class="dl" href="data.csv" download>Download the raw data (CSV)</a>
-  </footer>
+// ---- long-run series ------------------------------------------------------
+const HIST = [
+  { key: "Green cards (lawful permanent residents)", name: "Green cards", color: SLOT(0) },
+  { key: "Naturalizations", name: "Naturalizations", color: SLOT(1) },
+  { key: "Refugee arrivals", name: "Refugee arrivals", color: SLOT(2) },
+  { key: "Naturalization applications filed", name: "Naturalization applications", color: SLOT(3) },
+];
+const histMap = HIST.map(h => new Map((D.annual[h.key] || []).map(([y, v]) => [y, v])));
+const histYears = D.annual[HIST[0].key].map(r => r[0]);
+const HIST_MIN = Math.min(...histYears), HIST_MAX = Math.max(...histYears);
+const PRESETS = [HIST_MIN, 1900, 1965, 2000];
+const A = { from: HIST_MIN, on: new Set(["Green cards", "Naturalizations", "Refugee arrivals"]) };
 
-</div>
-</body>
-</html>
+function renderHist() {
+  const years = [];
+  for (let y = Math.max(A.from, HIST_MIN); y <= HIST_MAX; y++) years.push(y);
+  const S = HIST.filter(h => A.on.has(h.name));
+  const V = years.map(y => S.map(h => histMap[HIST.indexOf(h)].get(y) ?? null));
+  const P = years.map(y => ({ key: y, label: String(y), long: fyLong(y) }));
+  lineChart({
+    svg: document.getElementById("hist-chart"), tip: document.getElementById("hist-tip"),
+    periods: P, series: S, values: V,
+    events: EVENTS.map(e => ({ index: years.indexOf(e.year), label: e.label })),
+    xLabel: (i, p, W) => p.key % yearStep(years.length, W) === 0 ? p.label : null,
+  });
+  renderLegend(document.getElementById("hist-legend"), HIST, null, {
+    line: true, toggled: s => A.on.has(s.name), title: s => "Show or hide " + s.name,
+    onPick: s => { if (A.on.has(s.name)) { if (A.on.size > 1) A.on.delete(s.name); } else A.on.add(s.name); renderHist(); },
+  });
+  const seg = document.getElementById("hist-range");
+  seg.replaceChildren(...PRESETS.map(y => {
+    const b = el("button", { type: "button", "aria-pressed": String(A.from === y) }, "Since " + y);
+    b.addEventListener("click", () => { A.from = y; renderHist(); });
+    return b;
+  }));
+  const g = histMap[0];
+  const peak = years.reduce((a, y) => (g.get(y) || 0) > (g.get(a) || 0) ? y : a, years[0]);
+  document.getElementById("hist-desc").textContent =
+    `${years[0]} to ${HIST_MAX}. Most green cards in a year: ${fmt(g.get(peak))} in ${peak}. Hover or use arrow keys for exact figures.`;
+  const t = document.getElementById("hist-table"); t.replaceChildren();
+  const hr = el("tr"); hr.append(el("th", { scope: "col" }, "Year"));
+  S.forEach(s => hr.append(el("th", { scope: "col" }, s.name)));
+  const th = el("thead"); th.append(hr); const tb = el("tbody");
+  years.forEach((y, i) => { const tr = el("tr"); tr.append(el("td", {}, String(y)));
+    V[i].forEach(v => tr.append(el("td", {}, v == null ? "—" : fmt(v)))); tb.append(tr); });
+  t.append(th, tb);
+}
+
+// ---- green-card explorer ----------------------------------------------------
+const DEFAULT = { group: "", class: "", country: "", from: FIRST, to: LATEST, breakdown: "group",
+                  cmpDim: "country", a: Math.max(FIRST, LATEST - 5), b: LATEST };
+let S = { ...DEFAULT };
+let showAllCmp = false;
+
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1)), s = { ...DEFAULT };
+  for (const k of Object.keys(DEFAULT)) if (p.has(k)) s[k] = p.get(k);
+  for (const k of ["from", "to", "a", "b"]) { s[k] = +s[k]; if (!YEARS.includes(s[k])) s[k] = DEFAULT[k]; }
+  for (const d of ["group", "class", "country"]) if (s[d] && !D.countries.dims[d].includes(s[d])) s[d] = "";
+  if (!LABEL[s.breakdown]) s.breakdown = "group";
+  if (!LABEL[s.cmpDim]) s.cmpDim = "country";
+  if (s.from > s.to) [s.from, s.to] = [s.to, s.from];
+  return s;
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  for (const [k, v] of Object.entries(S)) if (String(v) !== String(DEFAULT[k])) p.set(k, v);
+  const h = p.toString();
+  history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
+}
+const filters = () => ({ group: S.group, class: S.class, country: S.country });
+
+// Series for a breakdown: ranked within the current filter, up to 7 named,
+// the rest folded, and the not-by-country line kept apart in gray.
+function seriesFor(dim, table, dims, ok) {
+  if (dim === "group") return GROUPS.map((g, i) => ({ name: g, color: SLOT(i), values: new Set([g]) }));
+  const di = dims.indexOf(dim) + 1, tot = new Map();
+  for (const r of table.rows) if (ok(r)) tot.set(r[di], (tot.get(r[di]) || 0) + r[r.length - 1]);
+  const ranked = [...tot].filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).map(([c]) => table.dims[dim][c]);
+  const special = ranked.filter(v => v === NOT_BY_COUNTRY);
+  const foldable = dim === "country" ? ranked.filter(v => FOLD_COUNTRY.has(v)) : [];
+  let named = ranked.filter(v => v !== NOT_BY_COUNTRY && !FOLD_COUNTRY.has(v));
+  const fold = named.length > MAX_NAMED || foldable.length;
+  if (fold) named = named.slice(0, MAX_NAMED);
+  const out = named.map((v, i) => ({ name: v, color: SLOT(i), values: new Set([v]) }));
+  if (fold) {
+    const rest = new Set(ranked.filter(v => !named.includes(v) && v !== NOT_BY_COUNTRY));
+    out.push({ name: dim === "country" ? "All other countries" : dim === "region" ? "Other regions" : "All other classes",
+               color: "var(--other)", values: rest, other: true });
+  }
+  if (special.length) out.push({ name: dim === "class" ? RESIDUAL : "Refugees, asylees and other (not by " + (dim === "region" ? "region" : "country") + ")",
+                                 color: "var(--na)", values: new Set(special), other: true });
+  return out;
+}
+
+function renderGreenCards() {
+  let dim = S.breakdown, table = D.countries, dims = CDIMS, note = "";
+  if (dim === "region") {
+    if (S.country) { dim = "group"; note = " Region breakdown is unavailable while a country is selected."; }
+    else { table = D.regions; dims = RDIMS; }
+  }
+  const ok = packedMatcher(table, dims, filters());
+  const series = seriesFor(dim, table, dims, ok);
+  const di = dims.indexOf(dim) + 1;
+  const lookup = new Map();
+  table.dims[dim].forEach((v, code) => lookup.set(code, series.findIndex(s => s.values.has(v))));
+  const years = YEARS.filter(y => y >= S.from && y <= S.to);
+  const yi = new Map(years.map((y, i) => [y, i]));
+  const V = years.map(() => series.map(() => 0));
+  for (const r of table.rows) {
+    const i = yi.get(YEARS[r[0]]);
+    if (i == null || !ok(r)) continue;
+    const s = lookup.get(r[di]);
+    if (s >= 0) V[i][s] += r[r.length - 1];
+  }
+  const live = series.map((s, k) => V.some(v => v[k] > 0));
+  const P = years.map(y => ({ key: y, label: "FY" + String(y).slice(2), long: fyLong(y) }));
+  stackedBars({
+    svg: document.getElementById("gc-chart"), tip: document.getElementById("gc-tip"),
+    periods: P, series, values: V, maxBar: 48, totalName: "green cards",
+    events: EVENTS.map(e => ({ index: years.indexOf(e.year), label: e.label })),
+    xLabel: (i, p, W) => years.length <= 12 || p.key % yearStep(years.length, W) === 0 ? p.label : null,
+  });
+  renderLegend(document.getElementById("gc-legend"), series, live, {
+    disabled: s => s.other || S[dim] === s.name || dim === "region",
+    title: s => "Show only " + s.name,
+    onPick: s => { S[dim] = s.name; syncControls(); render(); },
+  });
+  const totals = V.map(v => v.reduce((a, b) => a + b, 0));
+  document.getElementById("gc-title").textContent = "Green cards per fiscal year, by " + LABEL[dim].toLowerCase();
+  document.getElementById("gc-desc").textContent =
+    `${fyLong(years[0])} to ${years[years.length - 1]}: ${fmt(totals.reduce((a, b) => a + b, 0))} green cards in view. ` +
+    `Hover or use arrow keys for exact figures.` + note;
+  const t = document.getElementById("gc-table"); t.replaceChildren();
+  const hr = el("tr"); hr.append(el("th", { scope: "col" }, "Fiscal year"));
+  series.forEach((s, k) => { if (live[k]) hr.append(el("th", { scope: "col" }, s.name)); });
+  hr.append(el("th", { scope: "col" }, "Total"));
+  const th = el("thead"); th.append(hr); const tb = el("tbody");
+  years.forEach((y, i) => { const tr = el("tr"); tr.append(el("td", {}, fyLong(y)));
+    series.forEach((s, k) => { if (live[k]) tr.append(el("td", {}, fmt(V[i][k]))); });
+    tr.append(el("td", {}, fmt(totals[i]))); tb.append(tr); });
+  t.append(th, tb);
+}
+
+// ---- year comparison ----------------------------------------------------------
+const cmpSort = { col: 2, asc: false };
+function renderCompare() {
+  let dim = S.cmpDim, table = D.countries, dims = CDIMS, note = "";
+  if (dim === "region") {
+    if (S.country) { dim = "country"; note = " (region is unavailable while a country is selected)"; }
+    else { table = D.regions; dims = RDIMS; }
+  }
+  const ok = packedMatcher(table, dims, filters()), di = dims.indexOf(dim) + 1;
+  const ia = YEARS.indexOf(S.a), ib = YEARS.indexOf(S.b), tot = new Map();
+  for (const r of table.rows) {
+    if ((r[0] !== ia && r[0] !== ib) || !ok(r)) continue;
+    const name = table.dims[dim][r[di]];
+    const o = tot.get(name) || { name, a: 0, b: 0 };
+    if (r[0] === ia) o.a += r[r.length - 1]; else o.b += r[r.length - 1];
+    tot.set(name, o);
+  }
+  const rows = [...tot.values()].filter(r => r.a || r.b);
+  const sumA = rows.reduce((s, r) => s + r.a, 0), sumB = rows.reduce((s, r) => s + r.b, 0);
+  const maxShare = Math.max(...rows.map(r => r.b / (sumB || 1)), 0.0001);
+  const columns = [
+    { label: LABEL[dim], sort: r => r.name, foot: td => td.textContent = "Total",
+      cell: (r, td) => td.textContent = r.name === NOT_BY_COUNTRY ? "Refugees, asylees and other (no country data)" : r.name },
+    { label: "FY" + S.a, sort: r => r.a, cell: (r, td) => td.textContent = fmt(r.a), foot: td => td.textContent = fmt(sumA) },
+    { label: "FY" + S.b, sort: r => r.b, cell: (r, td) => td.textContent = fmt(r.b), foot: td => td.textContent = fmt(sumB) },
+    { label: "Change", cls: "hide-sm", sort: r => r.b - r.a, cell: (r, td) => td.textContent = signed(r.b - r.a), foot: td => td.textContent = signed(sumB - sumA) },
+    { label: "% change", sort: r => pct(r.b, r.a), cell: (r, td) => td.textContent = pctText(pct(r.b, r.a)), foot: td => td.textContent = pctText(pct(sumB, sumA)) },
+    { label: `Share of FY${S.b}`, cls: "share", sort: r => r.b, cell: (r, td) => {
+        const bar = el("span", { class: "sharebar" }); bar.style.width = (r.b / (sumB || 1) / maxShare * 5) + "rem";
+        td.append(bar, document.createTextNode(sumB ? (r.b / sumB * 100).toFixed(1) + "%" : "—")); }, foot: td => td.textContent = "100%" },
+  ];
+  const table_ = document.getElementById("cmp-table"), more = document.getElementById("cmp-more");
+  sortableTable(table_, columns, rows, cmpSort,
+    i => { cmpSort.asc = cmpSort.col === i ? !cmpSort.asc : false; cmpSort.col = i; renderCompare(); }, true);
+  const total = rows.length;
+  if (!showAllCmp) [...table_.tBodies[0].rows].slice(15).forEach(r => r.remove());
+  more.hidden = total <= 15;
+  more.textContent = showAllCmp ? "Show fewer" : `Show all ${total}`;
+  document.getElementById("cmp-h").textContent = `Compare fiscal ${S.a} with ${S.b}`;
+  document.getElementById("cmp-sub").textContent =
+    `Which ${LABEL[dim].toLowerCase().replace(" of birth", "")} groups drove the change? Uses the filters above; click a column to sort${note}.`;
+}
+
+// ---- new arrivals vs adjustments ------------------------------------------------
+const ADJ = [{ name: "New arrivals (immigrant visa)", color: SLOT(0) }, { name: "Adjustments of status", color: SLOT(1) }];
+function renderAdjust() {
+  const groups = S.group === RESIDUAL ? new Set(["Refugees and asylees", "Other classes"]) : S.group ? new Set([S.group]) : null;
+  const rows = D.classes.filter(r => (!groups || groups.has(r[1])) && (!S.class || r[2] === S.class)
+                                     && r[0] >= S.from && r[0] <= S.to);
+  const years = [...new Set(rows.map(r => r[0]))].sort();
+  const V = years.map(y => { const g = rows.filter(r => r[0] === y);
+    return [g.reduce((s, r) => s + r[3], 0), g.reduce((s, r) => s + r[4], 0)]; });
+  const P = years.map(y => ({ key: y, label: "FY" + String(y).slice(2), long: fyLong(y) }));
+  stackedBars({ svg: document.getElementById("adj-chart"), tip: document.getElementById("adj-tip"),
+    periods: P, series: ADJ, values: V, maxBar: 48, totalName: "green cards", height: 260,
+    xLabel: (i, p) => p.label });
+  renderLegend(document.getElementById("adj-legend"), ADJ);
+  const what = S.class || S.group || "all classes";
+  const last = V[V.length - 1] || [0, 0];
+  document.getElementById("adj-desc").textContent = years.length
+    ? `${what}: in fiscal ${years[years.length - 1]}, ${fmt(last[1])} of ${fmt(last[0] + last[1])} ` +
+      `(${(last[1] / ((last[0] + last[1]) || 1) * 100).toFixed(0)}%) adjusted status from inside the United States.` +
+      (S.country ? " The country filter does not apply here." : "")
+    : "No data in this range.";
+  const t = document.getElementById("adj-table"); t.replaceChildren();
+  const hr = el("tr"); ["Fiscal year", ...ADJ.map(a => a.name), "Total"].forEach(h => hr.append(el("th", { scope: "col" }, h)));
+  const th = el("thead"); th.append(hr); const tb = el("tbody");
+  years.forEach((y, i) => { const tr = el("tr"); tr.append(el("td", {}, fyLong(y)));
+    V[i].forEach(v => tr.append(el("td", {}, fmt(v)))); tr.append(el("td", {}, fmt(V[i][0] + V[i][1]))); tb.append(tr); });
+  t.append(th, tb);
+}
+
+// ---- nonimmigrant admissions -------------------------------------------------------
+const VISITORS = new Set(["Tourists", "Business visitors"]);
+const NI_YEARS = [...new Set(D.nonimmigrants.map(r => r[0]))].sort();
+const NI_LATEST = NI_YEARS[NI_YEARS.length - 1];
+const NI_BASE = NI_YEARS.includes(2019) ? 2019 : NI_YEARS[0];
+const visaSort = { col: 2, asc: false };
+let showAllVisas = false;
+function renderNonimm() {
+  const includeVisitors = document.getElementById("ni-visitors").checked;
+  const rows = D.nonimmigrants.filter(r => includeVisitors || !VISITORS.has(r[1]));
+  const byCat = new Map();
+  for (const r of rows) byCat.set(r[1], (byCat.get(r[1]) || 0) + r[4]);
+  const ranked = [...byCat].sort((a, b) => b[1] - a[1]).map(([c]) => c);
+  const named = ranked.slice(0, MAX_NAMED);
+  const series = named.map((c, i) => ({ name: c, color: SLOT(i), values: new Set([c]) }));
+  if (ranked.length > MAX_NAMED) series.push({ name: "Other categories", color: "var(--other)", values: new Set(ranked.slice(MAX_NAMED)), other: true });
+  const V = NI_YEARS.map(y => series.map(s => rows.filter(r => r[0] === y && s.values.has(r[1])).reduce((a, r) => a + r[4], 0)));
+  const P = NI_YEARS.map(y => ({ key: y, label: "FY" + String(y).slice(2), long: fyLong(y) }));
+  stackedBars({ svg: document.getElementById("ni-chart"), tip: document.getElementById("ni-tip"),
+    periods: P, series, values: V, maxBar: 48, totalName: "admissions", height: 300, xLabel: (i, p) => p.label });
+  renderLegend(document.getElementById("ni-legend"), series);
+  const tot = V[V.length - 1].reduce((a, b) => a + b, 0);
+  document.getElementById("ni-desc").textContent = `Fiscal ${NI_LATEST}: ${fmt(tot)} admissions` +
+    (includeVisitors ? "" : ", excluding tourists and business visitors, who account for most of the total") + ".";
+
+  const latest = new Map(), base = new Map(), cat = new Map();
+  for (const r of D.nonimmigrants) {
+    const key = r[2] + (r[3] ? ` (${r[3]})` : "");
+    cat.set(key, r[1]);
+    if (r[0] === NI_LATEST) latest.set(key, r[4]);
+    if (r[0] === NI_BASE) base.set(key, r[4]);
+  }
+  const vrows = [...new Set([...latest.keys(), ...base.keys()])].map(k => ({ name: k, cat: cat.get(k), a: base.get(k) || 0, b: latest.get(k) || 0 }))
+    .filter(r => r.a || r.b);
+  const columns = [
+    { label: "Visa class", sort: r => r.name, cell: (r, td) => { td.textContent = r.name; td.append(el("div", { class: "small" }, r.cat)); } },
+    { label: "FY" + NI_BASE, sort: r => r.a, cell: (r, td) => td.textContent = fmt(r.a) },
+    { label: "FY" + NI_LATEST, sort: r => r.b, cell: (r, td) => td.textContent = fmt(r.b) },
+    { label: "% change", sort: r => pct(r.b, r.a), cell: (r, td) => td.textContent = pctText(pct(r.b, r.a)) },
+  ];
+  const table = document.getElementById("visa-table"), more = document.getElementById("visa-more");
+  sortableTable(table, columns, vrows, visaSort,
+    i => { visaSort.asc = visaSort.col === i ? !visaSort.asc : false; visaSort.col = i; renderNonimm(); });
+  if (!showAllVisas) [...table.tBodies[0].rows].slice(12).forEach(r => r.remove());
+  more.hidden = vrows.length <= 12;
+  more.textContent = showAllVisas ? "Show fewer" : `Show all ${vrows.length}`;
+  document.getElementById("visa-sub").textContent = `Admissions by visa class, fiscal ${NI_BASE} and ${NI_LATEST}. Click a column to sort.`;
+}
+
+// ---- controls ----------------------------------------------------------------------
+function initControls() {
+  const classOrder = rankDim(D.countries, CDIMS, "class");
+  const countryOrder = D.countries.dims.country.filter(c => c !== NOT_BY_COUNTRY && !FOLD_COUNTRY.has(c)).sort()
+    .concat(D.countries.dims.country.filter(c => FOLD_COUNTRY.has(c)));
+  fillSelect(document.querySelector("[data-f=group]"), GROUPS.map(g => [g, g]), "All categories");
+  fillSelect(document.querySelector("[data-f=class]"), classOrder.map(c => [c, c]), "All classes");
+  fillSelect(document.querySelector("[data-f=country]"), countryOrder.map(c => [c, c]), "All countries");
+  for (const sel of document.querySelectorAll("[data-f]"))
+    sel.addEventListener("change", () => {
+      S[sel.dataset.f] = sel.value;
+      if (sel.dataset.f === "group" && S.class && !D.countries.rows.some(r =>
+          D.countries.dims.group[r[2]] === S.group && D.countries.dims.class[r[3]] === S.class)) S.class = "";
+      syncControls(); render();
+    });
+  const yrs = YEARS.map(y => [y, "FY" + y]);
+  for (const id of ["from", "to", "cmp-a", "cmp-b"]) fillSelect(document.getElementById(id), yrs);
+  const on = (id, key, num) => document.getElementById(id).addEventListener("change", e => {
+    S[key] = num ? +e.target.value : e.target.value;
+    if (key === "from" && S.from > S.to) S.to = S.from;
+    if (key === "to" && S.to < S.from) S.from = S.to;
+    syncControls(); render();
+  });
+  on("from", "from", true); on("to", "to", true); on("cmp-a", "a", true); on("cmp-b", "b", true);
+  on("cmp-dim", "cmpDim"); on("breakdown", "breakdown");
+  document.getElementById("reset").addEventListener("click", () => { S = { ...DEFAULT }; syncControls(); render(); });
+  document.getElementById("cmp-more").addEventListener("click", () => { showAllCmp = !showAllCmp; renderCompare(); });
+  document.getElementById("visa-more").addEventListener("click", () => { showAllVisas = !showAllVisas; renderNonimm(); });
+  document.getElementById("ni-visitors").addEventListener("change", renderNonimm);
+  onResize(document.getElementById("gc-chart").parentElement, () => { renderHist(); renderGreenCards(); renderAdjust(); renderNonimm(); });
+  window.addEventListener("hashchange", () => { S = readHash(); syncControls(); render(); });
+}
+function syncControls() {
+  for (const sel of document.querySelectorAll("[data-f]")) sel.value = S[sel.dataset.f];
+  document.getElementById("from").value = S.from; document.getElementById("to").value = S.to;
+  document.getElementById("cmp-a").value = S.a; document.getElementById("cmp-b").value = S.b;
+  document.getElementById("cmp-dim").value = S.cmpDim; document.getElementById("breakdown").value = S.breakdown;
+}
+function render() { writeHash(); renderGreenCards(); renderCompare(); renderAdjust(); }
+
+S = readHash();
+initControls();
+syncControls();
+renderHist();
+render();
+renderNonimm();
+})();
+{% endraw %}
+{% endblock %}

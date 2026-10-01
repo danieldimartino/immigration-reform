@@ -1,0 +1,665 @@
+fiscal_year,category,visa,code,admissions
+2015,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,4480
+2015,Business visitors,Temporary visitors for business,B1,4933960
+2015,Business visitors,Visa Waiver Program – temporary visitors for business,WB,3070230
+2015,Commuter students,Canadian or Mexican national academic commuter students,F3,100500
+2015,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,40410
+2015,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,1450
+2015,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,1090
+2015,Diplomats and officials,International organization officers or employees,G4,121890
+2015,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,52160
+2015,Diplomats and officials,Other foreign government officials or employees and their families,A2,183100
+2015,Diplomats and officials,Other representatives of recognized foreign governments,G2,21480
+2015,Diplomats and officials,Principals of recognized foreign governments,G1,15950
+2015,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,940
+2015,Exchange visitors,Exchange visitors,J1,502370
+2015,Exchange visitors,Spouses and children of J1,J2,73980
+2015,Exchange visitors,Workers in international cultural exchange programs,Q1,2990
+2015,Fiancé(e)s of citizens,Children of K1,K2,4320
+2015,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,30940
+2015,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,17050
+2015,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,672420
+2015,In transit,Foreign nationals in transit to the United Nations,C2,520
+2015,Other,"Children of U.S. citizens, visa pending",K4,100
+2015,Other,"Children of permanent residents, visa pending",V2,310
+2015,Other,"Dependents of V1 or V2, visa pending",V3,10
+2015,Other,Irish Peace Process Cultural and Training Program participants,Q2,10
+2015,Other,Parents of international organization special immigrants,N8,60
+2015,Other,Spouses and children of Q2,Q3,10
+2015,Other,"Spouses of U.S. citizens, visa pending",K3,640
+2015,Other,"Spouses of permanent residents, visa pending",V1,560
+2015,Students,Academic students,F1,1886950
+2015,Students,Spouses and children of F1,F2,83000
+2015,Students,Spouses and children of M1,M2,830
+2015,Students,Vocational students,M1,19880
+2015,Temporary workers and families,Agricultural workers,H2A,283580
+2015,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,11730
+2015,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,14290
+2015,Temporary workers and families,Australian Free Trade Agreement principals,E3,35400
+2015,Temporary workers and families,CNMI-only transitional workers,CW1,5100
+2015,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,90
+2015,Temporary workers and families,Internationally recognized athletes or entertainers,P1,99350
+2015,Temporary workers and families,Intracompany transferees,L1,648610
+2015,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,120220
+2015,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,787180
+2015,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,0
+2015,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,48240
+2015,Temporary workers and families,Spouses and Children of L1,L2,269000
+2015,Temporary workers and families,Spouses and children of CW1,CW2,880
+2015,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,205520
+2015,Temporary workers and families,Spouses and children of O1 and O2,O3,11730
+2015,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,3750
+2015,Temporary workers and families,Spouses and children of R1,R2,3530
+2015,Temporary workers and families,Spouses and children of TN,TD,82270
+2015,Temporary workers and families,Temporary workers in specialty occupations,H1B,537450
+2015,Temporary workers and families,Trainees,H3,3510
+2015,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,26590
+2015,Temporary workers and families,Workers in religious occupations,R1,14110
+2015,Temporary workers and families,Workers with extraordinary ability or achievement,O1,93090
+2015,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,1206800
+2015,Tourists,Temporary visitors for pleasure,B2,41672000
+2015,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,18138440
+2015,Treaty traders and investors,Treaty investors,E2,335820
+2015,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,0
+2015,Treaty traders and investors,Treaty traders,E1,78510
+2015,Unknown,Unknown,,56860
+2016,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,4110
+2016,Business visitors,Temporary visitors for business,B1,5156710
+2016,Business visitors,Visa Waiver Program – temporary visitors for business,WB,3129890
+2016,Commuter students,Canadian or Mexican national academic commuter students,F3,67530
+2016,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,41930
+2016,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,1310
+2016,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,1060
+2016,Diplomats and officials,International organization officers or employees,G4,125570
+2016,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,52990
+2016,Diplomats and officials,Other foreign government officials or employees and their families,A2,181760
+2016,Diplomats and officials,Other representatives of recognized foreign governments,G2,20220
+2016,Diplomats and officials,Principals of recognized foreign governments,G1,16580
+2016,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,1020
+2016,Exchange visitors,Exchange visitors,J1,513910
+2016,Exchange visitors,Spouses and children of J1,J2,71600
+2016,Exchange visitors,Workers in international cultural exchange programs,Q1,3090
+2016,Fiancé(e)s of citizens,Children of K1,K2,5720
+2016,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,38670
+2016,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,15610
+2016,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,619000
+2016,In transit,Foreign nationals in transit to the United Nations,C2,480
+2016,Other,"Children of U.S. citizens, visa pending",K4,90
+2016,Other,"Children of permanent residents, visa pending",V2,430
+2016,Other,"Dependents of V1 or V2, visa pending",V3,10
+2016,Other,Irish Peace Process Cultural and Training Program participants,Q2,0
+2016,Other,Parents of international organization special immigrants,N8,60
+2016,Other,Spouses and children of Q2,Q3,20
+2016,Other,"Spouses of U.S. citizens, visa pending",K3,440
+2016,Other,"Spouses of permanent residents, visa pending",V1,240
+2016,Students,Academic students,F1,1892640
+2016,Students,Spouses and children of F1,F2,79440
+2016,Students,Spouses and children of M1,M2,850
+2016,Students,Vocational students,M1,19010
+2016,Temporary workers and families,Agricultural workers,H2A,352460
+2016,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,13180
+2016,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,13350
+2016,Temporary workers and families,Australian Free Trade Agreement principals,E3,41570
+2016,Temporary workers and families,CNMI-only transitional workers,CW1,7830
+2016,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,280
+2016,Temporary workers and families,Internationally recognized athletes or entertainers,P1,99260
+2016,Temporary workers and families,Intracompany transferees,L1,680620
+2016,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,120850
+2016,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,817520
+2016,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,10
+2016,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,48410
+2016,Temporary workers and families,Spouses and Children of L1,L2,284610
+2016,Temporary workers and families,Spouses and children of CW1,CW2,1030
+2016,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,212780
+2016,Temporary workers and families,Spouses and children of O1 and O2,O3,13890
+2016,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,3800
+2016,Temporary workers and families,Spouses and children of R1,R2,3760
+2016,Temporary workers and families,Spouses and children of TN,TD,92040
+2016,Temporary workers and families,Temporary workers in specialty occupations,H1B,542620
+2016,Temporary workers and families,Trainees,H3,2800
+2016,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,28690
+2016,Temporary workers and families,Workers in religious occupations,R1,14280
+2016,Temporary workers and families,Workers with extraordinary ability or achievement,O1,102350
+2016,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,1284830
+2016,Tourists,Temporary visitors for pleasure,B2,41045830
+2016,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,18698450
+2016,Treaty traders and investors,Treaty investors,E2,356990
+2016,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,0
+2016,Treaty traders and investors,Treaty traders,E1,79720
+2016,Unknown,Unknown,,86310
+2017,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,1930
+2017,Business visitors,Temporary visitors for business,B1,5301450
+2017,Business visitors,Visa Waiver Program – temporary visitors for business,WB,3152660
+2017,Commuter students,Canadian or Mexican national academic commuter students,F3,35300
+2017,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,42460
+2017,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,1410
+2017,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,1010
+2017,Diplomats and officials,International organization officers or employees,G4,130060
+2017,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,55280
+2017,Diplomats and officials,Other foreign government officials or employees and their families,A2,180800
+2017,Diplomats and officials,Other representatives of recognized foreign governments,G2,21580
+2017,Diplomats and officials,Principals of recognized foreign governments,G1,16820
+2017,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,1050
+2017,Exchange visitors,Exchange visitors,J1,523860
+2017,Exchange visitors,Spouses and children of J1,J2,70320
+2017,Exchange visitors,Workers in international cultural exchange programs,Q1,3410
+2017,Fiancé(e)s of citizens,Children of K1,K2,5330
+2017,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,35550
+2017,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,14840
+2017,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,483080
+2017,In transit,Foreign nationals in transit to the United Nations,C2,360
+2017,Other,"Children of U.S. citizens, visa pending",K4,50
+2017,Other,"Children of permanent residents, visa pending",V2,350
+2017,Other,"Dependents of V1 or V2, visa pending",V3,10
+2017,Other,Irish Peace Process Cultural and Training Program participants,Q2,10
+2017,Other,Parents of international organization special immigrants,N8,40
+2017,Other,Spouses and children of Q2,Q3,10
+2017,Other,"Spouses of U.S. citizens, visa pending",K3,100
+2017,Other,"Spouses of permanent residents, visa pending",V1,200
+2017,Students,Academic students,F1,1845740
+2017,Students,Spouses and children of F1,F2,74460
+2017,Students,Spouses and children of M1,M2,840
+2017,Students,Vocational students,M1,19130
+2017,Temporary workers and families,Agricultural workers,H2A,412820
+2017,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,13440
+2017,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,14680
+2017,Temporary workers and families,Australian Free Trade Agreement principals,E3,45080
+2017,Temporary workers and families,CNMI-only transitional workers,CW1,8150
+2017,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,450
+2017,Temporary workers and families,Internationally recognized athletes or entertainers,P1,103100
+2017,Temporary workers and families,Intracompany transferees,L1,687100
+2017,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,124330
+2017,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,741900
+2017,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,100
+2017,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,48820
+2017,Temporary workers and families,Spouses and Children of L1,L2,289410
+2017,Temporary workers and families,Spouses and children of CW1,CW2,900
+2017,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,219720
+2017,Temporary workers and families,Spouses and children of O1 and O2,O3,15340
+2017,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,3920
+2017,Temporary workers and families,Spouses and children of R1,R2,4460
+2017,Temporary workers and families,Spouses and children of TN,TD,89850
+2017,Temporary workers and families,Temporary workers in specialty occupations,H1B,531280
+2017,Temporary workers and families,Trainees,H3,2640
+2017,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,30660
+2017,Temporary workers and families,Workers in religious occupations,R1,14360
+2017,Temporary workers and families,Workers with extraordinary ability or achievement,O1,111520
+2017,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,1321250
+2017,Tourists,Temporary visitors for pleasure,B2,41117760
+2017,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,19161210
+2017,Treaty traders and investors,Treaty investors,E2,374200
+2017,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,0
+2017,Treaty traders and investors,Treaty traders,E1,77660
+2017,Unknown,Unknown,,57710
+2018,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,2450
+2018,Business visitors,Temporary visitors for business,B1,5725100
+2018,Business visitors,Visa Waiver Program – temporary visitors for business,WB,3239670
+2018,Commuter students,Canadian or Mexican national academic commuter students,F3,18920
+2018,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,43720
+2018,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,1180
+2018,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,970
+2018,Diplomats and officials,International organization officers or employees,G4,132850
+2018,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,53770
+2018,Diplomats and officials,Other foreign government officials or employees and their families,A2,184670
+2018,Diplomats and officials,Other representatives of recognized foreign governments,G2,22040
+2018,Diplomats and officials,Principals of recognized foreign governments,G1,17330
+2018,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,1080
+2018,Exchange visitors,Exchange visitors,J1,537710
+2018,Exchange visitors,Spouses and children of J1,J2,73670
+2018,Exchange visitors,Workers in international cultural exchange programs,Q1,3440
+2018,Fiancé(e)s of citizens,Children of K1,K2,4010
+2018,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,25070
+2018,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,12280
+2018,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,441280
+2018,In transit,Foreign nationals in transit to the United Nations,C2,170
+2018,Other,"Children of U.S. citizens, visa pending",K4,20
+2018,Other,"Children of permanent residents, visa pending",V2,230
+2018,Other,"Dependents of V1 or V2, visa pending",V3,10
+2018,Other,Irish Peace Process Cultural and Training Program participants,Q2,10
+2018,Other,Parents of international organization special immigrants,N8,40
+2018,Other,Spouses and children of Q2,Q3,0
+2018,Other,"Spouses of U.S. citizens, visa pending",K3,50
+2018,Other,"Spouses of permanent residents, visa pending",V1,220
+2018,Students,Academic students,F1,1862830
+2018,Students,Spouses and children of F1,F2,75340
+2018,Students,Spouses and children of M1,M2,840
+2018,Students,Vocational students,M1,18840
+2018,Temporary workers and families,Agricultural workers,H2A,298230
+2018,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,14180
+2018,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,16480
+2018,Temporary workers and families,Australian Free Trade Agreement principals,E3,49330
+2018,Temporary workers and families,CNMI-only transitional workers,CW1,4740
+2018,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,580
+2018,Temporary workers and families,Internationally recognized athletes or entertainers,P1,105860
+2018,Temporary workers and families,Intracompany transferees,L1,703100
+2018,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,120360
+2018,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,731500
+2018,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,70
+2018,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,44140
+2018,Temporary workers and families,Spouses and Children of L1,L2,290190
+2018,Temporary workers and families,Spouses and children of CW1,CW2,730
+2018,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,230220
+2018,Temporary workers and families,Spouses and children of O1 and O2,O3,16070
+2018,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,3890
+2018,Temporary workers and families,Spouses and children of R1,R2,4210
+2018,Temporary workers and families,Spouses and children of TN,TD,86610
+2018,Temporary workers and families,Temporary workers in specialty occupations,H1B,570370
+2018,Temporary workers and families,Trainees,H3,2330
+2018,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,33780
+2018,Temporary workers and families,Workers in religious occupations,R1,14670
+2018,Temporary workers and families,Workers with extraordinary ability or achievement,O1,120630
+2018,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,1173310
+2018,Tourists,Temporary visitors for pleasure,B2,44054660
+2018,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,19591880
+2018,Treaty traders and investors,Treaty investors,E2,378370
+2018,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,0
+2018,Treaty traders and investors,Treaty traders,E1,75500
+2018,Unknown,Unknown,,43930
+2019,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,3100
+2019,Business visitors,Temporary visitors for business,B1,5853590
+2019,Business visitors,Visa Waiver Program – temporary visitors for business,WB,3203080
+2019,Commuter students,Canadian or Mexican national academic commuter students,F3,8790
+2019,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,42430
+2019,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,1060
+2019,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,790
+2019,Diplomats and officials,International organization officers or employees,G4,136300
+2019,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,55420
+2019,Diplomats and officials,Other foreign government officials or employees and their families,A2,178590
+2019,Diplomats and officials,Other representatives of recognized foreign governments,G2,21410
+2019,Diplomats and officials,Principals of recognized foreign governments,G1,17400
+2019,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,1100
+2019,Exchange visitors,Exchange visitors,J1,548720
+2019,Exchange visitors,Spouses and children of J1,J2,71760
+2019,Exchange visitors,Workers in international cultural exchange programs,Q1,3410
+2019,Fiancé(e)s of citizens,Children of K1,K2,4970
+2019,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,34580
+2019,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,12650
+2019,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,449520
+2019,In transit,Foreign nationals in transit to the United Nations,C2,740
+2019,Other,"Children of U.S. citizens, visa pending",K4,10
+2019,Other,"Children of permanent residents, visa pending",V2,70
+2019,Other,"Dependents of V1 or V2, visa pending",V3,10
+2019,Other,Irish Peace Process Cultural and Training Program participants,Q2,0
+2019,Other,Parents of international organization special immigrants,N8,60
+2019,Other,Spouses and children of Q2,Q3,10
+2019,Other,"Spouses of U.S. citizens, visa pending",K3,30
+2019,Other,"Spouses of permanent residents, visa pending",V1,40
+2019,Students,Academic students,F1,1817720
+2019,Students,Spouses and children of F1,F2,70290
+2019,Students,Spouses and children of M1,M2,780
+2019,Students,Vocational students,M1,18390
+2019,Temporary workers and families,Agricultural workers,H2A,442820
+2019,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,13890
+2019,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,17690
+2019,Temporary workers and families,Australian Free Trade Agreement principals,E3,52860
+2019,Temporary workers and families,CNMI-only transitional workers,CW1,4380
+2019,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,840
+2019,Temporary workers and families,Internationally recognized athletes or entertainers,P1,101880
+2019,Temporary workers and families,Intracompany transferees,L1,698790
+2019,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,129130
+2019,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,725930
+2019,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,20
+2019,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,43850
+2019,Temporary workers and families,Spouses and Children of L1,L2,289040
+2019,Temporary workers and families,Spouses and children of CW1,CW2,710
+2019,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,225470
+2019,Temporary workers and families,Spouses and children of O1 and O2,O3,17680
+2019,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,4070
+2019,Temporary workers and families,Spouses and children of R1,R2,4280
+2019,Temporary workers and families,Spouses and children of TN,TD,84880
+2019,Temporary workers and families,Temporary workers in specialty occupations,H1B,601590
+2019,Temporary workers and families,Trainees,H3,2140
+2019,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,35370
+2019,Temporary workers and families,Workers in religious occupations,R1,14820
+2019,Temporary workers and families,Workers with extraordinary ability or achievement,O1,127970
+2019,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,1151040
+2019,Tourists,Temporary visitors for pleasure,B2,43968630
+2019,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,19745020
+2019,Treaty traders and investors,Treaty investors,E2,387180
+2019,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,0
+2019,Treaty traders and investors,Treaty traders,E1,75630
+2019,Unknown,Unknown,,38740
+2020,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,1490
+2020,Business visitors,Temporary visitors for business,B1,2825830
+2020,Business visitors,Visa Waiver Program – temporary visitors for business,WB,1381840
+2020,Commuter students,Canadian or Mexican national academic commuter students,F3,2750
+2020,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,22750
+2020,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,400
+2020,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,300
+2020,Diplomats and officials,International organization officers or employees,G4,65220
+2020,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,29510
+2020,Diplomats and officials,Other foreign government officials or employees and their families,A2,83300
+2020,Diplomats and officials,Other representatives of recognized foreign governments,G2,7380
+2020,Diplomats and officials,Principals of recognized foreign governments,G1,9580
+2020,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,460
+2020,Exchange visitors,Exchange visitors,J1,195460
+2020,Exchange visitors,Spouses and children of J1,J2,31020
+2020,Exchange visitors,Workers in international cultural exchange programs,Q1,1560
+2020,Fiancé(e)s of citizens,Children of K1,K2,2750
+2020,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,19960
+2020,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,6140
+2020,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,245460
+2020,In transit,Foreign nationals in transit to the United Nations,C2,600
+2020,Other,"Children of U.S. citizens, visa pending",K4,10
+2020,Other,"Children of permanent residents, visa pending",V2,10
+2020,Other,"Dependents of V1 or V2, visa pending",V3,0
+2020,Other,Irish Peace Process Cultural and Training Program participants,Q2,0
+2020,Other,Parents of international organization special immigrants,N8,30
+2020,Other,Spouses and children of Q2,Q3,0
+2020,Other,"Spouses of U.S. citizens, visa pending",K3,10
+2020,Other,"Spouses of permanent residents, visa pending",V1,0
+2020,Students,Academic students,F1,876160
+2020,Students,Spouses and children of F1,F2,32460
+2020,Students,Spouses and children of M1,M2,370
+2020,Students,Vocational students,M1,9450
+2020,Temporary workers and families,Agricultural workers,H2A,510340
+2020,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,5740
+2020,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,7600
+2020,Temporary workers and families,Australian Free Trade Agreement principals,E3,27790
+2020,Temporary workers and families,CNMI-only transitional workers,CW1,980
+2020,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,630
+2020,Temporary workers and families,Internationally recognized athletes or entertainers,P1,54820
+2020,Temporary workers and families,Intracompany transferees,L1,336680
+2020,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,86740
+2020,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,485950
+2020,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,10
+2020,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,18830
+2020,Temporary workers and families,Spouses and Children of L1,L2,133970
+2020,Temporary workers and families,Spouses and children of CW1,CW2,150
+2020,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,118080
+2020,Temporary workers and families,Spouses and children of O1 and O2,O3,8700
+2020,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,2540
+2020,Temporary workers and families,Spouses and children of R1,R2,2040
+2020,Temporary workers and families,Spouses and children of TN,TD,50520
+2020,Temporary workers and families,Temporary workers in specialty occupations,H1B,368440
+2020,Temporary workers and families,Trainees,H3,820
+2020,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,15600
+2020,Temporary workers and families,Workers in religious occupations,R1,7020
+2020,Temporary workers and families,Workers with extraordinary ability or achievement,O1,63490
+2020,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,565120
+2020,Tourists,Temporary visitors for pleasure,B2,20175010
+2020,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,7991480
+2020,Treaty traders and investors,Treaty investors,E2,222010
+2020,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,0
+2020,Treaty traders and investors,Treaty traders,E1,41780
+2020,Unknown,Unknown,,21000
+2021,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,70
+2021,Business visitors,Temporary visitors for business,B1,1223570
+2021,Business visitors,Visa Waiver Program – temporary visitors for business,WB,122580
+2021,Commuter students,Canadian or Mexican national academic commuter students,F3,510
+2021,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,21640
+2021,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,600
+2021,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,140
+2021,Diplomats and officials,International organization officers or employees,G4,38400
+2021,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,22600
+2021,Diplomats and officials,Other foreign government officials or employees and their families,A2,65440
+2021,Diplomats and officials,Other representatives of recognized foreign governments,G2,2800
+2021,Diplomats and officials,Principals of recognized foreign governments,G1,9060
+2021,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,370
+2021,Exchange visitors,Exchange visitors,J1,151260
+2021,Exchange visitors,Spouses and children of J1,J2,23160
+2021,Exchange visitors,Workers in international cultural exchange programs,Q1,100
+2021,Fiancé(e)s of citizens,Children of K1,K2,2330
+2021,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,16640
+2021,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,3840
+2021,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,207310
+2021,In transit,Foreign nationals in transit to the United Nations,C2,130
+2021,Other,"Children of U.S. citizens, visa pending",K4,0
+2021,Other,"Children of permanent residents, visa pending",V2,0
+2021,Other,"Dependents of V1 or V2, visa pending",V3,0
+2021,Other,Irish Peace Process Cultural and Training Program participants,Q2,0
+2021,Other,Parents of international organization special immigrants,N8,30
+2021,Other,Spouses and children of Q2,Q3,0
+2021,Other,"Spouses of U.S. citizens, visa pending",K3,0
+2021,Other,"Spouses of permanent residents, visa pending",V1,0
+2021,Students,Academic students,F1,758460
+2021,Students,Spouses and children of F1,F2,32310
+2021,Students,Spouses and children of M1,M2,340
+2021,Students,Vocational students,M1,7870
+2021,Temporary workers and families,Agricultural workers,H2A,586990
+2021,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,1000
+2021,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,1810
+2021,Temporary workers and families,Australian Free Trade Agreement principals,E3,9150
+2021,Temporary workers and families,CNMI-only transitional workers,CW1,370
+2021,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,370
+2021,Temporary workers and families,Internationally recognized athletes or entertainers,P1,37210
+2021,Temporary workers and families,Intracompany transferees,L1,116120
+2021,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,123070
+2021,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,385870
+2021,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,0
+2021,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,12150
+2021,Temporary workers and families,Spouses and Children of L1,L2,66260
+2021,Temporary workers and families,Spouses and children of CW1,CW2,120
+2021,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,69550
+2021,Temporary workers and families,Spouses and children of O1 and O2,O3,5690
+2021,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,2280
+2021,Temporary workers and families,Spouses and children of R1,R2,1470
+2021,Temporary workers and families,Spouses and children of TN,TD,44540
+2021,Temporary workers and families,Temporary workers in specialty occupations,H1B,148600
+2021,Temporary workers and families,Trainees,H3,400
+2021,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,8510
+2021,Temporary workers and families,Workers in religious occupations,R1,4370
+2021,Temporary workers and families,Workers with extraordinary ability or achievement,O1,26400
+2021,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,2000
+2021,Tourists,Temporary visitors for pleasure,B2,8169830
+2021,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,883560
+2021,Treaty traders and investors,Treaty investors,E2,164180
+2021,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,10
+2021,Treaty traders and investors,Treaty traders,E1,27330
+2021,Unknown,Unknown,,12360
+2022,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,530
+2022,Business visitors,Temporary visitors for business,B1,3037740
+2022,Business visitors,Visa Waiver Program – temporary visitors for business,WB,1196520
+2022,Commuter students,Canadian or Mexican national academic commuter students,F3,1000
+2022,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,34180
+2022,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,810
+2022,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,390
+2022,Diplomats and officials,International organization officers or employees,G4,84590
+2022,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,49210
+2022,Diplomats and officials,Other foreign government officials or employees and their families,A2,134600
+2022,Diplomats and officials,Other representatives of recognized foreign governments,G2,12710
+2022,Diplomats and officials,Principals of recognized foreign governments,G1,13800
+2022,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,930
+2022,Exchange visitors,Exchange visitors,J1,384710
+2022,Exchange visitors,Spouses and children of J1,J2,47730
+2022,Exchange visitors,Workers in international cultural exchange programs,Q1,820
+2022,Fiancé(e)s of citizens,Children of K1,K2,3420
+2022,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,22260
+2022,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,6860
+2022,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,440440
+2022,In transit,Foreign nationals in transit to the United Nations,C2,190
+2022,Other,"Children of U.S. citizens, visa pending",K4,0
+2022,Other,"Children of permanent residents, visa pending",V2,0
+2022,Other,"Dependents of V1 or V2, visa pending",V3,0
+2022,Other,Irish Peace Process Cultural and Training Program participants,Q2,0
+2022,Other,Parents of international organization special immigrants,N8,50
+2022,Other,Spouses and children of Q2,Q3,0
+2022,Other,"Spouses of U.S. citizens, visa pending",K3,10
+2022,Other,"Spouses of permanent residents, visa pending",V1,0
+2022,Students,Academic students,F1,1199090
+2022,Students,Spouses and children of F1,F2,54730
+2022,Students,Spouses and children of M1,M2,570
+2022,Students,Vocational students,M1,9890
+2022,Temporary workers and families,Agricultural workers,H2A,684000
+2022,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,8720
+2022,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,7860
+2022,Temporary workers and families,Australian Free Trade Agreement principals,E3,26130
+2022,Temporary workers and families,CNMI-only transitional workers,CW1,990
+2022,Temporary workers and families,Children of Australian Free Trade Agreement principals,E3Y,120
+2022,Temporary workers and families,Children of L1,L2Y,51110
+2022,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,1310
+2022,Temporary workers and families,Internationally recognized athletes or entertainers,P1,89600
+2022,Temporary workers and families,Intracompany transferees,L1,305520
+2022,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,152720
+2022,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,550400
+2022,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,0
+2022,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,25270
+2022,Temporary workers and families,Spouses and Children of L1,L2,23030
+2022,Temporary workers and families,Spouses and children of CW1,CW2,250
+2022,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,176100
+2022,Temporary workers and families,Spouses and children of O1 and O2,O3,13450
+2022,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,4020
+2022,Temporary workers and families,Spouses and children of R1,R2,3040
+2022,Temporary workers and families,Spouses and children of TN,TD,89570
+2022,Temporary workers and families,Spouses of Australian Free Trade Agreement principals,E3S,870
+2022,Temporary workers and families,Spouses of L1,L2S,98700
+2022,Temporary workers and families,Temporary workers in specialty occupations,H1B,425130
+2022,Temporary workers and families,Trainees,H3,950
+2022,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,38650
+2022,Temporary workers and families,Workers in religious occupations,R1,8120
+2022,Temporary workers and families,Workers with extraordinary ability or achievement,O1,79770
+2022,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,130500
+2022,Tourists,Temporary visitors for pleasure,B2,24517000
+2022,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,10298440
+2022,Treaty traders and investors,Children of treaty investors,E2Y,1600
+2022,Treaty traders and investors,Children of treaty traders,E1Y,280
+2022,Treaty traders and investors,Spouses of treaty investors,E2S,8370
+2022,Treaty traders and investors,Spouses of treaty traders,E1S,1070
+2022,Treaty traders and investors,Treaty investors,E2,255120
+2022,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,70
+2022,Treaty traders and investors,Treaty traders,E1,44270
+2022,Unknown,Unknown,,37790
+2023,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,820
+2023,Business visitors,Temporary visitors for business,B1,4883380
+2023,Business visitors,Visa Waiver Program – temporary visitors for business,WB,1962650
+2023,Commuter students,Canadian or Mexican national academic commuter students,F3,730
+2023,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,41800
+2023,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,870
+2023,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,390
+2023,Diplomats and officials,International organization officers or employees,G4,121370
+2023,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,59050
+2023,Diplomats and officials,Other foreign government officials or employees and their families,A2,175880
+2023,Diplomats and officials,Other representatives of recognized foreign governments,G2,20900
+2023,Diplomats and officials,Principals of recognized foreign governments,G1,15930
+2023,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,1150
+2023,Exchange visitors,Exchange visitors,J1,481280
+2023,Exchange visitors,Spouses and children of J1,J2,62000
+2023,Exchange visitors,Workers in international cultural exchange programs,Q1,3320
+2023,Fiancé(e)s of citizens,Children of K1,K2,3050
+2023,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,18660
+2023,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,9130
+2023,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,696660
+2023,In transit,Foreign nationals in transit to the United Nations,C2,780
+2023,Other,"Children of U.S. citizens, visa pending",K4,0
+2023,Other,"Children of permanent residents, visa pending",V2,0
+2023,Other,"Dependents of V1 or V2, visa pending",V3,0
+2023,Other,Irish Peace Process Cultural and Training Program participants,Q2,0
+2023,Other,Parents of international organization special immigrants,N8,60
+2023,Other,Spouses and children of Q2,Q3,0
+2023,Other,"Spouses of U.S. citizens, visa pending",K3,10
+2023,Other,"Spouses of permanent residents, visa pending",V1,0
+2023,Students,Academic students,F1,1625740
+2023,Students,Spouses and children of F1,F2,61910
+2023,Students,Spouses and children of M1,M2,860
+2023,Students,Vocational students,M1,11770
+2023,Temporary workers and families,Agricultural workers,H2A,718530
+2023,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,15660
+2023,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,13730
+2023,Temporary workers and families,Australian Free Trade Agreement principals,E3,37170
+2023,Temporary workers and families,CNMI-only transitional workers,CW1,2060
+2023,Temporary workers and families,Children of Australian Free Trade Agreement principals,E3Y,3780
+2023,Temporary workers and families,Children of L1,L2Y,100000
+2023,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,2510
+2023,Temporary workers and families,Internationally recognized athletes or entertainers,P1,113820
+2023,Temporary workers and families,Intracompany transferees,L1,503490
+2023,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,175270
+2023,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,1204910
+2023,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,0
+2023,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,32470
+2023,Temporary workers and families,Spouses and Children of L1,L2,390
+2023,Temporary workers and families,Spouses and children of CW1,CW2,500
+2023,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,286120
+2023,Temporary workers and families,Spouses and children of O1 and O2,O3,17500
+2023,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,5490
+2023,Temporary workers and families,Spouses and children of R1,R2,5520
+2023,Temporary workers and families,Spouses and children of TN,TD,139580
+2023,Temporary workers and families,Spouses of Australian Free Trade Agreement principals,E3S,6350
+2023,Temporary workers and families,Spouses of L1,L2S,148290
+2023,Temporary workers and families,Temporary workers in specialty occupations,H1B,755020
+2023,Temporary workers and families,Trainees,H3,1350
+2023,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,57120
+2023,Temporary workers and families,Workers in religious occupations,R1,13780
+2023,Temporary workers and families,Workers with extraordinary ability or achievement,O1,108180
+2023,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,537440
+2023,Tourists,Temporary visitors for pleasure,B2,37058780
+2023,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,15360400
+2023,Treaty traders and investors,Children of treaty investors,E2Y,5280
+2023,Treaty traders and investors,Children of treaty traders,E1Y,890
+2023,Treaty traders and investors,Spouses of treaty investors,E2S,10240
+2023,Treaty traders and investors,Spouses of treaty traders,E1S,1520
+2023,Treaty traders and investors,Treaty investors,E2,412620
+2023,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,70
+2023,Treaty traders and investors,Treaty traders,E1,77810
+2023,Unknown,Unknown,,33520
+2024,Business visitors,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for business to Guam or Northern Mariana Islands,GMB,920
+2024,Business visitors,Temporary visitors for business,B1,5157710
+2024,Business visitors,Visa Waiver Program – temporary visitors for business,WB,2215270
+2024,Commuter students,Canadian or Mexican national academic commuter students,F3,460
+2024,Diplomats and officials,"Ambassadors, public ministers, career diplomatic or consular officers and their families",A1,43380
+2024,Diplomats and officials,"Attendants, servants, or personal employees of A1 and A2 and their families",A3,830
+2024,Diplomats and officials,"Attendants, servants, or personal employees of representatives",G5,430
+2024,Diplomats and officials,International organization officers or employees,G4,127390
+2024,Diplomats and officials,"North Atlantic Treaty Organization (NATO) officials, spouses, and children",N1 to N7,68440
+2024,Diplomats and officials,Other foreign government officials or employees and their families,A2,186020
+2024,Diplomats and officials,Other representatives of recognized foreign governments,G2,20770
+2024,Diplomats and officials,Principals of recognized foreign governments,G1,16710
+2024,Diplomats and officials,Representatives of nonrecognized or nonmember foreign governments,G3,1010
+2024,Exchange visitors,Exchange visitors,J1,514170
+2024,Exchange visitors,Spouses and children of J1,J2,68010
+2024,Exchange visitors,Workers in international cultural exchange programs,Q1,4210
+2024,Fiancé(e)s of citizens,Children of K1,K2,6850
+2024,Fiancé(e)s of citizens,Fiance(e)s of U.S. citizens,K1,44430
+2024,In transit,"Foreign government officials, their spouses, children, and attendants in transit",C3,9480
+2024,In transit,Foreign nationals in continuous and immediate transit through the United States,C1,755610
+2024,In transit,Foreign nationals in transit to the United Nations,C2,1250
+2024,Other,"Children of U.S. citizens, visa pending",K4,0
+2024,Other,"Children of permanent residents, visa pending",V2,0
+2024,Other,"Dependents of V1 or V2, visa pending",V3,0
+2024,Other,Irish Peace Process Cultural and Training Program participants,Q2,0
+2024,Other,Parents of international organization special immigrants,N8,50
+2024,Other,Spouses and children of Q2,Q3,0
+2024,Other,"Spouses of U.S. citizens, visa pending",K3,10
+2024,Other,"Spouses of permanent residents, visa pending",V1,0
+2024,Students,Academic students,F1,1816480
+2024,Students,Spouses and children of F1,F2,63510
+2024,Students,Spouses and children of M1,M2,420
+2024,Students,Vocational students,M1,12500
+2024,Temporary workers and families,Agricultural workers,H2A,724900
+2024,Temporary workers and families,Artists or entertainers in culturally unique programs,P3,20390
+2024,Temporary workers and families,Artists or entertainers in reciprocal exchange programs,P2,15710
+2024,Temporary workers and families,Australian Free Trade Agreement principals,E3,42610
+2024,Temporary workers and families,CNMI-only transitional workers,CW1,2880
+2024,Temporary workers and families,Children of Australian Free Trade Agreement principals,E3Y,3910
+2024,Temporary workers and families,Children of L1,L2Y,120350
+2024,Temporary workers and families,Chile and Singapore Free Trade Agreement temporary workers,H1B1,3540
+2024,Temporary workers and families,Internationally recognized athletes or entertainers,P1,121480
+2024,Temporary workers and families,Intracompany transferees,L1,598330
+2024,Temporary workers and families,"Nonagricultural workers (H2B), Returning H2B workers",H2R,186600
+2024,Temporary workers and families,North American Free Trade Agreement (NAFTA) professional workers,TN,1494150
+2024,Temporary workers and families,Registered nurses participating in the Nursing Relief for Disadvantaged Areas,H1C,0
+2024,Temporary workers and families,Representatives of foreign information media and spouses and children,I1,37330
+2024,Temporary workers and families,Spouses and Children of L1,L2,70
+2024,Temporary workers and families,Spouses and children of CW1,CW2,720
+2024,Temporary workers and families,"Spouses and children of H1, H2, or H3",H4,306860
+2024,Temporary workers and families,Spouses and children of O1 and O2,O3,19220
+2024,Temporary workers and families,"Spouses and children of P1, P2, or P3",P4,5670
+2024,Temporary workers and families,Spouses and children of R1,R2,6830
+2024,Temporary workers and families,Spouses and children of TN,TD,174980
+2024,Temporary workers and families,Spouses of Australian Free Trade Agreement principals,E3S,7080
+2024,Temporary workers and families,Spouses of L1,L2S,168840
+2024,Temporary workers and families,Temporary workers in specialty occupations,H1B,890310
+2024,Temporary workers and families,Trainees,H3,1800
+2024,Temporary workers and families,Workers accompanying and assisting in performance of O1 workers,O2,62690
+2024,Temporary workers and families,Workers in religious occupations,R1,16690
+2024,Temporary workers and families,Workers with extraordinary ability or achievement,O1,122160
+2024,Tourists,Guam - Commonwealth of Northern Mariana Islands (CNMI) Visa Waiver Program - temporary visitors for pleasure to Guam or Northern Mariana Islands,GMT,672950
+2024,Tourists,Temporary visitors for pleasure,B2,43066390
+2024,Tourists,Visa Waiver Program – temporary visitors for pleasure,WT,16878800
+2024,Treaty traders and investors,Children of treaty investors,E2Y,8070
+2024,Treaty traders and investors,Children of treaty traders,E1Y,1190
+2024,Treaty traders and investors,Spouses of treaty investors,E2S,12870
+2024,Treaty traders and investors,Spouses of treaty traders,E1S,2170
+2024,Treaty traders and investors,Treaty investors,E2,484020
+2024,Treaty traders and investors,Treaty investors and their spouses and children (CNMI only),E2C,100
+2024,Treaty traders and investors,Treaty traders,E1,94740
+2024,Unknown,Unknown,,132580

@@ -1,7 +1,1381 @@
 {
-  "rows": 10,
-  "updated": "September 29, 2026",
-  "updated_iso": "2026-09-29T10:46:31+00:00",
-  "source_name": "Name of the dataset",
-  "source_url": "https://example.org/the-dataset"
+  "updated": "September 30, 2026",
+  "updated_iso": "2026-09-30T14:23:28+00:00",
+  "previous_rows": {
+    "border": 20095,
+    "legal": 39840
+  },
+  "border": {
+    "rows": 20095,
+    "sector_rows": 8900,
+    "annual_rows": 124,
+    "first_month": "1999-10",
+    "detail_from_month": "2019-10",
+    "latest_month": "2026-08",
+    "first_fiscal_year": 1925,
+    "latest_fiscal_year": 2026,
+    "total_encounters": 24379673,
+    "overlap_check": {
+      "2023": {
+        "archive": 3201144,
+        "latest": 3201144
+      }
+    },
+    "excluded_types": [
+      "Title 42 expulsions"
+    ]
+  },
+  "legal": {
+    "annual_rows": 486,
+    "class_rows": 210,
+    "country_rows": 39840,
+    "nonimmigrant_rows": 664,
+    "first_year": 1820,
+    "latest_fiscal_year": 2024,
+    "countries_from": 2005,
+    "classes_from": 2015,
+    "green_cards_latest": 1364090,
+    "printed": {
+      "classes": {
+        "totals": {
+          "2015": 1051030,
+          "2016": 1183510,
+          "2017": 1127170,
+          "2018": 1096610,
+          "2019": 1031770,
+          "2020": 707360,
+          "2021": 740000,
+          "2022": 1018350,
+          "2023": 1172910,
+          "2024": 1364090
+        },
+        "groups": {
+          "TOTAL|Immediate relatives of citizens|2015": 465070,
+          "TOTAL|Immediate relatives of citizens|2016": 566710,
+          "TOTAL|Immediate relatives of citizens|2017": 516510,
+          "TOTAL|Immediate relatives of citizens|2018": 478960,
+          "TOTAL|Immediate relatives of citizens|2019": 505770,
+          "TOTAL|Immediate relatives of citizens|2020": 321150,
+          "TOTAL|Immediate relatives of citizens|2021": 385400,
+          "TOTAL|Immediate relatives of citizens|2022": 428270,
+          "TOTAL|Immediate relatives of citizens|2023": 551590,
+          "TOTAL|Immediate relatives of citizens|2024": 672240,
+          "TOTAL|Family-sponsored preferences|2015": 213910,
+          "TOTAL|Family-sponsored preferences|2016": 238090,
+          "TOTAL|Family-sponsored preferences|2017": 232240,
+          "TOTAL|Family-sponsored preferences|2018": 216560,
+          "TOTAL|Family-sponsored preferences|2019": 204140,
+          "TOTAL|Family-sponsored preferences|2020": 121560,
+          "TOTAL|Family-sponsored preferences|2021": 65690,
+          "TOTAL|Family-sponsored preferences|2022": 166040,
+          "TOTAL|Family-sponsored preferences|2023": 204240,
+          "TOTAL|Family-sponsored preferences|2024": 188190,
+          "TOTAL|Employment-based preferences|2015": 144050,
+          "TOTAL|Employment-based preferences|2016": 137890,
+          "TOTAL|Employment-based preferences|2017": 137860,
+          "TOTAL|Employment-based preferences|2018": 138170,
+          "TOTAL|Employment-based preferences|2019": 139460,
+          "TOTAL|Employment-based preferences|2020": 148960,
+          "TOTAL|Employment-based preferences|2021": 193340,
+          "TOTAL|Employment-based preferences|2022": 270280,
+          "TOTAL|Employment-based preferences|2023": 196760,
+          "TOTAL|Employment-based preferences|2024": 171120,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2015": 233380,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2016": 261410,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2017": 255950,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2018": 241240,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2019": 316170,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2020": 210070,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2021": 240830,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2022": 217690,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2023": 315830,
+          "ADJUSTMENTS OF STATUS|Immediate relatives of citizens|2024": 403010,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2015": 17080,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2016": 15430,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2017": 13820,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2018": 12740,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2019": 19480,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2020": 13960,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2021": 21500,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2022": 12430,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2023": 10940,
+          "ADJUSTMENTS OF STATUS|Family-sponsored preferences|2024": 10410,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2015": 122150,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2016": 114020,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2017": 113520,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2018": 110950,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2019": 111020,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2020": 133740,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2021": 177060,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2022": 221370,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2023": 146880,
+          "ADJUSTMENTS OF STATUS|Employment-based preferences|2024": 118410,
+          "NEW ARRIVALS|Immediate relatives of citizens|2015": 231690,
+          "NEW ARRIVALS|Immediate relatives of citizens|2016": 305300,
+          "NEW ARRIVALS|Immediate relatives of citizens|2017": 260550,
+          "NEW ARRIVALS|Immediate relatives of citizens|2018": 237720,
+          "NEW ARRIVALS|Immediate relatives of citizens|2019": 189590,
+          "NEW ARRIVALS|Immediate relatives of citizens|2020": 111070,
+          "NEW ARRIVALS|Immediate relatives of citizens|2021": 144570,
+          "NEW ARRIVALS|Immediate relatives of citizens|2022": 210580,
+          "NEW ARRIVALS|Immediate relatives of citizens|2023": 235760,
+          "NEW ARRIVALS|Immediate relatives of citizens|2024": 269230,
+          "NEW ARRIVALS|Family-sponsored preferences|2015": 196840,
+          "NEW ARRIVALS|Family-sponsored preferences|2016": 222650,
+          "NEW ARRIVALS|Family-sponsored preferences|2017": 218410,
+          "NEW ARRIVALS|Family-sponsored preferences|2018": 203830,
+          "NEW ARRIVALS|Family-sponsored preferences|2019": 184660,
+          "NEW ARRIVALS|Family-sponsored preferences|2020": 107600,
+          "NEW ARRIVALS|Family-sponsored preferences|2021": 44190,
+          "NEW ARRIVALS|Family-sponsored preferences|2022": 153620,
+          "NEW ARRIVALS|Family-sponsored preferences|2023": 193300,
+          "NEW ARRIVALS|Family-sponsored preferences|2024": 177770,
+          "NEW ARRIVALS|Employment-based preferences|2015": 21900,
+          "NEW ARRIVALS|Employment-based preferences|2016": 23870,
+          "NEW ARRIVALS|Employment-based preferences|2017": 24330,
+          "NEW ARRIVALS|Employment-based preferences|2018": 27220,
+          "NEW ARRIVALS|Employment-based preferences|2019": 28440,
+          "NEW ARRIVALS|Employment-based preferences|2020": 15220,
+          "NEW ARRIVALS|Employment-based preferences|2021": 16280,
+          "NEW ARRIVALS|Employment-based preferences|2022": 48910,
+          "NEW ARRIVALS|Employment-based preferences|2023": 49890,
+          "NEW ARRIVALS|Employment-based preferences|2024": 52710
+        }
+      },
+      "country_classes": {
+        "Spouses of citizens|2005": {
+          "region": 259140,
+          "country": 259140
+        },
+        "Spouses of citizens|2006": {
+          "region": 339840,
+          "country": 339840
+        },
+        "Spouses of citizens|2007": {
+          "region": 274360,
+          "country": 274360
+        },
+        "Spouses of citizens|2008": {
+          "region": 265670,
+          "country": 265670
+        },
+        "Spouses of citizens|2009": {
+          "region": 317130,
+          "country": 317130
+        },
+        "Spouses of citizens|2010": {
+          "region": 271910,
+          "country": 271910
+        },
+        "Spouses of citizens|2011": {
+          "region": 258320,
+          "country": 258320
+        },
+        "Spouses of citizens|2012": {
+          "region": 273430,
+          "country": 273430
+        },
+        "Spouses of citizens|2013": {
+          "region": 248330,
+          "country": 248330
+        },
+        "Spouses of citizens|2014": {
+          "region": 238850,
+          "country": 238850
+        },
+        "Spouses of citizens|2015": {
+          "region": 265370,
+          "country": 265370
+        },
+        "Spouses of citizens|2016": {
+          "region": 304360,
+          "country": 304360
+        },
+        "Spouses of citizens|2017": {
+          "region": 292910,
+          "country": 292910
+        },
+        "Spouses of citizens|2018": {
+          "region": 268150,
+          "country": 268150
+        },
+        "Spouses of citizens|2019": {
+          "region": 304330,
+          "country": 304330
+        },
+        "Spouses of citizens|2020": {
+          "region": 195720,
+          "country": 195720
+        },
+        "Spouses of citizens|2021": {
+          "region": 251830,
+          "country": 251830
+        },
+        "Spouses of citizens|2022": {
+          "region": 238630,
+          "country": 238630
+        },
+        "Spouses of citizens|2023": {
+          "region": 276080,
+          "country": 276080
+        },
+        "Spouses of citizens|2024": {
+          "region": 343000,
+          "country": 343000
+        },
+        "Children of citizens|2005": {
+          "region": 94860,
+          "country": 94860
+        },
+        "Children of citizens|2006": {
+          "region": 120060,
+          "country": 120060
+        },
+        "Children of citizens|2007": {
+          "region": 103830,
+          "country": 103830
+        },
+        "Children of citizens|2008": {
+          "region": 101340,
+          "country": 101340
+        },
+        "Children of citizens|2009": {
+          "region": 98270,
+          "country": 98270
+        },
+        "Children of citizens|2010": {
+          "region": 88300,
+          "country": 88300
+        },
+        "Children of citizens|2011": {
+          "region": 80310,
+          "country": 80310
+        },
+        "Children of citizens|2012": {
+          "region": 81120,
+          "country": 81120
+        },
+        "Children of citizens|2013": {
+          "region": 71380,
+          "country": 71380
+        },
+        "Children of citizens|2014": {
+          "region": 61220,
+          "country": 61220
+        },
+        "Children of citizens|2015": {
+          "region": 66740,
+          "country": 66740
+        },
+        "Children of citizens|2016": {
+          "region": 88490,
+          "country": 88490
+        },
+        "Children of citizens|2017": {
+          "region": 74990,
+          "country": 74990
+        },
+        "Children of citizens|2018": {
+          "region": 66790,
+          "country": 66790
+        },
+        "Children of citizens|2019": {
+          "region": 61300,
+          "country": 61300
+        },
+        "Children of citizens|2020": {
+          "region": 37380,
+          "country": 37380
+        },
+        "Children of citizens|2021": {
+          "region": 53060,
+          "country": 53060
+        },
+        "Children of citizens|2022": {
+          "region": 57130,
+          "country": 57130
+        },
+        "Children of citizens|2023": {
+          "region": 67150,
+          "country": 67150
+        },
+        "Children of citizens|2024": {
+          "region": 76680,
+          "country": 76680
+        },
+        "Parents of citizens|2005": {
+          "region": 82110,
+          "country": 82110
+        },
+        "Parents of citizens|2006": {
+          "region": 120440,
+          "country": 120440
+        },
+        "Parents of citizens|2007": {
+          "region": 116730,
+          "country": 116730
+        },
+        "Parents of citizens|2008": {
+          "region": 121470,
+          "country": 121470
+        },
+        "Parents of citizens|2009": {
+          "region": 120160,
+          "country": 120160
+        },
+        "Parents of citizens|2010": {
+          "region": 116210,
+          "country": 116210
+        },
+        "Parents of citizens|2011": {
+          "region": 114530,
+          "country": 114530
+        },
+        "Parents of citizens|2012": {
+          "region": 124230,
+          "country": 124230
+        },
+        "Parents of citizens|2013": {
+          "region": 119750,
+          "country": 119750
+        },
+        "Parents of citizens|2014": {
+          "region": 116390,
+          "country": 116390
+        },
+        "Parents of citizens|2015": {
+          "region": 132960,
+          "country": 132960
+        },
+        "Parents of citizens|2016": {
+          "region": 173850,
+          "country": 173850
+        },
+        "Parents of citizens|2017": {
+          "region": 148610,
+          "country": 148610
+        },
+        "Parents of citizens|2018": {
+          "region": 144020,
+          "country": 144020
+        },
+        "Parents of citizens|2019": {
+          "region": 140130,
+          "country": 140130
+        },
+        "Parents of citizens|2020": {
+          "region": 88050,
+          "country": 88050
+        },
+        "Parents of citizens|2021": {
+          "region": 80520,
+          "country": 80520
+        },
+        "Parents of citizens|2022": {
+          "region": 132510,
+          "country": 132510
+        },
+        "Parents of citizens|2023": {
+          "region": 208350,
+          "country": 208350
+        },
+        "Parents of citizens|2024": {
+          "region": 252570,
+          "country": 252570
+        },
+        "Unmarried adult children of citizens (F1)|2005": {
+          "region": 24730,
+          "country": 24730
+        },
+        "Unmarried adult children of citizens (F1)|2006": {
+          "region": 25430,
+          "country": 25430
+        },
+        "Unmarried adult children of citizens (F1)|2007": {
+          "region": 22860,
+          "country": 22860
+        },
+        "Unmarried adult children of citizens (F1)|2008": {
+          "region": 26170,
+          "country": 26170
+        },
+        "Unmarried adult children of citizens (F1)|2009": {
+          "region": 23970,
+          "country": 23970
+        },
+        "Unmarried adult children of citizens (F1)|2010": {
+          "region": 27000,
+          "country": 27000
+        },
+        "Unmarried adult children of citizens (F1)|2011": {
+          "region": 27300,
+          "country": 27300
+        },
+        "Unmarried adult children of citizens (F1)|2012": {
+          "region": 20660,
+          "country": 20660
+        },
+        "Unmarried adult children of citizens (F1)|2013": {
+          "region": 24360,
+          "country": 24360
+        },
+        "Unmarried adult children of citizens (F1)|2014": {
+          "region": 25690,
+          "country": 25690
+        },
+        "Unmarried adult children of citizens (F1)|2015": {
+          "region": 24530,
+          "country": 24530
+        },
+        "Unmarried adult children of citizens (F1)|2016": {
+          "region": 22070,
+          "country": 22070
+        },
+        "Unmarried adult children of citizens (F1)|2017": {
+          "region": 26220,
+          "country": 26220
+        },
+        "Unmarried adult children of citizens (F1)|2018": {
+          "region": 27250,
+          "country": 27250
+        },
+        "Unmarried adult children of citizens (F1)|2019": {
+          "region": 24500,
+          "country": 24500
+        },
+        "Unmarried adult children of citizens (F1)|2020": {
+          "region": 11380,
+          "country": 11380
+        },
+        "Unmarried adult children of citizens (F1)|2021": {
+          "region": 6840,
+          "country": 6840
+        },
+        "Unmarried adult children of citizens (F1)|2022": {
+          "region": 17760,
+          "country": 17760
+        },
+        "Unmarried adult children of citizens (F1)|2023": {
+          "region": 23690,
+          "country": 23690
+        },
+        "Unmarried adult children of citizens (F1)|2024": {
+          "region": 22140,
+          "country": 22140
+        },
+        "Spouses and children of green-card holders (F2)|2005": {
+          "region": 100140,
+          "country": 100140
+        },
+        "Spouses and children of green-card holders (F2)|2006": {
+          "region": 112050,
+          "country": 112050
+        },
+        "Spouses and children of green-card holders (F2)|2007": {
+          "region": 86150,
+          "country": 86150
+        },
+        "Spouses and children of green-card holders (F2)|2008": {
+          "region": 103460,
+          "country": 103460
+        },
+        "Spouses and children of green-card holders (F2)|2009": {
+          "region": 98570,
+          "country": 98570
+        },
+        "Spouses and children of green-card holders (F2)|2010": {
+          "region": 92090,
+          "country": 92090
+        },
+        "Spouses and children of green-card holders (F2)|2011": {
+          "region": 108620,
+          "country": 108620
+        },
+        "Spouses and children of green-card holders (F2)|2012": {
+          "region": 99710,
+          "country": 99710
+        },
+        "Spouses and children of green-card holders (F2)|2013": {
+          "region": 99120,
+          "country": 99120
+        },
+        "Spouses and children of green-card holders (F2)|2014": {
+          "region": 105640,
+          "country": 105640
+        },
+        "Spouses and children of green-card holders (F2)|2015": {
+          "region": 104890,
+          "country": 104890
+        },
+        "Spouses and children of green-card holders (F2)|2016": {
+          "region": 121270,
+          "country": 121270
+        },
+        "Spouses and children of green-card holders (F2)|2017": {
+          "region": 113500,
+          "country": 113500
+        },
+        "Spouses and children of green-card holders (F2)|2018": {
+          "region": 109840,
+          "country": 109840
+        },
+        "Spouses and children of green-card holders (F2)|2019": {
+          "region": 93400,
+          "country": 93400
+        },
+        "Spouses and children of green-card holders (F2)|2020": {
+          "region": 51700,
+          "country": 51700
+        },
+        "Spouses and children of green-card holders (F2)|2021": {
+          "region": 39130,
+          "country": 39130
+        },
+        "Spouses and children of green-card holders (F2)|2022": {
+          "region": 89860,
+          "country": 89860
+        },
+        "Spouses and children of green-card holders (F2)|2023": {
+          "region": 116560,
+          "country": 116560
+        },
+        "Spouses and children of green-card holders (F2)|2024": {
+          "region": 87430,
+          "country": 87430
+        },
+        "Married children of citizens (F3)|2005": {
+          "region": 22950,
+          "country": 22950
+        },
+        "Married children of citizens (F3)|2006": {
+          "region": 21490,
+          "country": 21490
+        },
+        "Married children of citizens (F3)|2007": {
+          "region": 20610,
+          "country": 20610
+        },
+        "Married children of citizens (F3)|2008": {
+          "region": 29270,
+          "country": 29270
+        },
+        "Married children of citizens (F3)|2009": {
+          "region": 25930,
+          "country": 25930
+        },
+        "Married children of citizens (F3)|2010": {
+          "region": 32820,
+          "country": 32820
+        },
+        "Married children of citizens (F3)|2011": {
+          "region": 27700,
+          "country": 27700
+        },
+        "Married children of citizens (F3)|2012": {
+          "region": 21750,
+          "country": 21750
+        },
+        "Married children of citizens (F3)|2013": {
+          "region": 21290,
+          "country": 21290
+        },
+        "Married children of citizens (F3)|2014": {
+          "region": 25830,
+          "country": 25830
+        },
+        "Married children of citizens (F3)|2015": {
+          "region": 24270,
+          "country": 24270
+        },
+        "Married children of citizens (F3)|2016": {
+          "region": 27390,
+          "country": 27390
+        },
+        "Married children of citizens (F3)|2017": {
+          "region": 23260,
+          "country": 23260
+        },
+        "Married children of citizens (F3)|2018": {
+          "region": 19530,
+          "country": 19530
+        },
+        "Married children of citizens (F3)|2019": {
+          "region": 25210,
+          "country": 25210
+        },
+        "Married children of citizens (F3)|2020": {
+          "region": 13930,
+          "country": 13930
+        },
+        "Married children of citizens (F3)|2021": {
+          "region": 6630,
+          "country": 6630
+        },
+        "Married children of citizens (F3)|2022": {
+          "region": 17450,
+          "country": 17450
+        },
+        "Married children of citizens (F3)|2023": {
+          "region": 19180,
+          "country": 19180
+        },
+        "Married children of citizens (F3)|2024": {
+          "region": 22000,
+          "country": 22000
+        },
+        "Siblings of citizens (F4)|2005": {
+          "region": 65150,
+          "country": 65150
+        },
+        "Siblings of citizens (F4)|2006": {
+          "region": 63260,
+          "country": 63260
+        },
+        "Siblings of citizens (F4)|2007": {
+          "region": 65280,
+          "country": 65280
+        },
+        "Siblings of citizens (F4)|2008": {
+          "region": 68860,
+          "country": 68860
+        },
+        "Siblings of citizens (F4)|2009": {
+          "region": 63400,
+          "country": 63400
+        },
+        "Siblings of citizens (F4)|2010": {
+          "region": 62690,
+          "country": 62690
+        },
+        "Siblings of citizens (F4)|2011": {
+          "region": 71310,
+          "country": 71310
+        },
+        "Siblings of citizens (F4)|2012": {
+          "region": 59900,
+          "country": 59900
+        },
+        "Siblings of citizens (F4)|2013": {
+          "region": 65540,
+          "country": 65540
+        },
+        "Siblings of citizens (F4)|2014": {
+          "region": 71950,
+          "country": 71950
+        },
+        "Siblings of citizens (F4)|2015": {
+          "region": 60210,
+          "country": 60210
+        },
+        "Siblings of citizens (F4)|2016": {
+          "region": 67360,
+          "country": 67360
+        },
+        "Siblings of citizens (F4)|2017": {
+          "region": 69260,
+          "country": 69260
+        },
+        "Siblings of citizens (F4)|2018": {
+          "region": 59940,
+          "country": 59940
+        },
+        "Siblings of citizens (F4)|2019": {
+          "region": 61030,
+          "country": 61030
+        },
+        "Siblings of citizens (F4)|2020": {
+          "region": 44550,
+          "country": 44550
+        },
+        "Siblings of citizens (F4)|2021": {
+          "region": 13100,
+          "country": 13100
+        },
+        "Siblings of citizens (F4)|2022": {
+          "region": 40970,
+          "country": 40970
+        },
+        "Siblings of citizens (F4)|2023": {
+          "region": 44820,
+          "country": 44820
+        },
+        "Siblings of citizens (F4)|2024": {
+          "region": 56620,
+          "country": 56620
+        },
+        "Priority workers (EB-1)|2005": {
+          "region": 64730,
+          "country": 64730
+        },
+        "Priority workers (EB-1)|2006": {
+          "region": 36960,
+          "country": 36960
+        },
+        "Priority workers (EB-1)|2007": {
+          "region": 26700,
+          "country": 26700
+        },
+        "Priority workers (EB-1)|2008": {
+          "region": 36680,
+          "country": 36680
+        },
+        "Priority workers (EB-1)|2009": {
+          "region": 40920,
+          "country": 40920
+        },
+        "Priority workers (EB-1)|2010": {
+          "region": 41060,
+          "country": 41060
+        },
+        "Priority workers (EB-1)|2011": {
+          "region": 25250,
+          "country": 25250
+        },
+        "Priority workers (EB-1)|2012": {
+          "region": 39320,
+          "country": 39320
+        },
+        "Priority workers (EB-1)|2013": {
+          "region": 38980,
+          "country": 38980
+        },
+        "Priority workers (EB-1)|2014": {
+          "region": 40550,
+          "country": 40550
+        },
+        "Priority workers (EB-1)|2015": {
+          "region": 41690,
+          "country": 41690
+        },
+        "Priority workers (EB-1)|2016": {
+          "region": 42860,
+          "country": 42860
+        },
+        "Priority workers (EB-1)|2017": {
+          "region": 41060,
+          "country": 41060
+        },
+        "Priority workers (EB-1)|2018": {
+          "region": 39510,
+          "country": 39510
+        },
+        "Priority workers (EB-1)|2019": {
+          "region": 39470,
+          "country": 39470
+        },
+        "Priority workers (EB-1)|2020": {
+          "region": 47390,
+          "country": 47390
+        },
+        "Priority workers (EB-1)|2021": {
+          "region": 61450,
+          "country": 61450
+        },
+        "Priority workers (EB-1)|2022": {
+          "region": 53430,
+          "country": 53430
+        },
+        "Priority workers (EB-1)|2023": {
+          "region": 57140,
+          "country": 57140
+        },
+        "Priority workers (EB-1)|2024": {
+          "region": 46990,
+          "country": 46990
+        },
+        "Advanced-degree professionals (EB-2)|2005": {
+          "region": 42600,
+          "country": 42600
+        },
+        "Advanced-degree professionals (EB-2)|2006": {
+          "region": 21910,
+          "country": 21910
+        },
+        "Advanced-degree professionals (EB-2)|2007": {
+          "region": 44160,
+          "country": 44160
+        },
+        "Advanced-degree professionals (EB-2)|2008": {
+          "region": 70050,
+          "country": 70050
+        },
+        "Advanced-degree professionals (EB-2)|2009": {
+          "region": 45550,
+          "country": 45550
+        },
+        "Advanced-degree professionals (EB-2)|2010": {
+          "region": 53950,
+          "country": 53950
+        },
+        "Advanced-degree professionals (EB-2)|2011": {
+          "region": 66830,
+          "country": 66830
+        },
+        "Advanced-degree professionals (EB-2)|2012": {
+          "region": 50960,
+          "country": 50960
+        },
+        "Advanced-degree professionals (EB-2)|2013": {
+          "region": 63030,
+          "country": 63030
+        },
+        "Advanced-degree professionals (EB-2)|2014": {
+          "region": 48800,
+          "country": 48800
+        },
+        "Advanced-degree professionals (EB-2)|2015": {
+          "region": 44340,
+          "country": 44340
+        },
+        "Advanced-degree professionals (EB-2)|2016": {
+          "region": 38860,
+          "country": 38860
+        },
+        "Advanced-degree professionals (EB-2)|2017": {
+          "region": 39330,
+          "country": 39330
+        },
+        "Advanced-degree professionals (EB-2)|2018": {
+          "region": 40100,
+          "country": 40100
+        },
+        "Advanced-degree professionals (EB-2)|2019": {
+          "region": 39510,
+          "country": 39510
+        },
+        "Advanced-degree professionals (EB-2)|2020": {
+          "region": 43670,
+          "country": 43670
+        },
+        "Advanced-degree professionals (EB-2)|2021": {
+          "region": 59830,
+          "country": 59830
+        },
+        "Advanced-degree professionals (EB-2)|2022": {
+          "region": 109080,
+          "country": 109080
+        },
+        "Advanced-degree professionals (EB-2)|2023": {
+          "region": 55790,
+          "country": 55790
+        },
+        "Advanced-degree professionals (EB-2)|2024": {
+          "region": 46580,
+          "country": 46580
+        },
+        "Skilled and other workers (EB-3)|2005": {
+          "region": 129070,
+          "country": 129070
+        },
+        "Skilled and other workers (EB-3)|2006": {
+          "region": 89920,
+          "country": 89920
+        },
+        "Skilled and other workers (EB-3)|2007": {
+          "region": 85030,
+          "country": 85030
+        },
+        "Skilled and other workers (EB-3)|2008": {
+          "region": 48900,
+          "country": 48900
+        },
+        "Skilled and other workers (EB-3)|2009": {
+          "region": 40400,
+          "country": 40400
+        },
+        "Skilled and other workers (EB-3)|2010": {
+          "region": 39760,
+          "country": 39760
+        },
+        "Skilled and other workers (EB-3)|2011": {
+          "region": 37220,
+          "country": 37220
+        },
+        "Skilled and other workers (EB-3)|2012": {
+          "region": 39230,
+          "country": 39230
+        },
+        "Skilled and other workers (EB-3)|2013": {
+          "region": 43630,
+          "country": 43630
+        },
+        "Skilled and other workers (EB-3)|2014": {
+          "region": 43160,
+          "country": 43160
+        },
+        "Skilled and other workers (EB-3)|2015": {
+          "region": 37240,
+          "country": 37240
+        },
+        "Skilled and other workers (EB-3)|2016": {
+          "region": 35930,
+          "country": 35930
+        },
+        "Skilled and other workers (EB-3)|2017": {
+          "region": 38080,
+          "country": 38080
+        },
+        "Skilled and other workers (EB-3)|2018": {
+          "region": 39230,
+          "country": 39230
+        },
+        "Skilled and other workers (EB-3)|2019": {
+          "region": 41790,
+          "country": 41790
+        },
+        "Skilled and other workers (EB-3)|2020": {
+          "region": 43220,
+          "country": 43220
+        },
+        "Skilled and other workers (EB-3)|2021": {
+          "region": 54100,
+          "country": 54100
+        },
+        "Skilled and other workers (EB-3)|2022": {
+          "region": 79360,
+          "country": 79360
+        },
+        "Skilled and other workers (EB-3)|2023": {
+          "region": 57310,
+          "country": 57310
+        },
+        "Skilled and other workers (EB-3)|2024": {
+          "region": 48550,
+          "country": 48550
+        },
+        "Special immigrants (EB-4)|2005": {
+          "region": 10120,
+          "country": 10120
+        },
+        "Special immigrants (EB-4)|2006": {
+          "region": 9530,
+          "country": 9530
+        },
+        "Special immigrants (EB-4)|2007": {
+          "region": 5040,
+          "country": 5040
+        },
+        "Special immigrants (EB-4)|2008": {
+          "region": 7750,
+          "country": 7750
+        },
+        "Special immigrants (EB-4)|2009": {
+          "region": 10340,
+          "country": 10340
+        },
+        "Special immigrants (EB-4)|2010": {
+          "region": 11100,
+          "country": 11100
+        },
+        "Special immigrants (EB-4)|2011": {
+          "region": 6700,
+          "country": 6700
+        },
+        "Special immigrants (EB-4)|2012": {
+          "region": 7870,
+          "country": 7870
+        },
+        "Special immigrants (EB-4)|2013": {
+          "region": 6930,
+          "country": 6930
+        },
+        "Special immigrants (EB-4)|2014": {
+          "region": 8360,
+          "country": 8360
+        },
+        "Special immigrants (EB-4)|2015": {
+          "region": 10580,
+          "country": 10580
+        },
+        "Special immigrants (EB-4)|2016": {
+          "region": 10380,
+          "country": 10380
+        },
+        "Special immigrants (EB-4)|2017": {
+          "region": 9500,
+          "country": 9500
+        },
+        "Special immigrants (EB-4)|2018": {
+          "region": 9710,
+          "country": 9710
+        },
+        "Special immigrants (EB-4)|2019": {
+          "region": 9610,
+          "country": 9610
+        },
+        "Special immigrants (EB-4)|2020": {
+          "region": 10700,
+          "country": 10700
+        },
+        "Special immigrants (EB-4)|2021": {
+          "region": 15320,
+          "country": 15320
+        },
+        "Special immigrants (EB-4)|2022": {
+          "region": 20530,
+          "country": 20530
+        },
+        "Special immigrants (EB-4)|2023": {
+          "region": 14600,
+          "country": 14600
+        },
+        "Special immigrants (EB-4)|2024": {
+          "region": 14460,
+          "country": 14460
+        },
+        "Investors (EB-5)|2005": {
+          "region": 350,
+          "country": 350
+        },
+        "Investors (EB-5)|2006": {
+          "region": 750,
+          "country": 750
+        },
+        "Investors (EB-5)|2007": {
+          "region": 810,
+          "country": 810
+        },
+        "Investors (EB-5)|2008": {
+          "region": 1360,
+          "country": 1360
+        },
+        "Investors (EB-5)|2009": {
+          "region": 3690,
+          "country": 3690
+        },
+        "Investors (EB-5)|2010": {
+          "region": 2480,
+          "country": 2480
+        },
+        "Investors (EB-5)|2011": {
+          "region": 3340,
+          "country": 3340
+        },
+        "Investors (EB-5)|2012": {
+          "region": 6630,
+          "country": 6630
+        },
+        "Investors (EB-5)|2013": {
+          "region": 8540,
+          "country": 8540
+        },
+        "Investors (EB-5)|2014": {
+          "region": 10720,
+          "country": 10720
+        },
+        "Investors (EB-5)|2015": {
+          "region": 10190,
+          "country": 10190
+        },
+        "Investors (EB-5)|2016": {
+          "region": 9860,
+          "country": 9860
+        },
+        "Investors (EB-5)|2017": {
+          "region": 9880,
+          "country": 9880
+        },
+        "Investors (EB-5)|2018": {
+          "region": 9620,
+          "country": 9620
+        },
+        "Investors (EB-5)|2019": {
+          "region": 9090,
+          "country": 9090
+        },
+        "Investors (EB-5)|2020": {
+          "region": 3980,
+          "country": 3980
+        },
+        "Investors (EB-5)|2021": {
+          "region": 2640,
+          "country": 2640
+        },
+        "Investors (EB-5)|2022": {
+          "region": 7880,
+          "country": 7880
+        },
+        "Investors (EB-5)|2023": {
+          "region": 11930,
+          "country": 11930
+        },
+        "Investors (EB-5)|2024": {
+          "region": 14540,
+          "country": 14090
+        },
+        "Diversity lottery|2005": {
+          "region": 46230,
+          "country": 46230
+        },
+        "Diversity lottery|2006": {
+          "region": 44470,
+          "country": 44470
+        },
+        "Diversity lottery|2007": {
+          "region": 42130,
+          "country": 42130
+        },
+        "Diversity lottery|2008": {
+          "region": 41760,
+          "country": 41760
+        },
+        "Diversity lottery|2009": {
+          "region": 47880,
+          "country": 47880
+        },
+        "Diversity lottery|2010": {
+          "region": 49760,
+          "country": 49760
+        },
+        "Diversity lottery|2011": {
+          "region": 50100,
+          "country": 50100
+        },
+        "Diversity lottery|2012": {
+          "region": 40320,
+          "country": 40320
+        },
+        "Diversity lottery|2013": {
+          "region": 45620,
+          "country": 45620
+        },
+        "Diversity lottery|2014": {
+          "region": 53490,
+          "country": 53490
+        },
+        "Diversity lottery|2015": {
+          "region": 47930,
+          "country": 47930
+        },
+        "Diversity lottery|2016": {
+          "region": 49870,
+          "country": 49870
+        },
+        "Diversity lottery|2017": {
+          "region": 51590,
+          "country": 51590
+        },
+        "Diversity lottery|2018": {
+          "region": 45350,
+          "country": 45350
+        },
+        "Diversity lottery|2019": {
+          "region": 43460,
+          "country": 43460
+        },
+        "Diversity lottery|2020": {
+          "region": 25030,
+          "country": 25030
+        },
+        "Diversity lottery|2021": {
+          "region": 15150,
+          "country": 15150
+        },
+        "Diversity lottery|2022": {
+          "region": 43230,
+          "country": 43230
+        },
+        "Diversity lottery|2023": {
+          "region": 67350,
+          "country": 67350
+        },
+        "Diversity lottery|2024": {
+          "region": 49890,
+          "country": 49890
+        }
+      },
+      "nonimmigrants": {
+        "Total I-94 admissions|2015": 76638240,
+        "Total I-94 admissions|2016": 77112070,
+        "Total I-94 admissions|2017": 77643270,
+        "Total I-94 admissions|2018": 81279690,
+        "Total I-94 admissions|2019": 81563140,
+        "Total I-94 admissions|2020": 37176110,
+        "Total I-94 admissions|2021": 13623120,
+        "Total I-94 admissions|2022": 44897660,
+        "Total I-94 admissions|2023": 68227240,
+        "Total I-94 admissions|2024": 77646290,
+        "Temporary workers and families|2015": 3305220,
+        "Temporary workers and families|2016": 3497970,
+        "Temporary workers and families|2017": 3514010,
+        "Temporary workers and families|2018": 3462250,
+        "Temporary workers and families|2019": 3640100,
+        "Temporary workers and families|2020": 2307460,
+        "Temporary workers and families|2021": 1652320,
+        "Temporary workers and families|2022": 2865370,
+        "Temporary workers and families|2023": 4468540,
+        "Temporary workers and families|2024": 5156080,
+        "Treaty traders and investors|2015": 414330,
+        "Treaty traders and investors|2016": 436710,
+        "Treaty traders and investors|2017": 451860,
+        "Treaty traders and investors|2018": 453870,
+        "Treaty traders and investors|2019": 462810,
+        "Treaty traders and investors|2020": 263800,
+        "Treaty traders and investors|2021": 191520,
+        "Treaty traders and investors|2022": 310770,
+        "Treaty traders and investors|2023": 508420,
+        "Treaty traders and investors|2024": 603160,
+        "Students|2015": 1990660,
+        "Students|2016": 1991940,
+        "Students|2017": 1940170,
+        "Students|2018": 1957850,
+        "Students|2019": 1907180,
+        "Students|2020": 918440,
+        "Students|2021": 798980,
+        "Students|2022": 1264290,
+        "Students|2023": 1700280,
+        "Students|2024": 1892910,
+        "Exchange visitors|2015": 579340,
+        "Exchange visitors|2016": 588590,
+        "Exchange visitors|2017": 597590,
+        "Exchange visitors|2018": 614820,
+        "Exchange visitors|2019": 623890,
+        "Exchange visitors|2020": 228030,
+        "Exchange visitors|2021": 174510,
+        "Exchange visitors|2022": 433250,
+        "Exchange visitors|2023": 546600,
+        "Exchange visitors|2024": 586390,
+        "Diplomats and officials|2015": 438480,
+        "Diplomats and officials|2016": 442420,
+        "Diplomats and officials|2017": 450460,
+        "Diplomats and officials|2018": 457600,
+        "Diplomats and officials|2019": 454490,
+        "Diplomats and officials|2020": 218900,
+        "Diplomats and officials|2021": 161040,
+        "Diplomats and officials|2022": 331230,
+        "Diplomats and officials|2023": 437330,
+        "Diplomats and officials|2024": 464970,
+        "Tourists|2015": 61017240,
+        "Tourists|2016": 61029120,
+        "Tourists|2017": 61600220,
+        "Tourists|2018": 64819850,
+        "Tourists|2019": 64864690,
+        "Tourists|2020": 28731610,
+        "Tourists|2021": 9055380,
+        "Tourists|2022": 34945930,
+        "Tourists|2023": 52956620,
+        "Tourists|2024": 60618140,
+        "Business visitors|2015": 8008660,
+        "Business visitors|2016": 8290710,
+        "Business visitors|2017": 8456040,
+        "Business visitors|2018": 8967220,
+        "Business visitors|2019": 9059770,
+        "Business visitors|2020": 4209150,
+        "Business visitors|2021": 1346210,
+        "Business visitors|2022": 4234790,
+        "Business visitors|2023": 6846860,
+        "Business visitors|2024": 7373900,
+        "In transit|2015": 689990,
+        "In transit|2016": 635090,
+        "In transit|2017": 498270,
+        "In transit|2018": 453720,
+        "In transit|2019": 462910,
+        "In transit|2020": 252200,
+        "In transit|2021": 211280,
+        "In transit|2022": 447490,
+        "In transit|2023": 706560,
+        "In transit|2024": 766340,
+        "Commuter students|2015": 100500,
+        "Commuter students|2016": 67530,
+        "Commuter students|2017": 35300,
+        "Commuter students|2018": 18920,
+        "Commuter students|2019": 8790,
+        "Commuter students|2020": 2750,
+        "Commuter students|2021": 510,
+        "Commuter students|2022": 1000,
+        "Commuter students|2023": 730,
+        "Commuter students|2024": 460,
+        "Fianc\u00e9(e)s of citizens|2015": 35270,
+        "Fianc\u00e9(e)s of citizens|2016": 44390,
+        "Fianc\u00e9(e)s of citizens|2017": 40880,
+        "Fianc\u00e9(e)s of citizens|2018": 29080,
+        "Fianc\u00e9(e)s of citizens|2019": 39550,
+        "Fianc\u00e9(e)s of citizens|2020": 22710,
+        "Fianc\u00e9(e)s of citizens|2021": 18970,
+        "Fianc\u00e9(e)s of citizens|2022": 25680,
+        "Fianc\u00e9(e)s of citizens|2023": 21710,
+        "Fianc\u00e9(e)s of citizens|2024": 51280,
+        "Other|2015": 1700,
+        "Other|2016": 1300,
+        "Other|2017": 770,
+        "Other|2018": 580,
+        "Other|2019": 220,
+        "Other|2020": 50,
+        "Other|2021": 30,
+        "Other|2022": 70,
+        "Other|2023": 70,
+        "Other|2024": 70,
+        "Unknown|2015": 56860,
+        "Unknown|2016": 86310,
+        "Unknown|2017": 57710,
+        "Unknown|2018": 43930,
+        "Unknown|2019": 38740,
+        "Unknown|2020": 21000,
+        "Unknown|2021": 12360,
+        "Unknown|2022": 37790,
+        "Unknown|2023": 33520,
+        "Unknown|2024": 132580
+      }
+    }
+  },
+  "acs": {
+    "vintage": 2024,
+    "counts": {
+      "state": 51,
+      "metro": 925,
+      "puma": 2462
+    },
+    "us": {
+      "population": 334922499.0,
+      "pct_foreign_born": 14.14,
+      "foreign_born": 47349078.0,
+      "pct_naturalized": 52.11,
+      "pct_recent": 32.06,
+      "pct_latin_america": 50.71,
+      "pct_asia": 30.79,
+      "pct_europe": 10.25,
+      "pct_africa": 5.83,
+      "pct_limited_english": 46.42,
+      "pct_bachelors": 34.71,
+      "pct_poverty": 13.88,
+      "median_income": 38883.0
+    }
+  },
+  "sources": {
+    "cbp_latest": "https://www.cbp.gov/sites/default/files/2026-09/nationwide-encounters-fy23-fy26-aug-aor_0.csv",
+    "cbp_archive": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Nov/nationwide-encounters-fy20-fy23-aor.csv",
+    "ohss_lpr_by_country": "https://ohss.dhs.gov/system/files/2026-07/2026_0604_ohss_lpr_by_country_by_major_class_and_deriv_emp-based_fy2005-2024.xlsx",
+    "yearbook_lawful_permanent_residents": {
+      "url": "https://ohss.dhs.gov/system/files/2026-06/2026_0604_ohss_yearbook_lawful_permanent_residents_fy2024.xlsx",
+      "edition": 2024
+    },
+    "yearbook_refugees": {
+      "url": "https://ohss.dhs.gov/system/files/2025-08/2025_0812_ohss_yearbook_refugees_fy2024.xlsx",
+      "edition": 2024
+    },
+    "yearbook_naturalizations": {
+      "url": "https://ohss.dhs.gov/system/files/2026-06/2026_0604_ohss_yearbook_naturalizations_fy2024.xlsx",
+      "edition": 2024
+    },
+    "yearbook_nonimmigrants": {
+      "url": "https://ohss.dhs.gov/system/files/2026-06/20260604_ohss_yearbook_nonimmigrants_fy2024.xlsx",
+      "edition": 2024
+    },
+    "yearbook_enforcement": {
+      "url": "https://ohss.dhs.gov/system/files/2026-08/2026_0806_ohss_yearbook_enforcement_fy2023.xlsx",
+      "edition": 2023
+    },
+    "acs": {
+      "vintage": 2024,
+      "files": {
+        "B05002": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05002.dat",
+        "B05005": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05005.dat",
+        "B16005": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b16005.dat",
+        "B06009": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b06009.dat",
+        "B06012": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b06012.dat",
+        "B06011": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b06011.dat",
+        "shells": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/ACS20245YR_Table_Shells.txt"
+      }
+    }
+  }
 }

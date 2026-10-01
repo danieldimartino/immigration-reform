@@ -1,0 +1,469 @@
+{% extends "base.html" %}
+{% block title %}{{ cfg.title }} — Border encounters{% endblock %}
+{% block path %}border.html{% endblock %}
+{% block kicker %}U.S. border enforcement{% endblock %}
+
+{% block content %}
+  <div class="tiles" id="tiles" aria-live="polite">
+    <div class="tile"><div class="k" id="t1k">{{ stats.latest_month }}</div><div class="v" id="t1v">{{ '{:,}'.format(stats.latest) }}</div>
+      <div class="d" id="t1d">{% if stats.latest_change is not none %}{{ '{:+.1f}'.format(stats.latest_change) }}% vs. a year earlier{% endif %}</div></div>
+    <div class="tile"><div class="k" id="t2k">Fiscal {{ stats.fy }} to date</div><div class="v" id="t2v">{{ '{:,}'.format(stats.fytd) }}</div>
+      <div class="d" id="t2d">{% if stats.fytd_change is not none %}{{ '{:+.1f}'.format(stats.fytd_change) }}% vs. same months of FY{{ stats.fy - 1 }}{% endif %}</div></div>
+    <div class="tile"><div class="k" id="t3k">Peak month</div><div class="v" id="t3v">{{ '{:,}'.format(stats.peak) }}</div><div class="d" id="t3d">{{ stats.peak_month }}</div></div>
+    <div class="tile"><div class="k" id="t4k">Total, {{ first_label }} – {{ latest_label }}</div><div class="v" id="t4v">{{ '{:,}'.format(stats.total) }}</div><div class="d" id="t4d">encounters</div></div>
+  </div>
+
+  <h2>A century of Border Patrol apprehensions</h2>
+  <p class="sub">Apprehensions between ports of entry by fiscal year since 1925. Inadmissibles at ports of entry
+    (airports, seaports and land crossings) can be added from fiscal 2005. Title 42 expulsions are excluded throughout.</p>
+  <section class="card" aria-labelledby="ann-title">
+    <div class="chart-head">
+      <p class="chart-title" id="ann-title">Border Patrol apprehensions per fiscal year</p>
+      <div class="opts">
+        <label class="check"><input type="checkbox" id="ann-ports"> Add port-of-entry inadmissibles</label>
+        <div class="seg" role="group" aria-label="Start year" id="ann-range"></div>
+      </div>
+    </div>
+    <ul class="legend" id="ann-legend"></ul>
+    <div class="plot">
+      <svg id="ann-chart" role="img" tabindex="0" aria-labelledby="ann-title ann-desc"></svg>
+      <div class="tip" id="ann-tip" role="status"></div>
+    </div>
+    <p class="note" id="ann-desc"></p>
+    <details><summary>Show these numbers as a table</summary>
+      <div class="scroll"><table id="ann-table"></table></div></details>
+  </section>
+
+  <h2>Month by month since {{ first_label }}</h2>
+  <p class="sub">Nationality, family status and port-of-entry figures begin in {{ detail_label }}; earlier months show
+    Border Patrol apprehensions only. Filters apply to everything below.</p>
+
+  <div class="filters" id="filters" role="group" aria-label="Filter the data">
+    <label>Border<select data-f="border"></select></label>
+    <label>Agency<select data-f="agency"></select></label>
+    <label>Encounter type<select data-f="encounter_type"></select></label>
+    <label>Demographic<select data-f="demographic"></select></label>
+    <label>Nationality<select data-f="nationality"></select></label>
+    <label>From<select id="from" class="yr"></select></label>
+    <label>To<select id="to" class="yr"></select></label>
+    <button type="button" class="reset" id="reset">Reset</button>
+  </div>
+
+  <section class="card" aria-labelledby="chart-title">
+    <div class="chart-head">
+      <p class="chart-title" id="chart-title">Encounters per month</p>
+      <div class="opts">
+        <label>Break down by
+          <select id="breakdown">
+            <option value="">Nothing (total)</option>
+            <option value="border">Border</option>
+            <option value="agency">Agency</option>
+            <option value="encounter_type">Encounter type</option>
+            <option value="demographic">Demographic</option>
+            <option value="nationality">Nationality</option>
+          </select>
+        </label>
+        <div class="seg" role="group" aria-label="Time unit">
+          <button type="button" data-grain="month" aria-pressed="true">Monthly</button>
+          <button type="button" data-grain="fy" aria-pressed="false">Fiscal year</button>
+        </div>
+      </div>
+    </div>
+    <ul class="legend" id="legend"></ul>
+    <div class="plot">
+      <svg id="chart" role="img" tabindex="0" aria-labelledby="chart-title chart-desc"></svg>
+      <div class="tip" id="tip" role="status"></div>
+    </div>
+    <p class="note" id="chart-desc"></p>
+    <details><summary>Show these numbers as a table</summary>
+      <div class="scroll"><table id="chart-table"></table></div></details>
+  </section>
+
+  <h2 id="compare-h">Compare two fiscal years</h2>
+  <p class="sub" id="compare-sub">Which groups drove the change? Uses the filters above.</p>
+  <div class="controls">
+    <label>Group by
+      <select id="cmp-dim">
+        <option value="nationality">Nationality</option>
+        <option value="border">Border</option>
+        <option value="agency">Agency</option>
+        <option value="encounter_type">Encounter type</option>
+        <option value="demographic">Demographic</option>
+      </select>
+    </label>
+    <label>Earlier year<select id="cmp-a" class="yr"></select></label>
+    <label>Later year<select id="cmp-b" class="yr"></select></label>
+  </div>
+  <div class="scroll"><table id="cmp-table"></table></div>
+
+  <h2>Where encounters happen</h2>
+  <p class="sub" id="sector-sub">Border Patrol sectors (between ports) and CBP field offices (at ports), for the same two fiscal years.</p>
+  <div class="scroll"><table id="sector-table"></table></div>
+  <button type="button" class="more" id="sector-more">Show all</button>
+{% endblock %}
+
+{% block coverage %}Monthly data from {{ first_label }} through {{ latest_label }}; annual Border Patrol apprehensions from fiscal {{ info.first_fiscal_year }}.
+  {{ '{:,}'.format(info.total_encounters) }} encounters in the monthly series.{% endblock %}
+{% block sources %}
+  <p>Files used:</p>
+  <ul>
+    <li><a href="{{ sources.cbp_latest }}">CBP Nationwide Encounters, current file</a> and the <a href="{{ sources.cbp_archive }}">FY2020–FY2023 file</a> (monthly, by sector, nationality and demographic)</li>
+    {% for s in page.history_sources %}<li><a href="{{ s.url }}">{{ s.name }}</a> (CBP PDF, extracted once)</li>{% endfor %}
+    <li><a href="{{ sources.yearbook_enforcement.url }}">DHS Yearbook Table 36, CBP OFO encounters</a> (port-of-entry inadmissibles FY2005–FY{{ page.first_fiscal_year - 1 }}; FY{{ sources.yearbook_enforcement.edition }} edition)</li>
+  </ul>
+  <p>Where CBP's older and newer files overlap, the newer (revised) figures are used. Title 42 began in March 2020, so the
+    historical Border Patrol counts before fiscal {{ page.first_fiscal_year }} contain no expulsions and the two eras are comparable.</p>
+{% endblock %}
+{% block downloads %}
+  <a class="dl" href="data/border_monthly.csv" download>Monthly encounters (CSV)</a>
+  <a class="dl" href="data/border_sectors.csv" download>By sector and field office (CSV)</a>
+  <a class="dl" href="data/border_annual.csv" download>Annual since 1925 (CSV)</a>
+{% endblock %}
+
+{% block script %}
+{% raw %}
+(() => {
+const D = JSON.parse(document.getElementById("data").textContent);
+const EVENTS = D.events, ANNUAL_EVENTS = D.annualEvents;
+const MONTHS = D.months;                      // "YYYY-MM", continuous
+const MAIN_DIMS = ["agency", "border", "demographic", "nationality", "encounter_type"];
+const SECTOR_DIMS = ["agency", "border", "office", "encounter_type"];
+const FILTER_DIMS = ["border", "agency", "encounter_type", "demographic", "nationality"];
+const LABEL = { border: "Border", agency: "Agency", encounter_type: "Encounter type",
+                demographic: "Demographic", nationality: "Nationality" };
+const OTHER = "All other countries", NR = "Not reported";
+const MAX_NAMED = 7;
+
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const MON_LONG = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const mParts = m => m.split("-").map(Number);
+const fyOf = m => { const [y, mo] = mParts(m); return mo >= 10 ? y + 1 : y; };
+const fiscalPos = m => (mParts(m)[1] + 2) % 12;     // Oct = 0 … Sep = 11
+const monthShort = m => { const [y, mo] = mParts(m); return MON[mo - 1] + " " + y; };
+const monthLong = m => { const [y, mo] = mParts(m); return MON_LONG[mo - 1] + " " + y; };
+
+const MONTH_FY = MONTHS.map(fyOf);
+const FYS = [...new Set(MONTH_FY)];
+const LATEST_FY = FYS[FYS.length - 1];
+const LATEST_POS = new Set(MONTHS.filter((m, i) => MONTH_FY[i] === LATEST_FY).map(fiscalPos));
+const LATEST_PARTIAL = LATEST_POS.size < 12;
+const LATEST_MONTH = MONTHS[MONTHS.length - 1];
+const DETAIL_FROM = D.detailFrom, DETAIL_FY = fyOf(DETAIL_FROM);
+const fyLabel = fy => "FY" + String(fy).slice(2) + (fy === LATEST_FY && LATEST_PARTIAL ? "*" : "");
+const NR_NAME = `Not reported (before ${monthShort(DETAIL_FROM)})`;
+
+// ---- annual, since 1925 -------------------------------------------------------
+const ANN_SERIES = [{ name: "Border Patrol apprehensions", color: SLOT(0) },
+                    { name: "Port-of-entry inadmissibles", color: SLOT(1) }];
+const annual = new Map();                     // fy -> [bp, ofo, partial]
+for (const [fy, series, value, partial] of D.annual) {
+  const o = annual.get(fy) || [0, 0, false];
+  o[ANN_SERIES.findIndex(s => s.name === series)] = value; o[2] = o[2] || partial;
+  annual.set(fy, o);
+}
+const ANN_YEARS = [...annual.keys()].sort((a, b) => a - b);
+const ANN_PRESETS = [ANN_YEARS[0], 1960, 1990, 2000];
+const ANN = { from: ANN_YEARS[0], ports: false };
+
+function renderAnnual() {
+  const years = ANN_YEARS.filter(y => y >= ANN.from);
+  const S = ANN.ports ? ANN_SERIES : ANN_SERIES.slice(0, 1);
+  const V = years.map(y => S.map((s, k) => annual.get(y)[k] || 0));
+  const partial = new Set(years.map((y, i) => annual.get(y)[2] ? i : -1).filter(i => i >= 0));
+  const P = years.map(y => ({ key: y, label: String(y), long: "Fiscal " + y }));
+  stackedBars({ svg: document.getElementById("ann-chart"), tip: document.getElementById("ann-tip"),
+    periods: P, series: S, values: V, partial, maxBar: 40, totalName: "encounters",
+    events: ANNUAL_EVENTS.map(e => ({ index: years.indexOf(e.year), label: e.label })),
+    xLabel: (i, p, W) => p.key % yearStep(years.length, W) === 0 ? p.label : null });
+  renderLegend(document.getElementById("ann-legend"), S);
+  const seg = document.getElementById("ann-range");
+  seg.replaceChildren(...ANN_PRESETS.map(y => {
+    const b = el("button", { type: "button", "aria-pressed": String(ANN.from === y) }, "Since " + y);
+    b.addEventListener("click", () => { ANN.from = y; renderAnnual(); }); return b;
+  }));
+  const bp = years.map(y => annual.get(y)[0]);
+  const peak = years[bp.indexOf(Math.max(...bp))];
+  document.getElementById("ann-title").textContent = ANN.ports
+    ? "Border Patrol apprehensions and port-of-entry inadmissibles per fiscal year" : "Border Patrol apprehensions per fiscal year";
+  document.getElementById("ann-desc").textContent =
+    `Fiscal ${years[0]} to ${years[years.length - 1]}. Most apprehensions in a year: ${fmt(Math.max(...bp))} in fiscal ${peak}. ` +
+    (LATEST_PARTIAL ? `Fiscal ${LATEST_FY} is incomplete (through ${monthLong(LATEST_MONTH)}) and drawn lighter. ` : "") +
+    (ANN.ports ? "Port-of-entry figures are available from fiscal 2005. " : "") + "Hover or use arrow keys for exact figures.";
+  const t = document.getElementById("ann-table"); t.replaceChildren();
+  const hr = el("tr"); ["Fiscal year", ...S.map(s => s.name)].forEach(h => hr.append(el("th", { scope: "col" }, h)));
+  const th = el("thead"); th.append(hr); const tb = el("tbody");
+  years.forEach((y, i) => { const tr = el("tr"); tr.append(el("td", {}, String(y) + (partial.has(i) ? " (to date)" : "")));
+    V[i].forEach(v => tr.append(el("td", {}, fmt(v)))); tb.append(tr); });
+  t.append(th, tb);
+}
+
+// ---- monthly explorer ---------------------------------------------------------------
+const ORDER = {};
+for (const d of MAIN_DIMS) ORDER[d] = rankDim(D.main, MAIN_DIMS, d);
+
+// Series for a breakdown: up to 7 named categories, the rest folded into
+// Other, and the pre-detail placeholder kept apart in gray. Colors follow
+// the category's all-time rank, so filtering never repaints a series.
+function seriesFor(dim) {
+  if (!dim) return [{ name: "All encounters", color: SLOT(0), values: null }];
+  const all = ORDER[dim];
+  let named = all.filter(v => v !== OTHER && v !== NR);
+  const fold = named.length > MAX_NAMED || all.includes(OTHER);
+  if (fold) named = named.slice(0, MAX_NAMED);
+  const out = named.map((v, i) => ({ name: v, color: SLOT(i), values: new Set([v]) }));
+  if (fold) out.push({ name: dim === "nationality" ? OTHER : "Other", color: "var(--other)",
+                       values: new Set(all.filter(v => !named.includes(v) && v !== NR)), other: true });
+  if (all.includes(NR)) out.push({ name: NR_NAME, color: "var(--na)", values: new Set([NR]), other: true });
+  return out;
+}
+
+const DEFAULT = { border: "", agency: "", encounter_type: "", demographic: "", nationality: "",
+                  from: FYS[0], to: LATEST_FY, breakdown: "", grain: "month",
+                  cmpDim: "nationality", a: LATEST_FY - 1, b: LATEST_FY };
+let S = { ...DEFAULT };
+let showAllSectors = false;
+
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1)), s = { ...DEFAULT };
+  for (const k of Object.keys(DEFAULT)) if (p.has(k)) s[k] = p.get(k);
+  for (const k of ["from", "to", "a", "b"]) { s[k] = +s[k]; if (!FYS.includes(s[k])) s[k] = DEFAULT[k]; }
+  for (const d of FILTER_DIMS) if (s[d] && (!D.main.dims[d].includes(s[d]) || s[d] === NR)) s[d] = "";
+  if (s.breakdown && !LABEL[s.breakdown]) s.breakdown = "";
+  if (!LABEL[s.cmpDim]) s.cmpDim = DEFAULT.cmpDim;
+  if (!["month", "fy"].includes(s.grain)) s.grain = "month";
+  if (s.from > s.to) [s.from, s.to] = [s.to, s.from];
+  return s;
+}
+function writeHash() {
+  const p = new URLSearchParams();
+  for (const [k, v] of Object.entries(S)) if (String(v) !== String(DEFAULT[k])) p.set(k, v);
+  const h = p.toString();
+  history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
+}
+const filters = () => Object.fromEntries(FILTER_DIMS.map(d => [d, S[d]]));
+const detailFiltered = () => !!(S.nationality || S.demographic || S.agency === "Field Operations" || S.encounter_type === "Inadmissibles");
+
+function monthlyTotals() {
+  const ok = packedMatcher(D.main, MAIN_DIMS, filters()), t = new Array(MONTHS.length).fill(0);
+  for (const r of D.main.rows) if (ok(r)) t[r[0]] += r[r.length - 1];
+  return t;
+}
+function setTile(n, k, v, d) {
+  document.getElementById(`t${n}k`).textContent = k;
+  document.getElementById(`t${n}v`).textContent = v;
+  document.getElementById(`t${n}d`).textContent = d;
+}
+function renderTiles(tot) {
+  const last = MONTHS.length - 1, yearAgo = last - 12;
+  const lc = yearAgo >= 0 ? pct(tot[last], tot[yearAgo]) : null;
+  setTile(1, monthLong(LATEST_MONTH), fmt(tot[last]), lc == null ? "latest month" : `${pctText(lc)} vs. a year earlier`);
+  let cur = 0, prev = 0;
+  MONTHS.forEach((m, i) => {
+    if (MONTH_FY[i] === LATEST_FY) cur += tot[i];
+    if (MONTH_FY[i] === LATEST_FY - 1 && LATEST_POS.has(fiscalPos(m))) prev += tot[i];
+  });
+  setTile(2, `Fiscal ${LATEST_FY} to date`, fmt(cur), `${pctText(pct(cur, prev))} vs. same months of FY${LATEST_FY - 1}`);
+  const idx = MONTHS.map((m, i) => i).filter(i => MONTH_FY[i] >= S.from && MONTH_FY[i] <= S.to);
+  const peak = idx.reduce((a, i) => tot[i] > tot[a] ? i : a, idx[0]);
+  const sum = idx.reduce((a, i) => a + tot[i], 0);
+  setTile(3, "Peak month in view", fmt(tot[peak]), monthLong(MONTHS[peak]));
+  setTile(4, `Total, ${monthShort(MONTHS[idx[0]])} – ${monthShort(MONTHS[idx[idx.length - 1]])}`, fmt(sum), "encounters");
+}
+
+function renderChart() {
+  const ok = packedMatcher(D.main, MAIN_DIMS, filters());
+  const series = seriesFor(S.breakdown);
+  const di = S.breakdown ? MAIN_DIMS.indexOf(S.breakdown) + 1 : -1;
+  const lookup = new Map();
+  if (S.breakdown) D.main.dims[S.breakdown].forEach((v, code) => lookup.set(code, series.findIndex(s => s.values.has(v))));
+
+  let periods;
+  if (S.grain === "fy") {
+    periods = FYS.filter(f => f >= S.from && f <= S.to).map(f => ({ key: f, label: fyLabel(f),
+      long: `Fiscal ${f}` + (f === LATEST_FY && LATEST_PARTIAL ? ` (through ${monthLong(LATEST_MONTH)})` : "") }));
+  } else {
+    periods = MONTHS.map((m, i) => i).filter(i => MONTH_FY[i] >= S.from && MONTH_FY[i] <= S.to)
+      .map(i => ({ key: MONTHS[i], label: monthShort(MONTHS[i]), long: monthLong(MONTHS[i]) }));
+  }
+  const pIndex = new Map(periods.map((p, i) => [p.key, i]));
+  const V = periods.map(() => series.map(() => 0));
+  for (const r of D.main.rows) {
+    if (!ok(r)) continue;
+    const p = pIndex.get(S.grain === "fy" ? MONTH_FY[r[0]] : MONTHS[r[0]]);
+    if (p == null) continue;
+    V[p][di < 0 ? 0 : lookup.get(r[di])] += r[r.length - 1];
+  }
+  const live = series.map((s, k) => V.some(v => v[k] > 0));
+  const n = periods.length;
+  const nYears = S.grain === "fy" ? n : n / 12;
+  const events = S.grain === "month" ? EVENTS.map(e => ({ index: periods.findIndex(p => p.key === e.month), label: e.label })) : [];
+  const partial = new Set(S.grain === "fy" && LATEST_PARTIAL ? [periods.findIndex(p => p.key === LATEST_FY)] : []);
+  const { max } = stackedBars({ svg: document.getElementById("chart"), tip: document.getElementById("tip"),
+    periods, series, values: V, events, partial, maxBar: S.grain === "fy" ? 64 : 40, totalName: "total encounters",
+    xLabel: (i, p, W) => {
+      if (S.grain === "fy") return nYears <= 15 || p.key % yearStep(nYears, W) === 0 ? p.label : null;
+      if (n <= 15) return p.label;
+      if (n <= 30) return fiscalPos(p.key) % 3 === 0 ? p.label : null;
+      const [y, mo] = mParts(p.key);
+      return mo === 1 && y % yearStep(nYears, W) === 0 ? String(y) : null;
+    } });
+  renderLegend(document.getElementById("legend"), S.breakdown ? series : [], live, {
+    disabled: s => s.other || S[S.breakdown] === s.name, title: s => "Show only " + s.name,
+    onPick: s => { S[S.breakdown] = s.name; syncControls(); render(); } });
+
+  document.getElementById("chart-title").textContent =
+    (S.grain === "fy" ? "Encounters per fiscal year" : "Encounters per month") +
+    (S.breakdown ? `, by ${LABEL[S.breakdown].toLowerCase()}` : "");
+  const desc = [];
+  if (n) desc.push(`${periods[0].long} to ${periods[n - 1].long}. Peak: ${fmt(max)}.`);
+  if (S.from < DETAIL_FY) desc.push(detailFiltered()
+    ? `The current filters use detail that begins in ${monthLong(DETAIL_FROM)}, so earlier months show zero.`
+    : `Before ${monthLong(DETAIL_FROM)}, only Border Patrol apprehensions are available, without nationality or family status.`);
+  if (S.grain === "fy" && LATEST_PARTIAL && S.to === LATEST_FY) desc.push(`*FY${LATEST_FY} is incomplete, through ${monthLong(LATEST_MONTH)}.`);
+  desc.push("Hover or use arrow keys for exact figures.");
+  document.getElementById("chart-desc").textContent = desc.join(" ");
+
+  const t = document.getElementById("chart-table"); t.replaceChildren();
+  const hr = el("tr"); hr.append(el("th", { scope: "col" }, S.grain === "fy" ? "Fiscal year" : "Month"));
+  if (S.breakdown) series.forEach((s, k) => { if (live[k]) hr.append(el("th", { scope: "col" }, s.name)); });
+  hr.append(el("th", { scope: "col" }, "Total"));
+  const th = el("thead"); th.append(hr); const tb = el("tbody");
+  periods.forEach((p, i) => { const tr = el("tr"); tr.append(el("td", {}, p.long));
+    if (S.breakdown) series.forEach((s, k) => { if (live[k]) tr.append(el("td", {}, fmt(V[i][k]))); });
+    tr.append(el("td", {}, fmt(V[i].reduce((a, b) => a + b, 0)))); tb.append(tr); });
+  t.append(th, tb);
+}
+
+// ---- fiscal-year comparison -----------------------------------------------------------
+function comparePositions() {
+  return (S.a === LATEST_FY || S.b === LATEST_FY) && LATEST_PARTIAL ? LATEST_POS : null;
+}
+function periodTotals(table, dims, dim) {
+  const ok = packedMatcher(table, dims, filters());
+  if (!ok) return null;
+  const pos = comparePositions(), di = dims.indexOf(dim) + 1, out = new Map();
+  for (const r of table.rows) {
+    if (!ok(r)) continue;
+    const fy = MONTH_FY[r[0]];
+    if (fy !== S.a && fy !== S.b) continue;
+    if (pos && !pos.has(fiscalPos(MONTHS[r[0]]))) continue;
+    const key = table.dims[dim][r[di]];
+    const o = out.get(key) || { name: key, a: 0, b: 0 };
+    if (fy === S.a) o.a += r[r.length - 1]; else o.b += r[r.length - 1];
+    out.set(key, o);
+  }
+  return out;
+}
+function periodNote() {
+  if (!comparePositions()) return `Full fiscal years ${S.a} and ${S.b}.`;
+  return `October through ${MON_LONG[mParts(LATEST_MONTH)[1] - 1]} of each fiscal year, so the incomplete FY${LATEST_FY} is compared like for like.`;
+}
+
+const cmpSort = { col: 2, asc: false };
+function renderCompare() {
+  const rows = [...periodTotals(D.main, MAIN_DIMS, S.cmpDim).values()].filter(r => r.a || r.b);
+  const sumA = rows.reduce((s, r) => s + r.a, 0), sumB = rows.reduce((s, r) => s + r.b, 0);
+  const maxShare = Math.max(...rows.map(r => r.b / (sumB || 1)), 0.0001);
+  const columns = [
+    { label: LABEL[S.cmpDim], sort: r => r.name, cell: (r, td) => td.textContent = r.name === NR ? NR_NAME : r.name, foot: td => td.textContent = "Total" },
+    { label: fyLabel(S.a), sort: r => r.a, cell: (r, td) => td.textContent = fmt(r.a), foot: td => td.textContent = fmt(sumA) },
+    { label: fyLabel(S.b), sort: r => r.b, cell: (r, td) => td.textContent = fmt(r.b), foot: td => td.textContent = fmt(sumB) },
+    { label: "Change", cls: "hide-sm", sort: r => r.b - r.a, cell: (r, td) => td.textContent = signed(r.b - r.a), foot: td => td.textContent = signed(sumB - sumA) },
+    { label: "% change", sort: r => pct(r.b, r.a), cell: (r, td) => td.textContent = pctText(pct(r.b, r.a)), foot: td => td.textContent = pctText(pct(sumB, sumA)) },
+    { label: `Share of ${fyLabel(S.b)}`, cls: "share", sort: r => r.b, cell: (r, td) => {
+        const bar = el("span", { class: "sharebar" }); bar.style.width = (r.b / (sumB || 1) / maxShare * 5) + "rem";
+        td.append(bar, document.createTextNode(sumB ? (r.b / sumB * 100).toFixed(1) + "%" : "—")); }, foot: td => td.textContent = "100%" },
+  ];
+  sortableTable(document.getElementById("cmp-table"), columns, rows, cmpSort,
+    i => { cmpSort.asc = cmpSort.col === i ? !cmpSort.asc : false; cmpSort.col = i; renderCompare(); }, true);
+  document.getElementById("compare-h").textContent = `Compare fiscal ${S.a} with ${S.b}`;
+  document.getElementById("compare-sub").textContent =
+    `Which groups drove the change? ${periodNote()} Uses the filters above; click a column to sort.` +
+    (Math.min(S.a, S.b) < DETAIL_FY && ["nationality", "demographic"].includes(S.cmpDim) ? ` ${LABEL[S.cmpDim]} is not reported before fiscal ${DETAIL_FY}.` : "");
+}
+
+// ---- sectors --------------------------------------------------------------------------------
+const secSort = { col: 2, asc: false };
+const agencyOf = new Map();
+for (const r of D.sectors.rows) agencyOf.set(D.sectors.dims.office[r[3]], D.sectors.dims.agency[r[1]]);
+function renderSectors() {
+  const table = document.getElementById("sector-table"), sub = document.getElementById("sector-sub"), more = document.getElementById("sector-more");
+  const base = "Border Patrol sectors (between ports) and CBP field offices (at ports).";
+  const totals = periodTotals(D.sectors, SECTOR_DIMS, "office");
+  if (!totals) {
+    table.replaceChildren(); more.hidden = true;
+    sub.textContent = `${base} CBP does not break sector figures down by demographic or nationality — clear those filters to see this table.`;
+    return;
+  }
+  sub.textContent = `${base} ${periodNote()} The trend line spans the years chosen at the top.`;
+  const ok = packedMatcher(D.sectors, SECTOR_DIMS, filters()), oi = SECTOR_DIMS.indexOf("office") + 1;
+  const range = MONTHS.map((m, i) => i).filter(i => MONTH_FY[i] >= S.from && MONTH_FY[i] <= S.to);
+  const start = range[0], len = range.length, spark = new Map();
+  for (const r of D.sectors.rows) {
+    if (!ok(r) || r[0] < start || r[0] >= start + len) continue;
+    const name = D.sectors.dims.office[r[oi]];
+    if (!spark.has(name)) spark.set(name, new Array(len).fill(0));
+    spark.get(name)[r[0] - start] += r[r.length - 1];
+  }
+  const rows = [...totals.values()].map(r => ({ ...r, s: spark.get(r.name) || [] })).filter(r => r.a || r.b);
+  const columns = [
+    { label: "Sector or field office", sort: r => r.name, cell: (r, td) => {
+        td.textContent = r.name;
+        td.append(el("div", { class: "small" }, agencyOf.get(r.name) === "Border Patrol" ? "Border Patrol" : "Ports of entry")); } },
+    { label: fyLabel(S.a), sort: r => r.a, cell: (r, td) => td.textContent = fmt(r.a) },
+    { label: fyLabel(S.b), sort: r => r.b, cell: (r, td) => td.textContent = fmt(r.b) },
+    { label: "% change", sort: r => pct(r.b, r.a), cell: (r, td) => td.textContent = pctText(pct(r.b, r.a)) },
+    { label: "Monthly trend", cls: "hide-sm", cell: (r, td) => td.append(sparkline(r.s)) },
+  ];
+  const total = rows.length;
+  sortableTable(table, columns, rows, secSort,
+    i => { secSort.asc = secSort.col === i ? !secSort.asc : false; secSort.col = i; renderSectors(); });
+  if (!showAllSectors) [...table.tBodies[0].rows].slice(12).forEach(r => r.remove());
+  more.hidden = total <= 12;
+  more.textContent = showAllSectors ? "Show fewer" : `Show all ${total}`;
+}
+
+// ---- controls -----------------------------------------------------------------------------------
+function initControls() {
+  for (const sel of document.querySelectorAll("[data-f]")) {
+    const d = sel.dataset.f;
+    let opts = ORDER[d].filter(v => v !== NR);
+    if (d === "nationality") opts = opts.filter(v => v !== OTHER).sort().concat([OTHER]);
+    fillSelect(sel, opts.map(v => [v, v]), "All");
+    sel.addEventListener("change", () => { S[d] = sel.value; render(); });
+  }
+  const fyOpts = FYS.map(f => [f, `FY${f}` + (f === LATEST_FY && LATEST_PARTIAL ? " YTD" : "")]);
+  for (const id of ["from", "to", "cmp-a", "cmp-b"]) fillSelect(document.getElementById(id), fyOpts);
+  const on = (id, key, num) => document.getElementById(id).addEventListener("change", e => {
+    S[key] = num ? +e.target.value : e.target.value;
+    if (key === "from" && S.from > S.to) S.to = S.from;
+    if (key === "to" && S.to < S.from) S.from = S.to;
+    syncControls(); render();
+  });
+  on("from", "from", true); on("to", "to", true); on("cmp-a", "a", true); on("cmp-b", "b", true);
+  on("cmp-dim", "cmpDim"); on("breakdown", "breakdown");
+  for (const b of document.querySelectorAll("[data-grain]"))
+    b.addEventListener("click", () => { S.grain = b.dataset.grain; syncControls(); render(); });
+  document.getElementById("reset").addEventListener("click", () => { S = { ...DEFAULT }; syncControls(); render(); });
+  document.getElementById("sector-more").addEventListener("click", () => { showAllSectors = !showAllSectors; renderSectors(); });
+  document.getElementById("ann-ports").addEventListener("change", e => { ANN.ports = e.target.checked; renderAnnual(); });
+  onResize(document.getElementById("chart").parentElement, () => { renderAnnual(); renderChart(); });
+  window.addEventListener("hashchange", () => { S = readHash(); syncControls(); render(); });
+}
+function syncControls() {
+  for (const sel of document.querySelectorAll("[data-f]")) sel.value = S[sel.dataset.f];
+  document.getElementById("from").value = S.from; document.getElementById("to").value = S.to;
+  document.getElementById("cmp-a").value = S.a; document.getElementById("cmp-b").value = S.b;
+  document.getElementById("cmp-dim").value = S.cmpDim; document.getElementById("breakdown").value = S.breakdown;
+  for (const b of document.querySelectorAll("[data-grain]")) b.setAttribute("aria-pressed", String(b.dataset.grain === S.grain));
+}
+function render() { writeHash(); renderTiles(monthlyTotals()); renderChart(); renderCompare(); renderSectors(); }
+
+S = readHash();
+initControls();
+syncControls();
+renderAnnual();
+render();
+})();
+{% endraw %}
+{% endblock %}

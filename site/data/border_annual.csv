@@ -1,0 +1,125 @@
+fiscal_year,series,value,partial
+1925,Border Patrol apprehensions,22199,False
+1926,Border Patrol apprehensions,12735,False
+1927,Border Patrol apprehensions,16393,False
+1928,Border Patrol apprehensions,23566,False
+1929,Border Patrol apprehensions,32711,False
+1930,Border Patrol apprehensions,20880,False
+1931,Border Patrol apprehensions,22276,False
+1932,Border Patrol apprehensions,22735,False
+1933,Border Patrol apprehensions,20949,False
+1934,Border Patrol apprehensions,10319,False
+1935,Border Patrol apprehensions,11016,False
+1936,Border Patrol apprehensions,11728,False
+1937,Border Patrol apprehensions,13054,False
+1938,Border Patrol apprehensions,12851,False
+1939,Border Patrol apprehensions,12037,False
+1940,Border Patrol apprehensions,10492,False
+1941,Border Patrol apprehensions,11294,False
+1942,Border Patrol apprehensions,11784,False
+1943,Border Patrol apprehensions,11175,False
+1944,Border Patrol apprehensions,31175,False
+1945,Border Patrol apprehensions,69164,False
+1946,Border Patrol apprehensions,99591,False
+1947,Border Patrol apprehensions,193657,False
+1948,Border Patrol apprehensions,192779,False
+1949,Border Patrol apprehensions,288253,False
+1950,Border Patrol apprehensions,468339,False
+1951,Border Patrol apprehensions,509040,False
+1952,Border Patrol apprehensions,528815,False
+1953,Border Patrol apprehensions,835311,False
+1954,Border Patrol apprehensions,1028246,False
+1955,Border Patrol apprehensions,225186,False
+1956,Border Patrol apprehensions,68420,False
+1957,Border Patrol apprehensions,46225,False
+1958,Border Patrol apprehensions,40504,False
+1959,Border Patrol apprehensions,32996,False
+1960,Border Patrol apprehensions,28966,False
+1961,Border Patrol apprehensions,29384,False
+1962,Border Patrol apprehensions,29897,False
+1963,Border Patrol apprehensions,38861,False
+1964,Border Patrol apprehensions,42879,False
+1965,Border Patrol apprehensions,52422,False
+1966,Border Patrol apprehensions,79610,False
+1967,Border Patrol apprehensions,94778,False
+1968,Border Patrol apprehensions,123519,False
+1969,Border Patrol apprehensions,172391,False
+1970,Border Patrol apprehensions,231116,False
+1971,Border Patrol apprehensions,302517,False
+1972,Border Patrol apprehensions,396495,False
+1973,Border Patrol apprehensions,498123,False
+1974,Border Patrol apprehensions,634777,False
+1975,Border Patrol apprehensions,596796,False
+1976,Border Patrol apprehensions,696039,False
+1977,Border Patrol apprehensions,812541,False
+1978,Border Patrol apprehensions,862837,False
+1979,Border Patrol apprehensions,888729,False
+1980,Border Patrol apprehensions,759420,False
+1981,Border Patrol apprehensions,825290,False
+1982,Border Patrol apprehensions,819919,False
+1983,Border Patrol apprehensions,1105670,False
+1984,Border Patrol apprehensions,1138566,False
+1985,Border Patrol apprehensions,1262435,False
+1986,Border Patrol apprehensions,1692544,False
+1987,Border Patrol apprehensions,1158030,False
+1988,Border Patrol apprehensions,969214,False
+1989,Border Patrol apprehensions,891147,False
+1990,Border Patrol apprehensions,1103353,False
+1991,Border Patrol apprehensions,1132033,False
+1992,Border Patrol apprehensions,1199560,False
+1993,Border Patrol apprehensions,1263490,False
+1994,Border Patrol apprehensions,1031668,False
+1995,Border Patrol apprehensions,1324202,False
+1996,Border Patrol apprehensions,1549876,False
+1997,Border Patrol apprehensions,1412953,False
+1998,Border Patrol apprehensions,1555776,False
+1999,Border Patrol apprehensions,1579010,False
+2000,Border Patrol apprehensions,1676438,False
+2001,Border Patrol apprehensions,1266214,False
+2002,Border Patrol apprehensions,955310,False
+2003,Border Patrol apprehensions,931557,False
+2004,Border Patrol apprehensions,1160395,False
+2005,Border Patrol apprehensions,1189075,False
+2006,Border Patrol apprehensions,1089092,False
+2007,Border Patrol apprehensions,876704,False
+2008,Border Patrol apprehensions,723825,False
+2009,Border Patrol apprehensions,556041,False
+2010,Border Patrol apprehensions,463382,False
+2011,Border Patrol apprehensions,340252,False
+2012,Border Patrol apprehensions,364768,False
+2013,Border Patrol apprehensions,420789,False
+2014,Border Patrol apprehensions,486651,False
+2015,Border Patrol apprehensions,337117,False
+2016,Border Patrol apprehensions,415816,False
+2017,Border Patrol apprehensions,310531,False
+2018,Border Patrol apprehensions,404142,False
+2019,Border Patrol apprehensions,859501,False
+2020,Border Patrol apprehensions,207665,False
+2021,Border Patrol apprehensions,621472,False
+2022,Border Patrol apprehensions,1160143,False
+2023,Border Patrol apprehensions,1513414,False
+2024,Border Patrol apprehensions,1557319,False
+2025,Border Patrol apprehensions,254183,False
+2026,Border Patrol apprehensions,110118,True
+2005,Port-of-entry inadmissibles,251200,False
+2006,Port-of-entry inadmissibles,207630,False
+2007,Port-of-entry inadmissibles,202030,False
+2008,Port-of-entry inadmissibles,222800,False
+2009,Port-of-entry inadmissibles,223910,False
+2010,Port-of-entry inadmissibles,229580,False
+2011,Port-of-entry inadmissibles,213350,False
+2012,Port-of-entry inadmissibles,195800,False
+2013,Port-of-entry inadmissibles,205620,False
+2014,Port-of-entry inadmissibles,225020,False
+2015,Port-of-entry inadmissibles,254710,False
+2016,Port-of-entry inadmissibles,274620,False
+2017,Port-of-entry inadmissibles,216260,False
+2018,Port-of-entry inadmissibles,281930,False
+2019,Port-of-entry inadmissibles,287980,False
+2020,Port-of-entry inadmissibles,232374,False
+2021,Port-of-entry inadmissibles,263972,False
+2022,Port-of-entry inadmissibles,502473,False
+2023,Port-of-entry inadmissibles,1108646,False
+2024,Port-of-entry inadmissibles,1343823,False
+2025,Port-of-entry inadmissibles,437723,False
+2026,Port-of-entry inadmissibles,238748,True

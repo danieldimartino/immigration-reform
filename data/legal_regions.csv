@@ -1,0 +1,1841 @@
+fiscal_year,region,group,class,green_cards
+2005,Africa,Diversity lottery,Diversity lottery,16270
+2005,Asia,Diversity lottery,Diversity lottery,9180
+2005,Europe,Diversity lottery,Diversity lottery,17790
+2005,North America,Diversity lottery,Diversity lottery,560
+2005,Oceania,Diversity lottery,Diversity lottery,630
+2005,South America,Diversity lottery,Diversity lottery,1790
+2005,Unknown,Diversity lottery,Diversity lottery,30
+2005,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1420
+2005,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),32490
+2005,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),4660
+2005,North America,Employment-based preferences,Advanced-degree professionals (EB-2),2290
+2005,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),220
+2005,South America,Employment-based preferences,Advanced-degree professionals (EB-2),1440
+2005,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),80
+2005,Africa,Employment-based preferences,Investors (EB-5),0
+2005,Asia,Employment-based preferences,Investors (EB-5),240
+2005,Europe,Employment-based preferences,Investors (EB-5),60
+2005,North America,Employment-based preferences,Investors (EB-5),20
+2005,Oceania,Employment-based preferences,Investors (EB-5),10
+2005,South America,Employment-based preferences,Investors (EB-5),10
+2005,Unknown,Employment-based preferences,Investors (EB-5),0
+2005,Africa,Employment-based preferences,Priority workers (EB-1),2510
+2005,Asia,Employment-based preferences,Priority workers (EB-1),23410
+2005,Europe,Employment-based preferences,Priority workers (EB-1),17910
+2005,North America,Employment-based preferences,Priority workers (EB-1),9260
+2005,Oceania,Employment-based preferences,Priority workers (EB-1),1090
+2005,South America,Employment-based preferences,Priority workers (EB-1),10370
+2005,Unknown,Employment-based preferences,Priority workers (EB-1),190
+2005,Africa,Employment-based preferences,Skilled and other workers (EB-3),4900
+2005,Asia,Employment-based preferences,Skilled and other workers (EB-3),71290
+2005,Europe,Employment-based preferences,Skilled and other workers (EB-3),12920
+2005,North America,Employment-based preferences,Skilled and other workers (EB-3),22060
+2005,Oceania,Employment-based preferences,Skilled and other workers (EB-3),540
+2005,South America,Employment-based preferences,Skilled and other workers (EB-3),17090
+2005,Unknown,Employment-based preferences,Skilled and other workers (EB-3),280
+2005,Africa,Employment-based preferences,Special immigrants (EB-4),1070
+2005,Asia,Employment-based preferences,Special immigrants (EB-4),4710
+2005,Europe,Employment-based preferences,Special immigrants (EB-4),970
+2005,North America,Employment-based preferences,Special immigrants (EB-4),2060
+2005,Oceania,Employment-based preferences,Special immigrants (EB-4),100
+2005,South America,Employment-based preferences,Special immigrants (EB-4),1130
+2005,Unknown,Employment-based preferences,Special immigrants (EB-4),90
+2005,Africa,Family-sponsored preferences,Married children of citizens (F3),200
+2005,Asia,Family-sponsored preferences,Married children of citizens (F3),12000
+2005,Europe,Family-sponsored preferences,Married children of citizens (F3),1680
+2005,North America,Family-sponsored preferences,Married children of citizens (F3),5400
+2005,Oceania,Family-sponsored preferences,Married children of citizens (F3),80
+2005,South America,Family-sponsored preferences,Married children of citizens (F3),3530
+2005,Unknown,Family-sponsored preferences,Married children of citizens (F3),60
+2005,Africa,Family-sponsored preferences,Siblings of citizens (F4),1640
+2005,Asia,Family-sponsored preferences,Siblings of citizens (F4),47910
+2005,Europe,Family-sponsored preferences,Siblings of citizens (F4),1460
+2005,North America,Family-sponsored preferences,Siblings of citizens (F4),10210
+2005,Oceania,Family-sponsored preferences,Siblings of citizens (F4),360
+2005,South America,Family-sponsored preferences,Siblings of citizens (F4),3430
+2005,Unknown,Family-sponsored preferences,Siblings of citizens (F4),140
+2005,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),1430
+2005,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),15780
+2005,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1400
+2005,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),77410
+2005,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),60
+2005,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),3620
+2005,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),440
+2005,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1110
+2005,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),7020
+2005,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),1130
+2005,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),11340
+2005,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),70
+2005,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3910
+2005,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),150
+2005,Africa,Immediate relatives of citizens,Children of citizens,5670
+2005,Asia,Immediate relatives of citizens,Children of citizens,30320
+2005,Europe,Immediate relatives of citizens,Children of citizens,11390
+2005,North America,Immediate relatives of citizens,Children of citizens,35750
+2005,Oceania,Immediate relatives of citizens,Children of citizens,350
+2005,South America,Immediate relatives of citizens,Children of citizens,10880
+2005,Unknown,Immediate relatives of citizens,Children of citizens,500
+2005,Africa,Immediate relatives of citizens,Parents of citizens,4040
+2005,Asia,Immediate relatives of citizens,Parents of citizens,35750
+2005,Europe,Immediate relatives of citizens,Parents of citizens,7690
+2005,North America,Immediate relatives of citizens,Parents of citizens,25800
+2005,Oceania,Immediate relatives of citizens,Parents of citizens,260
+2005,South America,Immediate relatives of citizens,Parents of citizens,8130
+2005,Unknown,Immediate relatives of citizens,Parents of citizens,440
+2005,Africa,Immediate relatives of citizens,Spouses of citizens,19320
+2005,Asia,Immediate relatives of citizens,Spouses of citizens,80080
+2005,Europe,Immediate relatives of citizens,Spouses of citizens,39660
+2005,North America,Immediate relatives of citizens,Spouses of citizens,80940
+2005,Oceania,Immediate relatives of citizens,Spouses of citizens,2710
+2005,South America,Immediate relatives of citizens,Spouses of citizens,33810
+2005,Unknown,Immediate relatives of citizens,Spouses of citizens,2620
+2005,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",179380
+2006,Africa,Diversity lottery,Diversity lottery,18030
+2006,Asia,Diversity lottery,Diversity lottery,10270
+2006,Europe,Diversity lottery,Diversity lottery,12960
+2006,North America,Diversity lottery,Diversity lottery,510
+2006,Oceania,Diversity lottery,Diversity lottery,720
+2006,South America,Diversity lottery,Diversity lottery,1940
+2006,Unknown,Diversity lottery,Diversity lottery,50
+2006,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1200
+2006,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),13310
+2006,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),4090
+2006,North America,Employment-based preferences,Advanced-degree professionals (EB-2),1750
+2006,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),180
+2006,South America,Employment-based preferences,Advanced-degree professionals (EB-2),1350
+2006,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),40
+2006,Africa,Employment-based preferences,Investors (EB-5),20
+2006,Asia,Employment-based preferences,Investors (EB-5),560
+2006,Europe,Employment-based preferences,Investors (EB-5),110
+2006,North America,Employment-based preferences,Investors (EB-5),60
+2006,Oceania,Employment-based preferences,Investors (EB-5),0
+2006,South America,Employment-based preferences,Investors (EB-5),10
+2006,Unknown,Employment-based preferences,Investors (EB-5),0
+2006,Africa,Employment-based preferences,Priority workers (EB-1),1350
+2006,Asia,Employment-based preferences,Priority workers (EB-1),13300
+2006,Europe,Employment-based preferences,Priority workers (EB-1),11050
+2006,North America,Employment-based preferences,Priority workers (EB-1),5430
+2006,Oceania,Employment-based preferences,Priority workers (EB-1),770
+2006,South America,Employment-based preferences,Priority workers (EB-1),5010
+2006,Unknown,Employment-based preferences,Priority workers (EB-1),50
+2006,Africa,Employment-based preferences,Skilled and other workers (EB-3),2750
+2006,Asia,Employment-based preferences,Skilled and other workers (EB-3),49860
+2006,Europe,Employment-based preferences,Skilled and other workers (EB-3),8340
+2006,North America,Employment-based preferences,Skilled and other workers (EB-3),13780
+2006,Oceania,Employment-based preferences,Skilled and other workers (EB-3),200
+2006,South America,Employment-based preferences,Skilled and other workers (EB-3),14860
+2006,Unknown,Employment-based preferences,Skilled and other workers (EB-3),140
+2006,Africa,Employment-based preferences,Special immigrants (EB-4),1120
+2006,Asia,Employment-based preferences,Special immigrants (EB-4),4180
+2006,Europe,Employment-based preferences,Special immigrants (EB-4),910
+2006,North America,Employment-based preferences,Special immigrants (EB-4),2080
+2006,Oceania,Employment-based preferences,Special immigrants (EB-4),90
+2006,South America,Employment-based preferences,Special immigrants (EB-4),1130
+2006,Unknown,Employment-based preferences,Special immigrants (EB-4),30
+2006,Africa,Family-sponsored preferences,Married children of citizens (F3),300
+2006,Asia,Family-sponsored preferences,Married children of citizens (F3),11980
+2006,Europe,Family-sponsored preferences,Married children of citizens (F3),1520
+2006,North America,Family-sponsored preferences,Married children of citizens (F3),4770
+2006,Oceania,Family-sponsored preferences,Married children of citizens (F3),70
+2006,South America,Family-sponsored preferences,Married children of citizens (F3),2820
+2006,Unknown,Family-sponsored preferences,Married children of citizens (F3),40
+2006,Africa,Family-sponsored preferences,Siblings of citizens (F4),1670
+2006,Asia,Family-sponsored preferences,Siblings of citizens (F4),46010
+2006,Europe,Family-sponsored preferences,Siblings of citizens (F4),1910
+2006,North America,Family-sponsored preferences,Siblings of citizens (F4),10030
+2006,Oceania,Family-sponsored preferences,Siblings of citizens (F4),390
+2006,South America,Family-sponsored preferences,Siblings of citizens (F4),3190
+2006,Unknown,Family-sponsored preferences,Siblings of citizens (F4),50
+2006,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),2450
+2006,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),19550
+2006,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1810
+2006,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),82010
+2006,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),100
+2006,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),6000
+2006,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),130
+2006,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1230
+2006,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),6700
+2006,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),1340
+2006,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),11420
+2006,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),50
+2006,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),4650
+2006,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),50
+2006,Africa,Immediate relatives of citizens,Children of citizens,8680
+2006,Asia,Immediate relatives of citizens,Children of citizens,34470
+2006,Europe,Immediate relatives of citizens,Children of citizens,11220
+2006,North America,Immediate relatives of citizens,Children of citizens,49270
+2006,Oceania,Immediate relatives of citizens,Children of citizens,420
+2006,South America,Immediate relatives of citizens,Children of citizens,15790
+2006,Unknown,Immediate relatives of citizens,Children of citizens,220
+2006,Africa,Immediate relatives of citizens,Parents of citizens,5990
+2006,Asia,Immediate relatives of citizens,Parents of citizens,48230
+2006,Europe,Immediate relatives of citizens,Parents of citizens,10910
+2006,North America,Immediate relatives of citizens,Parents of citizens,42150
+2006,Oceania,Immediate relatives of citizens,Parents of citizens,380
+2006,South America,Immediate relatives of citizens,Parents of citizens,12560
+2006,Unknown,Immediate relatives of citizens,Parents of citizens,220
+2006,Africa,Immediate relatives of citizens,Spouses of citizens,27400
+2006,Asia,Immediate relatives of citizens,Spouses of citizens,102590
+2006,Europe,Immediate relatives of citizens,Spouses of citizens,50680
+2006,North America,Immediate relatives of citizens,Spouses of citizens,103390
+2006,Oceania,Immediate relatives of citizens,Spouses of citizens,3310
+2006,South America,Immediate relatives of citizens,Spouses of citizens,51190
+2006,Unknown,Immediate relatives of citizens,Spouses of citizens,1280
+2006,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",259410
+2007,Africa,Diversity lottery,Diversity lottery,19280
+2007,Asia,Diversity lottery,Diversity lottery,9620
+2007,Europe,Diversity lottery,Diversity lottery,9880
+2007,North America,Diversity lottery,Diversity lottery,420
+2007,Oceania,Diversity lottery,Diversity lottery,680
+2007,South America,Diversity lottery,Diversity lottery,2210
+2007,Unknown,Diversity lottery,Diversity lottery,40
+2007,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1860
+2007,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),26660
+2007,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),7140
+2007,North America,Employment-based preferences,Advanced-degree professionals (EB-2),4180
+2007,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),310
+2007,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3980
+2007,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),30
+2007,Africa,Employment-based preferences,Investors (EB-5),10
+2007,Asia,Employment-based preferences,Investors (EB-5),630
+2007,Europe,Employment-based preferences,Investors (EB-5),120
+2007,North America,Employment-based preferences,Investors (EB-5),30
+2007,Oceania,Employment-based preferences,Investors (EB-5),0
+2007,South America,Employment-based preferences,Investors (EB-5),20
+2007,Unknown,Employment-based preferences,Investors (EB-5),0
+2007,Africa,Employment-based preferences,Priority workers (EB-1),890
+2007,Asia,Employment-based preferences,Priority workers (EB-1),10760
+2007,Europe,Employment-based preferences,Priority workers (EB-1),7780
+2007,North America,Employment-based preferences,Priority workers (EB-1),3670
+2007,Oceania,Employment-based preferences,Priority workers (EB-1),500
+2007,South America,Employment-based preferences,Priority workers (EB-1),3080
+2007,Unknown,Employment-based preferences,Priority workers (EB-1),20
+2007,Africa,Employment-based preferences,Skilled and other workers (EB-3),2250
+2007,Asia,Employment-based preferences,Skilled and other workers (EB-3),52070
+2007,Europe,Employment-based preferences,Skilled and other workers (EB-3),6210
+2007,North America,Employment-based preferences,Skilled and other workers (EB-3),14730
+2007,Oceania,Employment-based preferences,Skilled and other workers (EB-3),220
+2007,South America,Employment-based preferences,Skilled and other workers (EB-3),9480
+2007,Unknown,Employment-based preferences,Skilled and other workers (EB-3),80
+2007,Africa,Employment-based preferences,Special immigrants (EB-4),790
+2007,Asia,Employment-based preferences,Special immigrants (EB-4),2150
+2007,Europe,Employment-based preferences,Special immigrants (EB-4),390
+2007,North America,Employment-based preferences,Special immigrants (EB-4),1230
+2007,Oceania,Employment-based preferences,Special immigrants (EB-4),40
+2007,South America,Employment-based preferences,Special immigrants (EB-4),410
+2007,Unknown,Employment-based preferences,Special immigrants (EB-4),20
+2007,Africa,Family-sponsored preferences,Married children of citizens (F3),350
+2007,Asia,Family-sponsored preferences,Married children of citizens (F3),11980
+2007,Europe,Family-sponsored preferences,Married children of citizens (F3),1310
+2007,North America,Family-sponsored preferences,Married children of citizens (F3),4850
+2007,Oceania,Family-sponsored preferences,Married children of citizens (F3),120
+2007,South America,Family-sponsored preferences,Married children of citizens (F3),2010
+2007,Unknown,Family-sponsored preferences,Married children of citizens (F3),20
+2007,Africa,Family-sponsored preferences,Siblings of citizens (F4),1840
+2007,Asia,Family-sponsored preferences,Siblings of citizens (F4),46810
+2007,Europe,Family-sponsored preferences,Siblings of citizens (F4),2080
+2007,North America,Family-sponsored preferences,Siblings of citizens (F4),10890
+2007,Oceania,Family-sponsored preferences,Siblings of citizens (F4),490
+2007,South America,Family-sponsored preferences,Siblings of citizens (F4),3130
+2007,Unknown,Family-sponsored preferences,Siblings of citizens (F4),30
+2007,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),2110
+2007,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),15490
+2007,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1090
+2007,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),62840
+2007,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),70
+2007,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),4530
+2007,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),30
+2007,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1310
+2007,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),6020
+2007,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),920
+2007,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),11000
+2007,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),60
+2007,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3530
+2007,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),20
+2007,Africa,Immediate relatives of citizens,Children of citizens,8820
+2007,Asia,Immediate relatives of citizens,Children of citizens,31060
+2007,Europe,Immediate relatives of citizens,Children of citizens,8190
+2007,North America,Immediate relatives of citizens,Children of citizens,44040
+2007,Oceania,Immediate relatives of citizens,Children of citizens,360
+2007,South America,Immediate relatives of citizens,Children of citizens,11260
+2007,Unknown,Immediate relatives of citizens,Children of citizens,110
+2007,Africa,Immediate relatives of citizens,Parents of citizens,6950
+2007,Asia,Immediate relatives of citizens,Parents of citizens,49840
+2007,Europe,Immediate relatives of citizens,Parents of citizens,9290
+2007,North America,Immediate relatives of citizens,Parents of citizens,40080
+2007,Oceania,Immediate relatives of citizens,Parents of citizens,370
+2007,South America,Immediate relatives of citizens,Parents of citizens,10090
+2007,Unknown,Immediate relatives of citizens,Parents of citizens,110
+2007,Africa,Immediate relatives of citizens,Spouses of citizens,21650
+2007,Asia,Immediate relatives of citizens,Spouses of citizens,83290
+2007,Europe,Immediate relatives of citizens,Spouses of citizens,37860
+2007,North America,Immediate relatives of citizens,Spouses of citizens,90040
+2007,Oceania,Immediate relatives of citizens,Spouses of citizens,2530
+2007,South America,Immediate relatives of citizens,Spouses of citizens,38390
+2007,Unknown,Immediate relatives of citizens,Spouses of citizens,600
+2007,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",158090
+2008,Africa,Diversity lottery,Diversity lottery,18060
+2008,Asia,Diversity lottery,Diversity lottery,11820
+2008,Europe,Diversity lottery,Diversity lottery,10120
+2008,North America,Diversity lottery,Diversity lottery,470
+2008,Oceania,Diversity lottery,Diversity lottery,590
+2008,South America,Diversity lottery,Diversity lottery,660
+2008,Unknown,Diversity lottery,Diversity lottery,40
+2008,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),2420
+2008,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),45410
+2008,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),11620
+2008,North America,Employment-based preferences,Advanced-degree professionals (EB-2),5350
+2008,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),340
+2008,South America,Employment-based preferences,Advanced-degree professionals (EB-2),4830
+2008,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),80
+2008,Africa,Employment-based preferences,Investors (EB-5),10
+2008,Asia,Employment-based preferences,Investors (EB-5),1130
+2008,Europe,Employment-based preferences,Investors (EB-5),180
+2008,North America,Employment-based preferences,Investors (EB-5),30
+2008,Oceania,Employment-based preferences,Investors (EB-5),0
+2008,South America,Employment-based preferences,Investors (EB-5),10
+2008,Unknown,Employment-based preferences,Investors (EB-5),0
+2008,Africa,Employment-based preferences,Priority workers (EB-1),1110
+2008,Asia,Employment-based preferences,Priority workers (EB-1),17190
+2008,Europe,Employment-based preferences,Priority workers (EB-1),9900
+2008,North America,Employment-based preferences,Priority workers (EB-1),4240
+2008,Oceania,Employment-based preferences,Priority workers (EB-1),600
+2008,South America,Employment-based preferences,Priority workers (EB-1),3600
+2008,Unknown,Employment-based preferences,Priority workers (EB-1),40
+2008,Africa,Employment-based preferences,Skilled and other workers (EB-3),1480
+2008,Asia,Employment-based preferences,Skilled and other workers (EB-3),26040
+2008,Europe,Employment-based preferences,Skilled and other workers (EB-3),5090
+2008,North America,Employment-based preferences,Skilled and other workers (EB-3),9040
+2008,Oceania,Employment-based preferences,Skilled and other workers (EB-3),160
+2008,South America,Employment-based preferences,Skilled and other workers (EB-3),7050
+2008,Unknown,Employment-based preferences,Skilled and other workers (EB-3),50
+2008,Africa,Employment-based preferences,Special immigrants (EB-4),990
+2008,Asia,Employment-based preferences,Special immigrants (EB-4),3390
+2008,Europe,Employment-based preferences,Special immigrants (EB-4),780
+2008,North America,Employment-based preferences,Special immigrants (EB-4),1770
+2008,Oceania,Employment-based preferences,Special immigrants (EB-4),80
+2008,South America,Employment-based preferences,Special immigrants (EB-4),730
+2008,Unknown,Employment-based preferences,Special immigrants (EB-4),20
+2008,Africa,Family-sponsored preferences,Married children of citizens (F3),410
+2008,Asia,Family-sponsored preferences,Married children of citizens (F3),18870
+2008,Europe,Family-sponsored preferences,Married children of citizens (F3),1500
+2008,North America,Family-sponsored preferences,Married children of citizens (F3),5510
+2008,Oceania,Family-sponsored preferences,Married children of citizens (F3),70
+2008,South America,Family-sponsored preferences,Married children of citizens (F3),2890
+2008,Unknown,Family-sponsored preferences,Married children of citizens (F3),20
+2008,Africa,Family-sponsored preferences,Siblings of citizens (F4),2010
+2008,Asia,Family-sponsored preferences,Siblings of citizens (F4),48430
+2008,Europe,Family-sponsored preferences,Siblings of citizens (F4),1750
+2008,North America,Family-sponsored preferences,Siblings of citizens (F4),12330
+2008,Oceania,Family-sponsored preferences,Siblings of citizens (F4),470
+2008,South America,Family-sponsored preferences,Siblings of citizens (F4),3790
+2008,Unknown,Family-sponsored preferences,Siblings of citizens (F4),80
+2008,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),2130
+2008,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),15410
+2008,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),880
+2008,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),80990
+2008,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),30
+2008,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),3980
+2008,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),40
+2008,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1480
+2008,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),6740
+2008,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),950
+2008,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),12810
+2008,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),60
+2008,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),4130
+2008,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),20
+2008,Africa,Immediate relatives of citizens,Children of citizens,9380
+2008,Asia,Immediate relatives of citizens,Children of citizens,25830
+2008,Europe,Immediate relatives of citizens,Children of citizens,6730
+2008,North America,Immediate relatives of citizens,Children of citizens,48910
+2008,Oceania,Immediate relatives of citizens,Children of citizens,270
+2008,South America,Immediate relatives of citizens,Children of citizens,10090
+2008,Unknown,Immediate relatives of citizens,Children of citizens,130
+2008,Africa,Immediate relatives of citizens,Parents of citizens,7030
+2008,Asia,Immediate relatives of citizens,Parents of citizens,46420
+2008,Europe,Immediate relatives of citizens,Parents of citizens,8170
+2008,North America,Immediate relatives of citizens,Parents of citizens,49320
+2008,Oceania,Immediate relatives of citizens,Parents of citizens,310
+2008,South America,Immediate relatives of citizens,Parents of citizens,10110
+2008,Unknown,Immediate relatives of citizens,Parents of citizens,100
+2008,Africa,Immediate relatives of citizens,Spouses of citizens,20610
+2008,Asia,Immediate relatives of citizens,Spouses of citizens,78040
+2008,Europe,Immediate relatives of citizens,Spouses of citizens,32970
+2008,North America,Immediate relatives of citizens,Spouses of citizens,97760
+2008,Oceania,Immediate relatives of citizens,Spouses of citizens,2120
+2008,South America,Immediate relatives of citizens,Spouses of citizens,33680
+2008,Unknown,Immediate relatives of citizens,Spouses of citizens,490
+2008,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",183690
+2009,Africa,Diversity lottery,Diversity lottery,24120
+2009,Asia,Diversity lottery,Diversity lottery,13540
+2009,Europe,Diversity lottery,Diversity lottery,8740
+2009,North America,Diversity lottery,Diversity lottery,440
+2009,Oceania,Diversity lottery,Diversity lottery,580
+2009,South America,Diversity lottery,Diversity lottery,410
+2009,Unknown,Diversity lottery,Diversity lottery,50
+2009,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1790
+2009,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),29340
+2009,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),6800
+2009,North America,Employment-based preferences,Advanced-degree professionals (EB-2),3710
+2009,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),220
+2009,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3650
+2009,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),40
+2009,Africa,Employment-based preferences,Investors (EB-5),70
+2009,Asia,Employment-based preferences,Investors (EB-5),2890
+2009,Europe,Employment-based preferences,Investors (EB-5),490
+2009,North America,Employment-based preferences,Investors (EB-5),150
+2009,Oceania,Employment-based preferences,Investors (EB-5),20
+2009,South America,Employment-based preferences,Investors (EB-5),70
+2009,Unknown,Employment-based preferences,Investors (EB-5),0
+2009,Africa,Employment-based preferences,Priority workers (EB-1),1340
+2009,Asia,Employment-based preferences,Priority workers (EB-1),18450
+2009,Europe,Employment-based preferences,Priority workers (EB-1),10840
+2009,North America,Employment-based preferences,Priority workers (EB-1),5320
+2009,Oceania,Employment-based preferences,Priority workers (EB-1),580
+2009,South America,Employment-based preferences,Priority workers (EB-1),4350
+2009,Unknown,Employment-based preferences,Priority workers (EB-1),30
+2009,Africa,Employment-based preferences,Skilled and other workers (EB-3),1360
+2009,Asia,Employment-based preferences,Skilled and other workers (EB-3),20140
+2009,Europe,Employment-based preferences,Skilled and other workers (EB-3),4560
+2009,North America,Employment-based preferences,Skilled and other workers (EB-3),8370
+2009,Oceania,Employment-based preferences,Skilled and other workers (EB-3),180
+2009,South America,Employment-based preferences,Skilled and other workers (EB-3),5750
+2009,Unknown,Employment-based preferences,Skilled and other workers (EB-3),50
+2009,Africa,Employment-based preferences,Special immigrants (EB-4),1140
+2009,Asia,Employment-based preferences,Special immigrants (EB-4),4940
+2009,Europe,Employment-based preferences,Special immigrants (EB-4),850
+2009,North America,Employment-based preferences,Special immigrants (EB-4),2270
+2009,Oceania,Employment-based preferences,Special immigrants (EB-4),80
+2009,South America,Employment-based preferences,Special immigrants (EB-4),1030
+2009,Unknown,Employment-based preferences,Special immigrants (EB-4),30
+2009,Africa,Family-sponsored preferences,Married children of citizens (F3),420
+2009,Asia,Family-sponsored preferences,Married children of citizens (F3),16020
+2009,Europe,Family-sponsored preferences,Married children of citizens (F3),1340
+2009,North America,Family-sponsored preferences,Married children of citizens (F3),5480
+2009,Oceania,Family-sponsored preferences,Married children of citizens (F3),80
+2009,South America,Family-sponsored preferences,Married children of citizens (F3),2560
+2009,Unknown,Family-sponsored preferences,Married children of citizens (F3),30
+2009,Africa,Family-sponsored preferences,Siblings of citizens (F4),1740
+2009,Asia,Family-sponsored preferences,Siblings of citizens (F4),43820
+2009,Europe,Family-sponsored preferences,Siblings of citizens (F4),1470
+2009,North America,Family-sponsored preferences,Siblings of citizens (F4),12640
+2009,Oceania,Family-sponsored preferences,Siblings of citizens (F4),250
+2009,South America,Family-sponsored preferences,Siblings of citizens (F4),3440
+2009,Unknown,Family-sponsored preferences,Siblings of citizens (F4),50
+2009,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),2100
+2009,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),15140
+2009,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),820
+2009,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),76480
+2009,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),40
+2009,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),3950
+2009,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),40
+2009,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1200
+2009,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),6240
+2009,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),790
+2009,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),11980
+2009,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),40
+2009,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3710
+2009,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2009,Africa,Immediate relatives of citizens,Children of citizens,10210
+2009,Asia,Immediate relatives of citizens,Children of citizens,26040
+2009,Europe,Immediate relatives of citizens,Children of citizens,6640
+2009,North America,Immediate relatives of citizens,Children of citizens,43990
+2009,Oceania,Immediate relatives of citizens,Children of citizens,300
+2009,South America,Immediate relatives of citizens,Children of citizens,10950
+2009,Unknown,Immediate relatives of citizens,Children of citizens,140
+2009,Africa,Immediate relatives of citizens,Parents of citizens,8200
+2009,Asia,Immediate relatives of citizens,Parents of citizens,46950
+2009,Europe,Immediate relatives of citizens,Parents of citizens,8740
+2009,North America,Immediate relatives of citizens,Parents of citizens,44150
+2009,Oceania,Immediate relatives of citizens,Parents of citizens,340
+2009,South America,Immediate relatives of citizens,Parents of citizens,11680
+2009,Unknown,Immediate relatives of citizens,Parents of citizens,100
+2009,Africa,Immediate relatives of citizens,Spouses of citizens,27420
+2009,Asia,Immediate relatives of citizens,Spouses of citizens,95380
+2009,Europe,Immediate relatives of citizens,Spouses of citizens,40510
+2009,North America,Immediate relatives of citizens,Spouses of citizens,108640
+2009,Oceania,Immediate relatives of citizens,Spouses of citizens,2710
+2009,South America,Immediate relatives of citizens,Spouses of citizens,41970
+2009,Unknown,Immediate relatives of citizens,Spouses of citizens,500
+2009,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",193790
+2010,Africa,Diversity lottery,Diversity lottery,23900
+2010,Asia,Diversity lottery,Diversity lottery,14780
+2010,Europe,Diversity lottery,Diversity lottery,9360
+2010,North America,Diversity lottery,Diversity lottery,460
+2010,Oceania,Diversity lottery,Diversity lottery,610
+2010,South America,Diversity lottery,Diversity lottery,640
+2010,Unknown,Diversity lottery,Diversity lottery,20
+2010,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1530
+2010,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),41230
+2010,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),5270
+2010,North America,Employment-based preferences,Advanced-degree professionals (EB-2),2930
+2010,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),210
+2010,South America,Employment-based preferences,Advanced-degree professionals (EB-2),2750
+2010,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),20
+2010,Africa,Employment-based preferences,Investors (EB-5),60
+2010,Asia,Employment-based preferences,Investors (EB-5),1820
+2010,Europe,Employment-based preferences,Investors (EB-5),360
+2010,North America,Employment-based preferences,Investors (EB-5),150
+2010,Oceania,Employment-based preferences,Investors (EB-5),30
+2010,South America,Employment-based preferences,Investors (EB-5),60
+2010,Unknown,Employment-based preferences,Investors (EB-5),10
+2010,Africa,Employment-based preferences,Priority workers (EB-1),1170
+2010,Asia,Employment-based preferences,Priority workers (EB-1),19670
+2010,Europe,Employment-based preferences,Priority workers (EB-1),10170
+2010,North America,Employment-based preferences,Priority workers (EB-1),5150
+2010,Oceania,Employment-based preferences,Priority workers (EB-1),670
+2010,South America,Employment-based preferences,Priority workers (EB-1),4210
+2010,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2010,Africa,Employment-based preferences,Skilled and other workers (EB-3),1010
+2010,Asia,Employment-based preferences,Skilled and other workers (EB-3),18060
+2010,Europe,Employment-based preferences,Skilled and other workers (EB-3),3290
+2010,North America,Employment-based preferences,Skilled and other workers (EB-3),11470
+2010,Oceania,Employment-based preferences,Skilled and other workers (EB-3),100
+2010,South America,Employment-based preferences,Skilled and other workers (EB-3),5790
+2010,Unknown,Employment-based preferences,Skilled and other workers (EB-3),50
+2010,Africa,Employment-based preferences,Special immigrants (EB-4),1450
+2010,Asia,Employment-based preferences,Special immigrants (EB-4),4690
+2010,Europe,Employment-based preferences,Special immigrants (EB-4),980
+2010,North America,Employment-based preferences,Special immigrants (EB-4),2750
+2010,Oceania,Employment-based preferences,Special immigrants (EB-4),80
+2010,South America,Employment-based preferences,Special immigrants (EB-4),1110
+2010,Unknown,Employment-based preferences,Special immigrants (EB-4),40
+2010,Africa,Family-sponsored preferences,Married children of citizens (F3),490
+2010,Asia,Family-sponsored preferences,Married children of citizens (F3),20530
+2010,Europe,Family-sponsored preferences,Married children of citizens (F3),1570
+2010,North America,Family-sponsored preferences,Married children of citizens (F3),6650
+2010,Oceania,Family-sponsored preferences,Married children of citizens (F3),120
+2010,South America,Family-sponsored preferences,Married children of citizens (F3),3420
+2010,Unknown,Family-sponsored preferences,Married children of citizens (F3),40
+2010,Africa,Family-sponsored preferences,Siblings of citizens (F4),1600
+2010,Asia,Family-sponsored preferences,Siblings of citizens (F4),44760
+2010,Europe,Family-sponsored preferences,Siblings of citizens (F4),1260
+2010,North America,Family-sponsored preferences,Siblings of citizens (F4),11720
+2010,Oceania,Family-sponsored preferences,Siblings of citizens (F4),360
+2010,South America,Family-sponsored preferences,Siblings of citizens (F4),2930
+2010,Unknown,Family-sponsored preferences,Siblings of citizens (F4),60
+2010,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),2460
+2010,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),19860
+2010,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1040
+2010,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),63910
+2010,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),50
+2010,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),4730
+2010,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),30
+2010,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1390
+2010,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),7320
+2010,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),1100
+2010,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),13260
+2010,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),60
+2010,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3870
+2010,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2010,Africa,Immediate relatives of citizens,Children of citizens,10550
+2010,Asia,Immediate relatives of citizens,Children of citizens,25240
+2010,Europe,Immediate relatives of citizens,Children of citizens,5600
+2010,North America,Immediate relatives of citizens,Children of citizens,37590
+2010,Oceania,Immediate relatives of citizens,Children of citizens,280
+2010,South America,Immediate relatives of citizens,Children of citizens,8900
+2010,Unknown,Immediate relatives of citizens,Children of citizens,120
+2010,Africa,Immediate relatives of citizens,Parents of citizens,7860
+2010,Asia,Immediate relatives of citizens,Parents of citizens,47420
+2010,Europe,Immediate relatives of citizens,Parents of citizens,8600
+2010,North America,Immediate relatives of citizens,Parents of citizens,40080
+2010,Oceania,Immediate relatives of citizens,Parents of citizens,350
+2010,South America,Immediate relatives of citizens,Parents of citizens,11780
+2010,Unknown,Immediate relatives of citizens,Parents of citizens,110
+2010,Africa,Immediate relatives of citizens,Spouses of citizens,24650
+2010,Asia,Immediate relatives of citizens,Spouses of citizens,84050
+2010,Europe,Immediate relatives of citizens,Spouses of citizens,33640
+2010,North America,Immediate relatives of citizens,Spouses of citizens,95810
+2010,Oceania,Immediate relatives of citizens,Spouses of citizens,2350
+2010,South America,Immediate relatives of citizens,Spouses of citizens,30890
+2010,Unknown,Immediate relatives of citizens,Spouses of citizens,530
+2010,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",152680
+2011,Africa,Diversity lottery,Diversity lottery,23810
+2011,Asia,Diversity lottery,Diversity lottery,15570
+2011,Europe,Diversity lottery,Diversity lottery,9060
+2011,North America,Diversity lottery,Diversity lottery,480
+2011,Oceania,Diversity lottery,Diversity lottery,560
+2011,South America,Diversity lottery,Diversity lottery,610
+2011,Unknown,Diversity lottery,Diversity lottery,20
+2011,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1770
+2011,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),51200
+2011,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),6320
+2011,North America,Employment-based preferences,Advanced-degree professionals (EB-2),4120
+2011,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),250
+2011,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3140
+2011,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),40
+2011,Africa,Employment-based preferences,Investors (EB-5),60
+2011,Asia,Employment-based preferences,Investors (EB-5),2910
+2011,Europe,Employment-based preferences,Investors (EB-5),190
+2011,North America,Employment-based preferences,Investors (EB-5),100
+2011,Oceania,Employment-based preferences,Investors (EB-5),0
+2011,South America,Employment-based preferences,Investors (EB-5),80
+2011,Unknown,Employment-based preferences,Investors (EB-5),0
+2011,Africa,Employment-based preferences,Priority workers (EB-1),670
+2011,Asia,Employment-based preferences,Priority workers (EB-1),12040
+2011,Europe,Employment-based preferences,Priority workers (EB-1),6500
+2011,North America,Employment-based preferences,Priority workers (EB-1),3280
+2011,Oceania,Employment-based preferences,Priority workers (EB-1),400
+2011,South America,Employment-based preferences,Priority workers (EB-1),2360
+2011,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2011,Africa,Employment-based preferences,Skilled and other workers (EB-3),880
+2011,Asia,Employment-based preferences,Skilled and other workers (EB-3),20260
+2011,Europe,Employment-based preferences,Skilled and other workers (EB-3),3050
+2011,North America,Employment-based preferences,Skilled and other workers (EB-3),8410
+2011,Oceania,Employment-based preferences,Skilled and other workers (EB-3),100
+2011,South America,Employment-based preferences,Skilled and other workers (EB-3),4490
+2011,Unknown,Employment-based preferences,Skilled and other workers (EB-3),30
+2011,Africa,Employment-based preferences,Special immigrants (EB-4),980
+2011,Asia,Employment-based preferences,Special immigrants (EB-4),2490
+2011,Europe,Employment-based preferences,Special immigrants (EB-4),530
+2011,North America,Employment-based preferences,Special immigrants (EB-4),2040
+2011,Oceania,Employment-based preferences,Special immigrants (EB-4),50
+2011,South America,Employment-based preferences,Special immigrants (EB-4),600
+2011,Unknown,Employment-based preferences,Special immigrants (EB-4),30
+2011,Africa,Family-sponsored preferences,Married children of citizens (F3),480
+2011,Asia,Family-sponsored preferences,Married children of citizens (F3),17170
+2011,Europe,Family-sponsored preferences,Married children of citizens (F3),1320
+2011,North America,Family-sponsored preferences,Married children of citizens (F3),5880
+2011,Oceania,Family-sponsored preferences,Married children of citizens (F3),140
+2011,South America,Family-sponsored preferences,Married children of citizens (F3),2680
+2011,Unknown,Family-sponsored preferences,Married children of citizens (F3),30
+2011,Africa,Family-sponsored preferences,Siblings of citizens (F4),1750
+2011,Asia,Family-sponsored preferences,Siblings of citizens (F4),50030
+2011,Europe,Family-sponsored preferences,Siblings of citizens (F4),1790
+2011,North America,Family-sponsored preferences,Siblings of citizens (F4),11520
+2011,Oceania,Family-sponsored preferences,Siblings of citizens (F4),350
+2011,South America,Family-sponsored preferences,Siblings of citizens (F4),5790
+2011,Unknown,Family-sponsored preferences,Siblings of citizens (F4),90
+2011,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),4270
+2011,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),26390
+2011,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1420
+2011,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),70660
+2011,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),70
+2011,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),5760
+2011,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),60
+2011,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1440
+2011,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),7470
+2011,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),1010
+2011,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),13310
+2011,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),50
+2011,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),4010
+2011,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2011,Africa,Immediate relatives of citizens,Children of citizens,9240
+2011,Asia,Immediate relatives of citizens,Children of citizens,21730
+2011,Europe,Immediate relatives of citizens,Children of citizens,5840
+2011,North America,Immediate relatives of citizens,Children of citizens,34370
+2011,Oceania,Immediate relatives of citizens,Children of citizens,290
+2011,South America,Immediate relatives of citizens,Children of citizens,8730
+2011,Unknown,Immediate relatives of citizens,Children of citizens,110
+2011,Africa,Immediate relatives of citizens,Parents of citizens,7310
+2011,Asia,Immediate relatives of citizens,Parents of citizens,46770
+2011,Europe,Immediate relatives of citizens,Parents of citizens,8470
+2011,North America,Immediate relatives of citizens,Parents of citizens,39730
+2011,Oceania,Immediate relatives of citizens,Parents of citizens,360
+2011,South America,Immediate relatives of citizens,Parents of citizens,11760
+2011,Unknown,Immediate relatives of citizens,Parents of citizens,120
+2011,Africa,Immediate relatives of citizens,Spouses of citizens,23630
+2011,Asia,Immediate relatives of citizens,Spouses of citizens,78410
+2011,Europe,Immediate relatives of citizens,Spouses of citizens,32200
+2011,North America,Immediate relatives of citizens,Spouses of citizens,90870
+2011,Oceania,Immediate relatives of citizens,Spouses of citizens,2300
+2011,South America,Immediate relatives of citizens,Spouses of citizens,30450
+2011,Unknown,Immediate relatives of citizens,Spouses of citizens,460
+2011,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",183580
+2012,Africa,Diversity lottery,Diversity lottery,18190
+2012,Asia,Diversity lottery,Diversity lottery,13340
+2012,Europe,Diversity lottery,Diversity lottery,7470
+2012,North America,Diversity lottery,Diversity lottery,260
+2012,Oceania,Diversity lottery,Diversity lottery,480
+2012,South America,Diversity lottery,Diversity lottery,560
+2012,Unknown,Diversity lottery,Diversity lottery,30
+2012,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1360
+2012,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),39580
+2012,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),4650
+2012,North America,Employment-based preferences,Advanced-degree professionals (EB-2),2890
+2012,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),190
+2012,South America,Employment-based preferences,Advanced-degree professionals (EB-2),2280
+2012,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),20
+2012,Africa,Employment-based preferences,Investors (EB-5),100
+2012,Asia,Employment-based preferences,Investors (EB-5),6020
+2012,Europe,Employment-based preferences,Investors (EB-5),180
+2012,North America,Employment-based preferences,Investors (EB-5),150
+2012,Oceania,Employment-based preferences,Investors (EB-5),10
+2012,South America,Employment-based preferences,Investors (EB-5),160
+2012,Unknown,Employment-based preferences,Investors (EB-5),0
+2012,Africa,Employment-based preferences,Priority workers (EB-1),930
+2012,Asia,Employment-based preferences,Priority workers (EB-1),20460
+2012,Europe,Employment-based preferences,Priority workers (EB-1),8970
+2012,North America,Employment-based preferences,Priority workers (EB-1),4920
+2012,Oceania,Employment-based preferences,Priority workers (EB-1),690
+2012,South America,Employment-based preferences,Priority workers (EB-1),3350
+2012,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2012,Africa,Employment-based preferences,Skilled and other workers (EB-3),1350
+2012,Asia,Employment-based preferences,Skilled and other workers (EB-3),22590
+2012,Europe,Employment-based preferences,Skilled and other workers (EB-3),3660
+2012,North America,Employment-based preferences,Skilled and other workers (EB-3),6670
+2012,Oceania,Employment-based preferences,Skilled and other workers (EB-3),120
+2012,South America,Employment-based preferences,Skilled and other workers (EB-3),4820
+2012,Unknown,Employment-based preferences,Skilled and other workers (EB-3),30
+2012,Africa,Employment-based preferences,Special immigrants (EB-4),1030
+2012,Asia,Employment-based preferences,Special immigrants (EB-4),2950
+2012,Europe,Employment-based preferences,Special immigrants (EB-4),610
+2012,North America,Employment-based preferences,Special immigrants (EB-4),2570
+2012,Oceania,Employment-based preferences,Special immigrants (EB-4),50
+2012,South America,Employment-based preferences,Special immigrants (EB-4),660
+2012,Unknown,Employment-based preferences,Special immigrants (EB-4),0
+2012,Africa,Family-sponsored preferences,Married children of citizens (F3),410
+2012,Asia,Family-sponsored preferences,Married children of citizens (F3),12740
+2012,Europe,Family-sponsored preferences,Married children of citizens (F3),970
+2012,North America,Family-sponsored preferences,Married children of citizens (F3),5420
+2012,Oceania,Family-sponsored preferences,Married children of citizens (F3),100
+2012,South America,Family-sponsored preferences,Married children of citizens (F3),2100
+2012,Unknown,Family-sponsored preferences,Married children of citizens (F3),20
+2012,Africa,Family-sponsored preferences,Siblings of citizens (F4),1330
+2012,Asia,Family-sponsored preferences,Siblings of citizens (F4),44310
+2012,Europe,Family-sponsored preferences,Siblings of citizens (F4),1260
+2012,North America,Family-sponsored preferences,Siblings of citizens (F4),10020
+2012,Oceania,Family-sponsored preferences,Siblings of citizens (F4),190
+2012,South America,Family-sponsored preferences,Siblings of citizens (F4),2760
+2012,Unknown,Family-sponsored preferences,Siblings of citizens (F4),30
+2012,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),4970
+2012,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),24030
+2012,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1290
+2012,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),64660
+2012,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),50
+2012,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),4660
+2012,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),50
+2012,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1100
+2012,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),5670
+2012,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),640
+2012,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),10550
+2012,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),40
+2012,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),2660
+2012,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2012,Africa,Immediate relatives of citizens,Children of citizens,11980
+2012,Asia,Immediate relatives of citizens,Children of citizens,20360
+2012,Europe,Immediate relatives of citizens,Children of citizens,5020
+2012,North America,Immediate relatives of citizens,Children of citizens,35070
+2012,Oceania,Immediate relatives of citizens,Children of citizens,280
+2012,South America,Immediate relatives of citizens,Children of citizens,8290
+2012,Unknown,Immediate relatives of citizens,Children of citizens,130
+2012,Africa,Immediate relatives of citizens,Parents of citizens,10150
+2012,Asia,Immediate relatives of citizens,Parents of citizens,49710
+2012,Europe,Immediate relatives of citizens,Parents of citizens,8490
+2012,North America,Immediate relatives of citizens,Parents of citizens,43510
+2012,Oceania,Immediate relatives of citizens,Parents of citizens,320
+2012,South America,Immediate relatives of citizens,Parents of citizens,11930
+2012,Unknown,Immediate relatives of citizens,Parents of citizens,120
+2012,Africa,Immediate relatives of citizens,Spouses of citizens,27600
+2012,Asia,Immediate relatives of citizens,Spouses of citizens,80190
+2012,Europe,Immediate relatives of citizens,Spouses of citizens,33420
+2012,North America,Immediate relatives of citizens,Spouses of citizens,99220
+2012,Oceania,Immediate relatives of citizens,Spouses of citizens,2140
+2012,South America,Immediate relatives of citizens,Spouses of citizens,30330
+2012,Unknown,Immediate relatives of citizens,Spouses of citizens,550
+2012,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",165660
+2013,Africa,Diversity lottery,Diversity lottery,18560
+2013,Asia,Diversity lottery,Diversity lottery,14960
+2013,Europe,Diversity lottery,Diversity lottery,10140
+2013,North America,Diversity lottery,Diversity lottery,470
+2013,Oceania,Diversity lottery,Diversity lottery,720
+2013,South America,Diversity lottery,Diversity lottery,660
+2013,Unknown,Diversity lottery,Diversity lottery,110
+2013,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),2220
+2013,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),44110
+2013,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),7780
+2013,North America,Employment-based preferences,Advanced-degree professionals (EB-2),4980
+2013,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),310
+2013,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3600
+2013,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),40
+2013,Africa,Employment-based preferences,Investors (EB-5),70
+2013,Asia,Employment-based preferences,Investors (EB-5),7770
+2013,Europe,Employment-based preferences,Investors (EB-5),270
+2013,North America,Employment-based preferences,Investors (EB-5),240
+2013,Oceania,Employment-based preferences,Investors (EB-5),20
+2013,South America,Employment-based preferences,Investors (EB-5),160
+2013,Unknown,Employment-based preferences,Investors (EB-5),10
+2013,Africa,Employment-based preferences,Priority workers (EB-1),900
+2013,Asia,Employment-based preferences,Priority workers (EB-1),20420
+2013,Europe,Employment-based preferences,Priority workers (EB-1),9350
+2013,North America,Employment-based preferences,Priority workers (EB-1),4430
+2013,Oceania,Employment-based preferences,Priority workers (EB-1),700
+2013,South America,Employment-based preferences,Priority workers (EB-1),3170
+2013,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2013,Africa,Employment-based preferences,Skilled and other workers (EB-3),1680
+2013,Asia,Employment-based preferences,Skilled and other workers (EB-3),27340
+2013,Europe,Employment-based preferences,Skilled and other workers (EB-3),3910
+2013,North America,Employment-based preferences,Skilled and other workers (EB-3),6190
+2013,Oceania,Employment-based preferences,Skilled and other workers (EB-3),130
+2013,South America,Employment-based preferences,Skilled and other workers (EB-3),4320
+2013,Unknown,Employment-based preferences,Skilled and other workers (EB-3),60
+2013,Africa,Employment-based preferences,Special immigrants (EB-4),740
+2013,Asia,Employment-based preferences,Special immigrants (EB-4),2220
+2013,Europe,Employment-based preferences,Special immigrants (EB-4),500
+2013,North America,Employment-based preferences,Special immigrants (EB-4),2840
+2013,Oceania,Employment-based preferences,Special immigrants (EB-4),50
+2013,South America,Employment-based preferences,Special immigrants (EB-4),580
+2013,Unknown,Employment-based preferences,Special immigrants (EB-4),10
+2013,Africa,Family-sponsored preferences,Married children of citizens (F3),460
+2013,Asia,Family-sponsored preferences,Married children of citizens (F3),12980
+2013,Europe,Family-sponsored preferences,Married children of citizens (F3),1140
+2013,North America,Family-sponsored preferences,Married children of citizens (F3),4880
+2013,Oceania,Family-sponsored preferences,Married children of citizens (F3),70
+2013,South America,Family-sponsored preferences,Married children of citizens (F3),1710
+2013,Unknown,Family-sponsored preferences,Married children of citizens (F3),60
+2013,Africa,Family-sponsored preferences,Siblings of citizens (F4),1770
+2013,Asia,Family-sponsored preferences,Siblings of citizens (F4),36450
+2013,Europe,Family-sponsored preferences,Siblings of citizens (F4),1540
+2013,North America,Family-sponsored preferences,Siblings of citizens (F4),16150
+2013,Oceania,Family-sponsored preferences,Siblings of citizens (F4),250
+2013,South America,Family-sponsored preferences,Siblings of citizens (F4),9160
+2013,Unknown,Family-sponsored preferences,Siblings of citizens (F4),210
+2013,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),5560
+2013,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),23450
+2013,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1530
+2013,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),62970
+2013,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),90
+2013,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),4910
+2013,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),620
+2013,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1810
+2013,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),5820
+2013,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),950
+2013,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),12180
+2013,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),40
+2013,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3470
+2013,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),90
+2013,Africa,Immediate relatives of citizens,Children of citizens,10410
+2013,Asia,Immediate relatives of citizens,Children of citizens,18510
+2013,Europe,Immediate relatives of citizens,Children of citizens,4400
+2013,North America,Immediate relatives of citizens,Children of citizens,30580
+2013,Oceania,Immediate relatives of citizens,Children of citizens,280
+2013,South America,Immediate relatives of citizens,Children of citizens,6960
+2013,Unknown,Immediate relatives of citizens,Children of citizens,240
+2013,Africa,Immediate relatives of citizens,Parents of citizens,8740
+2013,Asia,Immediate relatives of citizens,Parents of citizens,46100
+2013,Europe,Immediate relatives of citizens,Parents of citizens,8090
+2013,North America,Immediate relatives of citizens,Parents of citizens,44130
+2013,Oceania,Immediate relatives of citizens,Parents of citizens,330
+2013,South America,Immediate relatives of citizens,Parents of citizens,11670
+2013,Unknown,Immediate relatives of citizens,Parents of citizens,690
+2013,Africa,Immediate relatives of citizens,Spouses of citizens,24400
+2013,Asia,Immediate relatives of citizens,Spouses of citizens,77280
+2013,Europe,Immediate relatives of citizens,Spouses of citizens,31820
+2013,North America,Immediate relatives of citizens,Spouses of citizens,85890
+2013,Oceania,Immediate relatives of citizens,Spouses of citizens,2240
+2013,South America,Immediate relatives of citizens,Spouses of citizens,25680
+2013,Unknown,Immediate relatives of citizens,Spouses of citizens,1020
+2013,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",133160
+2014,Africa,Diversity lottery,Diversity lottery,23200
+2014,Asia,Diversity lottery,Diversity lottery,16360
+2014,Europe,Diversity lottery,Diversity lottery,11710
+2014,North America,Diversity lottery,Diversity lottery,580
+2014,Oceania,Diversity lottery,Diversity lottery,740
+2014,South America,Diversity lottery,Diversity lottery,840
+2014,Unknown,Diversity lottery,Diversity lottery,60
+2014,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1110
+2014,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),39040
+2014,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),4300
+2014,North America,Employment-based preferences,Advanced-degree professionals (EB-2),2420
+2014,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),170
+2014,South America,Employment-based preferences,Advanced-degree professionals (EB-2),1760
+2014,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),10
+2014,Africa,Employment-based preferences,Investors (EB-5),130
+2014,Asia,Employment-based preferences,Investors (EB-5),9980
+2014,Europe,Employment-based preferences,Investors (EB-5),250
+2014,North America,Employment-based preferences,Investors (EB-5),210
+2014,Oceania,Employment-based preferences,Investors (EB-5),10
+2014,South America,Employment-based preferences,Investors (EB-5),140
+2014,Unknown,Employment-based preferences,Investors (EB-5),0
+2014,Africa,Employment-based preferences,Priority workers (EB-1),870
+2014,Asia,Employment-based preferences,Priority workers (EB-1),23530
+2014,Europe,Employment-based preferences,Priority workers (EB-1),8650
+2014,North America,Employment-based preferences,Priority workers (EB-1),3940
+2014,Oceania,Employment-based preferences,Priority workers (EB-1),590
+2014,South America,Employment-based preferences,Priority workers (EB-1),2970
+2014,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2014,Africa,Employment-based preferences,Skilled and other workers (EB-3),1670
+2014,Asia,Employment-based preferences,Skilled and other workers (EB-3),25660
+2014,Europe,Employment-based preferences,Skilled and other workers (EB-3),4790
+2014,North America,Employment-based preferences,Skilled and other workers (EB-3),6900
+2014,Oceania,Employment-based preferences,Skilled and other workers (EB-3),170
+2014,South America,Employment-based preferences,Skilled and other workers (EB-3),3940
+2014,Unknown,Employment-based preferences,Skilled and other workers (EB-3),20
+2014,Africa,Employment-based preferences,Special immigrants (EB-4),940
+2014,Asia,Employment-based preferences,Special immigrants (EB-4),2840
+2014,Europe,Employment-based preferences,Special immigrants (EB-4),510
+2014,North America,Employment-based preferences,Special immigrants (EB-4),3410
+2014,Oceania,Employment-based preferences,Special immigrants (EB-4),40
+2014,South America,Employment-based preferences,Special immigrants (EB-4),620
+2014,Unknown,Employment-based preferences,Special immigrants (EB-4),0
+2014,Africa,Family-sponsored preferences,Married children of citizens (F3),550
+2014,Asia,Family-sponsored preferences,Married children of citizens (F3),16870
+2014,Europe,Family-sponsored preferences,Married children of citizens (F3),1140
+2014,North America,Family-sponsored preferences,Married children of citizens (F3),4720
+2014,Oceania,Family-sponsored preferences,Married children of citizens (F3),170
+2014,South America,Family-sponsored preferences,Married children of citizens (F3),2360
+2014,Unknown,Family-sponsored preferences,Married children of citizens (F3),30
+2014,Africa,Family-sponsored preferences,Siblings of citizens (F4),1650
+2014,Asia,Family-sponsored preferences,Siblings of citizens (F4),46710
+2014,Europe,Family-sponsored preferences,Siblings of citizens (F4),1350
+2014,North America,Family-sponsored preferences,Siblings of citizens (F4),15760
+2014,Oceania,Family-sponsored preferences,Siblings of citizens (F4),220
+2014,South America,Family-sponsored preferences,Siblings of citizens (F4),6150
+2014,Unknown,Family-sponsored preferences,Siblings of citizens (F4),100
+2014,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),5750
+2014,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),30890
+2014,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),2260
+2014,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),60680
+2014,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),110
+2014,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),5830
+2014,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),130
+2014,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1650
+2014,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),6420
+2014,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),990
+2014,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),12540
+2014,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),30
+2014,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),4020
+2014,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),40
+2014,Africa,Immediate relatives of citizens,Children of citizens,8200
+2014,Asia,Immediate relatives of citizens,Children of citizens,16170
+2014,Europe,Immediate relatives of citizens,Children of citizens,3940
+2014,North America,Immediate relatives of citizens,Children of citizens,26760
+2014,Oceania,Immediate relatives of citizens,Children of citizens,280
+2014,South America,Immediate relatives of citizens,Children of citizens,5790
+2014,Unknown,Immediate relatives of citizens,Children of citizens,80
+2014,Africa,Immediate relatives of citizens,Parents of citizens,8510
+2014,Asia,Immediate relatives of citizens,Parents of citizens,47390
+2014,Europe,Immediate relatives of citizens,Parents of citizens,7650
+2014,North America,Immediate relatives of citizens,Parents of citizens,41740
+2014,Oceania,Immediate relatives of citizens,Parents of citizens,280
+2014,South America,Immediate relatives of citizens,Parents of citizens,10700
+2014,Unknown,Immediate relatives of citizens,Parents of citizens,140
+2014,Africa,Immediate relatives of citizens,Spouses of citizens,21950
+2014,Asia,Immediate relatives of citizens,Spouses of citizens,72640
+2014,Europe,Immediate relatives of citizens,Spouses of citizens,31590
+2014,North America,Immediate relatives of citizens,Spouses of citizens,85640
+2014,Oceania,Immediate relatives of citizens,Spouses of citizens,2240
+2014,South America,Immediate relatives of citizens,Spouses of citizens,24380
+2014,Unknown,Immediate relatives of citizens,Spouses of citizens,410
+2014,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",165180
+2015,Africa,Diversity lottery,Diversity lottery,19660
+2015,Asia,Diversity lottery,Diversity lottery,14560
+2015,Europe,Diversity lottery,Diversity lottery,11430
+2015,North America,Diversity lottery,Diversity lottery,670
+2015,Oceania,Diversity lottery,Diversity lottery,720
+2015,South America,Diversity lottery,Diversity lottery,880
+2015,Unknown,Diversity lottery,Diversity lottery,20
+2015,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1730
+2015,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),28600
+2015,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),7250
+2015,North America,Employment-based preferences,Advanced-degree professionals (EB-2),3940
+2015,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),310
+2015,South America,Employment-based preferences,Advanced-degree professionals (EB-2),2500
+2015,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),20
+2015,Africa,Employment-based preferences,Investors (EB-5),120
+2015,Asia,Employment-based preferences,Investors (EB-5),9500
+2015,Europe,Employment-based preferences,Investors (EB-5),270
+2015,North America,Employment-based preferences,Investors (EB-5),150
+2015,Oceania,Employment-based preferences,Investors (EB-5),20
+2015,South America,Employment-based preferences,Investors (EB-5),140
+2015,Unknown,Employment-based preferences,Investors (EB-5),0
+2015,Africa,Employment-based preferences,Priority workers (EB-1),940
+2015,Asia,Employment-based preferences,Priority workers (EB-1),23130
+2015,Europe,Employment-based preferences,Priority workers (EB-1),9570
+2015,North America,Employment-based preferences,Priority workers (EB-1),3890
+2015,Oceania,Employment-based preferences,Priority workers (EB-1),630
+2015,South America,Employment-based preferences,Priority workers (EB-1),3530
+2015,Unknown,Employment-based preferences,Priority workers (EB-1),0
+2015,Africa,Employment-based preferences,Skilled and other workers (EB-3),1100
+2015,Asia,Employment-based preferences,Skilled and other workers (EB-3),25320
+2015,Europe,Employment-based preferences,Skilled and other workers (EB-3),3200
+2015,North America,Employment-based preferences,Skilled and other workers (EB-3),4980
+2015,Oceania,Employment-based preferences,Skilled and other workers (EB-3),180
+2015,South America,Employment-based preferences,Skilled and other workers (EB-3),2460
+2015,Unknown,Employment-based preferences,Skilled and other workers (EB-3),10
+2015,Africa,Employment-based preferences,Special immigrants (EB-4),920
+2015,Asia,Employment-based preferences,Special immigrants (EB-4),2990
+2015,Europe,Employment-based preferences,Special immigrants (EB-4),660
+2015,North America,Employment-based preferences,Special immigrants (EB-4),5290
+2015,Oceania,Employment-based preferences,Special immigrants (EB-4),50
+2015,South America,Employment-based preferences,Special immigrants (EB-4),670
+2015,Unknown,Employment-based preferences,Special immigrants (EB-4),10
+2015,Africa,Family-sponsored preferences,Married children of citizens (F3),520
+2015,Asia,Family-sponsored preferences,Married children of citizens (F3),15570
+2015,Europe,Family-sponsored preferences,Married children of citizens (F3),1120
+2015,North America,Family-sponsored preferences,Married children of citizens (F3),5140
+2015,Oceania,Family-sponsored preferences,Married children of citizens (F3),180
+2015,South America,Family-sponsored preferences,Married children of citizens (F3),1710
+2015,Unknown,Family-sponsored preferences,Married children of citizens (F3),30
+2015,Africa,Family-sponsored preferences,Siblings of citizens (F4),1540
+2015,Asia,Family-sponsored preferences,Siblings of citizens (F4),40700
+2015,Europe,Family-sponsored preferences,Siblings of citizens (F4),1500
+2015,North America,Family-sponsored preferences,Siblings of citizens (F4),12730
+2015,Oceania,Family-sponsored preferences,Siblings of citizens (F4),230
+2015,South America,Family-sponsored preferences,Siblings of citizens (F4),3520
+2015,Unknown,Family-sponsored preferences,Siblings of citizens (F4),10
+2015,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),5680
+2015,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),25920
+2015,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1790
+2015,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),66180
+2015,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),70
+2015,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),5200
+2015,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),60
+2015,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1250
+2015,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),5390
+2015,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),690
+2015,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),13480
+2015,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),40
+2015,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3670
+2015,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2015,Africa,Immediate relatives of citizens,Children of citizens,7900
+2015,Asia,Immediate relatives of citizens,Children of citizens,18420
+2015,Europe,Immediate relatives of citizens,Children of citizens,4160
+2015,North America,Immediate relatives of citizens,Children of citizens,29470
+2015,Oceania,Immediate relatives of citizens,Children of citizens,220
+2015,South America,Immediate relatives of citizens,Children of citizens,6480
+2015,Unknown,Immediate relatives of citizens,Children of citizens,100
+2015,Africa,Immediate relatives of citizens,Parents of citizens,9340
+2015,Asia,Immediate relatives of citizens,Parents of citizens,53480
+2015,Europe,Immediate relatives of citizens,Parents of citizens,8830
+2015,North America,Immediate relatives of citizens,Parents of citizens,48780
+2015,Oceania,Immediate relatives of citizens,Parents of citizens,310
+2015,South America,Immediate relatives of citizens,Parents of citizens,12150
+2015,Unknown,Immediate relatives of citizens,Parents of citizens,60
+2015,Africa,Immediate relatives of citizens,Spouses of citizens,23140
+2015,Asia,Immediate relatives of citizens,Spouses of citizens,79280
+2015,Europe,Immediate relatives of citizens,Spouses of citizens,31690
+2015,North America,Immediate relatives of citizens,Spouses of citizens,103030
+2015,Oceania,Immediate relatives of citizens,Spouses of citizens,2390
+2015,South America,Immediate relatives of citizens,Spouses of citizens,25580
+2015,Unknown,Immediate relatives of citizens,Spouses of citizens,260
+2015,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",179220
+2016,Africa,Diversity lottery,Diversity lottery,20140
+2016,Asia,Diversity lottery,Diversity lottery,15500
+2016,Europe,Diversity lottery,Diversity lottery,11950
+2016,North America,Diversity lottery,Diversity lottery,710
+2016,Oceania,Diversity lottery,Diversity lottery,680
+2016,South America,Diversity lottery,Diversity lottery,830
+2016,Unknown,Diversity lottery,Diversity lottery,60
+2016,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1740
+2016,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),23710
+2016,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),6540
+2016,North America,Employment-based preferences,Advanced-degree professionals (EB-2),3780
+2016,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),250
+2016,South America,Employment-based preferences,Advanced-degree professionals (EB-2),2830
+2016,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),20
+2016,Africa,Employment-based preferences,Investors (EB-5),170
+2016,Asia,Employment-based preferences,Investors (EB-5),8830
+2016,Europe,Employment-based preferences,Investors (EB-5),370
+2016,North America,Employment-based preferences,Investors (EB-5),140
+2016,Oceania,Employment-based preferences,Investors (EB-5),30
+2016,South America,Employment-based preferences,Investors (EB-5),320
+2016,Unknown,Employment-based preferences,Investors (EB-5),0
+2016,Africa,Employment-based preferences,Priority workers (EB-1),1080
+2016,Asia,Employment-based preferences,Priority workers (EB-1),22590
+2016,Europe,Employment-based preferences,Priority workers (EB-1),9930
+2016,North America,Employment-based preferences,Priority workers (EB-1),4210
+2016,Oceania,Employment-based preferences,Priority workers (EB-1),730
+2016,South America,Employment-based preferences,Priority workers (EB-1),4310
+2016,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2016,Africa,Employment-based preferences,Skilled and other workers (EB-3),1170
+2016,Asia,Employment-based preferences,Skilled and other workers (EB-3),23490
+2016,Europe,Employment-based preferences,Skilled and other workers (EB-3),3910
+2016,North America,Employment-based preferences,Skilled and other workers (EB-3),4710
+2016,Oceania,Employment-based preferences,Skilled and other workers (EB-3),220
+2016,South America,Employment-based preferences,Skilled and other workers (EB-3),2410
+2016,Unknown,Employment-based preferences,Skilled and other workers (EB-3),20
+2016,Africa,Employment-based preferences,Special immigrants (EB-4),910
+2016,Asia,Employment-based preferences,Special immigrants (EB-4),2660
+2016,Europe,Employment-based preferences,Special immigrants (EB-4),580
+2016,North America,Employment-based preferences,Special immigrants (EB-4),5490
+2016,Oceania,Employment-based preferences,Special immigrants (EB-4),40
+2016,South America,Employment-based preferences,Special immigrants (EB-4),700
+2016,Unknown,Employment-based preferences,Special immigrants (EB-4),10
+2016,Africa,Family-sponsored preferences,Married children of citizens (F3),680
+2016,Asia,Family-sponsored preferences,Married children of citizens (F3),17730
+2016,Europe,Family-sponsored preferences,Married children of citizens (F3),1280
+2016,North America,Family-sponsored preferences,Married children of citizens (F3),5700
+2016,Oceania,Family-sponsored preferences,Married children of citizens (F3),150
+2016,South America,Family-sponsored preferences,Married children of citizens (F3),1760
+2016,Unknown,Family-sponsored preferences,Married children of citizens (F3),100
+2016,Africa,Family-sponsored preferences,Siblings of citizens (F4),1550
+2016,Asia,Family-sponsored preferences,Siblings of citizens (F4),49110
+2016,Europe,Family-sponsored preferences,Siblings of citizens (F4),1840
+2016,North America,Family-sponsored preferences,Siblings of citizens (F4),11550
+2016,Oceania,Family-sponsored preferences,Siblings of citizens (F4),190
+2016,South America,Family-sponsored preferences,Siblings of citizens (F4),3030
+2016,Unknown,Family-sponsored preferences,Siblings of citizens (F4),90
+2016,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),7770
+2016,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),35110
+2016,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),2450
+2016,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),69190
+2016,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),80
+2016,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),6510
+2016,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),160
+2016,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1430
+2016,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),6780
+2016,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),810
+2016,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),10160
+2016,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),40
+2016,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),2820
+2016,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),30
+2016,Africa,Immediate relatives of citizens,Children of citizens,11100
+2016,Asia,Immediate relatives of citizens,Children of citizens,23170
+2016,Europe,Immediate relatives of citizens,Children of citizens,4620
+2016,North America,Immediate relatives of citizens,Children of citizens,41750
+2016,Oceania,Immediate relatives of citizens,Children of citizens,260
+2016,South America,Immediate relatives of citizens,Children of citizens,7340
+2016,Unknown,Immediate relatives of citizens,Children of citizens,250
+2016,Africa,Immediate relatives of citizens,Parents of citizens,13330
+2016,Asia,Immediate relatives of citizens,Parents of citizens,66130
+2016,Europe,Immediate relatives of citizens,Parents of citizens,11320
+2016,North America,Immediate relatives of citizens,Parents of citizens,67840
+2016,Oceania,Immediate relatives of citizens,Parents of citizens,380
+2016,South America,Immediate relatives of citizens,Parents of citizens,14640
+2016,Unknown,Immediate relatives of citizens,Parents of citizens,230
+2016,Africa,Immediate relatives of citizens,Spouses of citizens,26780
+2016,Asia,Immediate relatives of citizens,Spouses of citizens,90870
+2016,Europe,Immediate relatives of citizens,Spouses of citizens,33580
+2016,North America,Immediate relatives of citizens,Spouses of citizens,122120
+2016,Oceania,Immediate relatives of citizens,Spouses of citizens,2500
+2016,South America,Immediate relatives of citizens,Spouses of citizens,27830
+2016,Unknown,Immediate relatives of citizens,Spouses of citizens,680
+2016,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",190210
+2017,Africa,Diversity lottery,Diversity lottery,21930
+2017,Asia,Diversity lottery,Diversity lottery,15720
+2017,Europe,Diversity lottery,Diversity lottery,11370
+2017,North America,Diversity lottery,Diversity lottery,570
+2017,Oceania,Diversity lottery,Diversity lottery,630
+2017,South America,Diversity lottery,Diversity lottery,1350
+2017,Unknown,Diversity lottery,Diversity lottery,30
+2017,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1930
+2017,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),22740
+2017,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),7240
+2017,North America,Employment-based preferences,Advanced-degree professionals (EB-2),3970
+2017,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),310
+2017,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3140
+2017,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),20
+2017,Africa,Employment-based preferences,Investors (EB-5),150
+2017,Asia,Employment-based preferences,Investors (EB-5),8780
+2017,Europe,Employment-based preferences,Investors (EB-5),330
+2017,North America,Employment-based preferences,Investors (EB-5),180
+2017,Oceania,Employment-based preferences,Investors (EB-5),10
+2017,South America,Employment-based preferences,Investors (EB-5),440
+2017,Unknown,Employment-based preferences,Investors (EB-5),0
+2017,Africa,Employment-based preferences,Priority workers (EB-1),920
+2017,Asia,Employment-based preferences,Priority workers (EB-1),23710
+2017,Europe,Employment-based preferences,Priority workers (EB-1),8110
+2017,North America,Employment-based preferences,Priority workers (EB-1),3370
+2017,Oceania,Employment-based preferences,Priority workers (EB-1),570
+2017,South America,Employment-based preferences,Priority workers (EB-1),4390
+2017,Unknown,Employment-based preferences,Priority workers (EB-1),0
+2017,Africa,Employment-based preferences,Skilled and other workers (EB-3),1070
+2017,Asia,Employment-based preferences,Skilled and other workers (EB-3),25960
+2017,Europe,Employment-based preferences,Skilled and other workers (EB-3),3810
+2017,North America,Employment-based preferences,Skilled and other workers (EB-3),4370
+2017,Oceania,Employment-based preferences,Skilled and other workers (EB-3),290
+2017,South America,Employment-based preferences,Skilled and other workers (EB-3),2560
+2017,Unknown,Employment-based preferences,Skilled and other workers (EB-3),10
+2017,Africa,Employment-based preferences,Special immigrants (EB-4),940
+2017,Asia,Employment-based preferences,Special immigrants (EB-4),2780
+2017,Europe,Employment-based preferences,Special immigrants (EB-4),580
+2017,North America,Employment-based preferences,Special immigrants (EB-4),4520
+2017,Oceania,Employment-based preferences,Special immigrants (EB-4),30
+2017,South America,Employment-based preferences,Special immigrants (EB-4),640
+2017,Unknown,Employment-based preferences,Special immigrants (EB-4),10
+2017,Africa,Family-sponsored preferences,Married children of citizens (F3),770
+2017,Asia,Family-sponsored preferences,Married children of citizens (F3),14260
+2017,Europe,Family-sponsored preferences,Married children of citizens (F3),1120
+2017,North America,Family-sponsored preferences,Married children of citizens (F3),5240
+2017,Oceania,Family-sponsored preferences,Married children of citizens (F3),150
+2017,South America,Family-sponsored preferences,Married children of citizens (F3),1580
+2017,Unknown,Family-sponsored preferences,Married children of citizens (F3),140
+2017,Africa,Family-sponsored preferences,Siblings of citizens (F4),2400
+2017,Asia,Family-sponsored preferences,Siblings of citizens (F4),46400
+2017,Europe,Family-sponsored preferences,Siblings of citizens (F4),2340
+2017,North America,Family-sponsored preferences,Siblings of citizens (F4),13960
+2017,Oceania,Family-sponsored preferences,Siblings of citizens (F4),230
+2017,South America,Family-sponsored preferences,Siblings of citizens (F4),3830
+2017,Unknown,Family-sponsored preferences,Siblings of citizens (F4),120
+2017,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),8480
+2017,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),28600
+2017,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),2040
+2017,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),68390
+2017,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),60
+2017,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),5800
+2017,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),130
+2017,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),2260
+2017,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),6530
+2017,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),910
+2017,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),12890
+2017,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),20
+2017,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3580
+2017,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),30
+2017,Africa,Immediate relatives of citizens,Children of citizens,11500
+2017,Asia,Immediate relatives of citizens,Children of citizens,18260
+2017,Europe,Immediate relatives of citizens,Children of citizens,3640
+2017,North America,Immediate relatives of citizens,Children of citizens,34430
+2017,Oceania,Immediate relatives of citizens,Children of citizens,250
+2017,South America,Immediate relatives of citizens,Children of citizens,6740
+2017,Unknown,Immediate relatives of citizens,Children of citizens,180
+2017,Africa,Immediate relatives of citizens,Parents of citizens,13110
+2017,Asia,Immediate relatives of citizens,Parents of citizens,56910
+2017,Europe,Immediate relatives of citizens,Parents of citizens,8510
+2017,North America,Immediate relatives of citizens,Parents of citizens,57680
+2017,Oceania,Immediate relatives of citizens,Parents of citizens,310
+2017,South America,Immediate relatives of citizens,Parents of citizens,11900
+2017,Unknown,Immediate relatives of citizens,Parents of citizens,190
+2017,Africa,Immediate relatives of citizens,Spouses of citizens,26520
+2017,Asia,Immediate relatives of citizens,Spouses of citizens,80970
+2017,Europe,Immediate relatives of citizens,Spouses of citizens,30050
+2017,North America,Immediate relatives of citizens,Spouses of citizens,123520
+2017,Oceania,Immediate relatives of citizens,Spouses of citizens,2160
+2017,South America,Immediate relatives of citizens,Spouses of citizens,29150
+2017,Unknown,Immediate relatives of citizens,Spouses of citizens,540
+2017,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",188080
+2018,Africa,Diversity lottery,Diversity lottery,17320
+2018,Asia,Diversity lottery,Diversity lottery,14710
+2018,Europe,Diversity lottery,Diversity lottery,10990
+2018,North America,Diversity lottery,Diversity lottery,380
+2018,Oceania,Diversity lottery,Diversity lottery,730
+2018,South America,Diversity lottery,Diversity lottery,1210
+2018,Unknown,Diversity lottery,Diversity lottery,20
+2018,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),2140
+2018,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),24010
+2018,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),7080
+2018,North America,Employment-based preferences,Advanced-degree professionals (EB-2),3650
+2018,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),300
+2018,South America,Employment-based preferences,Advanced-degree professionals (EB-2),2890
+2018,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),30
+2018,Africa,Employment-based preferences,Investors (EB-5),310
+2018,Asia,Employment-based preferences,Investors (EB-5),7820
+2018,Europe,Employment-based preferences,Investors (EB-5),460
+2018,North America,Employment-based preferences,Investors (EB-5),310
+2018,Oceania,Employment-based preferences,Investors (EB-5),30
+2018,South America,Employment-based preferences,Investors (EB-5),690
+2018,Unknown,Employment-based preferences,Investors (EB-5),0
+2018,Africa,Employment-based preferences,Priority workers (EB-1),990
+2018,Asia,Employment-based preferences,Priority workers (EB-1),22800
+2018,Europe,Employment-based preferences,Priority workers (EB-1),8620
+2018,North America,Employment-based preferences,Priority workers (EB-1),3020
+2018,Oceania,Employment-based preferences,Priority workers (EB-1),570
+2018,South America,Employment-based preferences,Priority workers (EB-1),3510
+2018,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2018,Africa,Employment-based preferences,Skilled and other workers (EB-3),1350
+2018,Asia,Employment-based preferences,Skilled and other workers (EB-3),26270
+2018,Europe,Employment-based preferences,Skilled and other workers (EB-3),3920
+2018,North America,Employment-based preferences,Skilled and other workers (EB-3),4710
+2018,Oceania,Employment-based preferences,Skilled and other workers (EB-3),250
+2018,South America,Employment-based preferences,Skilled and other workers (EB-3),2710
+2018,Unknown,Employment-based preferences,Skilled and other workers (EB-3),20
+2018,Africa,Employment-based preferences,Special immigrants (EB-4),1030
+2018,Asia,Employment-based preferences,Special immigrants (EB-4),2910
+2018,Europe,Employment-based preferences,Special immigrants (EB-4),610
+2018,North America,Employment-based preferences,Special immigrants (EB-4),4560
+2018,Oceania,Employment-based preferences,Special immigrants (EB-4),30
+2018,South America,Employment-based preferences,Special immigrants (EB-4),580
+2018,Unknown,Employment-based preferences,Special immigrants (EB-4),0
+2018,Africa,Family-sponsored preferences,Married children of citizens (F3),640
+2018,Asia,Family-sponsored preferences,Married children of citizens (F3),11300
+2018,Europe,Family-sponsored preferences,Married children of citizens (F3),1120
+2018,North America,Family-sponsored preferences,Married children of citizens (F3),4790
+2018,Oceania,Family-sponsored preferences,Married children of citizens (F3),80
+2018,South America,Family-sponsored preferences,Married children of citizens (F3),1550
+2018,Unknown,Family-sponsored preferences,Married children of citizens (F3),60
+2018,Africa,Family-sponsored preferences,Siblings of citizens (F4),2130
+2018,Asia,Family-sponsored preferences,Siblings of citizens (F4),38820
+2018,Europe,Family-sponsored preferences,Siblings of citizens (F4),1710
+2018,North America,Family-sponsored preferences,Siblings of citizens (F4),13880
+2018,Oceania,Family-sponsored preferences,Siblings of citizens (F4),210
+2018,South America,Family-sponsored preferences,Siblings of citizens (F4),3110
+2018,Unknown,Family-sponsored preferences,Siblings of citizens (F4),80
+2018,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),7830
+2018,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),27490
+2018,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),2280
+2018,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),66450
+2018,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),70
+2018,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),5630
+2018,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),100
+2018,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),2070
+2018,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),5510
+2018,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),960
+2018,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),14630
+2018,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),50
+2018,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),4030
+2018,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),20
+2018,Africa,Immediate relatives of citizens,Children of citizens,9050
+2018,Asia,Immediate relatives of citizens,Children of citizens,15410
+2018,Europe,Immediate relatives of citizens,Children of citizens,3340
+2018,North America,Immediate relatives of citizens,Children of citizens,31800
+2018,Oceania,Immediate relatives of citizens,Children of citizens,180
+2018,South America,Immediate relatives of citizens,Children of citizens,6870
+2018,Unknown,Immediate relatives of citizens,Children of citizens,160
+2018,Africa,Immediate relatives of citizens,Parents of citizens,12570
+2018,Asia,Immediate relatives of citizens,Parents of citizens,52790
+2018,Europe,Immediate relatives of citizens,Parents of citizens,7700
+2018,North America,Immediate relatives of citizens,Parents of citizens,57800
+2018,Oceania,Immediate relatives of citizens,Parents of citizens,290
+2018,South America,Immediate relatives of citizens,Parents of citizens,12730
+2018,Unknown,Immediate relatives of citizens,Parents of citizens,140
+2018,Africa,Immediate relatives of citizens,Spouses of citizens,23800
+2018,Asia,Immediate relatives of citizens,Spouses of citizens,70830
+2018,Europe,Immediate relatives of citizens,Spouses of citizens,24710
+2018,North America,Immediate relatives of citizens,Spouses of citizens,117620
+2018,Oceania,Immediate relatives of citizens,Spouses of citizens,1810
+2018,South America,Immediate relatives of citizens,Spouses of citizens,28910
+2018,Unknown,Immediate relatives of citizens,Spouses of citizens,470
+2018,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",216760
+2019,Africa,Diversity lottery,Diversity lottery,18580
+2019,Asia,Diversity lottery,Diversity lottery,12810
+2019,Europe,Diversity lottery,Diversity lottery,10190
+2019,North America,Diversity lottery,Diversity lottery,290
+2019,Oceania,Diversity lottery,Diversity lottery,600
+2019,South America,Diversity lottery,Diversity lottery,970
+2019,Unknown,Diversity lottery,Diversity lottery,30
+2019,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),2120
+2019,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),23030
+2019,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),6960
+2019,North America,Employment-based preferences,Advanced-degree professionals (EB-2),3770
+2019,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),370
+2019,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3250
+2019,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),0
+2019,Africa,Employment-based preferences,Investors (EB-5),280
+2019,Asia,Employment-based preferences,Investors (EB-5),7400
+2019,Europe,Employment-based preferences,Investors (EB-5),380
+2019,North America,Employment-based preferences,Investors (EB-5),220
+2019,Oceania,Employment-based preferences,Investors (EB-5),30
+2019,South America,Employment-based preferences,Investors (EB-5),780
+2019,Unknown,Employment-based preferences,Investors (EB-5),0
+2019,Africa,Employment-based preferences,Priority workers (EB-1),1110
+2019,Asia,Employment-based preferences,Priority workers (EB-1),19850
+2019,Europe,Employment-based preferences,Priority workers (EB-1),9380
+2019,North America,Employment-based preferences,Priority workers (EB-1),3660
+2019,Oceania,Employment-based preferences,Priority workers (EB-1),690
+2019,South America,Employment-based preferences,Priority workers (EB-1),4790
+2019,Unknown,Employment-based preferences,Priority workers (EB-1),0
+2019,Africa,Employment-based preferences,Skilled and other workers (EB-3),2290
+2019,Asia,Employment-based preferences,Skilled and other workers (EB-3),24930
+2019,Europe,Employment-based preferences,Skilled and other workers (EB-3),4760
+2019,North America,Employment-based preferences,Skilled and other workers (EB-3),5880
+2019,Oceania,Employment-based preferences,Skilled and other workers (EB-3),350
+2019,South America,Employment-based preferences,Skilled and other workers (EB-3),3570
+2019,Unknown,Employment-based preferences,Skilled and other workers (EB-3),10
+2019,Africa,Employment-based preferences,Special immigrants (EB-4),1110
+2019,Asia,Employment-based preferences,Special immigrants (EB-4),2510
+2019,Europe,Employment-based preferences,Special immigrants (EB-4),520
+2019,North America,Employment-based preferences,Special immigrants (EB-4),4930
+2019,Oceania,Employment-based preferences,Special immigrants (EB-4),30
+2019,South America,Employment-based preferences,Special immigrants (EB-4),520
+2019,Unknown,Employment-based preferences,Special immigrants (EB-4),0
+2019,Africa,Family-sponsored preferences,Married children of citizens (F3),1010
+2019,Asia,Family-sponsored preferences,Married children of citizens (F3),14780
+2019,Europe,Family-sponsored preferences,Married children of citizens (F3),1340
+2019,North America,Family-sponsored preferences,Married children of citizens (F3),5890
+2019,Oceania,Family-sponsored preferences,Married children of citizens (F3),140
+2019,South America,Family-sponsored preferences,Married children of citizens (F3),1960
+2019,Unknown,Family-sponsored preferences,Married children of citizens (F3),100
+2019,Africa,Family-sponsored preferences,Siblings of citizens (F4),2450
+2019,Asia,Family-sponsored preferences,Siblings of citizens (F4),41830
+2019,Europe,Family-sponsored preferences,Siblings of citizens (F4),2110
+2019,North America,Family-sponsored preferences,Siblings of citizens (F4),11450
+2019,Oceania,Family-sponsored preferences,Siblings of citizens (F4),260
+2019,South America,Family-sponsored preferences,Siblings of citizens (F4),2840
+2019,Unknown,Family-sponsored preferences,Siblings of citizens (F4),90
+2019,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),6380
+2019,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),25620
+2019,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),2070
+2019,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),53890
+2019,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),80
+2019,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),5250
+2019,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),110
+2019,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),2020
+2019,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),4990
+2019,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),780
+2019,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),13540
+2019,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),20
+2019,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3130
+2019,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),20
+2019,Africa,Immediate relatives of citizens,Children of citizens,8580
+2019,Asia,Immediate relatives of citizens,Children of citizens,14390
+2019,Europe,Immediate relatives of citizens,Children of citizens,3610
+2019,North America,Immediate relatives of citizens,Children of citizens,27040
+2019,Oceania,Immediate relatives of citizens,Children of citizens,180
+2019,South America,Immediate relatives of citizens,Children of citizens,7370
+2019,Unknown,Immediate relatives of citizens,Children of citizens,140
+2019,Africa,Immediate relatives of citizens,Parents of citizens,11540
+2019,Asia,Immediate relatives of citizens,Parents of citizens,47730
+2019,Europe,Immediate relatives of citizens,Parents of citizens,7920
+2019,North America,Immediate relatives of citizens,Parents of citizens,58920
+2019,Oceania,Immediate relatives of citizens,Parents of citizens,290
+2019,South America,Immediate relatives of citizens,Parents of citizens,13590
+2019,Unknown,Immediate relatives of citizens,Parents of citizens,150
+2019,Africa,Immediate relatives of citizens,Spouses of citizens,28380
+2019,Asia,Immediate relatives of citizens,Spouses of citizens,83410
+2019,Europe,Immediate relatives of citizens,Spouses of citizens,32060
+2019,North America,Immediate relatives of citizens,Spouses of citizens,119710
+2019,Oceania,Immediate relatives of citizens,Spouses of citizens,2330
+2019,South America,Immediate relatives of citizens,Spouses of citizens,38010
+2019,Unknown,Immediate relatives of citizens,Spouses of citizens,440
+2019,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",138170
+2020,Africa,Diversity lottery,Diversity lottery,10710
+2020,Asia,Diversity lottery,Diversity lottery,7580
+2020,Europe,Diversity lottery,Diversity lottery,5630
+2020,North America,Diversity lottery,Diversity lottery,360
+2020,Oceania,Diversity lottery,Diversity lottery,420
+2020,South America,Diversity lottery,Diversity lottery,340
+2020,Unknown,Diversity lottery,Diversity lottery,10
+2020,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),2470
+2020,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),24660
+2020,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),7950
+2020,North America,Employment-based preferences,Advanced-degree professionals (EB-2),4360
+2020,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),330
+2020,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3890
+2020,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),10
+2020,Africa,Employment-based preferences,Investors (EB-5),110
+2020,Asia,Employment-based preferences,Investors (EB-5),3430
+2020,Europe,Employment-based preferences,Investors (EB-5),100
+2020,North America,Employment-based preferences,Investors (EB-5),110
+2020,Oceania,Employment-based preferences,Investors (EB-5),10
+2020,South America,Employment-based preferences,Investors (EB-5),230
+2020,Unknown,Employment-based preferences,Investors (EB-5),0
+2020,Africa,Employment-based preferences,Priority workers (EB-1),1180
+2020,Asia,Employment-based preferences,Priority workers (EB-1),27320
+2020,Europe,Employment-based preferences,Priority workers (EB-1),9510
+2020,North America,Employment-based preferences,Priority workers (EB-1),3640
+2020,Oceania,Employment-based preferences,Priority workers (EB-1),670
+2020,South America,Employment-based preferences,Priority workers (EB-1),5070
+2020,Unknown,Employment-based preferences,Priority workers (EB-1),0
+2020,Africa,Employment-based preferences,Skilled and other workers (EB-3),2240
+2020,Asia,Employment-based preferences,Skilled and other workers (EB-3),22850
+2020,Europe,Employment-based preferences,Skilled and other workers (EB-3),5750
+2020,North America,Employment-based preferences,Skilled and other workers (EB-3),6910
+2020,Oceania,Employment-based preferences,Skilled and other workers (EB-3),430
+2020,South America,Employment-based preferences,Skilled and other workers (EB-3),5030
+2020,Unknown,Employment-based preferences,Skilled and other workers (EB-3),10
+2020,Africa,Employment-based preferences,Special immigrants (EB-4),1370
+2020,Asia,Employment-based preferences,Special immigrants (EB-4),3040
+2020,Europe,Employment-based preferences,Special immigrants (EB-4),940
+2020,North America,Employment-based preferences,Special immigrants (EB-4),4000
+2020,Oceania,Employment-based preferences,Special immigrants (EB-4),40
+2020,South America,Employment-based preferences,Special immigrants (EB-4),1310
+2020,Unknown,Employment-based preferences,Special immigrants (EB-4),10
+2020,Africa,Family-sponsored preferences,Married children of citizens (F3),760
+2020,Asia,Family-sponsored preferences,Married children of citizens (F3),8170
+2020,Europe,Family-sponsored preferences,Married children of citizens (F3),730
+2020,North America,Family-sponsored preferences,Married children of citizens (F3),3280
+2020,Oceania,Family-sponsored preferences,Married children of citizens (F3),40
+2020,South America,Family-sponsored preferences,Married children of citizens (F3),910
+2020,Unknown,Family-sponsored preferences,Married children of citizens (F3),30
+2020,Africa,Family-sponsored preferences,Siblings of citizens (F4),2370
+2020,Asia,Family-sponsored preferences,Siblings of citizens (F4),32670
+2020,Europe,Family-sponsored preferences,Siblings of citizens (F4),1700
+2020,North America,Family-sponsored preferences,Siblings of citizens (F4),6030
+2020,Oceania,Family-sponsored preferences,Siblings of citizens (F4),110
+2020,South America,Family-sponsored preferences,Siblings of citizens (F4),1610
+2020,Unknown,Family-sponsored preferences,Siblings of citizens (F4),60
+2020,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),4080
+2020,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),16140
+2020,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1390
+2020,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),27180
+2020,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),30
+2020,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),2810
+2020,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),70
+2020,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1030
+2020,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),2910
+2020,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),410
+2020,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),5810
+2020,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2020,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),1220
+2020,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2020,Africa,Immediate relatives of citizens,Children of citizens,5220
+2020,Asia,Immediate relatives of citizens,Children of citizens,8880
+2020,Europe,Immediate relatives of citizens,Children of citizens,2410
+2020,North America,Immediate relatives of citizens,Children of citizens,16330
+2020,Oceania,Immediate relatives of citizens,Children of citizens,110
+2020,South America,Immediate relatives of citizens,Children of citizens,4340
+2020,Unknown,Immediate relatives of citizens,Children of citizens,80
+2020,Africa,Immediate relatives of citizens,Parents of citizens,6990
+2020,Asia,Immediate relatives of citizens,Parents of citizens,27490
+2020,Europe,Immediate relatives of citizens,Parents of citizens,5070
+2020,North America,Immediate relatives of citizens,Parents of citizens,39470
+2020,Oceania,Immediate relatives of citizens,Parents of citizens,200
+2020,South America,Immediate relatives of citizens,Parents of citizens,8750
+2020,Unknown,Immediate relatives of citizens,Parents of citizens,80
+2020,Africa,Immediate relatives of citizens,Spouses of citizens,19830
+2020,Asia,Immediate relatives of citizens,Spouses of citizens,57190
+2020,Europe,Immediate relatives of citizens,Spouses of citizens,21230
+2020,North America,Immediate relatives of citizens,Spouses of citizens,72720
+2020,Oceania,Immediate relatives of citizens,Spouses of citizens,1570
+2020,South America,Immediate relatives of citizens,Spouses of citizens,22940
+2020,Unknown,Immediate relatives of citizens,Spouses of citizens,230
+2020,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",89970
+2021,Africa,Diversity lottery,Diversity lottery,4550
+2021,Asia,Diversity lottery,Diversity lottery,5150
+2021,Europe,Diversity lottery,Diversity lottery,3430
+2021,North America,Diversity lottery,Diversity lottery,610
+2021,Oceania,Diversity lottery,Diversity lottery,430
+2021,South America,Diversity lottery,Diversity lottery,920
+2021,Unknown,Diversity lottery,Diversity lottery,50
+2021,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),1690
+2021,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),46470
+2021,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),5270
+2021,North America,Employment-based preferences,Advanced-degree professionals (EB-2),2620
+2021,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),270
+2021,South America,Employment-based preferences,Advanced-degree professionals (EB-2),3510
+2021,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),0
+2021,Africa,Employment-based preferences,Investors (EB-5),30
+2021,Asia,Employment-based preferences,Investors (EB-5),2470
+2021,Europe,Employment-based preferences,Investors (EB-5),50
+2021,North America,Employment-based preferences,Investors (EB-5),20
+2021,Oceania,Employment-based preferences,Investors (EB-5),0
+2021,South America,Employment-based preferences,Investors (EB-5),70
+2021,Unknown,Employment-based preferences,Investors (EB-5),0
+2021,Africa,Employment-based preferences,Priority workers (EB-1),1180
+2021,Asia,Employment-based preferences,Priority workers (EB-1),44180
+2021,Europe,Employment-based preferences,Priority workers (EB-1),7960
+2021,North America,Employment-based preferences,Priority workers (EB-1),3310
+2021,Oceania,Employment-based preferences,Priority workers (EB-1),610
+2021,South America,Employment-based preferences,Priority workers (EB-1),4190
+2021,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2021,Africa,Employment-based preferences,Skilled and other workers (EB-3),2300
+2021,Asia,Employment-based preferences,Skilled and other workers (EB-3),37660
+2021,Europe,Employment-based preferences,Skilled and other workers (EB-3),4370
+2021,North America,Employment-based preferences,Skilled and other workers (EB-3),5400
+2021,Oceania,Employment-based preferences,Skilled and other workers (EB-3),280
+2021,South America,Employment-based preferences,Skilled and other workers (EB-3),4090
+2021,Unknown,Employment-based preferences,Skilled and other workers (EB-3),10
+2021,Africa,Employment-based preferences,Special immigrants (EB-4),1320
+2021,Asia,Employment-based preferences,Special immigrants (EB-4),2460
+2021,Europe,Employment-based preferences,Special immigrants (EB-4),580
+2021,North America,Employment-based preferences,Special immigrants (EB-4),9820
+2021,Oceania,Employment-based preferences,Special immigrants (EB-4),20
+2021,South America,Employment-based preferences,Special immigrants (EB-4),1110
+2021,Unknown,Employment-based preferences,Special immigrants (EB-4),20
+2021,Africa,Family-sponsored preferences,Married children of citizens (F3),390
+2021,Asia,Family-sponsored preferences,Married children of citizens (F3),2890
+2021,Europe,Family-sponsored preferences,Married children of citizens (F3),300
+2021,North America,Family-sponsored preferences,Married children of citizens (F3),2480
+2021,Oceania,Family-sponsored preferences,Married children of citizens (F3),20
+2021,South America,Family-sponsored preferences,Married children of citizens (F3),550
+2021,Unknown,Family-sponsored preferences,Married children of citizens (F3),0
+2021,Africa,Family-sponsored preferences,Siblings of citizens (F4),800
+2021,Asia,Family-sponsored preferences,Siblings of citizens (F4),7350
+2021,Europe,Family-sponsored preferences,Siblings of citizens (F4),460
+2021,North America,Family-sponsored preferences,Siblings of citizens (F4),3800
+2021,Oceania,Family-sponsored preferences,Siblings of citizens (F4),40
+2021,South America,Family-sponsored preferences,Siblings of citizens (F4),610
+2021,Unknown,Family-sponsored preferences,Siblings of citizens (F4),50
+2021,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),3370
+2021,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),12000
+2021,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1740
+2021,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),19040
+2021,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),60
+2021,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),2850
+2021,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),80
+2021,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),590
+2021,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),1420
+2021,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),210
+2021,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3890
+2021,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2021,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),710
+2021,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2021,Africa,Immediate relatives of citizens,Children of citizens,6870
+2021,Asia,Immediate relatives of citizens,Children of citizens,12480
+2021,Europe,Immediate relatives of citizens,Children of citizens,2980
+2021,North America,Immediate relatives of citizens,Children of citizens,23490
+2021,Oceania,Immediate relatives of citizens,Children of citizens,160
+2021,South America,Immediate relatives of citizens,Children of citizens,6990
+2021,Unknown,Immediate relatives of citizens,Children of citizens,90
+2021,Africa,Immediate relatives of citizens,Parents of citizens,6200
+2021,Asia,Immediate relatives of citizens,Parents of citizens,22510
+2021,Europe,Immediate relatives of citizens,Parents of citizens,4440
+2021,North America,Immediate relatives of citizens,Parents of citizens,39120
+2021,Oceania,Immediate relatives of citizens,Parents of citizens,170
+2021,South America,Immediate relatives of citizens,Parents of citizens,7880
+2021,Unknown,Immediate relatives of citizens,Parents of citizens,190
+2021,Africa,Immediate relatives of citizens,Spouses of citizens,24960
+2021,Asia,Immediate relatives of citizens,Spouses of citizens,75160
+2021,Europe,Immediate relatives of citizens,Spouses of citizens,25950
+2021,North America,Immediate relatives of citizens,Spouses of citizens,89850
+2021,Oceania,Immediate relatives of citizens,Spouses of citizens,2070
+2021,South America,Immediate relatives of citizens,Spouses of citizens,33370
+2021,Unknown,Immediate relatives of citizens,Spouses of citizens,470
+2021,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",79880
+2022,Africa,Diversity lottery,Diversity lottery,12900
+2022,Asia,Diversity lottery,Diversity lottery,17740
+2022,Europe,Diversity lottery,Diversity lottery,8900
+2022,North America,Diversity lottery,Diversity lottery,870
+2022,Oceania,Diversity lottery,Diversity lottery,1000
+2022,South America,Diversity lottery,Diversity lottery,1660
+2022,Unknown,Diversity lottery,Diversity lottery,160
+2022,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),3060
+2022,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),86540
+2022,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),7980
+2022,North America,Employment-based preferences,Advanced-degree professionals (EB-2),4230
+2022,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),370
+2022,South America,Employment-based preferences,Advanced-degree professionals (EB-2),6900
+2022,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),10
+2022,Africa,Employment-based preferences,Investors (EB-5),140
+2022,Asia,Employment-based preferences,Investors (EB-5),6660
+2022,Europe,Employment-based preferences,Investors (EB-5),280
+2022,North America,Employment-based preferences,Investors (EB-5),310
+2022,Oceania,Employment-based preferences,Investors (EB-5),10
+2022,South America,Employment-based preferences,Investors (EB-5),490
+2022,Unknown,Employment-based preferences,Investors (EB-5),0
+2022,Africa,Employment-based preferences,Priority workers (EB-1),1150
+2022,Asia,Employment-based preferences,Priority workers (EB-1),36480
+2022,Europe,Employment-based preferences,Priority workers (EB-1),7400
+2022,North America,Employment-based preferences,Priority workers (EB-1),3190
+2022,Oceania,Employment-based preferences,Priority workers (EB-1),600
+2022,South America,Employment-based preferences,Priority workers (EB-1),4610
+2022,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2022,Africa,Employment-based preferences,Skilled and other workers (EB-3),5570
+2022,Asia,Employment-based preferences,Skilled and other workers (EB-3),52380
+2022,Europe,Employment-based preferences,Skilled and other workers (EB-3),6580
+2022,North America,Employment-based preferences,Skilled and other workers (EB-3),7770
+2022,Oceania,Employment-based preferences,Skilled and other workers (EB-3),460
+2022,South America,Employment-based preferences,Skilled and other workers (EB-3),6590
+2022,Unknown,Employment-based preferences,Skilled and other workers (EB-3),20
+2022,Africa,Employment-based preferences,Special immigrants (EB-4),1780
+2022,Asia,Employment-based preferences,Special immigrants (EB-4),3890
+2022,Europe,Employment-based preferences,Special immigrants (EB-4),770
+2022,North America,Employment-based preferences,Special immigrants (EB-4),11880
+2022,Oceania,Employment-based preferences,Special immigrants (EB-4),30
+2022,South America,Employment-based preferences,Special immigrants (EB-4),2150
+2022,Unknown,Employment-based preferences,Special immigrants (EB-4),30
+2022,Africa,Family-sponsored preferences,Married children of citizens (F3),470
+2022,Asia,Family-sponsored preferences,Married children of citizens (F3),7320
+2022,Europe,Family-sponsored preferences,Married children of citizens (F3),1150
+2022,North America,Family-sponsored preferences,Married children of citizens (F3),6610
+2022,Oceania,Family-sponsored preferences,Married children of citizens (F3),130
+2022,South America,Family-sponsored preferences,Married children of citizens (F3),1680
+2022,Unknown,Family-sponsored preferences,Married children of citizens (F3),80
+2022,Africa,Family-sponsored preferences,Siblings of citizens (F4),1740
+2022,Asia,Family-sponsored preferences,Siblings of citizens (F4),26360
+2022,Europe,Family-sponsored preferences,Siblings of citizens (F4),1830
+2022,North America,Family-sponsored preferences,Siblings of citizens (F4),7950
+2022,Oceania,Family-sponsored preferences,Siblings of citizens (F4),200
+2022,South America,Family-sponsored preferences,Siblings of citizens (F4),2750
+2022,Unknown,Family-sponsored preferences,Siblings of citizens (F4),140
+2022,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),6960
+2022,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),20680
+2022,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),4080
+2022,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),49480
+2022,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),140
+2022,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),8290
+2022,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),240
+2022,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1260
+2022,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),3010
+2022,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),870
+2022,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),9460
+2022,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),30
+2022,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),3120
+2022,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),30
+2022,Africa,Immediate relatives of citizens,Children of citizens,7240
+2022,Asia,Immediate relatives of citizens,Children of citizens,10640
+2022,Europe,Immediate relatives of citizens,Children of citizens,2330
+2022,North America,Immediate relatives of citizens,Children of citizens,29820
+2022,Oceania,Immediate relatives of citizens,Children of citizens,140
+2022,South America,Immediate relatives of citizens,Children of citizens,6870
+2022,Unknown,Immediate relatives of citizens,Children of citizens,90
+2022,Africa,Immediate relatives of citizens,Parents of citizens,8790
+2022,Asia,Immediate relatives of citizens,Parents of citizens,45070
+2022,Europe,Immediate relatives of citizens,Parents of citizens,7080
+2022,North America,Immediate relatives of citizens,Parents of citizens,58750
+2022,Oceania,Immediate relatives of citizens,Parents of citizens,190
+2022,South America,Immediate relatives of citizens,Parents of citizens,12380
+2022,Unknown,Immediate relatives of citizens,Parents of citizens,250
+2022,Africa,Immediate relatives of citizens,Spouses of citizens,21550
+2022,Asia,Immediate relatives of citizens,Spouses of citizens,61040
+2022,Europe,Immediate relatives of citizens,Spouses of citizens,21220
+2022,North America,Immediate relatives of citizens,Spouses of citizens,102280
+2022,Oceania,Immediate relatives of citizens,Spouses of citizens,1820
+2022,South America,Immediate relatives of citizens,Spouses of citizens,30450
+2022,Unknown,Immediate relatives of citizens,Spouses of citizens,280
+2022,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",109650
+2023,Africa,Diversity lottery,Diversity lottery,25270
+2023,Asia,Diversity lottery,Diversity lottery,27080
+2023,Europe,Diversity lottery,Diversity lottery,11650
+2023,North America,Diversity lottery,Diversity lottery,1020
+2023,Oceania,Diversity lottery,Diversity lottery,1030
+2023,South America,Diversity lottery,Diversity lottery,1250
+2023,Unknown,Diversity lottery,Diversity lottery,50
+2023,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),3780
+2023,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),30080
+2023,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),6430
+2023,North America,Employment-based preferences,Advanced-degree professionals (EB-2),4090
+2023,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),290
+2023,South America,Employment-based preferences,Advanced-degree professionals (EB-2),11120
+2023,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),10
+2023,Africa,Employment-based preferences,Investors (EB-5),200
+2023,Asia,Employment-based preferences,Investors (EB-5),10810
+2023,Europe,Employment-based preferences,Investors (EB-5),250
+2023,North America,Employment-based preferences,Investors (EB-5),220
+2023,Oceania,Employment-based preferences,Investors (EB-5),10
+2023,South America,Employment-based preferences,Investors (EB-5),440
+2023,Unknown,Employment-based preferences,Investors (EB-5),0
+2023,Africa,Employment-based preferences,Priority workers (EB-1),1800
+2023,Asia,Employment-based preferences,Priority workers (EB-1),31200
+2023,Europe,Employment-based preferences,Priority workers (EB-1),11180
+2023,North America,Employment-based preferences,Priority workers (EB-1),5030
+2023,Oceania,Employment-based preferences,Priority workers (EB-1),700
+2023,South America,Employment-based preferences,Priority workers (EB-1),7220
+2023,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2023,Africa,Employment-based preferences,Skilled and other workers (EB-3),4410
+2023,Asia,Employment-based preferences,Skilled and other workers (EB-3),36630
+2023,Europe,Employment-based preferences,Skilled and other workers (EB-3),3990
+2023,North America,Employment-based preferences,Skilled and other workers (EB-3),7220
+2023,Oceania,Employment-based preferences,Skilled and other workers (EB-3),350
+2023,South America,Employment-based preferences,Skilled and other workers (EB-3),4710
+2023,Unknown,Employment-based preferences,Skilled and other workers (EB-3),10
+2023,Africa,Employment-based preferences,Special immigrants (EB-4),1020
+2023,Asia,Employment-based preferences,Special immigrants (EB-4),2650
+2023,Europe,Employment-based preferences,Special immigrants (EB-4),470
+2023,North America,Employment-based preferences,Special immigrants (EB-4),9180
+2023,Oceania,Employment-based preferences,Special immigrants (EB-4),30
+2023,South America,Employment-based preferences,Special immigrants (EB-4),1240
+2023,Unknown,Employment-based preferences,Special immigrants (EB-4),10
+2023,Africa,Family-sponsored preferences,Married children of citizens (F3),450
+2023,Asia,Family-sponsored preferences,Married children of citizens (F3),12010
+2023,Europe,Family-sponsored preferences,Married children of citizens (F3),430
+2023,North America,Family-sponsored preferences,Married children of citizens (F3),4800
+2023,Oceania,Family-sponsored preferences,Married children of citizens (F3),70
+2023,South America,Family-sponsored preferences,Married children of citizens (F3),1410
+2023,Unknown,Family-sponsored preferences,Married children of citizens (F3),10
+2023,Africa,Family-sponsored preferences,Siblings of citizens (F4),1220
+2023,Asia,Family-sponsored preferences,Siblings of citizens (F4),29800
+2023,Europe,Family-sponsored preferences,Siblings of citizens (F4),680
+2023,North America,Family-sponsored preferences,Siblings of citizens (F4),11200
+2023,Oceania,Family-sponsored preferences,Siblings of citizens (F4),80
+2023,South America,Family-sponsored preferences,Siblings of citizens (F4),1830
+2023,Unknown,Family-sponsored preferences,Siblings of citizens (F4),20
+2023,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),4700
+2023,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),26590
+2023,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),1880
+2023,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),77210
+2023,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),70
+2023,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),6030
+2023,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),70
+2023,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1060
+2023,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),5760
+2023,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),420
+2023,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),13730
+2023,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),30
+2023,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),2670
+2023,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2023,Africa,Immediate relatives of citizens,Children of citizens,8790
+2023,Asia,Immediate relatives of citizens,Children of citizens,12770
+2023,Europe,Immediate relatives of citizens,Children of citizens,2710
+2023,North America,Immediate relatives of citizens,Children of citizens,34260
+2023,Oceania,Immediate relatives of citizens,Children of citizens,160
+2023,South America,Immediate relatives of citizens,Children of citizens,8430
+2023,Unknown,Immediate relatives of citizens,Children of citizens,40
+2023,Africa,Immediate relatives of citizens,Parents of citizens,11300
+2023,Asia,Immediate relatives of citizens,Parents of citizens,69270
+2023,Europe,Immediate relatives of citizens,Parents of citizens,11250
+2023,North America,Immediate relatives of citizens,Parents of citizens,96580
+2023,Oceania,Immediate relatives of citizens,Parents of citizens,320
+2023,South America,Immediate relatives of citizens,Parents of citizens,19500
+2023,Unknown,Immediate relatives of citizens,Parents of citizens,140
+2023,Africa,Immediate relatives of citizens,Spouses of citizens,26320
+2023,Asia,Immediate relatives of citizens,Spouses of citizens,75960
+2023,Europe,Immediate relatives of citizens,Spouses of citizens,24240
+2023,North America,Immediate relatives of citizens,Spouses of citizens,109260
+2023,Oceania,Immediate relatives of citizens,Spouses of citizens,1830
+2023,South America,Immediate relatives of citizens,Spouses of citizens,38220
+2023,Unknown,Immediate relatives of citizens,Spouses of citizens,250
+2023,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",152430
+2024,Africa,Diversity lottery,Diversity lottery,19980
+2024,Asia,Diversity lottery,Diversity lottery,20250
+2024,Europe,Diversity lottery,Diversity lottery,6750
+2024,North America,Diversity lottery,Diversity lottery,1270
+2024,Oceania,Diversity lottery,Diversity lottery,950
+2024,South America,Diversity lottery,Diversity lottery,620
+2024,Unknown,Diversity lottery,Diversity lottery,60
+2024,Africa,Employment-based preferences,Advanced-degree professionals (EB-2),3270
+2024,Asia,Employment-based preferences,Advanced-degree professionals (EB-2),25900
+2024,Europe,Employment-based preferences,Advanced-degree professionals (EB-2),3880
+2024,North America,Employment-based preferences,Advanced-degree professionals (EB-2),2890
+2024,Oceania,Employment-based preferences,Advanced-degree professionals (EB-2),180
+2024,South America,Employment-based preferences,Advanced-degree professionals (EB-2),10450
+2024,Unknown,Employment-based preferences,Advanced-degree professionals (EB-2),0
+2024,Africa,Employment-based preferences,Investors (EB-5),250
+2024,Asia,Employment-based preferences,Investors (EB-5),13360
+2024,Europe,Employment-based preferences,Investors (EB-5),280
+2024,North America,Employment-based preferences,Investors (EB-5),250
+2024,Oceania,Employment-based preferences,Investors (EB-5),30
+2024,South America,Employment-based preferences,Investors (EB-5),380
+2024,Unknown,Employment-based preferences,Investors (EB-5),0
+2024,Africa,Employment-based preferences,Priority workers (EB-1),1990
+2024,Asia,Employment-based preferences,Priority workers (EB-1),23150
+2024,Europe,Employment-based preferences,Priority workers (EB-1),9390
+2024,North America,Employment-based preferences,Priority workers (EB-1),4840
+2024,Oceania,Employment-based preferences,Priority workers (EB-1),600
+2024,South America,Employment-based preferences,Priority workers (EB-1),7010
+2024,Unknown,Employment-based preferences,Priority workers (EB-1),10
+2024,Africa,Employment-based preferences,Skilled and other workers (EB-3),4730
+2024,Asia,Employment-based preferences,Skilled and other workers (EB-3),30980
+2024,Europe,Employment-based preferences,Skilled and other workers (EB-3),2970
+2024,North America,Employment-based preferences,Skilled and other workers (EB-3),6110
+2024,Oceania,Employment-based preferences,Skilled and other workers (EB-3),200
+2024,South America,Employment-based preferences,Skilled and other workers (EB-3),3530
+2024,Unknown,Employment-based preferences,Skilled and other workers (EB-3),20
+2024,Africa,Employment-based preferences,Special immigrants (EB-4),1200
+2024,Asia,Employment-based preferences,Special immigrants (EB-4),1960
+2024,Europe,Employment-based preferences,Special immigrants (EB-4),270
+2024,North America,Employment-based preferences,Special immigrants (EB-4),10450
+2024,Oceania,Employment-based preferences,Special immigrants (EB-4),10
+2024,South America,Employment-based preferences,Special immigrants (EB-4),540
+2024,Unknown,Employment-based preferences,Special immigrants (EB-4),20
+2024,Africa,Family-sponsored preferences,Married children of citizens (F3),620
+2024,Asia,Family-sponsored preferences,Married children of citizens (F3),12670
+2024,Europe,Family-sponsored preferences,Married children of citizens (F3),620
+2024,North America,Family-sponsored preferences,Married children of citizens (F3),6520
+2024,Oceania,Family-sponsored preferences,Married children of citizens (F3),120
+2024,South America,Family-sponsored preferences,Married children of citizens (F3),1400
+2024,Unknown,Family-sponsored preferences,Married children of citizens (F3),60
+2024,Africa,Family-sponsored preferences,Siblings of citizens (F4),1830
+2024,Asia,Family-sponsored preferences,Siblings of citizens (F4),37590
+2024,Europe,Family-sponsored preferences,Siblings of citizens (F4),880
+2024,North America,Family-sponsored preferences,Siblings of citizens (F4),13230
+2024,Oceania,Family-sponsored preferences,Siblings of citizens (F4),80
+2024,South America,Family-sponsored preferences,Siblings of citizens (F4),2930
+2024,Unknown,Family-sponsored preferences,Siblings of citizens (F4),90
+2024,Africa,Family-sponsored preferences,Spouses and children of green-card holders (F2),5530
+2024,Asia,Family-sponsored preferences,Spouses and children of green-card holders (F2),19500
+2024,Europe,Family-sponsored preferences,Spouses and children of green-card holders (F2),950
+2024,North America,Family-sponsored preferences,Spouses and children of green-card holders (F2),56970
+2024,Oceania,Family-sponsored preferences,Spouses and children of green-card holders (F2),40
+2024,South America,Family-sponsored preferences,Spouses and children of green-card holders (F2),4360
+2024,Unknown,Family-sponsored preferences,Spouses and children of green-card holders (F2),60
+2024,Africa,Family-sponsored preferences,Unmarried adult children of citizens (F1),1900
+2024,Asia,Family-sponsored preferences,Unmarried adult children of citizens (F1),5520
+2024,Europe,Family-sponsored preferences,Unmarried adult children of citizens (F1),370
+2024,North America,Family-sponsored preferences,Unmarried adult children of citizens (F1),12470
+2024,Oceania,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2024,South America,Family-sponsored preferences,Unmarried adult children of citizens (F1),1860
+2024,Unknown,Family-sponsored preferences,Unmarried adult children of citizens (F1),10
+2024,Africa,Immediate relatives of citizens,Children of citizens,12550
+2024,Asia,Immediate relatives of citizens,Children of citizens,13800
+2024,Europe,Immediate relatives of citizens,Children of citizens,3040
+2024,North America,Immediate relatives of citizens,Children of citizens,37060
+2024,Oceania,Immediate relatives of citizens,Children of citizens,210
+2024,South America,Immediate relatives of citizens,Children of citizens,9650
+2024,Unknown,Immediate relatives of citizens,Children of citizens,370
+2024,Africa,Immediate relatives of citizens,Parents of citizens,17150
+2024,Asia,Immediate relatives of citizens,Parents of citizens,83140
+2024,Europe,Immediate relatives of citizens,Parents of citizens,12450
+2024,North America,Immediate relatives of citizens,Parents of citizens,115750
+2024,Oceania,Immediate relatives of citizens,Parents of citizens,410
+2024,South America,Immediate relatives of citizens,Parents of citizens,23020
+2024,Unknown,Immediate relatives of citizens,Parents of citizens,650
+2024,Africa,Immediate relatives of citizens,Spouses of citizens,35730
+2024,Asia,Immediate relatives of citizens,Spouses of citizens,91700
+2024,Europe,Immediate relatives of citizens,Spouses of citizens,27270
+2024,North America,Immediate relatives of citizens,Spouses of citizens,136800
+2024,Oceania,Immediate relatives of citizens,Spouses of citizens,2150
+2024,South America,Immediate relatives of citizens,Spouses of citizens,48360
+2024,Unknown,Immediate relatives of citizens,Spouses of citizens,990
+2024,Not broken out by country,"Refugees, asylees and other","Refugees, asylees and other",282040
