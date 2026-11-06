@@ -17577,7 +17577,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-10,2026,Border Patrol,"Air, sea and other",Single adults,Cuba,Apprehensions,31
 2025-10,2026,Border Patrol,"Air, sea and other",Single adults,Ecuador,Apprehensions,7
 2025-10,2026,Border Patrol,"Air, sea and other",Single adults,El Salvador,Apprehensions,45
-2025-10,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,326
+2025-10,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,325
 2025-10,2026,Border Patrol,"Air, sea and other",Single adults,Haiti,Apprehensions,13
 2025-10,2026,Border Patrol,"Air, sea and other",Single adults,Honduras,Apprehensions,270
 2025-10,2026,Border Patrol,"Air, sea and other",Single adults,Mexico,Apprehensions,365
@@ -17602,9 +17602,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-10,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,13
 2025-10,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,14
 2025-10,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,4
-2025-10,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,43
+2025-10,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,45
 2025-10,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,8
-2025-10,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,53
+2025-10,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,54
 2025-10,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,19
 2025-10,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,55
 2025-10,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,19
@@ -17639,7 +17639,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-10,2026,Border Patrol,Southwest border,Single adults,Colombia,Apprehensions,81
 2025-10,2026,Border Patrol,Southwest border,Single adults,Cuba,Apprehensions,94
 2025-10,2026,Border Patrol,Southwest border,Single adults,Ecuador,Apprehensions,99
-2025-10,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,131
+2025-10,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,130
 2025-10,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,734
 2025-10,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,6
 2025-10,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,291
@@ -17675,9 +17675,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-10,2026,Field Operations,"Air, sea and other",Accompanied minors,Nicaragua,Inadmissibles,1
 2025-10,2026,Field Operations,"Air, sea and other",Accompanied minors,Turkey,Inadmissibles,1
 2025-10,2026,Field Operations,"Air, sea and other",Accompanied minors,Ukraine,Inadmissibles,3
-2025-10,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,152
+2025-10,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,153
 2025-10,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,50
-2025-10,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,45
+2025-10,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,74
 2025-10,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,33
 2025-10,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,16
 2025-10,2026,Field Operations,"Air, sea and other",Family units,Cuba,Inadmissibles,4
@@ -17690,30 +17690,31 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-10,2026,Field Operations,"Air, sea and other",Family units,Peru,Inadmissibles,3
 2025-10,2026,Field Operations,"Air, sea and other",Family units,Philippines,Inadmissibles,2
 2025-10,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,2
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3532
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3569
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,358
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,929
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1529
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1142
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1545
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,308
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,30
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,31
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,79
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,96
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,113
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,26
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,27
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,144
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1762
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,841
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1764
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,843
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,301
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,31
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,118
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1734
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1735
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,29
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,382
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,118
-2025-10,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,205
+2025-10,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,206
 2025-10,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,96
 2025-10,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,8
 2025-10,2026,Field Operations,"Air, sea and other",Unaccompanied children,Brazil,Inadmissibles,1
+2025-10,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,3
 2025-10,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,2
 2025-10,2026,Field Operations,"Air, sea and other",Unaccompanied children,Colombia,Inadmissibles,1
 2025-10,2026,Field Operations,"Air, sea and other",Unaccompanied children,Ecuador,Inadmissibles,1
@@ -17818,7 +17819,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-11,2026,Border Patrol,Northern border,Family units,Colombia,Apprehensions,7
 2025-11,2026,Border Patrol,Northern border,Family units,Ecuador,Apprehensions,4
 2025-11,2026,Border Patrol,Northern border,Family units,Venezuela,Apprehensions,1
-2025-11,2026,Border Patrol,Northern border,Single adults,All other countries,Apprehensions,55
+2025-11,2026,Border Patrol,Northern border,Single adults,All other countries,Apprehensions,58
 2025-11,2026,Border Patrol,Northern border,Single adults,Brazil,Apprehensions,13
 2025-11,2026,Border Patrol,Northern border,Single adults,Canada,Apprehensions,2
 2025-11,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,2
@@ -17826,13 +17827,13 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-11,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,6
 2025-11,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,58
 2025-11,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,7
-2025-11,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,53
+2025-11,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,54
 2025-11,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,13
 2025-11,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,51
-2025-11,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,19
-2025-11,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,173
+2025-11,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,20
+2025-11,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,174
 2025-11,2026,Border Patrol,Northern border,Single adults,Myanmar,Apprehensions,2
-2025-11,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,19
+2025-11,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,20
 2025-11,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,1
 2025-11,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,4
 2025-11,2026,Border Patrol,Northern border,Single adults,Russia,Apprehensions,4
@@ -17897,9 +17898,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-11,2026,Field Operations,"Air, sea and other",Accompanied minors,Ecuador,Inadmissibles,3
 2025-11,2026,Field Operations,"Air, sea and other",Accompanied minors,India,Inadmissibles,4
 2025-11,2026,Field Operations,"Air, sea and other",Accompanied minors,Philippines,Inadmissibles,1
-2025-11,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,124
+2025-11,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,126
 2025-11,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,45
-2025-11,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,29
+2025-11,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,50
 2025-11,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,61
 2025-11,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,29
 2025-11,2026,Field Operations,"Air, sea and other",Family units,Cuba,Inadmissibles,2
@@ -17915,10 +17916,10 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-11,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,2
 2025-11,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,3
 2025-11,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,2
-2025-11,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,4070
-2025-11,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,338
-2025-11,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,911
-2025-11,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1388
+2025-11,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,4101
+2025-11,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,339
+2025-11,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1127
+2025-11,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1402
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,324
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,17
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,88
@@ -17926,8 +17927,8 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,149
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,23
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,178
-2025-11,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,2338
-2025-11,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,785
+2025-11,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,2343
+2025-11,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,786
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,316
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,34
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,155
@@ -17939,7 +17940,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-11,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,87
 2025-11,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,12
 2025-11,2026,Field Operations,"Air, sea and other",Unaccompanied children,Brazil,Inadmissibles,2
-2025-11,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,5
+2025-11,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,10
 2025-11,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,9
 2025-11,2026,Field Operations,"Air, sea and other",Unaccompanied children,Colombia,Inadmissibles,2
 2025-11,2026,Field Operations,"Air, sea and other",Unaccompanied children,India,Inadmissibles,6
@@ -18056,24 +18057,24 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-12,2026,Border Patrol,Northern border,Family units,Honduras,Apprehensions,2
 2025-12,2026,Border Patrol,Northern border,Family units,Romania,Apprehensions,1
 2025-12,2026,Border Patrol,Northern border,Family units,Venezuela,Apprehensions,1
-2025-12,2026,Border Patrol,Northern border,Single adults,All other countries,Apprehensions,33
+2025-12,2026,Border Patrol,Northern border,Single adults,All other countries,Apprehensions,39
 2025-12,2026,Border Patrol,Northern border,Single adults,Brazil,Apprehensions,10
 2025-12,2026,Border Patrol,Northern border,Single adults,Canada,Apprehensions,6
 2025-12,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,3
 2025-12,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,8
 2025-12,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,1
-2025-12,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,39
-2025-12,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,24
-2025-12,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,38
-2025-12,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,44
+2025-12,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,51
+2025-12,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,28
+2025-12,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,39
+2025-12,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,45
 2025-12,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,26
 2025-12,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,120
 2025-12,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,10
 2025-12,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,1
 2025-12,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,2
-2025-12,2026,Border Patrol,Northern border,Single adults,Turkey,Apprehensions,2
+2025-12,2026,Border Patrol,Northern border,Single adults,Turkey,Apprehensions,5
 2025-12,2026,Border Patrol,Northern border,Single adults,Ukraine,Apprehensions,2
-2025-12,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,45
+2025-12,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,47
 2025-12,2026,Border Patrol,Northern border,Unaccompanied children,Brazil,Apprehensions,1
 2025-12,2026,Border Patrol,Northern border,Unaccompanied children,Canada,Apprehensions,1
 2025-12,2026,Border Patrol,Northern border,Unaccompanied children,Colombia,Apprehensions,2
@@ -18101,11 +18102,11 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-12,2026,Border Patrol,Southwest border,Single adults,Colombia,Apprehensions,105
 2025-12,2026,Border Patrol,Southwest border,Single adults,Cuba,Apprehensions,67
 2025-12,2026,Border Patrol,Southwest border,Single adults,Ecuador,Apprehensions,138
-2025-12,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,124
+2025-12,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,123
 2025-12,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,674
 2025-12,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,10
 2025-12,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,339
-2025-12,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,76
+2025-12,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,77
 2025-12,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,3578
 2025-12,2026,Border Patrol,Southwest border,Single adults,Nicaragua,Apprehensions,42
 2025-12,2026,Border Patrol,Southwest border,Single adults,Peru,Apprehensions,34
@@ -18130,7 +18131,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-12,2026,Border Patrol,Southwest border,Unaccompanied children,Venezuela,Apprehensions,2
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,All other countries,Inadmissibles,8
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,Brazil,Inadmissibles,4
-2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,Canada,Inadmissibles,5
+2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,Canada,Inadmissibles,6
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,China,Inadmissibles,2
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,Colombia,Inadmissibles,2
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,Guatemala,Inadmissibles,1
@@ -18138,10 +18139,10 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,India,Inadmissibles,5
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,Mexico,Inadmissibles,2
 2025-12,2026,Field Operations,"Air, sea and other",Accompanied minors,Ukraine,Inadmissibles,1
-2025-12,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,171
+2025-12,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,173
 2025-12,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,67
-2025-12,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,94
-2025-12,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,48
+2025-12,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,125
+2025-12,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,50
 2025-12,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,40
 2025-12,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,4
 2025-12,2026,Field Operations,"Air, sea and other",Family units,Guatemala,Inadmissibles,22
@@ -18154,31 +18155,31 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2025-12,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,4
 2025-12,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,3
 2025-12,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,3
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3655
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,346
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,940
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1811
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,306
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3685
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,347
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1104
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1815
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,307
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,11
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,65
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,138
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,168
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,19
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,225
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,2853
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,799
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,2858
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,800
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,286
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,55
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,100
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1618
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,20
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,536
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,537
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,167
-2025-12,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,193
+2025-12,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,194
 2025-12,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,158
 2025-12,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,9
 2025-12,2026,Field Operations,"Air, sea and other",Unaccompanied children,Brazil,Inadmissibles,3
-2025-12,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,6
+2025-12,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,7
 2025-12,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,8
 2025-12,2026,Field Operations,"Air, sea and other",Unaccompanied children,Colombia,Inadmissibles,3
 2025-12,2026,Field Operations,"Air, sea and other",Unaccompanied children,India,Inadmissibles,8
@@ -18297,20 +18298,20 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-01,2026,Border Patrol,Northern border,Single adults,All other countries,Apprehensions,40
 2026-01,2026,Border Patrol,Northern border,Single adults,Canada,Apprehensions,4
 2026-01,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,4
-2026-01,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,19
+2026-01,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,20
 2026-01,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,3
-2026-01,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,34
-2026-01,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,8
-2026-01,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,41
+2026-01,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,38
+2026-01,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,9
+2026-01,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,42
 2026-01,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,1
-2026-01,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,50
+2026-01,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,51
 2026-01,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,12
-2026-01,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,179
-2026-01,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,18
+2026-01,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,199
+2026-01,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,19
 2026-01,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,8
 2026-01,2026,Border Patrol,Northern border,Single adults,Russia,Apprehensions,2
 2026-01,2026,Border Patrol,Northern border,Single adults,Turkey,Apprehensions,1
-2026-01,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,48
+2026-01,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,52
 2026-01,2026,Border Patrol,Northern border,Unaccompanied children,Honduras,Apprehensions,1
 2026-01,2026,Border Patrol,Northern border,Unaccompanied children,India,Apprehensions,1
 2026-01,2026,Border Patrol,Southwest border,Family units,All other countries,Apprehensions,11
@@ -18336,7 +18337,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-01,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,8
 2026-01,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,310
 2026-01,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,30
-2026-01,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,3912
+2026-01,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,3914
 2026-01,2026,Border Patrol,Southwest border,Single adults,Nicaragua,Apprehensions,37
 2026-01,2026,Border Patrol,Southwest border,Single adults,Peru,Apprehensions,27
 2026-01,2026,Border Patrol,Southwest border,Single adults,Romania,Apprehensions,3
@@ -18352,7 +18353,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-01,2026,Border Patrol,Southwest border,Unaccompanied children,Guatemala,Apprehensions,76
 2026-01,2026,Border Patrol,Southwest border,Unaccompanied children,Haiti,Apprehensions,5
 2026-01,2026,Border Patrol,Southwest border,Unaccompanied children,Honduras,Apprehensions,22
-2026-01,2026,Border Patrol,Southwest border,Unaccompanied children,Mexico,Apprehensions,325
+2026-01,2026,Border Patrol,Southwest border,Unaccompanied children,Mexico,Apprehensions,324
 2026-01,2026,Border Patrol,Southwest border,Unaccompanied children,Nicaragua,Apprehensions,3
 2026-01,2026,Border Patrol,Southwest border,Unaccompanied children,Venezuela,Apprehensions,2
 2026-01,2026,Field Operations,"Air, sea and other",Accompanied minors,All other countries,Inadmissibles,40
@@ -18365,7 +18366,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-01,2026,Field Operations,"Air, sea and other",Accompanied minors,Mexico,Inadmissibles,5
 2026-01,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,269
 2026-01,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,104
-2026-01,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,94
+2026-01,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,109
 2026-01,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,220
 2026-01,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,49
 2026-01,2026,Field Operations,"Air, sea and other",Family units,Cuba,Inadmissibles,3
@@ -18383,18 +18384,18 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-01,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,6
 2026-01,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,6
 2026-01,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,6
-2026-01,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,4401
+2026-01,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,4433
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,510
-2026-01,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,991
-2026-01,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,3002
-2026-01,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,356
+2026-01,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1226
+2026-01,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,3010
+2026-01,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,357
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,28
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,100
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,190
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,259
-2026-01,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,16
+2026-01,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,19
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,295
-2026-01,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,3211
+2026-01,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,3215
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,1242
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,301
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,33
@@ -18405,9 +18406,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,157
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,186
 2026-01,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,119
-2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,33
+2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,34
 2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,Brazil,Inadmissibles,15
-2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,12
+2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,19
 2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,85
 2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,Colombia,Inadmissibles,2
 2026-01,2026,Field Operations,"Air, sea and other",Unaccompanied children,Ecuador,Inadmissibles,1
@@ -18496,7 +18497,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-01,2026,Field Operations,Southwest border,Unaccompanied children,Mexico,Inadmissibles,45
 2026-01,2026,Field Operations,Southwest border,Unaccompanied children,Venezuela,Inadmissibles,1
 2026-02,2026,Border Patrol,"Air, sea and other",Family units,Guatemala,Apprehensions,3
-2026-02,2026,Border Patrol,"Air, sea and other",Single adults,All other countries,Apprehensions,60
+2026-02,2026,Border Patrol,"Air, sea and other",Single adults,All other countries,Apprehensions,59
 2026-02,2026,Border Patrol,"Air, sea and other",Single adults,Brazil,Apprehensions,15
 2026-02,2026,Border Patrol,"Air, sea and other",Single adults,China,Apprehensions,1
 2026-02,2026,Border Patrol,"Air, sea and other",Single adults,Colombia,Apprehensions,48
@@ -18600,9 +18601,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-02,2026,Field Operations,"Air, sea and other",Accompanied minors,Mexico,Inadmissibles,1
 2026-02,2026,Field Operations,"Air, sea and other",Accompanied minors,Russia,Inadmissibles,1
 2026-02,2026,Field Operations,"Air, sea and other",Accompanied minors,Ukraine,Inadmissibles,2
-2026-02,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,111
+2026-02,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,115
 2026-02,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,51
-2026-02,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,25
+2026-02,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,30
 2026-02,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,70
 2026-02,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,10
 2026-02,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,7
@@ -18613,10 +18614,10 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-02,2026,Field Operations,"Air, sea and other",Family units,Peru,Inadmissibles,5
 2026-02,2026,Field Operations,"Air, sea and other",Family units,Philippines,Inadmissibles,6
 2026-02,2026,Field Operations,"Air, sea and other",Family units,Russia,Inadmissibles,3
-2026-02,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3070
+2026-02,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3085
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,280
-2026-02,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,817
-2026-02,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1895
+2026-02,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1041
+2026-02,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1897
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,262
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,10
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,82
@@ -18629,7 +18630,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,309
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,26
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,72
-2026-02,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1442
+2026-02,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1443
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,27
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,404
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,175
@@ -18637,7 +18638,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-02,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,97
 2026-02,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,3
 2026-02,2026,Field Operations,"Air, sea and other",Unaccompanied children,Brazil,Inadmissibles,1
-2026-02,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,5
+2026-02,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,7
 2026-02,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,5
 2026-02,2026,Field Operations,"Air, sea and other",Unaccompanied children,Colombia,Inadmissibles,1
 2026-02,2026,Field Operations,"Air, sea and other",Unaccompanied children,Guatemala,Inadmissibles,3
@@ -18752,12 +18753,13 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-03,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,54
 2026-03,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,3
 2026-03,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,33
-2026-03,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,2
+2026-03,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,3
 2026-03,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,39
 2026-03,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,23
 2026-03,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,178
 2026-03,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,18
 2026-03,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,1
+2026-03,2026,Border Patrol,Northern border,Single adults,Russia,Apprehensions,2
 2026-03,2026,Border Patrol,Northern border,Single adults,Ukraine,Apprehensions,1
 2026-03,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,57
 2026-03,2026,Border Patrol,Northern border,Unaccompanied children,All other countries,Apprehensions,1
@@ -18785,18 +18787,18 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-03,2026,Border Patrol,Southwest border,Single adults,Cuba,Apprehensions,67
 2026-03,2026,Border Patrol,Southwest border,Single adults,Ecuador,Apprehensions,125
 2026-03,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,174
-2026-03,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,629
+2026-03,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,630
 2026-03,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,7
 2026-03,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,466
 2026-03,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,27
-2026-03,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5589
+2026-03,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5588
 2026-03,2026,Border Patrol,Southwest border,Single adults,Nicaragua,Apprehensions,50
 2026-03,2026,Border Patrol,Southwest border,Single adults,Peru,Apprehensions,19
 2026-03,2026,Border Patrol,Southwest border,Single adults,Romania,Apprehensions,6
 2026-03,2026,Border Patrol,Southwest border,Single adults,Russia,Apprehensions,6
 2026-03,2026,Border Patrol,Southwest border,Single adults,Turkey,Apprehensions,8
 2026-03,2026,Border Patrol,Southwest border,Single adults,Ukraine,Apprehensions,2
-2026-03,2026,Border Patrol,Southwest border,Single adults,Venezuela,Apprehensions,128
+2026-03,2026,Border Patrol,Southwest border,Single adults,Venezuela,Apprehensions,129
 2026-03,2026,Border Patrol,Southwest border,Unaccompanied children,All other countries,Apprehensions,4
 2026-03,2026,Border Patrol,Southwest border,Unaccompanied children,Colombia,Apprehensions,2
 2026-03,2026,Border Patrol,Southwest border,Unaccompanied children,Cuba,Apprehensions,1
@@ -18818,9 +18820,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-03,2026,Field Operations,"Air, sea and other",Accompanied minors,Mexico,Inadmissibles,3
 2026-03,2026,Field Operations,"Air, sea and other",Accompanied minors,Philippines,Inadmissibles,4
 2026-03,2026,Field Operations,"Air, sea and other",Accompanied minors,Venezuela,Inadmissibles,2
-2026-03,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,103
+2026-03,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,107
 2026-03,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,67
-2026-03,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,32
+2026-03,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,50
 2026-03,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,62
 2026-03,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,18
 2026-03,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,4
@@ -18834,30 +18836,30 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-03,2026,Field Operations,"Air, sea and other",Family units,Romania,Inadmissibles,3
 2026-03,2026,Field Operations,"Air, sea and other",Family units,Russia,Inadmissibles,5
 2026-03,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,2
-2026-03,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3230
+2026-03,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3256
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,350
-2026-03,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,940
-2026-03,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,2274
+2026-03,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1198
+2026-03,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,2279
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,266
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,16
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,88
-2026-03,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,127
+2026-03,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,128
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,116
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,19
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,282
-2026-03,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1682
+2026-03,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1684
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,814
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,296
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,30
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,102
-2026-03,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1721
+2026-03,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1722
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,41
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,532
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,188
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,279
 2026-03,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,129
-2026-03,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,10
-2026-03,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,7
+2026-03,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,12
+2026-03,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,8
 2026-03,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,19
 2026-03,2026,Field Operations,"Air, sea and other",Unaccompanied children,India,Inadmissibles,3
 2026-03,2026,Field Operations,"Air, sea and other",Unaccompanied children,Mexico,Inadmissibles,5
@@ -18970,11 +18972,11 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-04,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,3
 2026-04,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,13
 2026-04,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,14
-2026-04,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,50
+2026-04,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,48
 2026-04,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,6
 2026-04,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,69
 2026-04,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,18
-2026-04,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,167
+2026-04,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,170
 2026-04,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,8
 2026-04,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,1
 2026-04,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,2
@@ -19007,7 +19009,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-04,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,6
 2026-04,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,511
 2026-04,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,19
-2026-04,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,6001
+2026-04,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,6004
 2026-04,2026,Border Patrol,Southwest border,Single adults,Nicaragua,Apprehensions,62
 2026-04,2026,Border Patrol,Southwest border,Single adults,Peru,Apprehensions,33
 2026-04,2026,Border Patrol,Southwest border,Single adults,Romania,Apprehensions,3
@@ -19034,9 +19036,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-04,2026,Field Operations,"Air, sea and other",Accompanied minors,India,Inadmissibles,3
 2026-04,2026,Field Operations,"Air, sea and other",Accompanied minors,Mexico,Inadmissibles,3
 2026-04,2026,Field Operations,"Air, sea and other",Accompanied minors,Romania,Inadmissibles,1
-2026-04,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,145
+2026-04,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,151
 2026-04,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,28
-2026-04,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,31
+2026-04,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,42
 2026-04,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,71
 2026-04,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,11
 2026-04,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,13
@@ -19048,25 +19050,25 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-04,2026,Field Operations,"Air, sea and other",Family units,Nicaragua,Inadmissibles,2
 2026-04,2026,Field Operations,"Air, sea and other",Family units,Peru,Inadmissibles,5
 2026-04,2026,Field Operations,"Air, sea and other",Family units,Russia,Inadmissibles,2
-2026-04,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,5
+2026-04,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,6
 2026-04,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,2
-2026-04,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3485
+2026-04,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3522
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,312
-2026-04,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,826
-2026-04,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1716
+2026-04,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1023
+2026-04,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1724
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,272
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,17
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,80
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,138
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,111
-2026-04,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,19
+2026-04,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,20
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,338
-2026-04,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1505
+2026-04,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1507
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,784
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,312
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,26
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,107
-2026-04,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1689
+2026-04,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1691
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,32
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,448
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,120
@@ -19074,10 +19076,11 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-04,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,110
 2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,10
 2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,Brazil,Inadmissibles,4
-2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,4
+2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,8
 2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,11
 2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,Guatemala,Inadmissibles,1
 2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,Mexico,Inadmissibles,2
+2026-04,2026,Field Operations,"Air, sea and other",Unaccompanied children,Russia,Inadmissibles,1
 2026-04,2026,Field Operations,Northern border,Accompanied minors,All other countries,Inadmissibles,10
 2026-04,2026,Field Operations,Northern border,Accompanied minors,Brazil,Inadmissibles,1
 2026-04,2026,Field Operations,Northern border,Accompanied minors,Canada,Inadmissibles,2
@@ -19149,7 +19152,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-04,2026,Field Operations,Southwest border,Single adults,Haiti,Inadmissibles,3
 2026-04,2026,Field Operations,Southwest border,Single adults,Honduras,Inadmissibles,14
 2026-04,2026,Field Operations,Southwest border,Single adults,India,Inadmissibles,7
-2026-04,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,3278
+2026-04,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,3277
 2026-04,2026,Field Operations,Southwest border,Single adults,Nicaragua,Inadmissibles,3
 2026-04,2026,Field Operations,Southwest border,Single adults,Peru,Inadmissibles,2
 2026-04,2026,Field Operations,Southwest border,Single adults,Romania,Inadmissibles,3
@@ -19169,7 +19172,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-05,2026,Border Patrol,"Air, sea and other",Single adults,Cuba,Apprehensions,29
 2026-05,2026,Border Patrol,"Air, sea and other",Single adults,Ecuador,Apprehensions,8
 2026-05,2026,Border Patrol,"Air, sea and other",Single adults,El Salvador,Apprehensions,43
-2026-05,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,364
+2026-05,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,365
 2026-05,2026,Border Patrol,"Air, sea and other",Single adults,Haiti,Apprehensions,14
 2026-05,2026,Border Patrol,"Air, sea and other",Single adults,Honduras,Apprehensions,217
 2026-05,2026,Border Patrol,"Air, sea and other",Single adults,India,Apprehensions,5
@@ -19196,13 +19199,13 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-05,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,2
 2026-05,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,30
 2026-05,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,10
-2026-05,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,68
+2026-05,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,70
 2026-05,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,11
-2026-05,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,67
+2026-05,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,63
 2026-05,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,26
-2026-05,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,150
-2026-05,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,18
-2026-05,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,2
+2026-05,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,151
+2026-05,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,16
+2026-05,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,1
 2026-05,2026,Border Patrol,Northern border,Single adults,Philippines,Apprehensions,1
 2026-05,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,1
 2026-05,2026,Border Patrol,Northern border,Single adults,Russia,Apprehensions,1
@@ -19269,17 +19272,17 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-05,2026,Field Operations,"Air, sea and other",Accompanied minors,India,Inadmissibles,1
 2026-05,2026,Field Operations,"Air, sea and other",Accompanied minors,Mexico,Inadmissibles,2
 2026-05,2026,Field Operations,"Air, sea and other",Accompanied minors,Ukraine,Inadmissibles,1
-2026-05,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,73
+2026-05,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,83
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,32
-2026-05,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,23
+2026-05,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,50
 2026-05,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,18
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,6
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Cuba,Inadmissibles,6
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,5
-2026-05,2026,Field Operations,"Air, sea and other",Family units,El Salvador,Inadmissibles,4
+2026-05,2026,Field Operations,"Air, sea and other",Family units,El Salvador,Inadmissibles,2
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Guatemala,Inadmissibles,11
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Honduras,Inadmissibles,2
-2026-05,2026,Field Operations,"Air, sea and other",Family units,India,Inadmissibles,56
+2026-05,2026,Field Operations,"Air, sea and other",Family units,India,Inadmissibles,61
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Mexico,Inadmissibles,45
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Nicaragua,Inadmissibles,3
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Peru,Inadmissibles,2
@@ -19287,26 +19290,26 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Romania,Inadmissibles,2
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,4
 2026-05,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,3
-2026-05,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3750
+2026-05,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3830
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,400
-2026-05,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,919
-2026-05,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1704
+2026-05,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1143
+2026-05,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1711
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,398
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,29
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,98
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,124
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,104
-2026-05,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,16
+2026-05,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,17
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,240
-2026-05,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1494
-2026-05,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,871
+2026-05,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1499
+2026-05,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,873
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,236
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,27
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,121
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1640
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,30
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,504
-2026-05,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,135
+2026-05,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,136
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,224
 2026-05,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,124
 2026-05,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,7
@@ -19333,9 +19336,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-05,2026,Field Operations,Northern border,Family units,Russia,Inadmissibles,1
 2026-05,2026,Field Operations,Northern border,Family units,Ukraine,Inadmissibles,3
 2026-05,2026,Field Operations,Northern border,Family units,Venezuela,Inadmissibles,4
-2026-05,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,888
+2026-05,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,898
 2026-05,2026,Field Operations,Northern border,Single adults,Brazil,Inadmissibles,17
-2026-05,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,1552
+2026-05,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,1556
 2026-05,2026,Field Operations,Northern border,Single adults,China,Inadmissibles,336
 2026-05,2026,Field Operations,Northern border,Single adults,Colombia,Inadmissibles,25
 2026-05,2026,Field Operations,Northern border,Single adults,Cuba,Inadmissibles,4
@@ -19366,7 +19369,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-05,2026,Field Operations,Southwest border,Single adults,All other countries,Inadmissibles,46
 2026-05,2026,Field Operations,Southwest border,Single adults,Brazil,Inadmissibles,4
 2026-05,2026,Field Operations,Southwest border,Single adults,Canada,Inadmissibles,6
-2026-05,2026,Field Operations,Southwest border,Single adults,China,Inadmissibles,17
+2026-05,2026,Field Operations,Southwest border,Single adults,China,Inadmissibles,18
 2026-05,2026,Field Operations,Southwest border,Single adults,Colombia,Inadmissibles,8
 2026-05,2026,Field Operations,Southwest border,Single adults,Cuba,Inadmissibles,7
 2026-05,2026,Field Operations,Southwest border,Single adults,Ecuador,Inadmissibles,6
@@ -19375,7 +19378,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-05,2026,Field Operations,Southwest border,Single adults,Haiti,Inadmissibles,1
 2026-05,2026,Field Operations,Southwest border,Single adults,Honduras,Inadmissibles,12
 2026-05,2026,Field Operations,Southwest border,Single adults,India,Inadmissibles,6
-2026-05,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,3029
+2026-05,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,3030
 2026-05,2026,Field Operations,Southwest border,Single adults,Myanmar,Inadmissibles,3
 2026-05,2026,Field Operations,Southwest border,Single adults,Peru,Inadmissibles,1
 2026-05,2026,Field Operations,Southwest border,Single adults,Russia,Inadmissibles,1
@@ -19414,21 +19417,21 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Border Patrol,Northern border,Single adults,Brazil,Apprehensions,9
 2026-06,2026,Border Patrol,Northern border,Single adults,Canada,Apprehensions,5
 2026-06,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,13
-2026-06,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,8
+2026-06,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,7
 2026-06,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,1
 2026-06,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,23
 2026-06,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,9
 2026-06,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,46
 2026-06,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,9
-2026-06,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,35
+2026-06,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,33
 2026-06,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,43
-2026-06,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,144
-2026-06,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,17
+2026-06,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,139
+2026-06,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,16
 2026-06,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,7
 2026-06,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,2
 2026-06,2026,Border Patrol,Northern border,Single adults,Russia,Apprehensions,1
 2026-06,2026,Border Patrol,Northern border,Single adults,Turkey,Apprehensions,1
-2026-06,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,41
+2026-06,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,38
 2026-06,2026,Border Patrol,Northern border,Unaccompanied children,All other countries,Apprehensions,1
 2026-06,2026,Border Patrol,Northern border,Unaccompanied children,Guatemala,Apprehensions,1
 2026-06,2026,Border Patrol,Northern border,Unaccompanied children,Mexico,Apprehensions,1
@@ -19453,12 +19456,12 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Border Patrol,Southwest border,Single adults,Colombia,Apprehensions,126
 2026-06,2026,Border Patrol,Southwest border,Single adults,Cuba,Apprehensions,91
 2026-06,2026,Border Patrol,Southwest border,Single adults,Ecuador,Apprehensions,311
-2026-06,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,205
+2026-06,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,206
 2026-06,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,1089
 2026-06,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,10
-2026-06,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,665
+2026-06,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,666
 2026-06,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,23
-2026-06,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5861
+2026-06,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5860
 2026-06,2026,Border Patrol,Southwest border,Single adults,Nicaragua,Apprehensions,87
 2026-06,2026,Border Patrol,Southwest border,Single adults,Peru,Apprehensions,33
 2026-06,2026,Border Patrol,Southwest border,Single adults,Romania,Apprehensions,8
@@ -19491,8 +19494,8 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,"Air, sea and other",Accompanied minors,Mexico,Inadmissibles,3
 2026-06,2026,Field Operations,"Air, sea and other",Accompanied minors,Peru,Inadmissibles,1
 2026-06,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,173
-2026-06,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,70
-2026-06,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,52
+2026-06,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,72
+2026-06,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,74
 2026-06,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,58
 2026-06,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,17
 2026-06,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,8
@@ -19506,10 +19509,10 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,4
 2026-06,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,5
 2026-06,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,10
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3410
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,386
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,795
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1756
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3457
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,387
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1079
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1763
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,448
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,18
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,93
@@ -19517,19 +19520,19 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,84
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,16
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,224
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1302
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,719
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1307
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,720
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,334
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,33
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,86
-2026-06,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1219
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,87
+2026-06,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,1220
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,31
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,443
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,122
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,204
 2026-06,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,110
-2026-06,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,2
-2026-06,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,4
+2026-06,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,3
+2026-06,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,5
 2026-06,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,4
 2026-06,2026,Field Operations,"Air, sea and other",Unaccompanied children,El Salvador,Inadmissibles,1
 2026-06,2026,Field Operations,Northern border,Accompanied minors,All other countries,Inadmissibles,12
@@ -19554,9 +19557,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,Northern border,Family units,Turkey,Inadmissibles,6
 2026-06,2026,Field Operations,Northern border,Family units,Ukraine,Inadmissibles,6
 2026-06,2026,Field Operations,Northern border,Family units,Venezuela,Inadmissibles,1
-2026-06,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,1091
+2026-06,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,1093
 2026-06,2026,Field Operations,Northern border,Single adults,Brazil,Inadmissibles,9
-2026-06,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,1829
+2026-06,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,1832
 2026-06,2026,Field Operations,Northern border,Single adults,China,Inadmissibles,278
 2026-06,2026,Field Operations,Northern border,Single adults,Colombia,Inadmissibles,22
 2026-06,2026,Field Operations,Northern border,Single adults,Cuba,Inadmissibles,4
@@ -19566,7 +19569,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,Northern border,Single adults,Haiti,Inadmissibles,14
 2026-06,2026,Field Operations,Northern border,Single adults,Honduras,Inadmissibles,6
 2026-06,2026,Field Operations,Northern border,Single adults,India,Inadmissibles,368
-2026-06,2026,Field Operations,Northern border,Single adults,Mexico,Inadmissibles,58
+2026-06,2026,Field Operations,Northern border,Single adults,Mexico,Inadmissibles,59
 2026-06,2026,Field Operations,Northern border,Single adults,Peru,Inadmissibles,8
 2026-06,2026,Field Operations,Northern border,Single adults,Philippines,Inadmissibles,48
 2026-06,2026,Field Operations,Northern border,Single adults,Romania,Inadmissibles,4
@@ -19574,7 +19577,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,Northern border,Single adults,Turkey,Inadmissibles,7
 2026-06,2026,Field Operations,Northern border,Single adults,Ukraine,Inadmissibles,16
 2026-06,2026,Field Operations,Northern border,Single adults,Venezuela,Inadmissibles,8
-2026-06,2026,Field Operations,Northern border,Unaccompanied children,All other countries,Inadmissibles,4
+2026-06,2026,Field Operations,Northern border,Unaccompanied children,All other countries,Inadmissibles,3
 2026-06,2026,Field Operations,Northern border,Unaccompanied children,Guatemala,Inadmissibles,1
 2026-06,2026,Field Operations,Northern border,Unaccompanied children,Mexico,Inadmissibles,2
 2026-06,2026,Field Operations,Southwest border,Accompanied minors,All other countries,Inadmissibles,5
@@ -19587,7 +19590,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,Southwest border,Family units,Mexico,Inadmissibles,209
 2026-06,2026,Field Operations,Southwest border,Family units,Russia,Inadmissibles,10
 2026-06,2026,Field Operations,Southwest border,Family units,Venezuela,Inadmissibles,3
-2026-06,2026,Field Operations,Southwest border,Single adults,All other countries,Inadmissibles,52
+2026-06,2026,Field Operations,Southwest border,Single adults,All other countries,Inadmissibles,51
 2026-06,2026,Field Operations,Southwest border,Single adults,Brazil,Inadmissibles,3
 2026-06,2026,Field Operations,Southwest border,Single adults,Canada,Inadmissibles,15
 2026-06,2026,Field Operations,Southwest border,Single adults,China,Inadmissibles,38
@@ -19599,7 +19602,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-06,2026,Field Operations,Southwest border,Single adults,Haiti,Inadmissibles,3
 2026-06,2026,Field Operations,Southwest border,Single adults,Honduras,Inadmissibles,14
 2026-06,2026,Field Operations,Southwest border,Single adults,India,Inadmissibles,6
-2026-06,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,2540
+2026-06,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,2539
 2026-06,2026,Field Operations,Southwest border,Single adults,Myanmar,Inadmissibles,1
 2026-06,2026,Field Operations,Southwest border,Single adults,Nicaragua,Inadmissibles,1
 2026-06,2026,Field Operations,Southwest border,Single adults,Peru,Inadmissibles,1
@@ -19625,7 +19628,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Ecuador,Apprehensions,15
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,El Salvador,Apprehensions,39
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,375
-2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Haiti,Apprehensions,30
+2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Haiti,Apprehensions,31
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Honduras,Apprehensions,213
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,India,Apprehensions,8
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Mexico,Apprehensions,330
@@ -19635,7 +19638,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Romania,Apprehensions,1
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Russia,Apprehensions,3
 2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Ukraine,Apprehensions,2
-2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Venezuela,Apprehensions,91
+2026-07,2026,Border Patrol,"Air, sea and other",Single adults,Venezuela,Apprehensions,93
 2026-07,2026,Border Patrol,"Air, sea and other",Unaccompanied children,All other countries,Apprehensions,1
 2026-07,2026,Border Patrol,"Air, sea and other",Unaccompanied children,Guatemala,Apprehensions,6
 2026-07,2026,Border Patrol,"Air, sea and other",Unaccompanied children,Honduras,Apprehensions,2
@@ -19653,13 +19656,13 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,10
 2026-07,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,23
 2026-07,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,5
-2026-07,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,16
+2026-07,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,14
 2026-07,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,9
 2026-07,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,65
 2026-07,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,5
 2026-07,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,48
 2026-07,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,32
-2026-07,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,172
+2026-07,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,168
 2026-07,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,16
 2026-07,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,6
 2026-07,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,5
@@ -19696,7 +19699,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,208
 2026-07,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,990
 2026-07,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,11
-2026-07,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,668
+2026-07,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,667
 2026-07,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,18
 2026-07,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5227
 2026-07,2026,Border Patrol,Southwest border,Single adults,Myanmar,Apprehensions,1
@@ -19715,7 +19718,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Guatemala,Apprehensions,154
 2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Haiti,Apprehensions,5
 2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Honduras,Apprehensions,70
-2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Mexico,Apprehensions,493
+2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Mexico,Apprehensions,494
 2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Nicaragua,Apprehensions,5
 2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Peru,Apprehensions,2
 2026-07,2026,Border Patrol,Southwest border,Unaccompanied children,Venezuela,Apprehensions,2
@@ -19733,9 +19736,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Field Operations,"Air, sea and other",Accompanied minors,Russia,Inadmissibles,1
 2026-07,2026,Field Operations,"Air, sea and other",Accompanied minors,Turkey,Inadmissibles,1
 2026-07,2026,Field Operations,"Air, sea and other",Accompanied minors,Ukraine,Inadmissibles,2
-2026-07,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,322
+2026-07,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,325
 2026-07,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,115
-2026-07,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,63
+2026-07,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,110
 2026-07,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,358
 2026-07,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,20
 2026-07,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,2
@@ -19750,10 +19753,10 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,26
 2026-07,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,2
 2026-07,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,5
-2026-07,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3204
-2026-07,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,343
-2026-07,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,871
-2026-07,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1650
+2026-07,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3251
+2026-07,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,344
+2026-07,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1192
+2026-07,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1663
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,351
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,27
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,86
@@ -19761,10 +19764,10 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,83
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,27
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,274
-2026-07,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,2031
-2026-07,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,814
+2026-07,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,2034
+2026-07,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,815
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,203
-2026-07,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,38
+2026-07,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,39
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,66
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,606
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,29
@@ -19772,9 +19775,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,107
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,128
 2026-07,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,92
-2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,4
-2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,11
-2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,1
+2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,7
+2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,12
+2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,2
 2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,Honduras,Inadmissibles,1
 2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,India,Inadmissibles,1
 2026-07,2026,Field Operations,"Air, sea and other",Unaccompanied children,Mexico,Inadmissibles,7
@@ -19798,9 +19801,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Field Operations,Northern border,Family units,Russia,Inadmissibles,5
 2026-07,2026,Field Operations,Northern border,Family units,Ukraine,Inadmissibles,4
 2026-07,2026,Field Operations,Northern border,Family units,Venezuela,Inadmissibles,1
-2026-07,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,1306
+2026-07,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,1307
 2026-07,2026,Field Operations,Northern border,Single adults,Brazil,Inadmissibles,23
-2026-07,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,2456
+2026-07,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,2460
 2026-07,2026,Field Operations,Northern border,Single adults,China,Inadmissibles,341
 2026-07,2026,Field Operations,Northern border,Single adults,Colombia,Inadmissibles,38
 2026-07,2026,Field Operations,Northern border,Single adults,Cuba,Inadmissibles,7
@@ -19848,7 +19851,8 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Field Operations,Southwest border,Single adults,Haiti,Inadmissibles,7
 2026-07,2026,Field Operations,Southwest border,Single adults,Honduras,Inadmissibles,8
 2026-07,2026,Field Operations,Southwest border,Single adults,India,Inadmissibles,8
-2026-07,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,2758
+2026-07,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,2759
+2026-07,2026,Field Operations,Southwest border,Single adults,Nicaragua,Inadmissibles,1
 2026-07,2026,Field Operations,Southwest border,Single adults,Peru,Inadmissibles,2
 2026-07,2026,Field Operations,Southwest border,Single adults,Philippines,Inadmissibles,1
 2026-07,2026,Field Operations,Southwest border,Single adults,Venezuela,Inadmissibles,4
@@ -19860,24 +19864,24 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-07,2026,Field Operations,Southwest border,Unaccompanied children,Peru,Inadmissibles,1
 2026-08,2026,Border Patrol,"Air, sea and other",Family units,Guatemala,Apprehensions,3
 2026-08,2026,Border Patrol,"Air, sea and other",Family units,Mexico,Apprehensions,7
-2026-08,2026,Border Patrol,"Air, sea and other",Single adults,All other countries,Apprehensions,30
+2026-08,2026,Border Patrol,"Air, sea and other",Single adults,All other countries,Apprehensions,31
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Brazil,Apprehensions,30
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,China,Apprehensions,1
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Colombia,Apprehensions,45
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Cuba,Apprehensions,43
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Ecuador,Apprehensions,14
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,El Salvador,Apprehensions,41
-2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,411
-2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Haiti,Apprehensions,92
-2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Honduras,Apprehensions,244
+2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,428
+2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Haiti,Apprehensions,94
+2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Honduras,Apprehensions,247
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,India,Apprehensions,4
-2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Mexico,Apprehensions,328
+2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Mexico,Apprehensions,343
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Nicaragua,Apprehensions,73
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Peru,Apprehensions,6
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Russia,Apprehensions,1
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Turkey,Apprehensions,4
 2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Ukraine,Apprehensions,1
-2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Venezuela,Apprehensions,120
+2026-08,2026,Border Patrol,"Air, sea and other",Single adults,Venezuela,Apprehensions,124
 2026-08,2026,Border Patrol,"Air, sea and other",Unaccompanied children,El Salvador,Apprehensions,1
 2026-08,2026,Border Patrol,"Air, sea and other",Unaccompanied children,Guatemala,Apprehensions,5
 2026-08,2026,Border Patrol,"Air, sea and other",Unaccompanied children,Honduras,Apprehensions,1
@@ -19890,9 +19894,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Border Patrol,Northern border,Family units,Mexico,Apprehensions,2
 2026-08,2026,Border Patrol,Northern border,Family units,Venezuela,Apprehensions,4
 2026-08,2026,Border Patrol,Northern border,Single adults,All other countries,Apprehensions,41
-2026-08,2026,Border Patrol,Northern border,Single adults,Brazil,Apprehensions,6
+2026-08,2026,Border Patrol,Northern border,Single adults,Brazil,Apprehensions,7
 2026-08,2026,Border Patrol,Northern border,Single adults,Canada,Apprehensions,22
-2026-08,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,11
+2026-08,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,10
 2026-08,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,10
 2026-08,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,3
 2026-08,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,21
@@ -19901,7 +19905,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,3
 2026-08,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,65
 2026-08,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,18
-2026-08,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,188
+2026-08,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,187
 2026-08,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,16
 2026-08,2026,Border Patrol,Northern border,Single adults,Romania,Apprehensions,1
 2026-08,2026,Border Patrol,Northern border,Single adults,Russia,Apprehensions,2
@@ -19924,19 +19928,19 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Border Patrol,Southwest border,Family units,Nicaragua,Apprehensions,10
 2026-08,2026,Border Patrol,Southwest border,Family units,Peru,Apprehensions,5
 2026-08,2026,Border Patrol,Southwest border,Family units,Venezuela,Apprehensions,7
-2026-08,2026,Border Patrol,Southwest border,Single adults,All other countries,Apprehensions,116
+2026-08,2026,Border Patrol,Southwest border,Single adults,All other countries,Apprehensions,117
 2026-08,2026,Border Patrol,Southwest border,Single adults,Brazil,Apprehensions,60
 2026-08,2026,Border Patrol,Southwest border,Single adults,Canada,Apprehensions,2
 2026-08,2026,Border Patrol,Southwest border,Single adults,China,Apprehensions,69
-2026-08,2026,Border Patrol,Southwest border,Single adults,Colombia,Apprehensions,122
+2026-08,2026,Border Patrol,Southwest border,Single adults,Colombia,Apprehensions,125
 2026-08,2026,Border Patrol,Southwest border,Single adults,Cuba,Apprehensions,58
 2026-08,2026,Border Patrol,Southwest border,Single adults,Ecuador,Apprehensions,298
 2026-08,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,192
-2026-08,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,964
+2026-08,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,967
 2026-08,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,22
-2026-08,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,578
-2026-08,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,78
-2026-08,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5030
+2026-08,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,579
+2026-08,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,77
+2026-08,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5028
 2026-08,2026,Border Patrol,Southwest border,Single adults,Nicaragua,Apprehensions,70
 2026-08,2026,Border Patrol,Southwest border,Single adults,Peru,Apprehensions,43
 2026-08,2026,Border Patrol,Southwest border,Single adults,Romania,Apprehensions,3
@@ -19948,16 +19952,16 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Cuba,Apprehensions,1
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Ecuador,Apprehensions,6
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,El Salvador,Apprehensions,27
-2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Guatemala,Apprehensions,131
+2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Guatemala,Apprehensions,130
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Haiti,Apprehensions,2
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Honduras,Apprehensions,71
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Mexico,Apprehensions,423
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Nicaragua,Apprehensions,6
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Peru,Apprehensions,1
 2026-08,2026,Border Patrol,Southwest border,Unaccompanied children,Venezuela,Apprehensions,4
-2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,All other countries,Inadmissibles,80
+2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,All other countries,Inadmissibles,81
 2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Brazil,Inadmissibles,9
-2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Canada,Inadmissibles,19
+2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Canada,Inadmissibles,18
 2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,China,Inadmissibles,95
 2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Colombia,Inadmissibles,6
 2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Ecuador,Inadmissibles,1
@@ -19970,9 +19974,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Russia,Inadmissibles,1
 2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Turkey,Inadmissibles,3
 2026-08,2026,Field Operations,"Air, sea and other",Accompanied minors,Ukraine,Inadmissibles,3
-2026-08,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,473
+2026-08,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,480
 2026-08,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,124
-2026-08,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,87
+2026-08,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,120
 2026-08,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,718
 2026-08,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,35
 2026-08,2026,Field Operations,"Air, sea and other",Family units,Cuba,Inadmissibles,2
@@ -19989,30 +19993,30 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Field Operations,"Air, sea and other",Family units,Russia,Inadmissibles,3
 2026-08,2026,Field Operations,"Air, sea and other",Family units,Turkey,Inadmissibles,19
 2026-08,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,9
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3563
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3622
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,409
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,869
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1842
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1116
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1852
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,358
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,30
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,88
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,104
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,102
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,99
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,24
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,235
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,2049
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,729
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,732
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,161
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,32
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,82
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,848
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,847
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,30
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,268
 2026-08,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,153
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,169
-2026-08,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,102
-2026-08,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,4
-2026-08,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,3
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,170
+2026-08,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,103
+2026-08,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,9
+2026-08,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,8
 2026-08,2026,Field Operations,"Air, sea and other",Unaccompanied children,China,Inadmissibles,4
 2026-08,2026,Field Operations,"Air, sea and other",Unaccompanied children,Mexico,Inadmissibles,2
 2026-08,2026,Field Operations,Northern border,Accompanied minors,All other countries,Inadmissibles,35
@@ -20021,9 +20025,9 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Field Operations,Northern border,Accompanied minors,China,Inadmissibles,8
 2026-08,2026,Field Operations,Northern border,Accompanied minors,Mexico,Inadmissibles,1
 2026-08,2026,Field Operations,Northern border,Accompanied minors,Ukraine,Inadmissibles,1
-2026-08,2026,Field Operations,Northern border,Family units,All other countries,Inadmissibles,752
+2026-08,2026,Field Operations,Northern border,Family units,All other countries,Inadmissibles,750
 2026-08,2026,Field Operations,Northern border,Family units,Brazil,Inadmissibles,2
-2026-08,2026,Field Operations,Northern border,Family units,Canada,Inadmissibles,197
+2026-08,2026,Field Operations,Northern border,Family units,Canada,Inadmissibles,192
 2026-08,2026,Field Operations,Northern border,Family units,China,Inadmissibles,92
 2026-08,2026,Field Operations,Northern border,Family units,Colombia,Inadmissibles,17
 2026-08,2026,Field Operations,Northern border,Family units,Ecuador,Inadmissibles,7
@@ -20032,13 +20036,13 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Field Operations,Northern border,Family units,Honduras,Inadmissibles,4
 2026-08,2026,Field Operations,Northern border,Family units,India,Inadmissibles,61
 2026-08,2026,Field Operations,Northern border,Family units,Mexico,Inadmissibles,36
-2026-08,2026,Field Operations,Northern border,Family units,Philippines,Inadmissibles,29
+2026-08,2026,Field Operations,Northern border,Family units,Philippines,Inadmissibles,31
 2026-08,2026,Field Operations,Northern border,Family units,Turkey,Inadmissibles,3
-2026-08,2026,Field Operations,Northern border,Family units,Ukraine,Inadmissibles,8
+2026-08,2026,Field Operations,Northern border,Family units,Ukraine,Inadmissibles,11
 2026-08,2026,Field Operations,Northern border,Family units,Venezuela,Inadmissibles,7
 2026-08,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,1349
 2026-08,2026,Field Operations,Northern border,Single adults,Brazil,Inadmissibles,12
-2026-08,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,1828
+2026-08,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,1829
 2026-08,2026,Field Operations,Northern border,Single adults,China,Inadmissibles,396
 2026-08,2026,Field Operations,Northern border,Single adults,Colombia,Inadmissibles,22
 2026-08,2026,Field Operations,Northern border,Single adults,Cuba,Inadmissibles,7
@@ -20058,7 +20062,7 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Field Operations,Northern border,Single adults,Turkey,Inadmissibles,9
 2026-08,2026,Field Operations,Northern border,Single adults,Ukraine,Inadmissibles,16
 2026-08,2026,Field Operations,Northern border,Single adults,Venezuela,Inadmissibles,12
-2026-08,2026,Field Operations,Northern border,Unaccompanied children,All other countries,Inadmissibles,16
+2026-08,2026,Field Operations,Northern border,Unaccompanied children,All other countries,Inadmissibles,17
 2026-08,2026,Field Operations,Northern border,Unaccompanied children,Canada,Inadmissibles,2
 2026-08,2026,Field Operations,Northern border,Unaccompanied children,China,Inadmissibles,1
 2026-08,2026,Field Operations,Northern border,Unaccompanied children,Guatemala,Inadmissibles,2
@@ -20094,3 +20098,237 @@ month,fiscal_year,agency,border,demographic,nationality,encounter_type,encounter
 2026-08,2026,Field Operations,Southwest border,Unaccompanied children,Guatemala,Inadmissibles,1
 2026-08,2026,Field Operations,Southwest border,Unaccompanied children,Honduras,Inadmissibles,1
 2026-08,2026,Field Operations,Southwest border,Unaccompanied children,Mexico,Inadmissibles,78
+2026-09,2026,Border Patrol,"Air, sea and other",Family units,Guatemala,Apprehensions,5
+2026-09,2026,Border Patrol,"Air, sea and other",Family units,Honduras,Apprehensions,3
+2026-09,2026,Border Patrol,"Air, sea and other",Family units,India,Apprehensions,3
+2026-09,2026,Border Patrol,"Air, sea and other",Family units,Mexico,Apprehensions,1
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,All other countries,Apprehensions,109
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Brazil,Apprehensions,32
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,China,Apprehensions,4
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Colombia,Apprehensions,38
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Cuba,Apprehensions,21
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Ecuador,Apprehensions,15
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,El Salvador,Apprehensions,62
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Guatemala,Apprehensions,391
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Haiti,Apprehensions,96
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Honduras,Apprehensions,278
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,India,Apprehensions,2
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Mexico,Apprehensions,444
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Nicaragua,Apprehensions,60
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Peru,Apprehensions,9
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Russia,Apprehensions,2
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Turkey,Apprehensions,1
+2026-09,2026,Border Patrol,"Air, sea and other",Single adults,Venezuela,Apprehensions,129
+2026-09,2026,Border Patrol,"Air, sea and other",Unaccompanied children,All other countries,Apprehensions,1
+2026-09,2026,Border Patrol,"Air, sea and other",Unaccompanied children,Guatemala,Apprehensions,7
+2026-09,2026,Border Patrol,"Air, sea and other",Unaccompanied children,Honduras,Apprehensions,1
+2026-09,2026,Border Patrol,"Air, sea and other",Unaccompanied children,Mexico,Apprehensions,3
+2026-09,2026,Border Patrol,Northern border,Family units,All other countries,Apprehensions,15
+2026-09,2026,Border Patrol,Northern border,Family units,Canada,Apprehensions,2
+2026-09,2026,Border Patrol,Northern border,Family units,Colombia,Apprehensions,3
+2026-09,2026,Border Patrol,Northern border,Family units,Honduras,Apprehensions,4
+2026-09,2026,Border Patrol,Northern border,Family units,India,Apprehensions,12
+2026-09,2026,Border Patrol,Northern border,Family units,Mexico,Apprehensions,6
+2026-09,2026,Border Patrol,Northern border,Single adults,All other countries,Apprehensions,35
+2026-09,2026,Border Patrol,Northern border,Single adults,Brazil,Apprehensions,8
+2026-09,2026,Border Patrol,Northern border,Single adults,Canada,Apprehensions,8
+2026-09,2026,Border Patrol,Northern border,Single adults,China,Apprehensions,7
+2026-09,2026,Border Patrol,Northern border,Single adults,Colombia,Apprehensions,8
+2026-09,2026,Border Patrol,Northern border,Single adults,Cuba,Apprehensions,4
+2026-09,2026,Border Patrol,Northern border,Single adults,Ecuador,Apprehensions,19
+2026-09,2026,Border Patrol,Northern border,Single adults,El Salvador,Apprehensions,18
+2026-09,2026,Border Patrol,Northern border,Single adults,Guatemala,Apprehensions,72
+2026-09,2026,Border Patrol,Northern border,Single adults,Haiti,Apprehensions,10
+2026-09,2026,Border Patrol,Northern border,Single adults,Honduras,Apprehensions,68
+2026-09,2026,Border Patrol,Northern border,Single adults,India,Apprehensions,49
+2026-09,2026,Border Patrol,Northern border,Single adults,Mexico,Apprehensions,171
+2026-09,2026,Border Patrol,Northern border,Single adults,Nicaragua,Apprehensions,13
+2026-09,2026,Border Patrol,Northern border,Single adults,Peru,Apprehensions,3
+2026-09,2026,Border Patrol,Northern border,Single adults,Russia,Apprehensions,6
+2026-09,2026,Border Patrol,Northern border,Single adults,Turkey,Apprehensions,2
+2026-09,2026,Border Patrol,Northern border,Single adults,Ukraine,Apprehensions,1
+2026-09,2026,Border Patrol,Northern border,Single adults,Venezuela,Apprehensions,24
+2026-09,2026,Border Patrol,Northern border,Unaccompanied children,All other countries,Apprehensions,1
+2026-09,2026,Border Patrol,Northern border,Unaccompanied children,Honduras,Apprehensions,2
+2026-09,2026,Border Patrol,Northern border,Unaccompanied children,India,Apprehensions,1
+2026-09,2026,Border Patrol,Northern border,Unaccompanied children,Mexico,Apprehensions,3
+2026-09,2026,Border Patrol,Southwest border,Family units,All other countries,Apprehensions,17
+2026-09,2026,Border Patrol,Southwest border,Family units,Brazil,Apprehensions,6
+2026-09,2026,Border Patrol,Southwest border,Family units,China,Apprehensions,8
+2026-09,2026,Border Patrol,Southwest border,Family units,Colombia,Apprehensions,14
+2026-09,2026,Border Patrol,Southwest border,Family units,Cuba,Apprehensions,5
+2026-09,2026,Border Patrol,Southwest border,Family units,Ecuador,Apprehensions,5
+2026-09,2026,Border Patrol,Southwest border,Family units,El Salvador,Apprehensions,4
+2026-09,2026,Border Patrol,Southwest border,Family units,Guatemala,Apprehensions,16
+2026-09,2026,Border Patrol,Southwest border,Family units,Honduras,Apprehensions,5
+2026-09,2026,Border Patrol,Southwest border,Family units,India,Apprehensions,4
+2026-09,2026,Border Patrol,Southwest border,Family units,Mexico,Apprehensions,108
+2026-09,2026,Border Patrol,Southwest border,Family units,Nicaragua,Apprehensions,7
+2026-09,2026,Border Patrol,Southwest border,Family units,Peru,Apprehensions,5
+2026-09,2026,Border Patrol,Southwest border,Family units,Russia,Apprehensions,9
+2026-09,2026,Border Patrol,Southwest border,Family units,Turkey,Apprehensions,8
+2026-09,2026,Border Patrol,Southwest border,Family units,Venezuela,Apprehensions,17
+2026-09,2026,Border Patrol,Southwest border,Single adults,All other countries,Apprehensions,120
+2026-09,2026,Border Patrol,Southwest border,Single adults,Brazil,Apprehensions,46
+2026-09,2026,Border Patrol,Southwest border,Single adults,Canada,Apprehensions,3
+2026-09,2026,Border Patrol,Southwest border,Single adults,China,Apprehensions,50
+2026-09,2026,Border Patrol,Southwest border,Single adults,Colombia,Apprehensions,119
+2026-09,2026,Border Patrol,Southwest border,Single adults,Cuba,Apprehensions,41
+2026-09,2026,Border Patrol,Southwest border,Single adults,Ecuador,Apprehensions,284
+2026-09,2026,Border Patrol,Southwest border,Single adults,El Salvador,Apprehensions,205
+2026-09,2026,Border Patrol,Southwest border,Single adults,Guatemala,Apprehensions,966
+2026-09,2026,Border Patrol,Southwest border,Single adults,Haiti,Apprehensions,3
+2026-09,2026,Border Patrol,Southwest border,Single adults,Honduras,Apprehensions,507
+2026-09,2026,Border Patrol,Southwest border,Single adults,India,Apprehensions,11
+2026-09,2026,Border Patrol,Southwest border,Single adults,Mexico,Apprehensions,5437
+2026-09,2026,Border Patrol,Southwest border,Single adults,Nicaragua,Apprehensions,72
+2026-09,2026,Border Patrol,Southwest border,Single adults,Peru,Apprehensions,40
+2026-09,2026,Border Patrol,Southwest border,Single adults,Romania,Apprehensions,1
+2026-09,2026,Border Patrol,Southwest border,Single adults,Russia,Apprehensions,6
+2026-09,2026,Border Patrol,Southwest border,Single adults,Turkey,Apprehensions,13
+2026-09,2026,Border Patrol,Southwest border,Single adults,Venezuela,Apprehensions,86
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,All other countries,Apprehensions,2
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,China,Apprehensions,5
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Cuba,Apprehensions,2
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Ecuador,Apprehensions,11
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,El Salvador,Apprehensions,12
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Guatemala,Apprehensions,107
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Haiti,Apprehensions,4
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Honduras,Apprehensions,43
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Mexico,Apprehensions,498
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Nicaragua,Apprehensions,1
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Romania,Apprehensions,1
+2026-09,2026,Border Patrol,Southwest border,Unaccompanied children,Venezuela,Apprehensions,2
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,All other countries,Inadmissibles,19
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,Brazil,Inadmissibles,1
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,Canada,Inadmissibles,10
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,China,Inadmissibles,21
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,Colombia,Inadmissibles,1
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,Ecuador,Inadmissibles,2
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,Honduras,Inadmissibles,1
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,India,Inadmissibles,4
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,Philippines,Inadmissibles,1
+2026-09,2026,Field Operations,"Air, sea and other",Accompanied minors,Ukraine,Inadmissibles,1
+2026-09,2026,Field Operations,"Air, sea and other",Family units,All other countries,Inadmissibles,110
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Brazil,Inadmissibles,22
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Canada,Inadmissibles,56
+2026-09,2026,Field Operations,"Air, sea and other",Family units,China,Inadmissibles,82
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Colombia,Inadmissibles,14
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Ecuador,Inadmissibles,10
+2026-09,2026,Field Operations,"Air, sea and other",Family units,El Salvador,Inadmissibles,3
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Guatemala,Inadmissibles,5
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Haiti,Inadmissibles,2
+2026-09,2026,Field Operations,"Air, sea and other",Family units,India,Inadmissibles,91
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Mexico,Inadmissibles,45
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Nicaragua,Inadmissibles,2
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Peru,Inadmissibles,11
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Philippines,Inadmissibles,4
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Russia,Inadmissibles,4
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Ukraine,Inadmissibles,8
+2026-09,2026,Field Operations,"Air, sea and other",Family units,Venezuela,Inadmissibles,9
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,All other countries,Inadmissibles,3103
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Brazil,Inadmissibles,252
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Canada,Inadmissibles,1068
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,China,Inadmissibles,1781
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Colombia,Inadmissibles,380
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Cuba,Inadmissibles,27
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Ecuador,Inadmissibles,109
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,El Salvador,Inadmissibles,55
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Guatemala,Inadmissibles,62
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Haiti,Inadmissibles,16
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Honduras,Inadmissibles,161
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,India,Inadmissibles,1336
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Mexico,Inadmissibles,615
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Myanmar,Inadmissibles,259
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Nicaragua,Inadmissibles,26
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Peru,Inadmissibles,61
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Philippines,Inadmissibles,850
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Romania,Inadmissibles,24
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Russia,Inadmissibles,258
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Turkey,Inadmissibles,106
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Ukraine,Inadmissibles,131
+2026-09,2026,Field Operations,"Air, sea and other",Single adults,Venezuela,Inadmissibles,61
+2026-09,2026,Field Operations,"Air, sea and other",Unaccompanied children,All other countries,Inadmissibles,2
+2026-09,2026,Field Operations,"Air, sea and other",Unaccompanied children,Canada,Inadmissibles,8
+2026-09,2026,Field Operations,"Air, sea and other",Unaccompanied children,India,Inadmissibles,2
+2026-09,2026,Field Operations,"Air, sea and other",Unaccompanied children,Nicaragua,Inadmissibles,1
+2026-09,2026,Field Operations,Northern border,Accompanied minors,All other countries,Inadmissibles,9
+2026-09,2026,Field Operations,Northern border,Accompanied minors,Brazil,Inadmissibles,1
+2026-09,2026,Field Operations,Northern border,Accompanied minors,Canada,Inadmissibles,15
+2026-09,2026,Field Operations,Northern border,Accompanied minors,China,Inadmissibles,6
+2026-09,2026,Field Operations,Northern border,Accompanied minors,Honduras,Inadmissibles,1
+2026-09,2026,Field Operations,Northern border,Family units,All other countries,Inadmissibles,267
+2026-09,2026,Field Operations,Northern border,Family units,Brazil,Inadmissibles,4
+2026-09,2026,Field Operations,Northern border,Family units,Canada,Inadmissibles,81
+2026-09,2026,Field Operations,Northern border,Family units,China,Inadmissibles,47
+2026-09,2026,Field Operations,Northern border,Family units,Colombia,Inadmissibles,13
+2026-09,2026,Field Operations,Northern border,Family units,Ecuador,Inadmissibles,3
+2026-09,2026,Field Operations,Northern border,Family units,Guatemala,Inadmissibles,6
+2026-09,2026,Field Operations,Northern border,Family units,Haiti,Inadmissibles,5
+2026-09,2026,Field Operations,Northern border,Family units,India,Inadmissibles,14
+2026-09,2026,Field Operations,Northern border,Family units,Mexico,Inadmissibles,8
+2026-09,2026,Field Operations,Northern border,Family units,Myanmar,Inadmissibles,3
+2026-09,2026,Field Operations,Northern border,Family units,Nicaragua,Inadmissibles,5
+2026-09,2026,Field Operations,Northern border,Family units,Philippines,Inadmissibles,7
+2026-09,2026,Field Operations,Northern border,Family units,Russia,Inadmissibles,2
+2026-09,2026,Field Operations,Northern border,Family units,Turkey,Inadmissibles,9
+2026-09,2026,Field Operations,Northern border,Family units,Ukraine,Inadmissibles,2
+2026-09,2026,Field Operations,Northern border,Single adults,All other countries,Inadmissibles,1237
+2026-09,2026,Field Operations,Northern border,Single adults,Brazil,Inadmissibles,15
+2026-09,2026,Field Operations,Northern border,Single adults,Canada,Inadmissibles,1746
+2026-09,2026,Field Operations,Northern border,Single adults,China,Inadmissibles,302
+2026-09,2026,Field Operations,Northern border,Single adults,Colombia,Inadmissibles,38
+2026-09,2026,Field Operations,Northern border,Single adults,Ecuador,Inadmissibles,4
+2026-09,2026,Field Operations,Northern border,Single adults,El Salvador,Inadmissibles,2
+2026-09,2026,Field Operations,Northern border,Single adults,Guatemala,Inadmissibles,2
+2026-09,2026,Field Operations,Northern border,Single adults,Haiti,Inadmissibles,10
+2026-09,2026,Field Operations,Northern border,Single adults,Honduras,Inadmissibles,4
+2026-09,2026,Field Operations,Northern border,Single adults,India,Inadmissibles,333
+2026-09,2026,Field Operations,Northern border,Single adults,Mexico,Inadmissibles,37
+2026-09,2026,Field Operations,Northern border,Single adults,Myanmar,Inadmissibles,1
+2026-09,2026,Field Operations,Northern border,Single adults,Nicaragua,Inadmissibles,3
+2026-09,2026,Field Operations,Northern border,Single adults,Peru,Inadmissibles,7
+2026-09,2026,Field Operations,Northern border,Single adults,Philippines,Inadmissibles,83
+2026-09,2026,Field Operations,Northern border,Single adults,Romania,Inadmissibles,4
+2026-09,2026,Field Operations,Northern border,Single adults,Russia,Inadmissibles,7
+2026-09,2026,Field Operations,Northern border,Single adults,Turkey,Inadmissibles,14
+2026-09,2026,Field Operations,Northern border,Single adults,Ukraine,Inadmissibles,24
+2026-09,2026,Field Operations,Northern border,Single adults,Venezuela,Inadmissibles,10
+2026-09,2026,Field Operations,Northern border,Unaccompanied children,All other countries,Inadmissibles,6
+2026-09,2026,Field Operations,Northern border,Unaccompanied children,Canada,Inadmissibles,3
+2026-09,2026,Field Operations,Northern border,Unaccompanied children,China,Inadmissibles,4
+2026-09,2026,Field Operations,Northern border,Unaccompanied children,Honduras,Inadmissibles,1
+2026-09,2026,Field Operations,Northern border,Unaccompanied children,Nicaragua,Inadmissibles,1
+2026-09,2026,Field Operations,Southwest border,Accompanied minors,All other countries,Inadmissibles,4
+2026-09,2026,Field Operations,Southwest border,Accompanied minors,Mexico,Inadmissibles,26
+2026-09,2026,Field Operations,Southwest border,Family units,All other countries,Inadmissibles,7
+2026-09,2026,Field Operations,Southwest border,Family units,China,Inadmissibles,2
+2026-09,2026,Field Operations,Southwest border,Family units,Mexico,Inadmissibles,291
+2026-09,2026,Field Operations,Southwest border,Family units,Russia,Inadmissibles,3
+2026-09,2026,Field Operations,Southwest border,Family units,Turkey,Inadmissibles,1
+2026-09,2026,Field Operations,Southwest border,Family units,Ukraine,Inadmissibles,2
+2026-09,2026,Field Operations,Southwest border,Single adults,All other countries,Inadmissibles,59
+2026-09,2026,Field Operations,Southwest border,Single adults,Brazil,Inadmissibles,5
+2026-09,2026,Field Operations,Southwest border,Single adults,Canada,Inadmissibles,10
+2026-09,2026,Field Operations,Southwest border,Single adults,China,Inadmissibles,70
+2026-09,2026,Field Operations,Southwest border,Single adults,Colombia,Inadmissibles,16
+2026-09,2026,Field Operations,Southwest border,Single adults,Cuba,Inadmissibles,2
+2026-09,2026,Field Operations,Southwest border,Single adults,Ecuador,Inadmissibles,11
+2026-09,2026,Field Operations,Southwest border,Single adults,El Salvador,Inadmissibles,9
+2026-09,2026,Field Operations,Southwest border,Single adults,Guatemala,Inadmissibles,14
+2026-09,2026,Field Operations,Southwest border,Single adults,Haiti,Inadmissibles,3
+2026-09,2026,Field Operations,Southwest border,Single adults,Honduras,Inadmissibles,10
+2026-09,2026,Field Operations,Southwest border,Single adults,India,Inadmissibles,9
+2026-09,2026,Field Operations,Southwest border,Single adults,Mexico,Inadmissibles,2398
+2026-09,2026,Field Operations,Southwest border,Single adults,Nicaragua,Inadmissibles,2
+2026-09,2026,Field Operations,Southwest border,Single adults,Peru,Inadmissibles,3
+2026-09,2026,Field Operations,Southwest border,Single adults,Romania,Inadmissibles,1
+2026-09,2026,Field Operations,Southwest border,Single adults,Russia,Inadmissibles,3
+2026-09,2026,Field Operations,Southwest border,Single adults,Venezuela,Inadmissibles,3
+2026-09,2026,Field Operations,Southwest border,Unaccompanied children,All other countries,Inadmissibles,1
+2026-09,2026,Field Operations,Southwest border,Unaccompanied children,China,Inadmissibles,1
+2026-09,2026,Field Operations,Southwest border,Unaccompanied children,Ecuador,Inadmissibles,1
+2026-09,2026,Field Operations,Southwest border,Unaccompanied children,Guatemala,Inadmissibles,1
+2026-09,2026,Field Operations,Southwest border,Unaccompanied children,Honduras,Inadmissibles,2
+2026-09,2026,Field Operations,Southwest border,Unaccompanied children,Mexico,Inadmissibles,56
+2026-09,2026,Field Operations,Southwest border,Unaccompanied children,Venezuela,Inadmissibles,2

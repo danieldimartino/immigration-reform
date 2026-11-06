@@ -100,7 +100,7 @@ fiscal_year,series,value,partial
 2023,Border Patrol apprehensions,1513414,False
 2024,Border Patrol apprehensions,1557319,False
 2025,Border Patrol apprehensions,254183,False
-2026,Border Patrol apprehensions,110118,True
+2026,Border Patrol apprehensions,121452,False
 2005,Port-of-entry inadmissibles,251200,False
 2006,Port-of-entry inadmissibles,207630,False
 2007,Port-of-entry inadmissibles,202030,False
@@ -122,4 +122,4 @@ fiscal_year,series,value,partial
 2023,Port-of-entry inadmissibles,1108646,False
 2024,Port-of-entry inadmissibles,1343823,False
 2025,Port-of-entry inadmissibles,437723,False
-2026,Port-of-entry inadmissibles,238748,True
+2026,Port-of-entry inadmissibles,261038,False

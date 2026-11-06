@@ -8359,11 +8359,11 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-09,2025,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1081
 2025-09,2025,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1114
 2025-09,2025,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,540
-2025-10,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,987
+2025-10,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,986
 2025-10,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,292
 2025-10,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,35
 2025-10,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,8
-2025-10,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,173
+2025-10,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,176
 2025-10,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,231
 2025-10,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,19
 2025-10,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,23
@@ -8371,7 +8371,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-10,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,84
 2025-10,2026,Border Patrol,Northern border,Swanton Sector,Apprehensions,86
 2025-10,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,185
-2025-10,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,910
+2025-10,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,909
 2025-10,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,171
 2025-10,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1385
 2025-10,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,873
@@ -8393,9 +8393,9 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-10,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,302
 2025-10,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1663
 2025-10,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,164
-2025-10,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1417
+2025-10,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1719
 2025-10,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,24
-2025-10,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,972
+2025-10,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,977
 2025-10,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,459
 2025-10,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,328
 2025-10,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,775
@@ -8413,7 +8413,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-11,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,197
 2025-11,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,27
 2025-11,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,29
-2025-11,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,170
+2025-11,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,177
 2025-11,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,155
 2025-11,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,41
 2025-11,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,19
@@ -8442,9 +8442,9 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-11,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,216
 2025-11,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1487
 2025-11,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,166
-2025-11,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1333
+2025-11,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1623
 2025-11,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,23
-2025-11,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,997
+2025-11,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1003
 2025-11,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,543
 2025-11,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,420
 2025-11,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,1456
@@ -8461,7 +8461,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-12,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,150
 2025-12,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,18
 2025-12,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,21
-2025-12,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,117
+2025-12,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,146
 2025-12,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,131
 2025-12,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,14
 2025-12,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,14
@@ -8470,10 +8470,10 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-12,2026,Border Patrol,Northern border,Swanton Sector,Apprehensions,57
 2025-12,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,178
 2025-12,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,703
-2025-12,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,156
-2025-12,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1191
+2025-12,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,157
+2025-12,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1192
 2025-12,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,826
-2025-12,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1365
+2025-12,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1363
 2025-12,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,855
 2025-12,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1062
 2025-12,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,140
@@ -8490,9 +8490,9 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2025-12,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,325
 2025-12,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1714
 2025-12,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,165
-2025-12,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1562
+2025-12,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1804
 2025-12,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,25
-2025-12,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1360
+2025-12,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1363
 2025-12,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,895
 2025-12,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,495
 2025-12,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,663
@@ -8510,7 +8510,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-01,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,196
 2026-01,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,49
 2026-01,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,39
-2026-01,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,137
+2026-01,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,170
 2026-01,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,171
 2026-01,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,25
 2026-01,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,13
@@ -8519,10 +8519,10 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-01,2026,Border Patrol,Northern border,Swanton Sector,Apprehensions,29
 2026-01,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,152
 2026-01,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,627
-2026-01,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,195
+2026-01,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,197
 2026-01,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1040
 2026-01,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,824
-2026-01,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1273
+2026-01,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1272
 2026-01,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,798
 2026-01,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1018
 2026-01,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,149
@@ -8539,9 +8539,9 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-01,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,496
 2026-01,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,2460
 2026-01,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,169
-2026-01,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1515
+2026-01,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1818
 2026-01,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,29
-2026-01,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1728
+2026-01,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1731
 2026-01,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,803
 2026-01,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,624
 2026-01,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,1518
@@ -8555,7 +8555,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-01,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1486
 2026-01,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1223
 2026-01,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,435
-2026-02,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,898
+2026-02,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,897
 2026-02,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,176
 2026-02,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,25
 2026-02,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,36
@@ -8588,9 +8588,9 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-02,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,414
 2026-02,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1228
 2026-02,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,115
-2026-02,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1137
+2026-02,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1389
 2026-02,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,55
-2026-02,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,941
+2026-02,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,942
 2026-02,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,752
 2026-02,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,499
 2026-02,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,631
@@ -8608,7 +8608,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-03,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,290
 2026-03,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,23
 2026-03,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,29
-2026-03,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,201
+2026-03,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,204
 2026-03,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,111
 2026-03,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,33
 2026-03,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,18
@@ -8618,7 +8618,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-03,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,187
 2026-03,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,986
 2026-03,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,264
-2026-03,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1220
+2026-03,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1221
 2026-03,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1241
 2026-03,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1785
 2026-03,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,947
@@ -8633,16 +8633,16 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-03,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,2308
 2026-03,2026,Field Operations,"Air, sea and other",Laredo Field Office,Inadmissibles,178
 2026-03,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1285
-2026-03,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1224
+2026-03,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1225
 2026-03,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,382
 2026-03,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1645
 2026-03,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,192
-2026-03,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1086
+2026-03,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1400
 2026-03,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,21
-2026-03,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1044
+2026-03,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1046
 2026-03,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,889
 2026-03,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,444
-2026-03,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,798
+2026-03,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,799
 2026-03,2026,Field Operations,"Air, sea and other",Tucson Field Office,Inadmissibles,25
 2026-03,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,418
 2026-03,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,1724
@@ -8657,9 +8657,9 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-04,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,285
 2026-04,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,68
 2026-04,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,28
-2026-04,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,174
-2026-04,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,100
-2026-04,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,15
+2026-04,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,176
+2026-04,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,101
+2026-04,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,13
 2026-04,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,26
 2026-04,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,6
 2026-04,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,29
@@ -8668,8 +8668,8 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-04,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,857
 2026-04,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,203
 2026-04,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1614
-2026-04,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1485
-2026-04,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1802
+2026-04,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1487
+2026-04,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1803
 2026-04,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,958
 2026-04,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1688
 2026-04,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,201
@@ -8686,7 +8686,7 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-04,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,196
 2026-04,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1360
 2026-04,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,100
-2026-04,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,981
+2026-04,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1251
 2026-04,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,54
 2026-04,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1051
 2026-04,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,1110
@@ -8699,16 +8699,16 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-04,2026,Field Operations,Northern border,Portland Field Office,Inadmissibles,1
 2026-04,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1342
 2026-04,2026,Field Operations,Southwest border,El Paso Field Office,Inadmissibles,615
-2026-04,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1433
+2026-04,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1432
 2026-04,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1486
 2026-04,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,357
-2026-05,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,1010
+2026-05,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,1011
 2026-05,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,286
 2026-05,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,91
 2026-05,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,35
-2026-05,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,197
+2026-05,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,200
 2026-05,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,99
-2026-05,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,39
+2026-05,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,32
 2026-05,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,23
 2026-05,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,2
 2026-05,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,24
@@ -8722,93 +8722,93 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-05,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,1151
 2026-05,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1939
 2026-05,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,216
-2026-05,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,481
-2026-05,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,852
-2026-05,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,325
+2026-05,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,484
+2026-05,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,868
+2026-05,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,326
 2026-05,2026,Field Operations,"Air, sea and other",Buffalo Field Office,Inadmissibles,1
-2026-05,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,544
+2026-05,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,548
 2026-05,2026,Field Operations,"Air, sea and other",Detroit Field Office,Inadmissibles,127
 2026-05,2026,Field Operations,"Air, sea and other",El Paso Field Office,Inadmissibles,2
-2026-05,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,2687
+2026-05,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,2690
 2026-05,2026,Field Operations,"Air, sea and other",Laredo Field Office,Inadmissibles,62
-2026-05,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1320
-2026-05,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1234
-2026-05,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,280
-2026-05,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1327
+2026-05,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1318
+2026-05,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1237
+2026-05,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,283
+2026-05,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1330
 2026-05,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,181
-2026-05,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1088
+2026-05,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1411
 2026-05,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,21
-2026-05,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1120
+2026-05,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1121
 2026-05,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,896
-2026-05,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,366
+2026-05,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,368
 2026-05,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,591
 2026-05,2026,Field Operations,"Air, sea and other",Tucson Field Office,Inadmissibles,19
-2026-05,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,294
-2026-05,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,1636
-2026-05,2026,Field Operations,Northern border,Detroit Field Office,Inadmissibles,419
+2026-05,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,298
+2026-05,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,1643
+2026-05,2026,Field Operations,Northern border,Detroit Field Office,Inadmissibles,422
 2026-05,2026,Field Operations,Northern border,Portland Field Office,Inadmissibles,5
 2026-05,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1492
 2026-05,2026,Field Operations,Southwest border,El Paso Field Office,Inadmissibles,554
 2026-05,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1325
-2026-05,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1327
-2026-05,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,325
+2026-05,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1328
+2026-05,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,326
 2026-06,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,792
 2026-06,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,227
 2026-06,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,40
 2026-06,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,14
 2026-06,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,174
 2026-06,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,73
-2026-06,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,50
+2026-06,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,39
 2026-06,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,34
 2026-06,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,1
-2026-06,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,13
+2026-06,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,12
 2026-06,2026,Border Patrol,Northern border,Swanton Sector,Apprehensions,135
-2026-06,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,148
+2026-06,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,147
 2026-06,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,991
 2026-06,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,195
 2026-06,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1912
-2026-06,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1399
-2026-06,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,2231
+2026-06,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1400
+2026-06,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,2232
 2026-06,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,1039
 2026-06,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1758
 2026-06,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,182
-2026-06,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,459
-2026-06,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,841
+2026-06,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,460
+2026-06,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,842
 2026-06,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,337
 2026-06,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,587
 2026-06,2026,Field Operations,"Air, sea and other",Detroit Field Office,Inadmissibles,121
 2026-06,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,1945
 2026-06,2026,Field Operations,"Air, sea and other",Laredo Field Office,Inadmissibles,94
-2026-06,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1352
+2026-06,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1353
 2026-06,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1131
 2026-06,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,298
-2026-06,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1502
+2026-06,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1504
 2026-06,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,140
-2026-06,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1066
+2026-06,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1433
 2026-06,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,7
 2026-06,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,923
 2026-06,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,813
 2026-06,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,454
-2026-06,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,619
+2026-06,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,620
 2026-06,2026,Field Operations,"Air, sea and other",Tucson Field Office,Inadmissibles,15
-2026-06,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,473
-2026-06,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,2148
+2026-06,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,475
+2026-06,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,2151
 2026-06,2026,Field Operations,Northern border,Detroit Field Office,Inadmissibles,374
 2026-06,2026,Field Operations,Northern border,Portland Field Office,Inadmissibles,8
 2026-06,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1455
 2026-06,2026,Field Operations,Southwest border,El Paso Field Office,Inadmissibles,610
-2026-06,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1039
+2026-06,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1038
 2026-06,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1136
-2026-06,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,265
-2026-07,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,1202
+2026-06,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,264
+2026-07,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,1205
 2026-07,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,144
 2026-07,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,72
 2026-07,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,32
-2026-07,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,262
+2026-07,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,264
 2026-07,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,110
-2026-07,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,32
-2026-07,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,23
-2026-07,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,4
+2026-07,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,27
+2026-07,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,22
+2026-07,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,2
 2026-07,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,18
 2026-07,2026,Border Patrol,Northern border,Swanton Sector,Apprehensions,105
 2026-07,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,98
@@ -8822,68 +8822,68 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-07,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,159
 2026-07,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,584
 2026-07,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,691
-2026-07,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,340
+2026-07,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,342
 2026-07,2026,Field Operations,"Air, sea and other",Buffalo Field Office,Inadmissibles,1
-2026-07,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,705
+2026-07,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,707
 2026-07,2026,Field Operations,"Air, sea and other",Detroit Field Office,Inadmissibles,172
-2026-07,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,1478
+2026-07,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,1479
 2026-07,2026,Field Operations,"Air, sea and other",Laredo Field Office,Inadmissibles,15
 2026-07,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1432
-2026-07,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1120
+2026-07,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1121
 2026-07,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,173
-2026-07,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1709
+2026-07,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1713
 2026-07,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,82
-2026-07,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1241
+2026-07,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1675
 2026-07,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,57
-2026-07,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1360
+2026-07,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1359
 2026-07,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,802
-2026-07,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,421
+2026-07,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,420
 2026-07,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,637
 2026-07,2026,Field Operations,"Air, sea and other",Tucson Field Office,Inadmissibles,29
 2026-07,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,933
 2026-07,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,2703
 2026-07,2026,Field Operations,Northern border,Detroit Field Office,Inadmissibles,701
 2026-07,2026,Field Operations,Northern border,Portland Field Office,Inadmissibles,14
-2026-07,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1654
+2026-07,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1659
 2026-07,2026,Field Operations,Southwest border,El Paso Field Office,Inadmissibles,605
 2026-07,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1275
-2026-07,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1220
-2026-07,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,334
-2026-08,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,1377
-2026-08,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,118
+2026-07,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1221
+2026-07,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,335
+2026-08,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,1418
+2026-08,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,119
 2026-08,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,11
-2026-08,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,21
-2026-08,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,208
-2026-08,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,152
+2026-08,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,20
+2026-08,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,212
+2026-08,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,151
 2026-08,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,16
-2026-08,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,53
-2026-08,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,9
+2026-08,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,52
+2026-08,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,7
 2026-08,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,17
 2026-08,2026,Border Patrol,Northern border,Swanton Sector,Apprehensions,87
 2026-08,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,161
 2026-08,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,885
 2026-08,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,200
-2026-08,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1497
-2026-08,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1333
-2026-08,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,2101
+2026-08,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1500
+2026-08,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1335
+2026-08,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,2103
 2026-08,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,918
-2026-08,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1528
-2026-08,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,247
-2026-08,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,673
-2026-08,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,823
-2026-08,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,459
+2026-08,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1526
+2026-08,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,246
+2026-08,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,676
+2026-08,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,827
+2026-08,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,460
 2026-08,2026,Field Operations,"Air, sea and other",Buffalo Field Office,Inadmissibles,20
-2026-08,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,725
+2026-08,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,724
 2026-08,2026,Field Operations,"Air, sea and other",Detroit Field Office,Inadmissibles,137
 2026-08,2026,Field Operations,"Air, sea and other",El Paso Field Office,Inadmissibles,4
-2026-08,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,1635
+2026-08,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,1637
 2026-08,2026,Field Operations,"Air, sea and other",Laredo Field Office,Inadmissibles,79
-2026-08,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1797
+2026-08,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1795
 2026-08,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,1122
 2026-08,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,214
-2026-08,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,2196
+2026-08,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,2199
 2026-08,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,112
-2026-08,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1148
+2026-08,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1506
 2026-08,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,21
 2026-08,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1354
 2026-08,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,728
@@ -8892,10 +8892,59 @@ month,fiscal_year,agency,border,office,encounter_type,encounters
 2026-08,2026,Field Operations,"Air, sea and other",Tucson Field Office,Inadmissibles,24
 2026-08,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,573
 2026-08,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,2694
-2026-08,2026,Field Operations,Northern border,Detroit Field Office,Inadmissibles,602
+2026-08,2026,Field Operations,Northern border,Detroit Field Office,Inadmissibles,603
 2026-08,2026,Field Operations,Northern border,Portland Field Office,Inadmissibles,13
-2026-08,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1642
+2026-08,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1641
 2026-08,2026,Field Operations,Southwest border,El Paso Field Office,Inadmissibles,621
 2026-08,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1216
 2026-08,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1222
 2026-08,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,313
+2026-09,2026,Border Patrol,"Air, sea and other",Miami Sector,Apprehensions,1348
+2026-09,2026,Border Patrol,"Air, sea and other",New Orleans Sector,Apprehensions,267
+2026-09,2026,Border Patrol,"Air, sea and other",Ramey Sector,Apprehensions,102
+2026-09,2026,Border Patrol,Northern border,Blaine Sector,Apprehensions,20
+2026-09,2026,Border Patrol,Northern border,Buffalo Sector,Apprehensions,195
+2026-09,2026,Border Patrol,Northern border,Detroit Sector,Apprehensions,138
+2026-09,2026,Border Patrol,Northern border,Grand Forks Sector,Apprehensions,33
+2026-09,2026,Border Patrol,Northern border,Havre Sector,Apprehensions,37
+2026-09,2026,Border Patrol,Northern border,Houlton Sector,Apprehensions,1
+2026-09,2026,Border Patrol,Northern border,Spokane Sector,Apprehensions,20
+2026-09,2026,Border Patrol,Northern border,Swanton Sector,Apprehensions,131
+2026-09,2026,Border Patrol,Southwest border,Big Bend Sector,Apprehensions,152
+2026-09,2026,Border Patrol,Southwest border,Del Rio Sector,Apprehensions,846
+2026-09,2026,Border Patrol,Southwest border,El Centro Sector,Apprehensions,189
+2026-09,2026,Border Patrol,Southwest border,El Paso Sector,Apprehensions,1469
+2026-09,2026,Border Patrol,Southwest border,Laredo Sector,Apprehensions,1357
+2026-09,2026,Border Patrol,Southwest border,Rio Grande Valley Sector,Apprehensions,1908
+2026-09,2026,Border Patrol,Southwest border,San Diego Sector,Apprehensions,951
+2026-09,2026,Border Patrol,Southwest border,Tucson Sector,Apprehensions,1941
+2026-09,2026,Border Patrol,Southwest border,Yuma Sector,Apprehensions,123
+2026-09,2026,Field Operations,"Air, sea and other",Atlanta Field Office,Inadmissibles,414
+2026-09,2026,Field Operations,"Air, sea and other",Baltimore Field Office,Inadmissibles,487
+2026-09,2026,Field Operations,"Air, sea and other",Boston Field Office,Inadmissibles,385
+2026-09,2026,Field Operations,"Air, sea and other",Chicago Field Office,Inadmissibles,530
+2026-09,2026,Field Operations,"Air, sea and other",Detroit Field Office,Inadmissibles,108
+2026-09,2026,Field Operations,"Air, sea and other",El Paso Field Office,Inadmissibles,1
+2026-09,2026,Field Operations,"Air, sea and other",Houston Field Office,Inadmissibles,1243
+2026-09,2026,Field Operations,"Air, sea and other",Laredo Field Office,Inadmissibles,157
+2026-09,2026,Field Operations,"Air, sea and other",Los Angeles Field Office,Inadmissibles,1175
+2026-09,2026,Field Operations,"Air, sea and other",Miami Field Office,Inadmissibles,994
+2026-09,2026,Field Operations,"Air, sea and other",New Orleans Field Office,Inadmissibles,234
+2026-09,2026,Field Operations,"Air, sea and other",New York Field Office,Inadmissibles,1484
+2026-09,2026,Field Operations,"Air, sea and other",Portland Field Office,Inadmissibles,89
+2026-09,2026,Field Operations,"Air, sea and other",Preclearance Field Office,Inadmissibles,1400
+2026-09,2026,Field Operations,"Air, sea and other",San Diego Field Office,Inadmissibles,20
+2026-09,2026,Field Operations,"Air, sea and other",San Francisco Field Office,Inadmissibles,1080
+2026-09,2026,Field Operations,"Air, sea and other",San Juan Field Office,Inadmissibles,502
+2026-09,2026,Field Operations,"Air, sea and other",Seattle Field Office,Inadmissibles,379
+2026-09,2026,Field Operations,"Air, sea and other",Tampa Field Office,Inadmissibles,597
+2026-09,2026,Field Operations,"Air, sea and other",Tucson Field Office,Inadmissibles,14
+2026-09,2026,Field Operations,Northern border,Boston Field Office,Inadmissibles,309
+2026-09,2026,Field Operations,Northern border,Buffalo Field Office,Inadmissibles,2097
+2026-09,2026,Field Operations,Northern border,Detroit Field Office,Inadmissibles,610
+2026-09,2026,Field Operations,Northern border,Portland Field Office,Inadmissibles,16
+2026-09,2026,Field Operations,Northern border,Seattle Field Office,Inadmissibles,1374
+2026-09,2026,Field Operations,Southwest border,El Paso Field Office,Inadmissibles,466
+2026-09,2026,Field Operations,Southwest border,Laredo Field Office,Inadmissibles,1156
+2026-09,2026,Field Operations,Southwest border,San Diego Field Office,Inadmissibles,1095
+2026-09,2026,Field Operations,Southwest border,Tucson Field Office,Inadmissibles,311

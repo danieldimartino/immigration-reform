@@ -1,20 +1,20 @@
 {
-  "updated": "November 3, 2026",
-  "updated_iso": "2026-11-03T18:00:06+00:00",
+  "updated": "November 6, 2026",
+  "updated_iso": "2026-11-06T17:39:43+00:00",
   "previous_rows": {
     "border": 20095,
     "legal": 39840
   },
   "border": {
-    "rows": 20095,
-    "sector_rows": 8900,
+    "rows": 20333,
+    "sector_rows": 8949,
     "annual_rows": 124,
     "first_month": "1999-10",
     "detail_from_month": "2019-10",
-    "latest_month": "2026-08",
+    "latest_month": "2026-09",
     "first_fiscal_year": 1925,
     "latest_fiscal_year": 2026,
-    "total_encounters": 24379673,
+    "total_encounters": 24413297,
     "overlap_check": {
       "2023": {
         "archive": 3201144,
@@ -1342,7 +1342,7 @@
     }
   },
   "sources": {
-    "cbp_latest": "https://www.cbp.gov/sites/default/files/2026-09/nationwide-encounters-fy23-fy26-aug-aor_0.csv",
+    "cbp_latest": "https://www.cbp.gov/sites/default/files/2026-10/nationwide-encounters-fy23-fy26-sep-aor.csv",
     "cbp_archive": "https://www.cbp.gov/sites/default/files/assets/documents/2023-Nov/nationwide-encounters-fy20-fy23-aor.csv",
     "ohss_lpr_by_country": "https://ohss.dhs.gov/system/files/2026-07/2026_0604_ohss_lpr_by_country_by_major_class_and_deriv_emp-based_fy2005-2024.xlsx",
     "yearbook_lawful_permanent_residents": {
